@@ -47,5 +47,7 @@ markdown_extensions:
   - pymdownx.extra
   - pymdownx.emoji
 
-
-
+extra:
+  analytics:
+    provider: google
+    property: G-TLK83CLMXL
