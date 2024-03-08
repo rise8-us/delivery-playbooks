@@ -8,9 +8,13 @@ All delivery playbook content are located [here](docs/content/).
 
 ### Add New Content
 
-All the content is written in markdown, here's a [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you navigate the syntax.
+All the content is written in markdown, here's a [cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help you navigate the syntax. Here are the steps to create new content:
 
-Create a new file by clicking the 'add file' button on the Github UI. Name the file, add the content, and then click the 'Commit Changes' button. Create a new branch and make a name for it that describes what you're adding (e.g. test-driven-development-play) - this will create a pull request. After creating the pull request, have at least one teammate review it before it is merged.
+1. Create a new file by clicking the 'add file' button on the Github UI
+2. Name the file, add the content, and then click the 'Commit Changes' button
+3. Update the mkdocs.yml file at the root of the repository, add your newly created file to the proper section and commit the changes to that file using the same method in step 2.
+4. Create a new branch and make a name for it that describes what you're adding (e.g. test-driven-development-play) - this will create a pull request
+5. After creating the pull request, have at least one teammate review it before it is merged.
 
 When the pull request is merged, a process will be triggered that will push the new changes onto the site.
 
