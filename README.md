@@ -4,7 +4,7 @@
 
 ### Find the Content
 
-All delivery playbook content are located [here in the docs directory](docs/content/).
+All delivery playbook content are located [here](docs/content/).
 
 ### Add New Content
 
