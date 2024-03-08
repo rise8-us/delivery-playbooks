@@ -38,5 +38,7 @@ mkdocs serve
 ## More Information
 
 [Kanban Board Link](https://github.com/orgs/rise8-us/projects/19)
+
 [Delivery Playbook Slack Channel](https://rise8.enterprise.slack.com/archives/C067QLN18JF)
+
 [Playbook FigJam](https://www.figma.com/file/sDkxzbFYqEkv8NCRjcBLqr/Rise-8-Practice-Guides?type=whiteboard&node-id=0%3A1&t=3tZyk6zd03LC9S8Z-1)
