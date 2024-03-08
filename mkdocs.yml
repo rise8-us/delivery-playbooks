@@ -1,27 +1,40 @@
-site_name: Engineering
-site_url: https://engineering.rise8.us
 nav:
   - Home: index.md
-  - General Practices: general-engineering/practice-playbook.md
-  - Platform Engineering:
-    - Methodology:
-      - platform-engineering/methodologies/general-best-practices.md
-      # - Concepts:
-      #   - platform-engineering/methodologies/concepts/argocd-best-practices.md
-    - Practical Examples:
-      - platform-engineering/practicals/argocd-examples.md
-  # - Software Engineering: 
-  #   - Methodology:
-  #     - software-engineering/methodologies/general-best-practices.md
-  #     - Concepts:
-  #       - software-engineering/methodologies/concepts/api-best-practices.md
-  #   - Practical Examples:
-  #     - software-engineering/practicals/create-api-example.md
-  - Blog:
-    - blog/gitops.md 
-    - blog/platform-wars.md
-    - blog/users.md
-  - Company: https://rise8.us 
+
+  ### MODIFY THE FOLLOWING TO UPDATE CONTENT
+  - Practices: # All content for practices are referenced here
+    - Product:
+      - content/practice/product/product-example-practice.md
+    - Design:
+      - content/practice/design/design-example-practice.md
+    - Engineering:
+      - content/practice/engineering/engineering-example-practice.md
+
+  - Roles: # All content for roles are referenced here
+    - Product:
+      - content/roles/product/product-example-role.md
+    - Design:
+      - content/roles/design/design-example-role.md
+    - Engineering:
+      - content/roles/engineering/engineering-example-role.md
+
+  - Plays: # All content for plays are referenced here
+    - Product:
+      - content/plays/product/product-example-play.md
+    - Design:
+      - content/plays/design/design-example-play.md
+    - Engineering:
+      - content/plays/engineering/engineering-example-play.md
+
+### PLEASE DONT TOUCH ANYTHING BELOW THIS POINT
+
+# Configuration for analytics
+extra:
+  analytics:
+    provider: google
+    property: G-TLK83CLMXL
+
+# Configuration for mkdocs theme
 theme:
   custom_dir: material/overrides
   name: material
@@ -35,8 +48,7 @@ theme:
     - navigation.tabs.sticky
 extra_css:
   - stylesheets/extra.css
-#plugins:
-#  - social
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -47,7 +59,5 @@ markdown_extensions:
   - pymdownx.extra
   - pymdownx.emoji
 
-extra:
-  analytics:
-    provider: google
-    property: G-TLK83CLMXL
+site_name: Delivery Playbooks
+site_url: https://delivery-playbooks.rise8.us
