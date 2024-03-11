@@ -4,19 +4,19 @@ nav:
   ### MODIFY THE FOLLOWING TO UPDATE CONTENT
   - Practices: # All content for practices are referenced here
     - Product:
-      - practices/product-example-practice.md
+      - content/practices/product-example-practice.md
     - Design:
-      - practices/design-example-practice.md
+      - content/practices/design-example-practice.md
     - Engineering:
-      - practices/engineering-example-practice.md
+      - content/practices/engineering-example-practice.md
 
   - Roles: # All content for roles are referenced here
     - Product:
-      - content/product-example-role.md
+      - content/roles/product-example-role.md
     - Design:
-      - content/design-example-role.md
+      - content/roles/design-example-role.md
     - Engineering:
-      - content/engineering-example-role.md
+      - content/roles/engineering-example-role.md
 
   - Plays: # All content for plays are referenced here
     - Product:
