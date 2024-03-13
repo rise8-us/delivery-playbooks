@@ -37,5 +37,7 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
   * Write into your plan what your timeline is for this research. 
   * If you are sending out a survey, how long will you wait for responses? If you are planning an onsite trip, how long will it take to coordinate? How long will you run an A/B test on the website for?
 
+![Research Planning Example](https://github.com/rise8-us/delivery-playbooks/blob/SagarAkre-DesignPlay-ResearchPlanning/docs/assets/ResearchPlanningExample.png) 
+
 ## Relevant Links
   * [Figma Research Planning Template](https://www.figma.com/file/XwZ4aZIkMDG4RDt2ZMMVPb/A-Product-Design-Process?type=whiteboard&node-id=154-1241&t=dTOhh0Rvn2QxAnVH-4)
