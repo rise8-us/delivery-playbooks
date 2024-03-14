@@ -24,7 +24,7 @@ By including users in the development process of your product or service you wil
 ## Who’s involved? 
 At Rise8 we believe that the full team should be thinking about Human-Centered Design. While Product Designers are accountable for ensuring that we’re effectively uncovering user needs, pain points and validating the relative effectiveness of solutions- all team members make decisions that will directly impact the humans who use our products. Some examples of how different roles on a team may play a part in the practice of human-centered design are listed below.
 
-![BalancedTeam](https://github.com/rise8-us/delivery-playbooks/assets/152341789/5f811dd4-c49c-4675-a942-11838ff8e9d1)
+![BalancedTeam](https://github.com/rise8-us/delivery-playbooks/blob/main/docs/assets/BalancedTeam.png)
 
 ### Product Design
 Conducting discovery research (interviews, ethnographic research, surveys etc…) to uncover unmet needs, pain points & challenges. 
@@ -42,7 +42,7 @@ Deciding on technical implementations and architecture that enable end-users to 
 ## When to do it?
 Throughout the product development lifecycle! Human Centered design begins as soon as you kick off a project all the way through implementation, deployment and post launch! 
 
-![process](https://github.com/rise8-us/delivery-playbooks/assets/152341789/36be021c-47d4-4a6d-86e1-29aa540b2963)
+![process](https://github.com/rise8-us/delivery-playbooks/blob/main/docs/assets/process.png)
 
 ## Relevant Links
 * [What is Human Centered Design?](https://www.interaction-design.org/literature/topics/human-centered-design) - Interaction Design Foundation
