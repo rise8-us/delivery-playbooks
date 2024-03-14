@@ -2,7 +2,8 @@ nav:
   - Home: index.md
 
   ### MODIFY THE FOLLOWING TO UPDATE CONTENT
-  - Practices: content/practices/practices.md
+  - Practices: 
+    - content/practices/practices.md
     - content/practices/Human Centered Design.md
 
   - Roles: # All content for roles are referenced here
