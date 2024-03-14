@@ -2,13 +2,7 @@ nav:
   - Home: index.md
 
   ### MODIFY THE FOLLOWING TO UPDATE CONTENT
-  - Practices: # All content for practices are referenced here
-    - Product:
-      - content/practices/product-example-practice.md
-    - Design:
-      - content/practices/design-example-practice.md
-    - Engineering:
-      - content/practices/engineering-example-practice.md
+  - Practices: content/practices/practices.md
 
   - Roles: # All content for roles are referenced here
     - Product:
@@ -19,6 +13,8 @@ nav:
       - content/roles/engineering-example-role.md
 
   - Plays: # All content for plays are referenced here
+    - Cross-Discipline:
+      - content/plays/cross-discipline/cross-discipline-example-play.md
     - Product:
       - content/plays/product/product-example-play.md
     - Design:
