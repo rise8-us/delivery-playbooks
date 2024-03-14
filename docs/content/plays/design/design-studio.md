@@ -27,11 +27,11 @@
  
 2. **Go wide:** Have participants sketch out or jot down 4-8 ideas for what the solution for this problem might be. Once completed- have participants share out their ideas with the team.
   
-![Go Wide](../../../assets/rise8-planes.webp)
+![crazy8s-example](https://github.com/rise8-us/delivery-playbooks/assets/152341789/17bcb3ee-fc01-4e5e-ad2c-b34cce794115)
 
 3. **Narrow down & refine:** Once everyone has shared their 4-8 rough ideas - allow participants to pick their top 1-2 ideas and draw out more detailed sketches. Once completed - have participants upload their sketches to the board.
 
-![Go Wide](../../../assets/rise8-planes.webp)
+![solutionsketchexample](https://github.com/rise8-us/delivery-playbooks/assets/152341789/edfc63af-876f-4e8d-9e6b-247193157b2b)
 
 4. **Review & Vote:** Have participants talk through their (now more detailed) solutions. Once everyone has a chance to talk through their solutions, give participants 3 votes to pick the solution they think most effectively solves the problem(s) identified in step 1.
 
