@@ -10,7 +10,7 @@ nav:
     - Product:
       - content/roles/product-example-role.md
     - Design:
-      - content/roles/design-example-role.md
+      - content/roles/Product-Design-Role-Definition.md
     - Engineering:
       - content/roles/engineering-example-role.md
 
