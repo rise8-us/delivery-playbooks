@@ -37,5 +37,5 @@
 
 5. **Discuss:** Have participants who voted discuss why they voted the way they did. This can also be done with a smaller team (Design/PM/Dev Anchor) if needed.
 
-Relevant Links
+## Relevant Links
 * [Design Studio Figjam Template](https://www.figma.com/file/aveImRDdgcnZBJ35TIUXL2/Design-Studio?type=whiteboard&node-id=0-1&t=lRoFndWWGDFLWyh0-0)
