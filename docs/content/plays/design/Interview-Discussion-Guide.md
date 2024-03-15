@@ -18,9 +18,9 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
 ## How to do it (Steps)
 1. **Generate specific research questions & topics:** Based on some of the research goals identified- generate some more specific learning goals or questions you would like answered by the end of your research.
    * Don’t worry too much about the wording just yet. 
-Once generated, group similar questions together into groups of topics. This will serve as an outline for your discussion guide.
+   * Once generated, group similar questions together into groups of topics. This will serve as an outline for your discussion guide.
 
-3. **Draft the intro to your discussion guide:** Start with an introductory section and include:
+2. **Draft the intro to your discussion guide:** Start with an introductory section and include:
    * Introduction to yourself and team-mates 
    * The purpose of the research
    * Let them know there’s no wrong answers & you’re just trying to learn as much as you can from them
@@ -31,16 +31,16 @@ Once generated, group similar questions together into groups of topics. This wil
    * It’s helpful to start with a few warm-up and higher-level questions first before diving into specifics.  
    * This is where you’ll want to think more about how the questions are phrased. (see below)
 
+4. **Do a dry-run:** Grab someone on the team and run through your script with them to test out things like:
+   * Order of questions
+   * Question wording
+   * Timing
+
 > #### Interview question phrasing best practices:
  > * **Avoid Leading Questions:** Leading questions (as opposed to open-ended questions) bias participants towards thinking about the topic in the way the question was phrased (positive or negative).  
  > * **Ask about specific examples:** It’s often difficult for people to recall information in generalities. It’s usually easier to answer questions that are specific to a particular place/time.   
  > * **Ask about one thing at a time:** Asking about two things in one question (double-barreled questions) makes it difficult for participants to keep track of which part of the question they need to answer.  
  > * **Avoid questions that lead to one-word answers:** While these types of questions (close-ended questions) can be helpful at times, asking more open-ended questions often leads to more elaborate answers and allows you (the researcher) to discover more opportunities
-
-4. **Do a dry-run:** Grab someone on the team and run through your script with them to test out things like:
-   * Order of questions
-   * Question wording
-   * Timing
 
 ![Interview Guide Example](../../../assets/InterviewGuide-Example.png) 
 
