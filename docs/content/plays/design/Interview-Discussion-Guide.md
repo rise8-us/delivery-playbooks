@@ -42,7 +42,7 @@ Once generated, group similar questions together into groups of topics. This wil
   * Question wording
   * Timing
 
-![Interview Guide Example](https://github.com/rise8-us/delivery-playbooks/blob/main/docs/assets/InterviewGuide-Example.png) 
+![Interview Guide Example](../../../assets/InterviewGuide-Example.png) 
 
 ## Relevant Links
 [Figjam Discussion Guide Template](https://www.figma.com/file/XwZ4aZIkMDG4RDt2ZMMVPb/A-Product-Design-Process?type=whiteboard&node-id=94-887&t=dTOhh0Rvn2QxAnVH-4)
