@@ -17,21 +17,28 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
 
 ## How to do it (Steps)
 1. **Generate specific research questions & topics:** Based on some of the research goals identified- generate some more specific learning goals or questions you would like answered by the end of your research.
+
 -    Don’t worry too much about the wording just yet. 
 -    Once generated, group similar questions together into groups of topics. This will serve as an outline for your discussion guide.
 
 2. **Draft the intro to your discussion guide:** Start with an introductory section and include:
+
+
 -    Introduction to yourself and team-mates 
 -    The purpose of the research
 -    Let them know there’s no wrong answers & you’re just trying to learn as much as you can from them
 -    Agenda
 -    Permission to record (if applicable)
 
-3. **Draft the body of your discussion guide:** Using the topics you generated in step one, begin to draft up the specific questions you’ll ask around each topic.  
+3. **Draft the body of your discussion guide:** Using the topics you generated in step one, begin to draft up the specific questions you’ll ask around each topic.
+
+
 -    It’s helpful to start with a few warm-up and higher-level questions first before diving into specifics.  
 -    This is where you’ll want to think more about how the questions are phrased. (see below)
 
 4. **Do a dry-run:** Grab someone on the team and run through your script with them to test out things like:
+
+
 -    Order of questions
 -    Question wording
 -    Timing
