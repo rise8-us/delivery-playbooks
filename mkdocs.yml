@@ -7,7 +7,7 @@ nav:
 
   - Roles: # All content for roles are referenced here
     - Product:
-      - content/roles/product-example-role.md
+      - content/roles/Product-Management-Role-Definition.md
     - Design:
       - content/roles/Product-Design-Role-Definition.md
     - Engineering:
