@@ -35,8 +35,8 @@ Product Managers, Product Designers, and Engineers. This should be a full team a
     * Engineers can either raise a hand with a numerical point value (preferred) or share a number in the meeting chat if done remotely
 
 5. **Discuss and align** 
-   * Have each engineer share their rationale for their point value and discuss until everyone agrees on a value. The PM should facilitate a conversation that solicits participation from everyone while keeping the group focused
-   * If all engineers are consistently pointing the same number and not discussing, remove that number from the rotation to encourage more conversation (i.e. no more 2’s)
+    * Have each engineer share their rationale for their point value and discuss until everyone agrees on a value. The PM should facilitate a conversation that solicits participation from everyone while keeping the group focused
+    * If all engineers are consistently pointing the same number and not discussing, remove that number from the rotation to encourage more conversation (i.e. no more 2’s)
 
 ## Relevant Links
 [Sample Pointing Tool](https://code-sergeant.github.io/letsdecide/)
