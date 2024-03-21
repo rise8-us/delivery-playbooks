@@ -17,6 +17,7 @@ nav:
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
       - content/plays/cross-discipline/cross-discipline-example-play.md
+      - content/plays/cross-discipline/standup.md
       - content/plays/cross-discipline/iteration-sprint-planning.md
       - content/plays/cross-discipline/stakeholder-demo.md
     - Product:
