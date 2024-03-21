@@ -63,5 +63,5 @@ Product Managers, Product Designers, Engineers, Platform Operators/Engineers, an
 
 
 ## Relevant Links
-  * [Accelerate](https://www.google.com](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/ref=sr_1_1?crid=YNQGHC1DCTAD&keywords=accelerate+book&qid=1650402762&sprefix=accelerate+book%2Caps%2C114&sr=8-1)https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/ref=sr_1_1?crid=YNQGHC1DCTAD&keywords=accelerate+book&qid=1650402762&sprefix=accelerate+book%2Caps%2C114&sr=8-1) by Forsgren, Humble, & Kim - A helpful resource for communicating the value of frequent, small, and stable releases
+  * [Accelerate](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/ref=sr_1_1?crid=YNQGHC1DCTAD&keywords=accelerate+book&qid=1650402762&sprefix=accelerate+book%2Caps%2C114&sr=8-1) by Forsgren, Humble, & Kim - A helpful resource for communicating the value of frequent, small, and stable releases
   * [DORA Metrics Overview](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)
