@@ -12,13 +12,13 @@ Shipping completed work is essential for providing users with new capabilities, 
 Release cadence varies widely depending on the organization and team, with some products releasing dozens of times per day while others may only release a couple times a month. We urge you to focus on releasing as frequently as possible but we also recognize there may be some constraints. Working with your organization to push towards more frequent releases is an important part of being an influential PM, especially in the high compliance environments we work in. Here are some common ways to plan releases:
 
 1. **As often as possible**
-  * Each story is structured so that delivering that story adds value to the application in production. You can theoretically cut a release whenever you choose.
+    * Each story is structured so that delivering that story adds value to the application in production. You can theoretically cut a release whenever you choose.
 
-2. **As workflows are delivered**
-  * Sometimes cutting a release mid-workflow could deliver incomplete usability to users. As a result, many teams will release when the minimum functionality of a feature set or epic has been built. If operating in this model, we encourage you to still scope work into the smallest increments possible and iterate from there.
+3. **As workflows are delivered**
+    * Sometimes cutting a release mid-workflow could deliver incomplete usability to users. As a result, many teams will release when the minimum functionality of a feature set or epic has been built. If operating in this model, we encourage you to still scope work into the smallest increments possible and iterate from there.
 
 3. **As dictated by the sprint/iteration**
-  * Many teams release on a schedule following sprints or iterations of set lengths. This can be helpful for communicating your release plan to users and stakeholders, but it gives you a little less flexibility to move fast and learn. If using this model ensure you do not go more than 2 weeks without releasing.
+    * Many teams release on a schedule following sprints or iterations of set lengths. This can be helpful for communicating your release plan to users and stakeholders, but it gives you a little less flexibility to move fast and learn. If using this model ensure you do not go more than 2 weeks without releasing.
 
 
 ## Who’s involved? 
