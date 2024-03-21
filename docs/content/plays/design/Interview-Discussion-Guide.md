@@ -22,11 +22,11 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
     - for your discussion guide.
 
 2. **Draft the intro to your discussion guide:** Start with an introductory section and include:
-* Introduction to yourself and team-mates 
-* The purpose of the research
-* Let them know there’s no wrong answers & you’re just trying to learn as much as you can from them
-* Agenda
-* Permission to record (if applicable)
+    - Introduction to yourself and team-mates 
+    - The purpose of the research
+    - Let them know there’s no wrong answers & you’re just trying to learn as much as you can from them
+    - Agenda
+    - Permission to record (if applicable)
 
 3. **Draft the body of your discussion guide:** Using the topics you generated in step one, begin to draft up the specific questions you’ll ask around each topic.
 * It’s helpful to start with a few warm-up and higher-level questions first before diving into specifics.
