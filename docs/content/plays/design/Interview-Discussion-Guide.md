@@ -17,8 +17,9 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
 
 ## How to do it (Steps)
 1. **Generate specific research questions & topics:** Based on some of the research goals identified- generate some more specific learning goals or questions you would like answered by the end of your research.
-* Don’t worry too much about the wording just yet. 
-* Once generated, group similar questions together into groups of topics. This will serve as an outline for your discussion guide.
+    - Don’t worry too much about the wording just yet. 
+    - Once generated, group similar questions together into groups of topics. This will serve as an outline 
+    - for your discussion guide.
 
 2. **Draft the intro to your discussion guide:** Start with an introductory section and include:
 * Introduction to yourself and team-mates 
