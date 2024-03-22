@@ -6,12 +6,9 @@ nav:
     - content/practices/Human Centered Design.md
 
   - Roles: # All content for roles are referenced here
-    - Product:
-      - content/roles/Product-Management-Role-Definition.md
-    - Design:
-      - content/roles/Product-Design-Role-Definition.md
-    - Engineering:
-      - content/roles/Engineering-Role-Definition.md
+    - content/roles/Product-Management-Role-Definition.md
+    - content/roles/Product-Design-Role-Definition.md
+    - content/roles/Engineering-Role-Definition.md
 
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
