@@ -23,21 +23,22 @@ Whiteboarding tool (figjam, miro) or Post-Its and sharpies.
 ## How to do it (Steps)
 
 1. **Understand the Market and User Needs**
-    * Before crafting a product vision statement, it's essential to thoroughly understand the market landscape, target audience, and their needs. This involves conducting market research, analyzing competitor and domain  products, gathering user feedback from stakeholders and end users, and identifying trends and opportunities. Understanding the problem your product aims to solve and the value it provides to users is fundamental in shaping the product vision. 
+    * Before crafting a product vision statement, it's essential to thoroughly understand the market landscape, target audience, and their needs. This involves conducting market research, analyzing competitor and domain  products, gathering user feedback from stakeholders and end users, and identifying trends and opportunities. Understanding the problem your product aims to solve and the value it provides to users is fundamental in shaping the product vision.
+      
     * It’s important to refer to the contract, scoping outbrief, and kickoff materials  that helps to understand the deliverables. 
 
 2. **Define the Product's Purpose and Value Proposition**
-The product vision statement should articulate the purpose of the product and its value proposition succinctly. It may answer some of these questions such as:
 
-    * What problem does the product solve for users?
-    * What benefits or outcomes does the product offer?
-    * What makes the product unique or better than existing solutions?
-    * How does the product align with the company's mission and goals?
+    * The product vision statement should articulate the purpose of the product and its value proposition succinctly. The statement should be inspiring, aspirational, and forward-thinking, conveying the long-term vision for the product and its potential impact on users and the market. It may answer some of these questions such as:
       
-   The statement should be inspiring, aspirational, and forward-thinking, conveying the long-term vision for the product and its potential impact on users and the market.
+      * What problem does the product solve for users?
+      * What benefits or outcomes does the product offer?
+      * What makes the product unique or better than existing solutions?
+      * How does the product align with the company's mission and goals?  
 
-3. **Communicate the Vision Clearly and Concisely**
-    * Once the product vision has been defined, it's crucial to communicate it clearly and concisely to all stakeholders, including the development team, leaders and stakeholders. 
+4. **Communicate the Vision Clearly and Concisely**
+    * Once the product vision has been defined, it's crucial to communicate it clearly and concisely to all stakeholders, including the development team, leaders and stakeholders.
+      
     * The vision statement should be easily understood and memorable, serving as a guiding beacon for decision-making and prioritization throughout the product development lifecycle. It should inspire and motivate the team, fostering a sense of purpose and direction as they work towards realizing the product vision.
 
 ## Tips & Tricks
