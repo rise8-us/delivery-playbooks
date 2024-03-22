@@ -1,7 +1,7 @@
-# What it means to be a Designer at Rise 8
+# Product Design at Rise8
 The role of designer is critical to the success of Rise8 and our clients. Product Designers help our clients quickly and cheaply de-risk assumptions and invest resources in building products that are more desirable and usable for our clients’ customers. This position is responsible for ensuring that user feedback drives the direction of the products we build. Designers will spend time engaging with end users to understand their needs, pain points and use their feedback to hone in on product direction. Through the use of rapid prototyping and validation techniques, designers help development teams shorten product feedback loops - ultimately reducing the amount of time it takes teams to deliver outcomes.
 
-## What Your Day Could Look Like
+## Responsiblities
 
 ### User Research & Synthesis:
   * Create research plans to test the riskiest product assumptions, discover user pains and better understand domain context
@@ -38,3 +38,6 @@ The role of designer is critical to the success of Rise8 and our clients. Produc
   * Take initiative to make improvements to internal processes and practices where you see opportunities
   * Elevate the Rise8 name by contributing to thought leadership in the GovTech industry
   * Support the Rise8 hiring process
+
+## Relevant Links
+* [A-Player Agreement](https://docs.google.com/document/d/16WnBIjakMx9vOfV-C22MhkA-1F1ayMT9Ps2zzMj1tAo/edit#heading=h.q3hwr650xktk)
