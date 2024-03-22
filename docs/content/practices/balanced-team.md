@@ -17,7 +17,7 @@ The combination of technical, design, and business insights contributes to the d
 
 A culture of collaboration and cross-functional learning enables team members to acquire new skills and adapt to changes more quickly, keeping the team and its products at the cutting edge.
 
-![Balanced team](../assets/BalancedTeam.png)
+![Balanced team](../../assets/BalancedTeam.png)
 
 ## Who’s involved? 
 At Rise8 we believe that the full team should be thinking about Human-Centered Design. While Product Designers are accountable for ensuring that we’re effectively uncovering user needs, pain points and validating the relative effectiveness of solutions- all team members make decisions that will directly impact the humans who use our products. Some examples of how different roles on a team may play a part in the practice of human-centered design are listed below.
