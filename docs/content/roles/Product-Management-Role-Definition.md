@@ -29,13 +29,13 @@ A strong product manager balances strategic and tactical processes with interper
 > * Collaborate with architecture, security, platform, and data teams in weekly planning sessions to prioritize product features and enhancements based on customer needs and business goals.
 
 > **Monthly:**
-> * Develop business cases for new product initiatives on a monthly basis, considering factors such as business value, ROI, and resource requirements.
-> * Present monthly updates on the product vision, strategy, and roadmap to executive leadership and key stakeholders.
+>     * Develop business cases for new product initiatives on a monthly basis, considering factors such as business value, ROI, and resource requirements.
+>     * Present monthly updates on the product vision, strategy, and roadmap to executive leadership and key stakeholders.
 Ensure alignment of the product roadmap with program goals and customer needs through monthly reviews and adjustments as necessary.
 
-**Quarterly:**
-* Conduct quarterly strategic planning sessions to reassess the product vision, strategy, and roadmap in light of evolving market trends and customer feedback.
-* Collaborate with cross-functional teams on a quarterly basis to define and prioritize major product releases and feature enhancements.
+> **Quarterly:**
+>    * Conduct quarterly strategic planning sessions to reassess the product vision, strategy, and roadmap in light of evolving market trends and customer feedback.
+>    * Collaborate with cross-functional teams on a quarterly basis to define and prioritize major product releases and feature enhancements.
 
 2. #### Product Development and Launch:
 	
