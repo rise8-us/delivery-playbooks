@@ -27,11 +27,10 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
 1. **[Prerequisite] Review Relevant Documentation**  
 
 In order to prepare for the project kick off,  review various documentation that you or the team may have prior to setting up the meeting. These could vary from project to project but may include things like:
-
-    * Scoping artifacts
-    * Proposal documents
-    * Contracts
-    * Initial notes
+  * Scoping artifacts
+  * Proposal documents
+  * Contracts
+  * Initial notes
 
 You may also want to set up a quick call with some of your primary stakeholders who can help ensure you are inviting the right individuals to the kickoff meeting. 
 
@@ -41,36 +40,33 @@ Based on your desk research and information gathered you can now begin to think 
 
 While every project is different you may consider some of the following activities to include (a detailed description of how to facilitate these activities may be found on the plays page of this playbook). 
 
-For Remote sessions- it’s usually a good idea to limit kick-offs to 2 hours so tailor your activities based on the time you have available. 
+For Remote sessions - it’s usually a good idea to limit kick-offs to 2 hours so tailor your activities based on the time you have available. 
   
-    * Icebreaker / Introductions (Facilitated Activity)
-    * Introduction to Rise 8 & How We Work (Content)
-    * Discovery & Framing Overview (Content)
-    * Stakeholder Mapping (Facilitated Activity)
-    * Goals & Anti-Goals (Facilitated Activity)
-    * Risks & Mitigations (Facilitated Activity)
-    * Process Mapping (Facilitated Activity)
-    * Persona Generation (Facilitated Activity)
-    * Next Steps & Engagement Expectations (Content)
+  * Icebreaker / Introductions (Facilitated Activity)
+  * Introduction to Rise 8 & How We Work (Content)
+  * Discovery & Framing Overview (Content)
+  * Stakeholder Mapping (Facilitated Activity)
+  * Goals & Anti-Goals (Facilitated Activity)
+  * Risks & Mitigations (Facilitated Activity)
+  * Process Mapping (Facilitated Activity)
+  * Persona Generation (Facilitated Activity)
+  * Next Steps & Engagement Expectations (Content)
 
 3. **Assign Team Roles**
 
 Before the meeting ensure you have roles assigned to the members of your team. 
 
 Facilitator: 
-
-    * Guides participants through activities and keeps things moving along.  
-    * Ask follow up questions to participants to clarify anything they mention.  
-    * Main person who will be talking with/interacting with participants.
+  * Guides participants through activities and keeps things moving along.  
+  * Ask follow up questions to participants to clarify anything they mention.  
+  * Main person who will be talking with/interacting with participants.
 
 Co-Facilitator: 
-
-    * Keeps track of time
-    * Creates and monitors slack thread for back-channel questions from observers and makes sure to ask poignant ones during the session
+  * Keeps track of time
+  * Creates and monitors slack thread for back-channel questions from observers and makes sure to ask poignant ones during the session
 
 Note Taker: 
-
-    * Take notes during the session to cover any conversational points that are not already captured in activities. 
+  * Take notes during the session to cover any conversational points that are not already captured in activities. 
 
 4. **Conduct Kick Off Meeting!**
 
