@@ -17,19 +17,20 @@ A strong product manager balances strategic and tactical processes with interper
 
 ### What Your Day / Week / Month / Quarter Could Look Like
 
-1. #### Product Strategy and Roadmap:
+#### Product Strategy and Roadmap:
+
+> **Daily:**
+> * Conduct daily domain research and analysis to stay abreast of customer needs, industry trends, and competitive landscape.
 
 
-**Daily:**
-* Conduct daily domain research and analysis to stay abreast of customer needs, industry trends, and competitive landscape.
 
-**Weekly:**
-* Define and communicate the product vision, strategy, and roadmap to stakeholders and team members during weekly strategy meetings.
-* Collaborate with architecture, security, platform, and data teams in weekly planning sessions to prioritize product features and enhancements based on customer needs and business goals.
+> **Weekly:**
+> * Define and communicate the product vision, strategy, and roadmap to stakeholders and team members during weekly strategy meetings.
+> * Collaborate with architecture, security, platform, and data teams in weekly planning sessions to prioritize product features and enhancements based on customer needs and business goals.
 
-**Monthly:**
-* Develop business cases for new product initiatives on a monthly basis, considering factors such as business value, ROI, and resource requirements.
-* Present monthly updates on the product vision, strategy, and roadmap to executive leadership and key stakeholders.
+> **Monthly:**
+> * Develop business cases for new product initiatives on a monthly basis, considering factors such as business value, ROI, and resource requirements.
+> * Present monthly updates on the product vision, strategy, and roadmap to executive leadership and key stakeholders.
 Ensure alignment of the product roadmap with program goals and customer needs through monthly reviews and adjustments as necessary.
 
 **Quarterly:**
