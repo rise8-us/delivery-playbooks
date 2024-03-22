@@ -1,4 +1,4 @@
-# Product Management at Rise 8
+# Product Management at Rise8
 Being a product manager is an exciting, challenging, and rewarding role but it can sometimes be confusing to know where to start. Whether you are a brand new PM or shifting over to a new organization, you may feel that the expectations and responsibilities of your role are not the most clearly defined. We do not believe there should be a rigid universal definition of product management, rather PMs should utilize the open-ended nature of the role to leverage their unique strengths and build a style that works best for them and their team. That said, there are three primary pillars that we feel a product manager should be accountable for:
 
 ## Responsibilities
