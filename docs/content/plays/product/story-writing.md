@@ -111,28 +111,22 @@ We recommend involving your team members early and often when scoping out storie
 >**Design Criteria (How)**
 >
 > - High Fidelity Design: https://www.somelink.us/design1
-> - 
 > - When, where, and how the ‘buy it again’ option is shown to the user
-> - 
 > - Component format, colors, fonts located in the style guide
-> - 
 > - On hover, buy it again changes color to #AA1212
-> - 
+>   
 > **Notes**
 >   
 > - Discussion: Can we reuse the ‘buyNow’ component?
-> - 
 > - IPM Question: Is it 7 business or calendar days? Answer: Calendar.
 
 
-## Bug
+### Bug
 
 > **Steps To Reproduce**
 > 
 > - User purchased an item within last 7 days
-> - 
 > - Navigate to the post-login storefront
-> - 
 > - User views ‘buy again’ component
 >
 > **Intended Behavior**
@@ -148,7 +142,7 @@ We recommend involving your team members early and often when scoping out storie
 > High Fidelity Design: https://www.somelink.us/design1 
 
 
-## Chore
+### Chore
 
 > **What**
 > 
