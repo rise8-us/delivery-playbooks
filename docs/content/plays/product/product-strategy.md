@@ -55,5 +55,5 @@ Although product strategy isn’t usually a single artifact or resource, it can 
 * [Hooked: How to Build Habit-Forming Products](https://www.nirandfar.com/hooked/) by Nir Eyal
 * [Inspired: How To Create Products Customers Love](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507) by Marty Cagan:
 
-## Articles: 
+### Articles: 
 * [How to build a brilliant product strategy](https://www.hotjar.com/product-strategy/)
