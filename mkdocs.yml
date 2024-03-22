@@ -15,6 +15,7 @@ nav:
     - Cross-Discipline:
       - content/plays/cross-discipline/standup.md
       - content/plays/cross-discipline/iteration-sprint-planning.md
+      - content/plays/cross-discipline/discovery-framing-remote.md
       - content/plays/cross-discipline/stakeholder-demo.md
     - Product:
       - content/plays/product/product-release.md
