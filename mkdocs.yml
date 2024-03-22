@@ -11,7 +11,7 @@ nav:
     - Design:
       - content/roles/Product-Design-Role-Definition.md
     - Engineering:
-      - content/roles/engineering-example-role.md
+      - content/roles/Engineering-Role-Definition.md
 
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
