@@ -80,6 +80,8 @@ We recommend involving your team members early and often when scoping out storie
 
 **Note:** A story may include important information for a specific user. Example if a product requires a specific formula for calculations, the formula  should be included in the ticket and can be added within the acceptance criteria as well. 
 
+![Interview Guide Example](../../../assets/userstory.png)
+
 ## Story examples
 
 ### Feature
