@@ -5,6 +5,7 @@ nav:
   - Practices: 
     - content/practices/balanced-team.md
     - content/practices/Human Centered Design.md
+    - content/practices/double-diamond.md
 
   - Roles: # All content for roles are referenced here
     - content/roles/Product-Management-Role-Definition.md
