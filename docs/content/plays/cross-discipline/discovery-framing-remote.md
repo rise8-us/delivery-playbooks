@@ -26,20 +26,20 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
 ## How to do it (Steps)
 
 1. **[Prerequisite] Review Relevant Documentation**  
-In order to prepare for the project kick off,  review various documentation that you or the team may have prior to setting up the meeting. These could vary from project to project but may include things like:
+   In order to prepare for the project kick off,  review various documentation that you or the team may have prior to setting up the meeting. These could vary from project to project but may include things like:  
    * Scoping artifacts
    * Proposal documents
    * Contracts
    * Initial notes
 
-You may also want to set up a quick call with some of your primary stakeholders who can help ensure you are inviting the right individuals to the kickoff meeting. 
+   You may also want to set up a quick call with some of your primary stakeholders who can help ensure you are inviting the right individuals to the kickoff meeting. 
 
 2. **Prep Agenda & Activities**
-Based on your desk research and information gathered you can now begin to think about the agenda and activities you want to include in your kick off meeting. In general, it’s a good idea to not redo activities you’ve done in the past with the same group of individuals so make sure you reference various artifacts and documentation you’ve collected in step 1 to help inform your agenda. 
+   Based on your desk research and information gathered you can now begin to think about the agenda and activities you want to include in your kick off meeting. In general, it’s a good idea to not redo activities you’ve done in the past with the same group of individuals so make sure you reference various artifacts and documentation you’ve collected in step 1 to help inform your agenda. 
 
-While every project is different you may consider some of the following activities to include (a detailed description of how to facilitate these activities may be found on the plays page of this playbook). 
+   While every project is different you may consider some of the following activities to include (a detailed description of how to facilitate these activities may be found on the plays page of this playbook). 
 
-For Remote sessions - it’s usually a good idea to limit kick-offs to 2 hours so tailor your activities based on the time you have available.   
+   For Remote sessions - it’s usually a good idea to limit kick-offs to 2 hours so tailor your activities based on the time you have available.  
    * Icebreaker / Introductions (Facilitated Activity)
    * Introduction to Rise 8 & How We Work (Content)
    * Discovery & Framing Overview (Content)
@@ -50,23 +50,23 @@ For Remote sessions - it’s usually a good idea to limit kick-offs to 2 hours s
    * Persona Generation (Facilitated Activity)
    * Next Steps & Engagement Expectations (Content)
 
-3. **Assign Team Roles**
-Before the meeting ensure you have roles assigned to the members of your team. 
+3. **Assign Team Roles**  
+   Before the meeting ensure you have roles assigned to the members of your team.  
 
-Facilitator: 
+   Facilitator:  
    * Guides participants through activities and keeps things moving along.  
    * Ask follow up questions to participants to clarify anything they mention.  
    * Main person who will be talking with/interacting with participants.
 
-Co-Facilitator: 
+   Co-Facilitator:   
    * Keeps track of time
    * Creates and monitors slack thread for back-channel questions from observers and makes sure to ask poignant ones during the session
 
-Note Taker: 
+   Note Taker:  
    * Take notes during the session to cover any conversational points that are not already captured in activities.
 
-4. **Conduct Kick Off Meeting!**
-The last step is to facilitate the meeting! Before conducting the meeting ensure that guests and participants have access to various tools you may be using (video conferencing, digital whiteboard etc..). 
+4. **Conduct Kick Off Meeting!**  
+   The last step is to facilitate the meeting! Before conducting the meeting ensure that guests and participants have access to various tools you may be using (video conferencing, digital whiteboard etc..). 
 
 ## Relevant Links
 [D&F Kickoff Template Deck](https://docs.google.com/presentation/d/16M3kizDETP3PqC5QbIBiCi-qyGGl3KqeuKX3RiKcvgQ/edit#slide=id.g1a7992785c5_0_2328)  
