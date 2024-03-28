@@ -29,6 +29,7 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
 
     You may also want to set up a quick call with some of your primary stakeholders who can help ensure you are inviting the right individuals to the kickoff meeting.  
 
+
 2. **Prep Agenda & Activities**  
   Based on your desk research and information gathered you can now begin to think about the agenda and activities you want to include in your kick off meeting. In general, it’s a good idea to not redo activities you’ve done in the past with the same group of individuals so make sure you reference various artifacts and documentation you’ve collected in step 1 to help inform your agenda.
 
@@ -45,6 +46,7 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
     * Process Mapping (Facilitated Activity)
     * Persona Generation (Facilitated Activity)
     * Next Steps & Engagement Expectations (Content)
+
 
 3. **Assign Team Roles**  
   Before the meeting ensure you have roles assigned to the members of your team.
@@ -64,7 +66,8 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
    
       * Take notes during the session to cover any conversational points that are not already captured in activities.  
 
-5. **Conduct Kick Off Meeting!**  
+
+4. **Conduct Kick Off Meeting!**  
   The last step is to facilitate the meeting! Before conducting the meeting ensure that guests and participants have access to various tools you may be using (video conferencing, digital whiteboard etc..). 
 
 ## Relevant Links
