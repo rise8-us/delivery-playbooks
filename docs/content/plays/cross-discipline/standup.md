@@ -1,5 +1,7 @@
 # Standup 
 
+![Standup](../../../assets/standup.png) 
+
 ## What is it?
 Standup is a short (usually 15 minute) meeting that usually happens at the beginning of each work day. Most commonly, each member of the team will share a quick update about what they worked on the day prior, what their plan is for today, and communicate any helps or blockers the rest of the team should be aware of
 
