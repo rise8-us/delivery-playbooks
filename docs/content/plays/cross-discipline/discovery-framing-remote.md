@@ -27,7 +27,7 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
     * Contracts
     * Initial notes
 
-  You may also want to set up a quick call with some of your primary stakeholders who can help ensure you are inviting the right individuals to the kickoff meeting.  
+    You may also want to set up a quick call with some of your primary stakeholders who can help ensure you are inviting the right individuals to the kickoff meeting.  
 
 2. **Prep Agenda & Activities**  
   Based on your desk research and information gathered you can now begin to think about the agenda and activities you want to include in your kick off meeting. In general, it’s a good idea to not redo activities you’ve done in the past with the same group of individuals so make sure you reference various artifacts and documentation you’ve collected in step 1 to help inform your agenda.
@@ -53,11 +53,11 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
     * Ask follow up questions to participants to clarify anything they mention.  
     * Main person who will be talking with/interacting with participants.
 
-    Co-Facilitator:  
+      Co-Facilitator:  
     * Keeps track of time   
     * Creates and monitors slack thread for back-channel questions from observers and makes sure to ask poignant ones during the session  
   
-    Note Taker:  
+      Note Taker:  
     * Take notes during the session to cover any conversational points that are not already captured in activities.  
 
 4. **Conduct Kick Off Meeting!**  
