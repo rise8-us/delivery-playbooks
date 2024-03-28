@@ -20,6 +20,6 @@ There is consistent evidence demonstrating that high performing teams share seve
 A strong product manager balances strategic and tactical processes with interpersonal relationship building in order to serve as a steward for their team and their product. Product managers are often portrayed as the leaders of their team, but we strongly recommend treating your team as a flat structure so you can leverage the expertise of other disciplines as effectively as possible by exercising servant leadership. 
 
 ## Relevant Links: 
-* [PM A Player Agreement](https://docs.google.com/document/d/1TLhY06DKxXgEaQgDrMwnOH6JFfzoenVlQoJxv-0cg4Y/edit#heading=h.q3hwr650xktk) 
+* [A-Player Agreement](https://docs.google.com/document/d/1TLhY06DKxXgEaQgDrMwnOH6JFfzoenVlQoJxv-0cg4Y/edit#heading=h.q3hwr650xktk) 
 * Reference your personal Lattice Ladder 
 
