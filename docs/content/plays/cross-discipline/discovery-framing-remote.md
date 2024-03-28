@@ -47,20 +47,24 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
     * Next Steps & Engagement Expectations (Content)
 
 3. **Assign Team Roles**  
-  Before the meeting ensure you have roles assigned to the members of your team.  
-    Facilitator:  
+  Before the meeting ensure you have roles assigned to the members of your team.
+
+    Facilitator:
+   
     * Guides participants through activities and keeps things moving along.  
     * Ask follow up questions to participants to clarify anything they mention.  
     * Main person who will be talking with/interacting with participants.  
 
-    Co-Facilitator:  
+    Co-Facilitator:
+   
       * Keeps track of time.  
       * Creates and monitors slack thread for back-channel questions from observers and makes sure to ask poignant ones during the session.  
   
-    Note Taker:  
+    Note Taker:
+   
       * Take notes during the session to cover any conversational points that are not already captured in activities.  
 
-4. **Conduct Kick Off Meeting!**  
+5. **Conduct Kick Off Meeting!**  
   The last step is to facilitate the meeting! Before conducting the meeting ensure that guests and participants have access to various tools you may be using (video conferencing, digital whiteboard etc..). 
 
 ## Relevant Links
