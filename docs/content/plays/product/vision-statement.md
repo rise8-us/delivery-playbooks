@@ -1,26 +1,22 @@
-
-
-
-
 # Vision Statement
 
-## What is it? 
+## What Is It? 
 Vision statements are aspirational, long term goals describing the impact your product will have on the future. They are often referred to as a product’s “north star” since you will look to your vision statement for guidance while navigating your product’s strategy, roadmap, and experiments.  
 
-## Why do it? 
+## Why Do It? 
 Crafting a vision statement builds collective ownership of the product’s long term value, aligns stakeholders on the product’s goals, and serves as the backbone for decisions around product direction.
 The vision statement is one of the first places you will determine and communicate the “why” behind your product, which is a crucial starting step for any product manager. 
 
-## When to do it?
+## When To Do It?
 It is strongly recommended to create or revisit the vision statement as one of the first things you do with your product
 
-## Who to Involve?
+## Who To Involve?
 Product Managers, Designers, Engineers, Stakeholders, Users
 
 ## Tools You Might Need
 Whiteboarding tool (figjam, miro) or Post-Its and sharpies.
 
-## How to do it (Steps)
+## How To Do It (Steps)
 
 1. **Understand the Market and User Needs**
     * Before crafting a product vision statement, it's essential to thoroughly understand the market landscape, target audience, and their needs. This involves conducting market research, analyzing competitor and domain  products, gathering user feedback from stakeholders and end users, and identifying trends and opportunities. Understanding the problem your product aims to solve and the value it provides to users is fundamental in shaping the product vision.
@@ -81,8 +77,3 @@ Here are some other examples of mission statements:
 > _Ford: To make people's lives better by making mobility accessible and affordable_
 
 We strongly encourage having a vision statement for your team but whether or not you also want a mission statement is up to you. If you decide to write one, follow the same principles as a vision statement but think about addressing the “how” in the present versus the “what” and “why” in the future.
-
-
-
-
-
