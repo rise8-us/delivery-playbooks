@@ -32,12 +32,12 @@ An open mind
 
     > ### Facilitation Tips: 
     > If you're doing this with a large team (5+ people), here are a couple modifications:
-    > * Skip the verbal sharing out of assumptions.
-    > * Have participants self-edit to select their top 5 assumptions.
-    > * Move those top 5 to the group and de-dupe portion.
-    > * Give time for folks to read silently and a way to mark things for clarifying questions.
-    > * Verbally clarify any that are confusing.
-    > * Continue with the group & dedupe!
+    >   * Skip the verbal sharing out of assumptions.
+    >   * Have participants self-edit to select their top 5 assumptions.
+    >   * Move those top 5 to the group and de-dupe portion.
+    >   * Give time for folks to read silently and a way to mark things for clarifying questions.
+    >   * Verbally clarify any that are confusing.
+    >   * Continue with the group & dedupe!
 
 ## Relevant Links
 [Assumptions Figjam Template](https://www.figma.com/file/IPWcL2R6mlZvxEkdnWHK6A/Assumptions-Workshop-Template?type=whiteboard&node-id=0%3A1&t=v8FzJjBMejk4fdU5-1)
