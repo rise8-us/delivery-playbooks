@@ -1,13 +1,13 @@
 # Human Centered Design (HCD)
 
-## What is it?
+## What Is It?
 Human-Centered Design (HCD) is a practice that places paramount importance on crafting product decisions with a laser focus on the individuals who will ultimately interact with the products we create. 
 
 Rather than fixating solely on technological advancements or business challenges, HCD prioritizes a deep comprehension of the human element behind our products. It champions the exploration of user needs and pain points as foundational steps before even contemplating potential solutions. 
 
 Moreover, HCD underscores the indispensable involvement of users throughout the design process, allowing their invaluable insights to shape the trajectory of product development. By actively soliciting and integrating user feedback, HCD facilitates continuous refinement, ensuring that our solutions resonate authentically with users' experiences, ultimately fostering a harmonious synergy between problem and solution.
 
-## Why do it?
+## Why Do It?
 
 ### Reduce Risk:
 
@@ -21,10 +21,8 @@ Organizations that prioritize HCD often gain a competitive advantage by deliveri
 ### Reduced Need for Training: 
 By including users in the development process of your product or service you will, by default, have reduced the need for training as the system will be designed to be more user-friendly and intuitive. 
 
-## Who’s involved? 
+## Who’s Involved? 
 At Rise8 we believe that the full team should be thinking about Human-Centered Design. While Product Designers are accountable for ensuring that we’re effectively uncovering user needs, pain points and validating the relative effectiveness of solutions- all team members make decisions that will directly impact the humans who use our products. Some examples of how different roles on a team may play a part in the practice of human-centered design are listed below.
-
-![BalancedTeam](../../assets/BalancedTeam.png)
 
 ### Product Design
 Conducting discovery research (interviews, ethnographic research, surveys etc…) to uncover unmet needs, pain points & challenges. 
@@ -39,7 +37,7 @@ Balancing technical implementation with key understanding of needs against compl
 Deciding on technical implementations and architecture that enable end-users to accomplish their goals. 
 
 
-## When to do it?
+## When To Do It?
 Throughout the product development lifecycle! Human Centered design begins as soon as you kick off a project all the way through implementation, deployment and post launch! 
 
 ![process](../../assets/process.png)
