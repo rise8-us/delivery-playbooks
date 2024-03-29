@@ -15,7 +15,7 @@ Software Security Engineers typically work with software development teams to in
 
 ### Team collaboration and communication:
 * Attend team ceremonies
-* Participate in how to break down stories into smaller, actionable tasks.
+* Participate in how to break down stories into smaller, actionable tasks
 * Communicate upcoming absences in advance
 * Ask questions when tasks or concepts are unclear
 * Communicate when more time is needed to grasp a concept
@@ -23,9 +23,9 @@ Software Security Engineers typically work with software development teams to in
 * Share in leading ceremonies e.g. lead retrospective once a month
 
 ### Grow
-* Research material that leads to mastery in the tech I use
+* Research material that leads to mastery in the tech used
 * Build research projects that provide practical experience and foster increased understanding
-* Learn new patterns, principles, and tech to use in my day-to-day responsibilities so that my product performs better, is easy to maintain, is as secure as possible, and is easier to read.
+* Learn new patterns, principles, and tech to use in day-to-day responsibilities so that product performs better, is easy to maintain, is as secure as possible, and is easier to read
 
 ## Relevant Links
 * [A-Player Agreement](https://docs.google.com/document/d/1qUx49qN55SIyTkURXGy-VUMBaMeTkyheMyMHPJ3wRHU/edit)
