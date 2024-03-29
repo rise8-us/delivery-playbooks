@@ -1,21 +1,21 @@
 # Interview Discussion Guide
 
-## What is it? 
+## What Is It? 
 A user interview discussion guide is a structured document used by researchers or interviewers to facilitate conversations with users or participants during research activities, such as user interviews. It typically outlines the topics, questions, and prompts that will guide the conversation with the user.
 
-## Why do it? 
+## Why Do It? 
 Helps you keep focus during the interview to uncover insights that are important for the team to learn. Having a standardized set of questions also ensures that all participants are asked the same questions, making it easier to compare responses and identify patterns.
 
-## When to do it?
+## When To Do It?
 You should write a discussion guide after you’ve aligned on your research plan (add link to research plan guide). 
 
-## Who to Involve?
+## Who To Involve?
 Anyone on the balanced team can be involved in this process. However on a balanced team- it is typically led by product designers with input from product managers and engineers.
 
 ## Tools You Might Need
 GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaboratively with others! 
 
-## How to do it (Steps)
+## How To Do It (Steps)
 1. **Generate specific research questions & topics:** Based on some of the research goals identified- generate some more specific learning goals or questions you would like answered by the end of your research.
     - Don’t worry too much about the wording just yet. 
     - Once generated, group similar questions together into groups of topics. This will serve as an outline 
