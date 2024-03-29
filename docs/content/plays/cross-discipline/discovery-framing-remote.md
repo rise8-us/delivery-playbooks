@@ -1,24 +1,24 @@
-# Remote Discovery & Framing Kick Off
+# Discovery & Framing Kick Off
 
-## What is it?
+## What Is It?
 Discovery & framing kick off meeting is an opportunity to meet with key stakeholders on a project and introduce them to Rise8 practices while aligning (or realigning) on product goals, anti-goals, MVP scope, risks, stakeholder mapping through a set of facilitated activities. 
 
-## Why do it?
+## Why Do It?
 This meeting serves as an official kick off for the project as some time may have passed in between stakeholders and your team aligning on scope and getting the project started.
 
 This may also be the first time your stakeholders are meeting your team, learning about your practices so it's an opportunity to get them excited about working with you!
 
-## When to do it?
+## When To Do It?
 Kick off should occur at the beginning of the project either before or early on in the discovery & framing phase of a project.
 
-## Who’s involved?
+## Who’s Involved?
 Product Managers, Product Designers, and Engineers, stakeholders, clients, and end-users. 
 
 ## Tools You Might Need
 * White boarding tool like Figjam, Miro, Lucid spark etc… 
 * Video Conferencing tool like Google Meets, Zoom,  MS TEAMS, etc.
 
-## How to do it (Steps)
+## How To Do It (Steps)
 1. **[Prerequisite] Review Relevant Documentation**  
   In order to prepare for the project kick off,  review various documentation that you or the team may have prior to setting up the meeting. These could vary from project to project but may include things like:  
 
