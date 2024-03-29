@@ -31,15 +31,15 @@ An open mind
 7. **Hypothesize & Experiment:** If time allows, the team should take the prioritized assumptions and create hypotheses and experiments to validate/invalidate the hypotheses. This can also be done with a smaller team (Design/PM/Dev Anchor) if needed.  
 
     > ### Facilitation Tips: 
-    > If you're doing this with a large team (5+ people), here are a couple modifications:
-    >   * Skip the verbal sharing out of assumptions.
-    >   * Have participants self-edit to select their top 5 assumptions.
-    >   * Move those top 5 to the group and de-dupe portion.
-    >   * Give time for folks to read silently and a way to mark things for clarifying questions.
-    >   * Verbally clarify any that are confusing.
-    >   * Continue with the group & dedupe!
+    > If you're doing this with a large team (5+ people), here are a couple modifications:  
+    >   * Skip the verbal sharing out of assumptions.  
+    >   * Have participants self-edit to select their top 5 assumptions.  
+    >   * Move those top 5 to the group and de-dupe portion.  
+    >   * Give time for folks to read silently and a way to mark things for clarifying questions.  
+    >   * Verbally clarify any that are confusing.  
+    >   * Continue with the group & dedupe!  
 
 ## Relevant Links
 [Assumptions Figjam Template](https://www.figma.com/file/IPWcL2R6mlZvxEkdnWHK6A/Assumptions-Workshop-Template?type=whiteboard&node-id=0%3A1&t=v8FzJjBMejk4fdU5-1)
 
-[Assumptions Content (https://docs.google.com/document/d/1pkdJoERApxOY6DnR05Jg_TsGu20f9z1Ox4UfQ1AkpPs/edit#heading=h.knf45oj1zmix) 
+[Assumptions Content](https://docs.google.com/document/d/1pkdJoERApxOY6DnR05Jg_TsGu20f9z1Ox4UfQ1AkpPs/edit#heading=h.knf45oj1zmix) 
