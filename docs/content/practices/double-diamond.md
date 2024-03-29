@@ -1,6 +1,6 @@
 # Double Diamond
 
-## What is it?
+## What Is it?
 The Double Diamond approach is a problem solving framework that represents a methodical way of tackling problems and developing solutions. It was developed by the British Design Council in 2005 and is widely used in the fields of design and innovation. The process is visualized as two diamonds, representing a four-stage approach:
 
 ### Problem Discovery: 
@@ -17,18 +17,20 @@ This stage is where the best solution or solutions identified during the solutio
 
 ![Double Diamond](../../assets/double-diamond.png)
 
-## Why do it?
+## Why Do It?
 The Double Diamond approach emphasizes the importance of both divergent and convergent thinking at different stages of the problem solving process. In the problem discovery and solution generation phases, divergent thinking expands the field of exploration to generate a wide range of ideas and possibilities. 
 In the problem prioritization and solution prioritization phases, convergent thinking helps narrow down these options to define clear objectives and deliver targeted, effective solutions.
 
 
-## Who’s involved? 
+## Who’s Involved? 
 Because the double diamond is a problem solving framework at its core it can be used by anyone, in any role to approach solving a variety of different problems!
 
 
-## When to do it?
+## When To Do It?
 Anytime you are trying to solve a problem! 
 
 
 ## Relevant Links
-[The Double Diamond](https://www.designcouncil.org.uk/our-resources/the-double-diamond/) - The Design Council
+* [The Double Diamond](https://www.designcouncil.org.uk/our-resources/the-double-diamond/) - The Design Council
+
+* [Discovery and Framing Kick Off](https://delivery-playbooks.rise8.us/content/plays/cross-discipline/discovery-framing-remote/)
