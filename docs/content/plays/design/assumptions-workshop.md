@@ -31,7 +31,8 @@ An open mind
 7. **Hypothesize & Experiment:** If time allows, the team should take the prioritized assumptions and create hypotheses and experiments to validate/invalidate the hypotheses. This can also be done with a smaller team (Design/PM/Dev Anchor) if needed.  
 
     > ### Facilitation Tips: 
-    > If you're doing this with a large team (5+ people), here are a couple modifications:  
+    > If you're doing this with a large team (5+ people), here are a couple modifications:
+    > 
     >   * Skip the verbal sharing out of assumptions.  
     >   * Have participants self-edit to select their top 5 assumptions.  
     >   * Move those top 5 to the group and de-dupe portion.  
