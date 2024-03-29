@@ -2,19 +2,19 @@
 
 ![Standup](../../../assets/standup.png) 
 
-## What is it?
+## What Is It?
 Standup is a short (usually 15 minute) meeting that usually happens at the beginning of each work day. Most commonly, each member of the team will share a quick update about what they worked on the day prior, what their plan is for today, and communicate any helps or blockers the rest of the team should be aware of
 
 
-## Why do it?
+## Why Do It?
 Standups are one of the most commonly utilized ceremonies for good reason. They offer a forum for the team to share important context, create structure for each day, and connect team members more closely to one another
 
 
-## When to do it? 
+## When To Do It? 
 First thing at the beginning of each day, or at the beginning of the team’s agreed up on core working hours if operating in different time zones
 
 
-## Who’s involved? 
+## Who’s Involved? 
 Product Managers, Product Designers, and Engineers. This should be a full team activity
 
 
@@ -23,7 +23,7 @@ Product Managers, Product Designers, and Engineers. This should be a full team a
   * Personal notes
 
 
-## How to do it (Steps)
+## How To Do It (Steps)
 1. **Set a consistent time**
     * Agree on a daily standup time that works for the whole team
     * Put a standing meeting on everyone’s calendar
