@@ -1,10 +1,10 @@
 # Balanced Teams 
 
-## What is it?
-A balanced team refers to a group of individuals with diverse skills, perspectives, and roles that collaboratively work towards a common goal, typically the development and delivery of a software product. This concept emphasizes the importance of having a mix of technical, design, and business expertise within the team to ensure a comprehensive approach to product development. A balanced team often includes roles such as developers, designers, product managers, quality assurance testers, and sometimes roles focusing on user experience (UX) and user research.
+## What Is It?
+A balanced team refers to a group of individuals with diverse skills, perspectives, and roles that collaboratively work towards a common goal, typically the development and delivery of a software product. This concept emphasizes the importance of having a mix of technical, design, and business expertise within the team to ensure a comprehensive approach to product development. A balanced team often includes roles such as developers, product designers, product managers, and sometimes quality assurance testers, researchers, and more as needed.
 
 
-## Why do it?
+## Why Do It?
 ### Enhanced Problem Solving
 
 The diversity of skills and perspectives allows for more creative and effective problem-solving. Different viewpoints can lead to innovative solutions that might not emerge from a more homogenous group.
@@ -19,8 +19,8 @@ A culture of collaboration and cross-functional learning enables team members to
 
 ![Balanced team](../../assets/BalancedTeam.png)
 
-## Who’s involved? 
-At Rise8 we believe that the full team should be thinking about Human-Centered Design. While Product Designers are accountable for ensuring that we’re effectively uncovering user needs, pain points and validating the relative effectiveness of solutions- all team members make decisions that will directly impact the humans who use our products. Some examples of how different roles on a team may play a part in the practice of human-centered design are listed below.
+## Who’s Involved? 
+At Rise8 we believe that the full team should be a balanced team, although this may not be possible with all engagements. Some examples of how different roles on a team may play a part in the practice of the balanced team.
 
 ### Product Manager
 
@@ -34,7 +34,7 @@ Product Designers help our clients quickly and cheaply de-risk assumptions and i
 
 The engineer is responsible for the technical delivery of a product to the user. They focus their time on building a secure, reliable, scalable and maintainable product. They work hand-in-hand with the PM to buy down risks through backlog prioritization. 
 
-## When to do it?
+## When To Do It?
 Ideally each team at Rise8 is staffed with a balanced team. 
 
 ## Relevant Links
