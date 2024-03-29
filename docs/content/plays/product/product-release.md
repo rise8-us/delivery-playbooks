@@ -1,27 +1,27 @@
 # Releasing a Product
 
-## What is it?
+## What Is It?
 Releasing a product is the process of delivering code to a production environment either as an initial launch or as an iteration on an existing software version.
 
 
-## Why do it?
+## Why Do It?
 Shipping completed work is essential for providing users with new capabilities, bug fixes, and performance improvements. It is also the best way to collect metrics and quantify the impact of new features since production is more honest and indicative of user behavior compared to usability tests and interviews. 
 
 
-## When to do it? 
+## When To Do It? 
 Release cadence varies widely depending on the organization and team, with some products releasing dozens of times per day while others may only release a couple times a month. We urge you to focus on releasing as frequently as possible but we also recognize there may be some constraints. Working with your organization to push towards more frequent releases is an important part of being an influential PM, especially in the high compliance environments we work in. Here are some common ways to plan releases:
 
 1. **As often as possible**
     * Each story is structured so that delivering that story adds value to the application in production. You can theoretically cut a release whenever you choose.
 
-3. **As workflows are delivered**
+2. **As workflows are delivered**
     * Sometimes cutting a release mid-workflow could deliver incomplete usability to users. As a result, many teams will release when the minimum functionality of a feature set or epic has been built. If operating in this model, we encourage you to still scope work into the smallest increments possible and iterate from there.
 
 3. **As dictated by the sprint/iteration**
     * Many teams release on a schedule following sprints or iterations of set lengths. This can be helpful for communicating your release plan to users and stakeholders, but it gives you a little less flexibility to move fast and learn. If using this model ensure you do not go more than 2 weeks without releasing.
 
 
-## Who’s involved? 
+## Who’s Involved? 
 Product Managers, Product Designers, Engineers, Platform Operators/Engineers, and in many cases Users and Stakeholders
 
 
@@ -31,7 +31,7 @@ Product Managers, Product Designers, Engineers, Platform Operators/Engineers, an
 * Release Pipeline workflow
 * Test environments (Acceptance and Production Staging)
 
-## How to do it (Steps)
+## How To Do It (Steps)
 1. **Decide when to release**
     * Pick one of the cadences above and determine your batch size
     * Create a Release Marker in your backlog that demonstrates which work is associated with that release
