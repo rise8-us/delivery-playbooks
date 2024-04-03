@@ -1,5 +1,7 @@
 # Product Strategy 
 
+![strategy](../../../assets/Strategy.png)
+
 ## What Is It? 
 
 A product strategy is a high level plan for what a team aims to accomplish with their product and how they will achieve it. This should focus on the value that the product will deliver to the target users, how that value will be delivered, and which business goals will be supported or met in the process. Product strategies may iterate over time on how they will deliver user value and support user goals, but should mostly remain focused on which user needs and business goals they support.
