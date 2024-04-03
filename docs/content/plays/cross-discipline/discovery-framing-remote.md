@@ -1,5 +1,7 @@
 # Discovery & Framing Kick Off
 
+![d&f](../../../assets/d&f.png)
+
 ## What Is It?
 Discovery & framing kick off meeting is an opportunity to meet with key stakeholders on a project and introduce them to Rise8 practices while aligning (or realigning) on product goals, anti-goals, MVP scope, risks, stakeholder mapping through a set of facilitated activities. 
 
@@ -47,8 +49,10 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
     * Persona Generation (Facilitated Activity)
     * Next Steps & Engagement Expectations (Content)
 
+  ![Kickoff Activities](../../../assets/D+FKickoff.png)
 
-3. **Assign Team Roles**  
+
+4. **Assign Team Roles**  
   Before the meeting ensure you have roles assigned to the members of your team.
 
     Facilitator:
@@ -67,8 +71,9 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
       * Take notes during the session to cover any conversational points that are not already captured in activities.  
 
 
-4. **Conduct Kick Off Meeting!**  
+5. **Conduct Kick Off Meeting!**  
   The last step is to facilitate the meeting! Before conducting the meeting ensure that guests and participants have access to various tools you may be using (video conferencing, digital whiteboard etc..). 
 
 ## Relevant Links
-[D&F Kickoff Template Deck](https://docs.google.com/presentation/d/16M3kizDETP3PqC5QbIBiCi-qyGGl3KqeuKX3RiKcvgQ/edit#slide=id.g1a7992785c5_0_2328) 
+* [D&F Kickoff Template Deck](https://docs.google.com/presentation/d/16M3kizDETP3PqC5QbIBiCi-qyGGl3KqeuKX3RiKcvgQ/edit#slide=id.g1a7992785c5_0_2328) 
+* [Figjam Template](https://www.figma.com/file/zEhaq3jx50gOwooVxhQtQH/Discovery-%26-Framing-Kick-Off?type=whiteboard&node-id=0%3A1&t=5HyEdMjR2E3xznhE-1)
