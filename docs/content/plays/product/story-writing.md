@@ -1,6 +1,6 @@
 # Story Writing 
 
-## What is it? 
+## What Is It? 
 
 A story is a tool to communicate and track a small piece of work within a balanced product team. All agile development teams leverage stories to represent and manage engineering work in a backlog (see next section for an overview of backlogs). Working off your roadmap, you can break down the listed feature sets into user stories in order to begin work towards the features/epics that you hypothesize will help achieve your stated outcome(s). A good story not only details work to be accomplished with clearly defined success criteria, but it also helps communicate why that work is important which in turn helps the team deliver the best possible solution.
 There are three different types of user stories that will commonly populate a product team’s backlog:
@@ -27,11 +27,11 @@ There are several frameworks for writing stories, but we recommend starting with
 
 **Testable:** A story should have detailed acceptance criteria that will outline the steps you will take to test if the functionality has been added after it has been delivered. This helps engineers write tests and aligns the team on what success looks like to avoid unintended behaviors requiring rework.
 
-## Why do it? 
+## Why Do It? 
 
 A story is a tool to communicate and track a small piece of work within a balanced product team. All agile development teams leverage stories to represent and manage engineering work in a backlog. 
 
-## When to do it?
+## When To Do It?
 User stories are typically written during the early stages of a software development project, specifically during the planning and requirement gathering phase, however, stories are written during the entire life cycle of the project. They serve as a means to capture the features or functionalities desired by users from their perspective.  User stories are used to define the requirements in a way that is easily understandable by both the development team and the stakeholders.
 
 ## Who to Involve?
@@ -48,7 +48,7 @@ We recommend involving your team members early and often when scoping out storie
 * **Diagramming Tools:** Diagramming tools like Miro, Figma, Lucidchart or draw.io can be useful for creating visual representations, such as flowcharts or diagrams, to supplement user stories and provide additional clarity.
 
 
-## How to do it (Steps)
+## How To Do It (Steps)
 1. **Identify the User:** Clearly define who the user or persona is that will be interacting with the system. Understanding the user's role, goals, and needs is essential for crafting relevant user stories.
 
 2. **Define the Goal:** Determine what the user wants to achieve or the problem they need to solve. The user story should articulate the desired outcome or benefit from the user's perspective.

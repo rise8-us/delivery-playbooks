@@ -14,20 +14,20 @@ nav:
 
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
+      - content/plays/cross-discipline/discovery-framing-remote.md
       - content/plays/cross-discipline/standup.md
       - content/plays/cross-discipline/iteration-sprint-planning.md
-      - content/plays/cross-discipline/discovery-framing-remote.md
       - content/plays/cross-discipline/stakeholder-demo.md
     - Product:
-      - content/plays/product/product-release.md
-      - content/plays/product/story-writing.md
-      - content/plays/product/product-strategy.md
       - content/plays/product/vision-statement.md
+      - content/plays/product/product-strategy.md
+      - content/plays/product/story-writing.md
+      - content/plays/product/product-release.md
     - Design:
+      - content/plays/design/assumptions-workshop.md
       - content/plays/design/user-research-planning-play.md
       - content/plays/design/Interview-Discussion-Guide.md
       - content/plays/design/design-studio.md
-      - content/plays/design/assumptions-workshop.md
     - Engineering:
       - content/roles/placeholder-play.md
 

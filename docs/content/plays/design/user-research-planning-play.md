@@ -1,21 +1,21 @@
 # User Research Planning 
 
-## What is it? 
+## What Is It? 
 User research planning is the initial phase of a user research project where the goals, objectives, and methods are defined.
 
-## Why do it? 
+## Why Do It? 
 Planning your research will help you and your team align and focus your efforts. It also will help to identify the correct user research methods to use, participants to recruit, and identify the appropriate time frame the research will need to be executed in. 
 
-## When to do it?
+## When To Do It?
 Anytime you or your team has identified the need to conduct more research! 
 
-## Who to Involve?
+## Who To Involve?
 Anyone on the balanced team can be involved in this process. However- it may be most critical to involve the designer and product managers. 
 
 ## Tools You Might Need
 GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaboratively with others! 
 
-## How to do it (Steps)
+## How To Do It (Steps)
 ### 1. Define research goal(s)
   * This helps keep research focused and allows you to explore various solutions when you define research methods.
   * By writing it down and agreeing on the goals, it helps keep the team aligned on what research will be performed and what is / is not a research priority.Scope goals to things you can accomplish in a research iteration

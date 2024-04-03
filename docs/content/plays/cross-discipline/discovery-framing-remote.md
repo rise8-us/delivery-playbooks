@@ -2,25 +2,27 @@
 
 ![discovery&framing](../../../assets/d&f.png)
 
-## What is it?
+![d&f](../../../assets/d&f.png)
+
+## What Is It?
 Discovery & framing kick off meeting is an opportunity to meet with key stakeholders on a project and introduce them to Rise8 practices while aligning (or realigning) on product goals, anti-goals, MVP scope, risks, stakeholder mapping through a set of facilitated activities. 
 
-## Why do it?
+## Why Do It?
 This meeting serves as an official kick off for the project as some time may have passed in between stakeholders and your team aligning on scope and getting the project started.
 
 This may also be the first time your stakeholders are meeting your team, learning about your practices so it's an opportunity to get them excited about working with you!
 
-## When to do it?
+## When To Do It?
 Kick off should occur at the beginning of the project either before or early on in the discovery & framing phase of a project.
 
-## Who’s involved?
+## Who’s Involved?
 Product Managers, Product Designers, and Engineers, stakeholders, clients, and end-users. 
 
 ## Tools You Might Need
 * White boarding tool like Figjam, Miro, Lucid spark etc… 
 * Video Conferencing tool like Google Meets, Zoom,  MS TEAMS, etc.
 
-## How to do it (Steps)
+## How To Do It (Steps)
 1. **[Prerequisite] Review Relevant Documentation**  
   In order to prepare for the project kick off,  review various documentation that you or the team may have prior to setting up the meeting. These could vary from project to project but may include things like:  
 
@@ -49,8 +51,10 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
     * Persona Generation (Facilitated Activity)
     * Next Steps & Engagement Expectations (Content)
 
+  ![Kickoff Activities](../../../assets/D+FKickoff.png)
 
-3. **Assign Team Roles**  
+
+4. **Assign Team Roles**  
   Before the meeting ensure you have roles assigned to the members of your team.
 
     Facilitator:
@@ -69,8 +73,9 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
       * Take notes during the session to cover any conversational points that are not already captured in activities.  
 
 
-4. **Conduct Kick Off Meeting!**  
+5. **Conduct Kick Off Meeting!**  
   The last step is to facilitate the meeting! Before conducting the meeting ensure that guests and participants have access to various tools you may be using (video conferencing, digital whiteboard etc..). 
 
 ## Relevant Links
-[D&F Kickoff Template Deck](https://docs.google.com/presentation/d/16M3kizDETP3PqC5QbIBiCi-qyGGl3KqeuKX3RiKcvgQ/edit#slide=id.g1a7992785c5_0_2328) 
+* [D&F Kickoff Template Deck](https://docs.google.com/presentation/d/16M3kizDETP3PqC5QbIBiCi-qyGGl3KqeuKX3RiKcvgQ/edit#slide=id.g1a7992785c5_0_2328) 
+* [Figjam Template](https://www.figma.com/file/zEhaq3jx50gOwooVxhQtQH/Discovery-%26-Framing-Kick-Off?type=whiteboard&node-id=0%3A1&t=5HyEdMjR2E3xznhE-1)
