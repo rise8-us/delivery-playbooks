@@ -1,5 +1,7 @@
 # Stakeholder Demo
 
+![product owner](../../../assets/productowner.png)
+
 ## What Is It?
 A stakeholder demo may sound self-explanatory - show your product or feature set to a stakeholder or group of stakeholders. Despite their simple sounding nature, however, stakeholder demos can sometimes make or break your product so they are not to be approached too lightly.
 
