@@ -1,5 +1,7 @@
 # Vision Statement
 
+![vision strategy](../../../assets/Product+Vision+Overview.png)
+
 ## What Is It? 
 Vision statements are aspirational, long term goals describing the impact your product will have on the future. They are often referred to as a product’s “north star” since you will look to your vision statement for guidance while navigating your product’s strategy, roadmap, and experiments.  
 
