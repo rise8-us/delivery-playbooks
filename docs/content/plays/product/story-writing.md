@@ -1,5 +1,7 @@
 # Story Writing 
 
+![User Story Example](../../../assets/userstory.png)
+
 ## What Is It? 
 
 A story is a tool to communicate and track a small piece of work within a balanced product team. All agile development teams leverage stories to represent and manage engineering work in a backlog (see next section for an overview of backlogs). Working off your roadmap, you can break down the listed feature sets into user stories in order to begin work towards the features/epics that you hypothesize will help achieve your stated outcome(s). A good story not only details work to be accomplished with clearly defined success criteria, but it also helps communicate why that work is important which in turn helps the team deliver the best possible solution.
@@ -79,8 +81,6 @@ We recommend involving your team members early and often when scoping out storie
 10. **Iterate and Adapt:** User stories are not set in stone and may evolve over time as the project progresses and as the team gains more insights. Continuously review, refine, and adapt user stories based on feedback, changing requirements, and lessons learned.
 
 **Note:** A story may include important information for a specific user. Example if a product requires a specific formula for calculations, the formula  should be included in the ticket and can be added within the acceptance criteria as well. 
-
-![Interview Guide Example](../../../assets/userstory.png)
 
 ## Story examples
 
