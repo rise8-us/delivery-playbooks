@@ -1,5 +1,7 @@
 # Discovery & Framing Kick Off
 
+![discovery&framing](../../../assets/d&f.png)
+
 ![d&f](../../../assets/d&f.png)
 
 ## What Is It?
