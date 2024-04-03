@@ -2,8 +2,6 @@
 
 ![discovery&framing](../../../assets/d&f.png)
 
-![d&f](../../../assets/d&f.png)
-
 ## What Is It?
 Discovery & framing kick off meeting is an opportunity to meet with key stakeholders on a project and introduce them to Rise8 practices while aligning (or realigning) on product goals, anti-goals, MVP scope, risks, stakeholder mapping through a set of facilitated activities. 
 
