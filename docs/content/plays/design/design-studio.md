@@ -25,7 +25,7 @@ Balanced team - Designers, PMs, Engineers, Stakeholders, Data Scientists...Any i
 1. **Define the problem:** Using artifacts like journey maps, personas, research synthesis, data and problems statements, walk participants through the problem you’ll be focusing on for the session.  
 
 
-2. **Go wide:** Have participants sketch out or jot down 8 ideas for what the solution for this problem might be. Once completed- have participants share out their ideas with the team.
+2. **Go wide:** Set a timer for 8 Minutes. Have participants sketch out or jot down 8 ideas for what the solution for this problem might be. After each minute have participants move on to the next idea. Once completed- have participants share out their ideas with the team. 
 ![crazy8s-example](https://github.com/rise8-us/delivery-playbooks/assets/152341789/17bcb3ee-fc01-4e5e-ad2c-b34cce794115)  
 
 
