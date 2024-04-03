@@ -13,6 +13,7 @@ Assumptions are critical to agile software development! If we did research to va
 ## When To Do It?
 We try to do this early in the project process in advance of any user research — often in the Kickoff itself. However, throughout a product’s lifecycle, it’s helpful for teams to articulate, prioritize and track these assumptions. 
 
+We also recommend doing an assumptions workshop with a normal cadence on your team so that you are able to align research efforts to the riskiest assumptions at that point in time
 
 ## Who To Involve?
 Balanced team, although it requires some domain context and exposure to research that’s been conducted.
