@@ -1,5 +1,7 @@
 # Assumptions Workshop
 
+![Assumptions Priority](../../../assets/Assumptions+Prioritization.png)
+
 ## What Is It? 
 An assumptions workshop helps the team gain a shared understanding of what underlying beliefs the team has about what needs to be true in order for a product to be successful. An assumption is something we believe to be true but may (or may not) have evidence for, and can range from domain context, problems solutions, usability, technical feasibility, etc. Evidence can be on a scale from “wild guess” to having validated learnings from things like market research or user engagements. 
 
@@ -22,12 +24,24 @@ An open mind
 
 
 ## How To Do It (Steps)
-1. **Review:** Spend time as a team reviewing any research, personas and user workflows that have been generated.  
-2. **Generate Assumptions:** Silently generate as many assumptions as possible.  
-3. **Share Assumptions:** Once everyone is done, have everyone share their assumptions. If other team members have one that is similar to one someone else wrote, start to group them together.  
-4. **Group & Dedupe:** At the end - you should have multiple groups of assumptions that have been grouped together 
-5. **Vote:** As a team - talk through each group & vote (1 vote per group) on the assumption(s) that are most effectively phrased in each group. Move the assumptions that were voted on over to the prioritization area.  
-6. **Prioritize:** Team will discuss and prioritize assumptions based on riskiness level and amount of evidence. You can use a simple [2X2 Matrix](https://www.productplan.com/glossary/2x2-prioritization-matrix/) to prioritize assumptions.  
+1. **Review:** Spend time as a team reviewing any research, personas and user workflows that have been generated.
+     
+2. **Generate Assumptions:** Silently generate as many assumptions as possible.
+
+![Assumptions Generation](../../../assets/AssumptionGeneration.png)
+
+3. **Share Assumptions:** Once everyone is done, have everyone share their assumptions. If other team members have one that is similar to one someone else wrote, start to group them together.
+
+4. **Group & Dedupe:** At the end - you should have multiple groups of assumptions that have been grouped together
+
+![Assumptions Grouping](../../../assets/AssumptionsGroup+Dedupe.png)
+ 
+5. **Vote:** As a team - talk through each group & vote (1 vote per group) on the assumption(s) that are most effectively phrased in each group. Move the assumptions that were voted on over to the prioritization area.
+   
+6. **Prioritize:** Team will discuss and prioritize assumptions based on riskiness level and amount of evidence. You can use a simple [2X2 Matrix](https://www.productplan.com/glossary/2x2-prioritization-matrix/) to prioritize assumptions.
+
+![Assumptions Prioritization](../../../assets/AssumptionsPrioritization.png)
+
 7. **Hypothesize & Experiment:** If time allows, the team should take the prioritized assumptions and create hypotheses and experiments to validate/invalidate the hypotheses. This can also be done with a smaller team (Design/PM/Dev Anchor) if needed.  
 
     > ### Facilitation Tips: 
