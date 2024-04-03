@@ -1,5 +1,7 @@
 # Design Studio
 
+![Design Ideas](../../../assets/designer.png)
+
 ## What Is It? 
 A design studio is a workshop that helps uncover many different solutions from different perspectives to a pre-defined problem. It helps align the team on the general user experience a product or service may have. This activity is also known as Crazy 8’s.
   
