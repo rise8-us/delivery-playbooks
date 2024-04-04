@@ -10,12 +10,12 @@ The purpose of a roadmap is to align the product team, stakeholders, and users o
 ## When to do it?
 An outcome oriented roadmap is built during strategic planning or whenever clarity, direction, and focus on achieving specific results are needed. For example, 
 Setting strategic direction.
-* Initiating new projects.
-* Developing products.
-* Implementing organizational changes.
-* Improving performance.
-* Allocating resources.
-* Pursuing continuous improvement.
+    * Initiating new projects.
+    * Developing products.
+    * Implementing organizational changes.
+    * Improving performance.
+    * Allocating resources.
+    * Pursuing continuous improvement.
 
 ## Who to Involve?
 
