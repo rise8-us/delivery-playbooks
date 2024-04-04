@@ -18,9 +18,8 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
 ## How To Do It (Steps)
 1. **Generate specific research questions & topics:** Based on some of the research goals identified- generate some more specific learning goals or questions you would like answered by the end of your research.
     - Don’t worry too much about the wording just yet. 
-    - Once generated, group similar questions together into groups of topics. This will serve as an outline 
-    - for your discussion guide.
-      
+    - Once generated, group similar questions together into groups of topics. This will serve as an outline for your discussion guide.
+![Topics Generation](../../../assets/InterviewGuide_GenerateTopics.png)
 
 2. **Draft the intro to your discussion guide:** Start with an introductory section and include:
     - Introduction to yourself and team-mates 
@@ -33,7 +32,7 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
 3. **Draft the body of your discussion guide:** Using the topics you generated in step one, begin to draft up the specific questions you’ll ask around each topic.
     - It’s helpful to start with a few warm-up and higher-level questions first before diving into specifics.
     - This is where you’ll want to think more about how the questions are phrased. (see below)
-  
+![Interview Guide Example](../../../assets/InterviewGuideExample.png)
 
 4. **Do a dry-run:** Grab someone on the team and run through your script with them to test out things like:
     - Order of questions
@@ -46,7 +45,6 @@ GoogleDoc, FigJam, Word. Any place to jot down ideas and work on them collaborat
  > * **Ask about one thing at a time:** Asking about two things in one question (double-barreled questions) makes it difficult for participants to keep track of which part of the question they need to answer.  
  > * **Avoid questions that lead to one-word answers:** While these types of questions (close-ended questions) can be helpful at times, asking more open-ended questions often leads to more elaborate answers and allows you (the researcher) to discover more opportunities
 
-![Interview Guide Example](../../../assets/InterviewGuide-Example.png) 
 
 ## Relevant Links
 [Figjam Discussion Guide Template](https://www.figma.com/file/XwZ4aZIkMDG4RDt2ZMMVPb/A-Product-Design-Process?type=whiteboard&node-id=94-887&t=dTOhh0Rvn2QxAnVH-4)
