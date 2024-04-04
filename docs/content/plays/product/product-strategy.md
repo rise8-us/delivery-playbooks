@@ -39,15 +39,15 @@ Defining a product strategy involves setting a clear direction for your product'
 ### Example
 Although product strategy isn’t usually a single artifact or resource, it can be represented by a few key data points. Below is an example product strategy for a fictional video conferencing app. 
 
-**Vision Statement:** To bring the world closer together 
-
-**Business Objective(s):**  Make it easy to integrate best-in-breed technology to enable a customizable, premium experience. 
-
-**User Outcomes(s):** User onboarding and configuring is faster than the leading competitor
-
-**Key Metrics:** Time from account creation to first conference access
-
-**Tactics:** Plugins are configured in advance and are easily customizable
+> **Vision Statement:** To bring the world closer together 
+>
+> **Business Objective(s):**  Make it easy to integrate best-in-breed technology to enable a customizable, premium experience. 
+>
+> **User Outcomes(s):** User onboarding and configuring is faster than the leading competitor
+>
+>**Key Metrics:** Time from account creation to first conference access
+>
+>**Tactics:** Plugins are configured in advance and are easily customizable
 
 
 ## Relevant Links
