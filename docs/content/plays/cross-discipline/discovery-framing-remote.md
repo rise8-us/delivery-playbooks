@@ -48,11 +48,9 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
     * Process Mapping (Facilitated Activity)
     * Persona Generation (Facilitated Activity)
     * Next Steps & Engagement Expectations (Content)
+![Kickoff Activities](../../../assets/D+FKickoff.png)
 
-  ![Kickoff Activities](../../../assets/D+FKickoff.png)
-
-
-4. **Assign Team Roles**  
+3. **Assign Team Roles**  
   Before the meeting ensure you have roles assigned to the members of your team.
 
     Facilitator:
@@ -71,7 +69,7 @@ Product Managers, Product Designers, and Engineers, stakeholders, clients, and e
       * Take notes during the session to cover any conversational points that are not already captured in activities.  
 
 
-5. **Conduct Kick Off Meeting!**  
+4. **Conduct Kick Off Meeting!**  
   The last step is to facilitate the meeting! Before conducting the meeting ensure that guests and participants have access to various tools you may be using (video conferencing, digital whiteboard etc..). 
 
 ## Relevant Links
