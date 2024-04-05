@@ -7,6 +7,9 @@ Rather than fixating solely on technological advancements or business challenges
 
 Moreover, HCD underscores the indispensable involvement of users throughout the design process, allowing their invaluable insights to shape the trajectory of product development. By actively soliciting and integrating user feedback, HCD facilitates continuous refinement, ensuring that our solutions resonate authentically with users' experiences, ultimately fostering a harmonious synergy between problem and solution.
 
+You’ll also hear “User-Centered Design” used interchangeably with “Human-Centered Design” and while those two can be synonymous, Rise8 believes the “human” element can get too easily lost in conversations when it gets replaced with “user”. We want to be relentless in reminding ourselves and others that our users are still humans at the end of the day and it’s vital we don’t lose sight of that understanding. 
+
+
 ## Why Do It?
 
 ### Reduce Risk:
