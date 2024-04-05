@@ -1,7 +1,7 @@
-# Double Diamond
+# Discovery & Framing (D&F)
 
 ## What Is it?
-The Double Diamond approach is a problem solving framework that represents a methodical way of tackling problems and developing solutions. It was developed by the British Design Council in 2005 and is widely used in the fields of design and innovation. The process is visualized as two diamonds, representing a four-stage approach:
+The Discovery and Framing Practice is based on the Double Diamond approach which is a problem solving framework that represents a methodical way of tackling problems and developing solutions. It was developed by the British Design Council in 2005 and is widely used in the fields of design and innovation. The process is visualized as two diamonds, representing a four-stage approach:
 
 ### Problem Discovery: 
 The first diamond begins with the problem discovery phase, where the aim is to understand the problem or opportunity. This involves open-minded research and exploration, gathering insights, and empathizing with users or customers. 
