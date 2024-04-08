@@ -1,6 +1,6 @@
 # Measure, Learn, Iterate
 
-![Build Measure Learn](../assets/BML.png)
+![Build Measure Learn](../../assets/BML.png)
 
 ## What is it?
 An ongoing, data-driven process following the delivery of a feature to help the team decide if it can move to the next outcome, pivot to a different approach, or stay the course and collect more data.
