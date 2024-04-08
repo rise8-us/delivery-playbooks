@@ -1,6 +1,6 @@
 # Backlog Prioritization
 
-![IPM](../../assets/ipm.png)
+![IPM](../../../assets/ipm.png)
 
 ## What is it?  
 A backlog refers to a prioritized list of tasks, features, or items that need to be addressed or implemented in a product. It serves as a dynamic repository for all potential work related to the product, including new features, enhancements, bug fixes, and technical debt.
@@ -17,7 +17,7 @@ Led by Product Managers and align with Designers, Engineers and stakeholders for
 ## Tools You Might Need
 A Project Management and tracking tool like Jira, GitHub, Asana, Trello or a board like Miro. 
 
-![prioritization](../../assets/backlogprioritization.png)
+![prioritization](../../../assets/backlogprioritization.png)
 
 
 ## How to do it (Steps)
