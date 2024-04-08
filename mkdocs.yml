@@ -22,7 +22,7 @@ nav:
     - Product:
       - content/plays/product/vision-statement.md
       - content/plays/product/product-strategy.md
-      - content/plays/product/product-outcomeroadmap.md
+      - content/plays/product/product-plays-OutcomeRoadmap.md
       - content/plays/product/story-writing.md
       - content/plays/product/product-release.md
     - Design:
