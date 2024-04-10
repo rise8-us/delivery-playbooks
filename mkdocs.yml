@@ -9,11 +9,6 @@ nav:
     - content/practices/measure-learn-iterate.md
     - content/practices/version-control-systems.md 
 
-  - Roles: # All content for roles are referenced here
-    - content/roles/Product-Management-Role-Definition.md
-    - content/roles/Product-Design-Role-Definition.md
-    - content/roles/Engineering-Role-Definition.md
-
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
       - content/plays/cross-discipline/discovery-framing-remote.md
@@ -34,6 +29,11 @@ nav:
       - content/plays/design/design-studio.md
     - Engineering:
       - content/plays/engineering/coming-soon.md
+
+  - Roles: # All content for roles are referenced here
+    - content/roles/Product-Management-Role-Definition.md
+    - content/roles/Product-Design-Role-Definition.md
+    - content/roles/Engineering-Role-Definition.md
 
 ### PLEASE DONT TOUCH ANYTHING BELOW THIS POINT
 
