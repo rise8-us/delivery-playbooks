@@ -29,9 +29,11 @@ Before you make a pull request and merge your changes, you may want to view the 
 > Before you do any of the following steps, you need to connect your local computer to your Github account. Follow [these instructions](https://docs.github.com/en/get-started/getting-started-with-git/set-up-git) in order to get that done.
 
 ```shell
-# install
-brew install mkdocs
-brew install mkdocs-material
+# Install MkDocs and MkDocs Material:
+brew install python
+python3 -m venv .env
+source .env/bin/activate
+pip install mkdocs mkdocs-material
 # clone the repository
 git clone https://github.com/rise8-us/delivery-playbooks.git
 cd deliver-playbooks
