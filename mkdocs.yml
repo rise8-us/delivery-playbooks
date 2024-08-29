@@ -2,8 +2,6 @@ nav:
   - Home: index.md
 
   ### MODIFY THE FOLLOWING TO UPDATE CONTENT
-  - Introduction:
-    - content/introduction/values-principles-practices-plays.md
   - Core Practices:
     - content/practices/core-practices.md
     - Teaming, Ceremonies & Collaboration:
