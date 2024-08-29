@@ -2,15 +2,17 @@ nav:
   - Home: index.md
 
   ### MODIFY THE FOLLOWING TO UPDATE CONTENT
-  - content/values-principles-practices-plays.md
+  - Introduction:
+    - content/introduction/values-principles-practices-plays.md
   - Core Practices:
+    - content/practices/core-practices.md
     - Teaming, Ceremonies & Collaboration:
       - content/practices/balanced-team.md
     - DevSecOps:
       - content/practices/version-control-systems.md 
     - Product & Design:
       - content/practices/Human Centered Design.md
-      - content/practices/double-diamond.md
+      - content/practices/discovery-and-framing.md
       - content/practices/measure-learn-iterate.md
 
   - Plays: # All content for plays are referenced here
