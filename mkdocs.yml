@@ -2,7 +2,8 @@ nav:
   - Home: index.md
 
   ### MODIFY THE FOLLOWING TO UPDATE CONTENT
-  - Core Practices: 
+  - content/values-principles-practices-plays.md
+  - Core Practices:
     - Teaming, Ceremonies & Collaboration:
       - content/practices/balanced-team.md
     - DevSecOps:
