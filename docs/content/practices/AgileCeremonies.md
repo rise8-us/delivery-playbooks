@@ -25,7 +25,7 @@ Have a brief meeting daily with the entire team to foster communication, connect
 ### Stakeholder Demo
 A stakeholder demo, also known as a sprint review or sprint demo is a meeting with the delivery team, product owner and key project stakeholders. The team presents work completed within the sprint to stakeholders to showcase progress, collect feedback, and ensure alignment to stakeholder goals. Having a space to meet with stakeholders also provides a forum to talk about any risks/blockers to the project's success.
 
-* Stakeholder Demo Play
+* [Stakeholder Demo Play](https://delivery-playbooks.rise8.us/content/plays/cross-discipline/stakeholder-demo/)
 
 ### Team Retrospective
 Hold a meeting at the end of your sprint to give the team a forum to reflect on how they are working, why they are working, and analyze what is making them succeed and fail. Retrospectives expose opportunities for improvement and allow teams to learn how to work better together. Teams should implement changes and/or run experiments to iterate on how to work together for future sprints.
