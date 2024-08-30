@@ -13,6 +13,7 @@ User interviews are a fundamental research tool. Being able to speak directly wi
 
 ### Prototyping
 A prototype is a visual to help you think about a design, communicate it to a team, and show it to users. Prototypes can vary in fidelity from paper sketches to digital mockups. 
+
 * [Prototyping at Different Fidelities](https://app.trainual.com/rise8-inc/steps/17112809/consume)
 
 ### Usability Testing
