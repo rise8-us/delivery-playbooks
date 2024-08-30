@@ -6,6 +6,7 @@ nav:
     - content/practices/core-practices.md
     - Teaming, Ceremonies & Collaboration:
       - content/practices/balanced-team.md
+      - content/practices/AgileCeremonies.md
     - DevSecOps:
       - content/practices/version-control-systems.md 
     - Product & Design:
