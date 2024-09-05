@@ -10,6 +10,7 @@ nav:
     - DevSecOps:
       - content/practices/ci-cd.md
       - content/practices/version-control-systems.md 
+      - content/practices/automated-testing.md
     - Product & Design:
       - content/practices/Human Centered Design.md
       - content/practices/discovery-and-framing.md
