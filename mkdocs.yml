@@ -8,6 +8,7 @@ nav:
       - content/practices/balanced-team.md
       - content/practices/AgileCeremonies.md
     - DevSecOps:
+      - content/practices/ci-cd.md
       - content/practices/version-control-systems.md 
     - Product & Design:
       - content/practices/Human Centered Design.md
