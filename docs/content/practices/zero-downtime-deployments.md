@@ -1,4 +1,4 @@
-# `Zero-Downtime Deploys`
+# Zero-Downtime Deploys
 
 ## What is it?
 
@@ -10,7 +10,7 @@ This can be achieved through various techniques such as:
 * **Canary Deployments**: A new version is first rolled out to a small subset of users (the "canary group"). If successful, it is gradually rolled out to everyone.  
 * **Rolling Updates**: Deployments are made in phases, with a portion of instances updated at a time, ensuring the rest remain operational.
 
-![blue green deployment](../assets/bluegreendeploy.png)
+![blue green deployment](../../assets/bluegreendeploy.png)
 
 ## Why is it Important?
 
