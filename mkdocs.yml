@@ -8,6 +8,7 @@ nav:
       - content/practices/balanced-team.md
       - content/practices/AgileCeremonies.md
     - DevSecOps:
+      - content/practices/zero-downtime-deployments.md
       - content/practices/ci-cd.md
       - content/practices/version-control-systems.md 
       - content/practices/automated-testing.md
