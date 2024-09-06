@@ -7,7 +7,6 @@ nav:
     - Teaming, Ceremonies & Collaboration:
       - content/practices/balanced-team.md
       - content/practices/AgileCeremonies.md
-      - content/practices/lean-start-up.md
     - DevSecOps:
       - content/practices/ci-cd.md
       - content/practices/version-control-systems.md 
@@ -16,7 +15,7 @@ nav:
     - Product & Design:
       - content/practices/discovery-and-framing.md
       - content/practices/Human Centered Design.md
-      - content/practices/measure-learn-iterate.md
+      - content/practices/lean-start-up.md
       - content/practices/ruthless-prioritization.md
       - content/practices/UserResearch.md
 
