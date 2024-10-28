@@ -4,7 +4,7 @@
 
 Environment control is a critical practice that ensures consistency of infrastructure, dependencies, and configurations across environments (development, staging, and production). We do this by using tools and automation to manage environments locally and in the cloud, guaranteeing that applications are deployed and run uniformly. This practice revolves around **standardization** and **templatization** to minimize discrepancies and streamline deployments and operations.
 
-![environments](../assets/environments.png)
+![environments](../../assets/environments.png)
 
 ### Standardization
 
@@ -18,7 +18,7 @@ Templatization involves creating configuration files (e.g., YAML, JSON) to defin
 - Add a new service by updating K8s manifests and helm charts and create new docker images if the service is managed and built by app team  
 - Create new environments (demo, A/B environments, etc) which requires updating terraform files, K8s manifests and helm charts.
 
-![featureflags](../assets/featureflags.png)
+![featureflags](../../assets/featureflags.png)
 
 ## Why do it?
 
