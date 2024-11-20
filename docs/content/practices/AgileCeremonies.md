@@ -1,5 +1,7 @@
 # Agile Sprint Ceremonies
 
+![Agile Ceremonies](../../assets/AgileCeremonies.png)
+
 ## What is it?
 Agile sprint ceremonies are recurring team meetings that create intentional spaces for communication and collaboration. By having the meetings with a recurring cadence, we ensure that we are revisiting key areas for collaboration on a regular basis no longer than the length of our delivery sprint.
 
