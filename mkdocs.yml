@@ -6,19 +6,19 @@ nav:
     - content/practices/core-practices.md
     - Teaming, Ceremonies & Collaboration:
       - content/practices/balanced-team.md
-      - content/practices/AgileCeremonies.md
+      - content/practices/agile-ceremonies.md
     - DevSecOps:
       - content/practices/automated-testing.md
       - content/practices/ci-cd.md
-      - content/practices/EnvironmentControl.md
+      - content/practices/environment-control.md
       - content/practices/version-control-systems.md 
       - content/practices/zero-downtime-deployments.md
     - Product & Design:
       - content/practices/discovery-and-framing.md
-      - content/practices/Human Centered Design.md
+      - content/practices/human-centered-design.md
       - content/practices/lean-start-up.md
       - content/practices/ruthless-prioritization.md
-      - content/practices/UserResearch.md
+      - content/practices/user-research.md
 
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
