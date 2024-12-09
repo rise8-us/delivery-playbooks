@@ -11,7 +11,8 @@ nav:
       - content/practices/automated-testing.md
       - content/practices/ci-cd.md
       - content/practices/environment-control.md
-      - content/practices/version-control-systems.md 
+      - content/practices/security-early-and-throughout.md
+      - content/practices/version-control-systems.md
       - content/practices/zero-downtime-deployments.md
     - Product & Design:
       - content/practices/discovery-and-framing.md
