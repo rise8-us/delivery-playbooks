@@ -51,7 +51,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 #### Product & Design Practices
 * Data & Metrics Collection
 * [Discovery & Framing](../discovery-and-framing)
-* Making & Testing Assumptions
+* [Making & Testing Assumptions](../making-and-testing-assumptions)
 * Lean Enterprise
     * Value Stream Mapping
     * Cost of Delay Prioritization
