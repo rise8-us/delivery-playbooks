@@ -13,6 +13,7 @@ nav:
       - content/practices/automated-testing.md
       - content/practices/ci-cd.md
       - content/practices/environment-control.md
+      - content/practices/platform-health-monitoring-and-observability.md
       - content/practices/security-early-and-throughout.md
       - content/practices/version-control-systems.md
       - content/practices/zero-downtime-deployments.md

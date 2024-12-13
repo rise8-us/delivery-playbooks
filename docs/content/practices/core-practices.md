@@ -41,7 +41,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
     * Containerization
     * Infrastructure as Code (IaC)
     * Environment Parity
-* Platform Health Monitoring & Observability
+* [Platform Health Monitoring & Observability](../platform-health-monitoring-and-observability)
 * [Security Early and Throughout](../security-early-and-throughout)
     * Continuous Risk Management Framework (cRMF) & Continuous Authority to Operate (cATO)
 * [Version Control Systems (VCS)](../version-control-systems)
