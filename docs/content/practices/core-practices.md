@@ -15,7 +15,7 @@ We believe every Riser should be able to speak to every Core Practice at a high 
 The following is our list of Core Practices and when applicable show some sub-practices which fall under the higher level practice.
 
 #### Teaming, Ceremonies & Collaboration Practices
-* Agile Sprint Ceremonies
+* [Agile Sprint Ceremonies](../agile-ceremonies)
     * Standups
     * Sprint Planning
     * Sprint Demos
@@ -31,12 +31,12 @@ The following is our list of Core Practices and when applicable show some sub-pr
     * I do, We do, You do
 
 #### DevSecOps Practices
-* Automated Testing
+* [Automated Testing](../automated-testing)
     * Test Driven Development (TDD)
     * Tests as Documentation
-* Continuous Integration / Continuous Deployment (CI/CD)
+* [Continuous Integration / Continuous Deployment (CI/CD)](../ci-cd)
 * Domain Driven Design
-* Environment Control
+* [Environment Control](../environment-control)
     * Configuration in the Environment
     * Containerization
     * Infrastructure as Code (IaC)
@@ -45,7 +45,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * [Security Early and Throughout](../security-early-and-throughout)
     * Continuous Risk Management Framework (cRMF) & Continuous Authority to Operate (cATO)
 * [Version Control Systems (VCS)](../version-control-systems)
-* Zero-Downtime Deploys
+* [Zero-Downtime Deploys](../zero-downtime-deployments)
 
 #### Product & Design Practices
 * [Data & Metrics Collection](../data-and-metrics-collection)
@@ -55,18 +55,18 @@ The following is our list of Core Practices and when applicable show some sub-pr
     * Value Stream Mapping
     * Cost of Delay Prioritization
     * Impact Mapping
-* Lean Startup
-    * [Measure, Learn, Iterate](../measure-learn-iterate)
+* [Lean Startup](../lean-start-up)
+    * Measure, Learn, Iterate
     * Minimum Viable Product (MVP) Definition
 * Outcome-Oriented Roadmaps (OOR)
     * Rapid Product Experimentation
     * Pivot or Persevere
-* Ruthless Prioritization
+* [Ruthless Prioritization](../ruthless-prioritization)
 * Stakeholder Management
     * Identifying Project Stakeholders
     * Goal Alignment
     * Cascading Goals
-* User Research
+* [User Research](../user-research)
     * User Interviews
     * Prototyping
     * Usability Testing
