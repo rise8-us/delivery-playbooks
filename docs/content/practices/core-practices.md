@@ -48,7 +48,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * Zero-Downtime Deploys
 
 #### Product & Design Practices
-* Data & Metrics Collection
+* [Data & Metrics Collection](../data-and-metrics-collection)
 * [Discovery & Framing](../discovery-and-framing)
 * [Making & Testing Assumptions](../making-and-testing-assumptions)
 * Lean Enterprise

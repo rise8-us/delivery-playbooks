@@ -17,6 +17,7 @@ nav:
       - content/practices/version-control-systems.md
       - content/practices/zero-downtime-deployments.md
     - Product & Design:
+      - content/practices/data-and-metrics-collection.md
       - content/practices/discovery-and-framing.md
       - content/practices/human-centered-design.md
       - content/practices/lean-start-up.md
