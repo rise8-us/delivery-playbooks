@@ -21,7 +21,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
     * Sprint Demos
     * Retrospectives
 * [Balanced Teams](../balanced-team)
-* Facilitation
+* [Facilitation](../facilitation)
 * [Feedback](../feedback)
 * [Pairing](../pairing)
 * Portfolio Management

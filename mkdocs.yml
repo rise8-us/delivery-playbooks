@@ -7,6 +7,7 @@ nav:
     - Teaming, Ceremonies & Collaboration:
       - content/practices/agile-ceremonies.md
       - content/practices/balanced-team.md
+      - content/practices/facilitation.md
       - content/practices/feedback.md
       - content/practices/pairing.md
     - DevSecOps:
