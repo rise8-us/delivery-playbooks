@@ -22,6 +22,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
     * Retrospectives
 * [Balanced Teams](../balanced-team)
 * Facilitation
+* [Feedback](../feedback)
 * Feedback
 * Pairing
 * Portfolio Management

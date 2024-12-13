@@ -5,8 +5,9 @@ nav:
   - Core Practices:
     - content/practices/core-practices.md
     - Teaming, Ceremonies & Collaboration:
-      - content/practices/balanced-team.md
       - content/practices/agile-ceremonies.md
+      - content/practices/balanced-team.md
+      - content/practices/feedback.md
     - DevSecOps:
       - content/practices/automated-testing.md
       - content/practices/ci-cd.md
