@@ -15,60 +15,33 @@ We believe every Riser should be able to speak to every Core Practice at a high 
 The following is our list of Core Practices and when applicable show some sub-practices which fall under the higher level practice.
 
 #### Teaming, Ceremonies & Collaboration Practices
-* [Agile Sprint Ceremonies](../agile-ceremonies)
-    * Standups
-    * Sprint Planning
-    * Sprint Demos
-    * Retrospectives
-* [Balanced Teams](../balanced-team)
-* [Facilitation](../facilitation)
-* [Feedback](../feedback)
-* [Pairing](../pairing)
-* Portfolio Management
-* Practice Management
-* Scopings
-* Team Enablement
-    * I do, We do, You do
+* **[Agile Sprint Ceremonies](../agile-ceremonies)** - Standups, Sprint Planning, Sprint Demos, Retrospectives
+* **[Balanced Teams](../balanced-team)**
+* **[Facilitation](../facilitation)**
+* **[Feedback](../feedback)**
+* **[Pairing](../pairing)**
+* **Portfolio Management**
+* **Practice Management**
+* **Scopings**
+* **[Team Enablement](../team-enablement)** - I do, We do, You do
 
 #### DevSecOps Practices
-* [Automated Testing](../automated-testing)
-    * Test Driven Development (TDD)
-    * Tests as Documentation
-* [Continuous Integration / Continuous Deployment (CI/CD)](../ci-cd)
-* Domain Driven Design
-* [Environment Control](../environment-control)
-    * Configuration in the Environment
-    * Containerization
-    * Infrastructure as Code (IaC)
-    * Environment Parity
-* [Platform Health Monitoring & Observability](../platform-health-monitoring-and-observability)
-* [Security Early and Throughout](../security-early-and-throughout)
-    * Continuous Risk Management Framework (cRMF) & Continuous Authority to Operate (cATO)
-* [Version Control Systems (VCS)](../version-control-systems)
-* [Zero-Downtime Deploys](../zero-downtime-deployments)
+* **[Automated Testing](../automated-testing)** - Test Driven Development (TDD), Tests as Documentation
+* **[Continuous Integration / Continuous Deployment (CI/CD)](../ci-cd)**
+* **Domain Driven Design**
+* **[Environment Control](../environment-control)** - Configuration in the Environment, Containerization, Infrastructure as Code (IaC), Environment Parity
+* **[Platform Health Monitoring & Observability](../platform-health-monitoring-and-observability)**
+* **[Security Early and Throughout](../security-early-and-throughout)** - Continuous Risk Management Framework (cRMF) & Continuous Authority to Operate (cATO)
+* **[Version Control Systems (VCS)](../version-control-systems)**
+* **[Zero-Downtime Deploys](../zero-downtime-deployments)**
 
 #### Product & Design Practices
-* [Data & Metrics Collection](../data-and-metrics-collection)
-* [Discovery & Framing](../discovery-and-framing)
-* [Making & Testing Assumptions](../making-and-testing-assumptions)
-* Lean Enterprise
-    * Value Stream Mapping
-    * Cost of Delay Prioritization
-    * Impact Mapping
-* [Lean Startup](../lean-start-up)
-    * Measure, Learn, Iterate
-    * Minimum Viable Product (MVP) Definition
-* Outcome-Oriented Roadmaps (OOR)
-    * Rapid Product Experimentation
-    * Pivot or Persevere
-* [Ruthless Prioritization](../ruthless-prioritization)
-* Stakeholder Management
-    * Identifying Project Stakeholders
-    * Goal Alignment
-    * Cascading Goals
-* [User Research](../user-research)
-    * User Interviews
-    * Prototyping
-    * Usability Testing
-    * Accessibility Testing
-    * Continuous Discovery
+* **[Data & Metrics Collection](../data-and-metrics-collection)**
+* **[Discovery & Framing](../discovery-and-framing)**
+* **[Making & Testing Assumptions](../making-and-testing-assumptions)**
+* **Lean Enterprise** - Value Stream Mapping, Cost of Delay Prioritization, Impact Mapping
+* **[Lean Startup](../lean-start-up)** - Measure, Learn, Iterate & Minimum Viable Product (MVP) Definition
+* **Outcome-Oriented Roadmaps (OOR)** - Rapid Product Experimentation, Pivot or Persevere
+* **[Ruthless Prioritization](../ruthless-prioritization)**
+* **Stakeholder Management** - Identifying Project Stakeholders, Goal Alignment, Cascading Goals
+* **[User Research](../user-research)** - User Interviews, Prototyping, Usability Testing, Accessibility Testing, Continuous Discovery
