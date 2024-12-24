@@ -36,7 +36,7 @@ source .env/bin/activate
 pip install mkdocs mkdocs-material
 # clone the repository
 git clone https://github.com/rise8-us/delivery-playbooks.git
-cd deliver-playbooks
+cd delivery-playbooks
 # run dev server
 mkdocs serve
 ```

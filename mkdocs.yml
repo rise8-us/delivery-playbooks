@@ -10,6 +10,7 @@ nav:
       - content/practices/facilitation.md
       - content/practices/feedback.md
       - content/practices/pairing.md
+      - content/practices/team-enablement.md
     - DevSecOps:
       - content/practices/automated-testing.md
       - content/practices/ci-cd.md
