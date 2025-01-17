@@ -14,7 +14,7 @@ We believe every Riser should be able to speak to every Core Practice at a high 
 ## The Rise8 Core Practices
 The following is our list of Core Practices and when applicable show some sub-practices which fall under the higher level practice.
 
-#### Teaming, Ceremonies & Collaboration Practices
+### Teaming, Ceremonies & Collaboration Practices
 * **[Agile Sprint Ceremonies](../agile-ceremonies)** - Standups, Sprint Planning, Sprint Demos, Retrospectives
 * **[Balanced Teams](../balanced-team)**
 * **[Facilitation](../facilitation)**
@@ -25,7 +25,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **Scopings**
 * **[Team Enablement](../team-enablement)** - I do, We do, You do
 
-#### DevSecOps Practices
+### DevSecOps Practices
 * **[Automated Testing](../automated-testing)** - Test Driven Development (TDD), Tests as Documentation
 * **[Continuous Integration / Continuous Deployment (CI/CD)](../ci-cd)**
 * **Domain Driven Design**
@@ -35,7 +35,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Version Control Systems (VCS)](../version-control-systems)**
 * **[Zero-Downtime Deploys](../zero-downtime-deployments)**
 
-#### Product & Design Practices
+### Product & Design Practices
 * **[Data & Metrics Collection](../data-and-metrics-collection)**
 * **[Discovery & Framing](../discovery-and-framing)**
 * **[Making & Testing Assumptions](../making-and-testing-assumptions)**
