@@ -41,7 +41,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Making & Testing Assumptions](../making-and-testing-assumptions)**
 * **Lean Enterprise** - Value Stream Mapping, Cost of Delay Prioritization, Impact Mapping
 * **[Lean Startup](../lean-start-up)** - Measure, Learn, Iterate & Minimum Viable Product (MVP) Definition
-* **Outcome-Oriented Roadmaps (OOR)** - Rapid Product Experimentation, Pivot or Persevere
+* **[Outcome-Oriented Roadmaps (OOR)]((../outcome-oriented-roadmaps))** - Rapid Product Experimentation
 * **[Ruthless Prioritization](../ruthless-prioritization)**
 * **Stakeholder Management** - Identifying Project Stakeholders, Goal Alignment, Cascading Goals
 * **[User Research](../user-research)** - User Interviews, Prototyping, Usability Testing, Accessibility Testing, Continuous Discovery
