@@ -22,7 +22,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Pairing](../pairing)**
 * **Portfolio Management**
 * **Practice Management**
-* **Scopings**
+* **[Scoping](../scoping)**
 * **[Team Enablement](../team-enablement)** - I do, We do, You do
 
 ### DevSecOps Practices
