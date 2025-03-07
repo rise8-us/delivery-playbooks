@@ -7,6 +7,7 @@ nav:
     - Teaming, Ceremonies & Collaboration:
       - content/practices/agile-ceremonies.md
       - content/practices/balanced-team.md
+      - content/practices/continuous-improvement-cycles.md
       - content/practices/facilitation.md
       - content/practices/feedback.md
       - content/practices/pairing.md
@@ -24,7 +25,7 @@ nav:
       - content/practices/data-and-metrics-collection.md
       - content/practices/discovery-and-framing.md
       - content/practices/human-centered-design.md
-      - content/practices/lean-start-up.md
+      - content/practices/launching-with-a-minimum-viable-product.md
       - content/practices/making-and-testing-assumptions.md
       - content/practices/outcome-oriented-roadmaps.md
       - content/practices/ruthless-prioritization.md

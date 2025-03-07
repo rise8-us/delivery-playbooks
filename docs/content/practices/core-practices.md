@@ -17,6 +17,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 ### Teaming, Ceremonies & Collaboration Practices
 * **[Agile Sprint Ceremonies](../agile-ceremonies)** - Standups, Sprint Planning, Sprint Demos, Retrospectives
 * **[Balanced Teams](../balanced-team)**
+* **[Continuous Improvement Cycles](../continuous-improvement-cycles)**
 * **[Facilitation](../facilitation)**
 * **[Feedback](../feedback)**
 * **[Pairing](../pairing)**
@@ -36,12 +37,15 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Zero-Downtime Deploys](../zero-downtime-deployments)**
 
 ### Product & Design Practices
+* **Backlog Management**
 * **[Data & Metrics Collection](../data-and-metrics-collection)**
 * **[Discovery & Framing](../discovery-and-framing)**
+* **[Launching with a Minimum Viable Product (MVP)](../launching-with-a-minimum-viable-product)**
 * **[Making & Testing Assumptions](../making-and-testing-assumptions)**
-* **Lean Enterprise** - Value Stream Mapping, Cost of Delay Prioritization, Impact Mapping
-* **[Lean Startup](../lean-start-up)** - Measure, Learn, Iterate & Minimum Viable Product (MVP) Definition
+* **Opportunity Planning**
 * **[Outcome-Oriented Roadmaps (OOR)](../outcome-oriented-roadmaps)** - Rapid Product Experimentation
+* **Process Mapping**
 * **[Ruthless Prioritization](../ruthless-prioritization)**
 * **[Stakeholder Management & Engagement](../stakeholder-management-and-engagement)**
+* **Strategic Planning**
 * **[User Research](../user-research)** - User Interviews, Prototyping, Usability Testing, Accessibility Testing, Continuous Discovery
