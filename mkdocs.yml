@@ -22,11 +22,13 @@ nav:
       - content/practices/version-control-systems.md
       - content/practices/zero-downtime-deployments.md
     - Product & Design:
+      - content/practices/backlog-management.md
       - content/practices/data-and-metrics-collection.md
       - content/practices/discovery-and-framing.md
       - content/practices/human-centered-design.md
       - content/practices/launching-with-a-minimum-viable-product.md
       - content/practices/making-and-testing-assumptions.md
+      - content/practices/opportunity-planning.md
       - content/practices/outcome-oriented-roadmaps.md
       - content/practices/ruthless-prioritization.md
       - content/practices/stakeholder-management-and-engagement.md

@@ -37,12 +37,12 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Zero-Downtime Deploys](../zero-downtime-deployments)**
 
 ### Product & Design Practices
-* **Backlog Management**
+* **[Backlog Management](../backlog-management)**
 * **[Data & Metrics Collection](../data-and-metrics-collection)**
 * **[Discovery & Framing](../discovery-and-framing)**
 * **[Launching with a Minimum Viable Product (MVP)](../launching-with-a-minimum-viable-product)**
 * **[Making & Testing Assumptions](../making-and-testing-assumptions)**
-* **Opportunity Planning**
+* **[Opportunity Planning](../opportunity-planning)**
 * **[Outcome-Oriented Roadmaps (OOR)](../outcome-oriented-roadmaps)** - Rapid Product Experimentation
 * **Process Mapping**
 * **[Ruthless Prioritization](../ruthless-prioritization)**
