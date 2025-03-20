@@ -37,12 +37,14 @@ Effective Backlog Management isn't magic – it's a set of practical, learnable 
         *   Consolidate existing task lists, spreadsheets, and scattered notes into *one* backlog.
         *   Clearly define what types of items belong in the backlog (features, bugs, tech debt, etc.).
         *   Designate a Product Owner (in Scrum) or someone responsible (in Kanban) for backlog ownership and prioritization.
+        *   Establish a clear distinction for priority within the backlog
 
 *   **2.  Prioritize Ruthlessly:**
 
     *   Don't just create a long list – **actively prioritize** the backlog, ensuring the most valuable items are at the top and ready to be worked on first.  This is about maximizing value delivery and aligning with your product vision.
     *   **Actionable Techniques:**
         *   **Value-Based Prioritization:**  Consistently prioritize based on user value, business value, and strategic alignment (as discussed in our article on [Ruthless Prioritization](https://delivery-playbooks.rise8.us/content/practices/ruthless-prioritization/)). For a detailed guide on backlog prioritization techniques, see our [Backlog Prioritization Playbook](https://delivery-playbooks.rise8.us/content/plays/product/backlog-prioritization/).
+        *   **Risk-Based Prioritization:**  Prioritize the backlog to test the riskiest assumptions first and begin to generate validated learnings to steer product direction.
         *   **Use Prioritization Frameworks:** Employ techniques like [MoSCoW Method](https://www.productplan.com/glossary/moscow-prioritization/\#:\~:text=MoSCoW%20prioritization%2C%20also%20known%20as,will%20not%20have%20right%20now.), [2x2 matrices](https://anshamkaushal.medium.com/unlocking-product-design-success-with-the-2x2-matrix-cce3cdb9daae), or [Story Mapping](https://www.productplan.com/glossary/story-mapping/) to structure prioritization discussions and make informed decisions.
 
 *   **3.  Make Work Visible and Manage Flow:**
