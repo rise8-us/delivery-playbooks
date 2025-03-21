@@ -44,7 +44,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Making & Testing Assumptions](../making-and-testing-assumptions)**
 * **[Opportunity Planning](../opportunity-planning)**
 * **[Outcome-Oriented Roadmaps (OOR)](../outcome-oriented-roadmaps)** - Rapid Product Experimentation
-* **Process Mapping**
+* **[Process Mapping](../process-mapping)**
 * **[Ruthless Prioritization](../ruthless-prioritization)**
 * **[Stakeholder Management & Engagement](../stakeholder-management-and-engagement)**
 * **Strategic Planning**
