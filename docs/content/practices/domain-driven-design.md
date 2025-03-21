@@ -14,11 +14,8 @@ Key concepts of Domain-Driven Design include:
 * A common language shared between developers and domain experts.  
 * Uses business terminology consistently throughout the codebase  
 * Helps bridge the communication gap between technical and non-technical stakeholders  
-<br/>
 
 ![udl](../../assets/ubq-dom-lang.png)
-
-
 
 #### Domain Modeling / Bounded Contexts   
 **TLDR: make your code abstractions mimic the business structure/objects and how the business does work**
