@@ -1,6 +1,6 @@
-## `Domain Driven Design (DDD)`
+# Domain Driven Design (DDD)
 
-### What is it?
+## What is it?
 
 Domain-Driven Design (DDD) is a software development approach that focuses on understanding and modeling the business domain as the foundation for creating complex software systems. 
 
@@ -42,7 +42,7 @@ Key concepts of Domain-Driven Design include:
 * Domain Events: Capture significant changes in the domain
 <br/>
 
-### Why do it?
+## Why do it?
 
 Rise8 includes DDD practices for various reasons, DDD is a better way of expressing the business domain in software.  DDD gives the framework and tools to better understand, and design software for our clients.
 
