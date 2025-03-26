@@ -9,7 +9,7 @@ DDD is a deep subject, but the most important concept is using the same language
 Key concepts of Domain-Driven Design include:
 
 #### Ubiquitous Language 
-**TLDR: get everyone speaking the same language**
+**The goal is to establish a common language for everyone involved.**
 
 * A common language shared between developers and domain experts.  
 * Uses business terminology consistently throughout the codebase  
@@ -21,7 +21,7 @@ Key concepts of Domain-Driven Design include:
 
 
 #### Domain Modeling / Bounded Contexts   
-**TLDR: make your code abstractions mimic the business structure/objects and how the business does work**
+**Design code abstractions to closely mirror the business's organizational structure, objects, and operational workflows**
 
 * Explicit boundaries that define where specific models and terms apply  
 * Helps manage complexity by dividing large systems into smaller, manageable contexts  
@@ -32,7 +32,7 @@ Key concepts of Domain-Driven Design include:
 </p>   
 
 #### Strategic Design Patterns   
-**TLDR: How to break apart complex businesses into digestible chunks (domains, and bounded contexts).**
+**It offers a framework for breaking down intricate business structures into digestible chunks, specifically domains and bounded contexts**
 
 * Context Mapping: Defining relationships between different bounded contexts  
 * Core Domain: Identifying and focusing on the most valuable part of your system  
@@ -40,7 +40,7 @@ Key concepts of Domain-Driven Design include:
 <br/>
 
 #### Tactical Design Patterns   
-**TLDR: DDD gives advice on how to do object oriented programming.**
+**DDD gives advice on how to do object oriented programming to ensure seperating the important business domain logic from infrastructure code.**
 
 * Entities: Objects with a distinct identity that runs through time  
 * Value Objects: Objects that describe characteristics but have no identity  
