@@ -47,5 +47,5 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Process Mapping](../process-mapping)**
 * **[Ruthless Prioritization](../ruthless-prioritization)**
 * **[Stakeholder Management & Engagement](../stakeholder-management-and-engagement)**
-* **Strategic Planning**
+* **[Strategic Planning](../strategic-planning)**
 * **[User Research](../user-research)** - User Interviews, Prototyping, Usability Testing, Accessibility Testing, Continuous Discovery
