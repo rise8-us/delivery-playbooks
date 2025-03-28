@@ -73,7 +73,7 @@ extra:
 theme:
   custom_dir: material/overrides
   name: material
-  logo: logo-rise8.svg
+  logo: riseu-logo.svg
   favicon: https://rise8.us/images/favicons/cropped-rise8-favicon-32x32.png
   palette:
     primary: black
