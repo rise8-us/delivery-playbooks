@@ -29,7 +29,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 ### DevSecOps Practices
 * **[Automated Testing](../automated-testing)** - Test Driven Development (TDD), Tests as Documentation
 * **[Continuous Integration / Continuous Deployment (CI/CD)](../ci-cd)**
-* **Domain Driven Design**
+* **[Domain Driven Design](../domain-driven-design)**
 * **[Environment Control](../environment-control)** - Configuration in the Environment, Containerization, Infrastructure as Code (IaC), Environment Parity
 * **[Platform Health Monitoring & Observability](../platform-health-monitoring-and-observability)**
 * **[Security Early and Throughout](../security-early-and-throughout)** - Continuous Risk Management Framework (cRMF) & Continuous Authority to Operate (cATO)
