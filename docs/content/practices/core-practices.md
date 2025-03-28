@@ -21,8 +21,8 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Facilitation](../facilitation)**
 * **[Feedback](../feedback)**
 * **[Pairing](../pairing)**
-* **Portfolio Management**
-* **Practice Management**
+* **[Portfolio Management](../portfolio-management)**
+* **[Practice Management](../practice-management)**
 * **[Scoping](../scoping)**
 * **[Team Enablement](../team-enablement)** - I do, We do, You do
 

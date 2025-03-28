@@ -11,6 +11,8 @@ nav:
       - content/practices/facilitation.md
       - content/practices/feedback.md
       - content/practices/pairing.md
+      - content/practices/portfolio-management.md
+      - content/practices/practice-management.md
       - content/practices/scoping.md
       - content/practices/team-enablement.md
     - DevSecOps:
