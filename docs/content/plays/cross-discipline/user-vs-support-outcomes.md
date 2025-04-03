@@ -10,8 +10,6 @@ At Rise8, we categorize Outcomes into two key types: **Supporting** and **User-F
 
 ### Key Analogy:
 
-Think of it like building a car:
-
 *   **User-Facing Outcome:** The car gets the customer to their destination faster and more comfortably. (Directly benefits the end user - the driver/passenger)
 *   **Supporting Outcome:** We improve our factory's efficiency by 20% so we can build cars faster. (Benefits the internal team/organization, enabling us to build more cars, but doesn't directly improve the car itself for the user in this specific outcome).
 
