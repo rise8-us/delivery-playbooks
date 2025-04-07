@@ -68,9 +68,9 @@ Here's how all Risers can apply this understanding in their day-to-day work:
     Change in User Behavior: <replace>
     Measured by: <replace>
     Impact on Vet/Caretaker Lives: <replace> <usually need more info here, use ❓ to signal a follow up>
-    Measured by: <replace> <usually need more info here, use❓to signal a follow up>
+    Measured by: <replace> <usually need more info here, use ❓ to signal a follow up>
 
-    2️⃣  ❓Did you have any pains deploying this release or any feedback we can take back to our folks on Platform (Enablement / SecRel / Ops)  to make the next feature even easier?
+    2️⃣  Did you have any pains deploying this release or any feedback we can take back to our folks on Platform (Enablement / SecRel / Ops)  to make the next feature even easier❓
     ```
 
 *   **For Delivering Dev Teams: Share Credit!** You were able to go to prod and your app is hosted through a lot of blood, sweat, and tears of other teams. Tag them on your wins!
