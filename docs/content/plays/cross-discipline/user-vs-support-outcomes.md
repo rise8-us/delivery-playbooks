@@ -1,6 +1,6 @@
 # Supporting Outcomes vs. User-Facing Outcomes: Understanding the Difference at Rise8
 
-## Why is this Distinction Important for Rise8?
+## Why is this Distinction Important?
 
 An analogy we often use is: **"We don't want to build a beautiful bridge to nowhere."** This captures a core concern – delivering amazing internal value (like a perfect developer experience for our teams) is valuable, but if it doesn't *ultimately contribute to the mission* (a User-Facing Outcome), we have to question its true purpose. While we strive to build the "best possible bridge" – efficient and effective infrastructure (a Supporting Outcome)  – we must always ensure it leads somewhere meaningful. This is why, at Rise8, we recognize the importance of both Supporting and User-Facing Outcomes.
 
