@@ -18,6 +18,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Agile Sprint Ceremonies](../agile-ceremonies)** - Standups, Sprint Planning, Sprint Demos, Retrospectives
 * **[Balanced Teams](../balanced-team)**
 * **[Continuous Improvement Cycles](../continuous-improvement-cycles)**
+* **[Dual-track Development](../dual-track-development)**
 * **[Facilitation](../facilitation)**
 * **[Feedback](../feedback)**
 * **[Pairing](../pairing)**
