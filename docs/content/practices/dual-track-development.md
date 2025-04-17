@@ -6,7 +6,9 @@ Dual-track development is a development and delivery approach that involves two 
 * **The Discovery Track** focuses on understanding customer and user needs, and quickly turning them into validated product insights through rapid learning. Key activities in discovery include answering questions, testing ideas, and [Making & Testing Assumptions](../making-and-testing-assumptions). This track emphasizes learning velocity and aims to avoid investing in building the wrong things.
 
 * **The Delivery (or Development) Track** focuses on taking the validated insights from discovery and building, testing, and delivering production-quality software with a focus on predictability and quality. Agile teams in this track often talk about velocity in terms of development output and strive for shippable high-quality software.
- 
+
+![Dual-Track Development](../../assets/dual-track-development.png)
+
 Although visualized as two tracks, discovery and delivery are not meant to be separate processes or have entirely different teams. Instead, they are two parts of one continuous product development process that happen concurrently and continuously. While Product Managers and Designers may lead and orchestrate discovery, the whole team must be involved in discovery tasks wherever possible.
 
 The term "dual-track development" emerged from the work of Desiree Sy, who described a common pattern of rigorous design and validation work alongside Agile development. While the term is now widely used, it's important to understand that it describes two types of work that need to be integrated, not siloed.
