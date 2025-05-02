@@ -41,6 +41,10 @@ cd delivery-playbooks
 mkdocs serve
 ```
 
+> Instead of installing Python locally, you can use the
+[devcontainer configuration](https://code.visualstudio.com/docs/devcontainers/containers)
+in VSCode to run in a pre-configured development environment.
+
 ## More Information
 
 [Kanban Board Link](https://github.com/orgs/rise8-us/projects/19)
