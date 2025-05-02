@@ -58,7 +58,8 @@ nav:
       - content/plays/design/user-research-planning-play.md
       - content/plays/design/Interview-Discussion-Guide.md
       - content/plays/design/design-studio.md
-
+    - Engineering:
+      - content/plays/engineering/ai-generated-code-execution.md
 
   - Roles: # All content for roles are referenced here
     - content/roles/Product-Management-Role-Definition.md
