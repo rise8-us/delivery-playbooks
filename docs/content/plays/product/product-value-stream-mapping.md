@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 What is Value Stream Mapping?
+## What is Value Stream Mapping?
 
 Value Stream Mapping (VSM) is a Lean tool used to visualize the flow of work, materials, and information needed to deliver value to a customer—from request to delivery. In software delivery, this means mapping everything from a user need to production deployment.
 
@@ -14,7 +14,7 @@ At Rise8, we use VSM in relation to Theories of Constraints to reveal how value 
 - **Improving the constraint improves the system:** Focusing efforts on the constraint yields the most significant performance enhancements.
 - **Continuous improvement:** Once a constraint is resolved, another will emerge, necessitating ongoing attention and refinement.
 
-### 🔍 Why is it Valuable?
+### Why is it Valuable?
 
 - **Exposes waste**: Bottlenecks, delays, overprocessing, unused talent, excessive handoffs.
 - **Aligns stakeholders**: Shared visibility across silos.
@@ -22,11 +22,11 @@ At Rise8, we use VSM in relation to Theories of Constraints to reveal how value 
 - **Builds systems thinking**: Understand interdependencies and optimize holistically.
 - **Drives mission impact**: Every step in the stream must contribute to real-world outcomes.
 
-📌 *"VSM gives us the lens to diagnose noise in delivery and rewire teams for continuous value flow."*
+> *"VSM gives us the lens to diagnose noise in delivery and rewire teams for continuous value flow."*
 
----
+<br/>
 
-## 🔄 Where VSM Fits in Our Continuous Improvement Framework
+## Where VSM Fits in Our Continuous Improvement Framework
 
 Value Stream Mapping is the **starting point** for understanding the current condition within the Improvement Kata framework:
 
@@ -39,11 +39,11 @@ Value Stream Mapping is the **starting point** for understanding the current con
 4. **Experiment your way forward**  
    _Use this insight to conduct safe-to-fail experiments._
 
-📌 *If you don’t know what value you're trying to achieve, how value is flowing, or what’s constraining it—start with a VSM.*
+> *If you don’t know what value you're trying to achieve, how value is flowing, or what’s constraining it—start with a VSM.*
 
----
+<br/>
 
-## 🧭 Order of Context Modeling Tools is Intentional
+## Order of Context Modeling Tools is Intentional
 
 ```mermaid
 graph LR
@@ -55,13 +55,13 @@ B --> C[Service Blueprint]
 - **DDD/Event Storming** defines the *how* (bounded contexts, actors, and system behavior).
 - **Service Blueprint** defines the *who and where* (front-stage/back-stage roles and tools).
 
-📌 *Without a Value Stream Map, the rest is fiction.*
+> *Without a Value Stream Map, the rest is fiction.*
 
----
+<br/>
 
-## 🛠️ How to Facilitate a Value Stream Mapping Exercise
+## How to Facilitate a Value Stream Mapping Exercise
 
-### ✅ Pre-Work Checklist
+### Pre-Work Checklist
 
 | Item | Why It’s Needed |
 |------|-----------------|
@@ -74,7 +74,7 @@ B --> C[Service Blueprint]
 
 ---
 
-### 🧩 Key Components to Map
+### Key Components to Map
 
 | Component | Description |
 |----------|-------------|
@@ -88,7 +88,7 @@ B --> C[Service Blueprint]
 
 ---
 
-### 🧭 Facilitation Tips
+### Facilitation Tips
 
 - **Apply a “Go See and Find Out” mentality** – Encourage participants to describe what *really* happens, not what *should* happen.
 - **Timebox mapping per stream** – e.g., conduct iterations of 60–90 minutes for mapping, 30 minutes for analysis, until you have enough clarity to make measurable decisions.
@@ -101,21 +101,21 @@ B --> C[Service Blueprint]
 
 ---
 
-### ⚠️ What to Avoid
+### What to Avoid
 
-- ❌ Mapping systems or roles instead of flows
-- ❌ Rushing straight to solutions
-- ❌ Over-scoping the stream (keep it narrow and meaningful)
-- ❌ Failing to include voices from the edges (e.g., QA, Ops, Compliance)
-- ❌ Over-scoping the stream (keep it narrow and meaningful)
+- Mapping systems or roles instead of flows
+- Rushing straight to solutions
+- Over-scoping the stream (keep it narrow and meaningful)
+- Failing to include voices from the edges (e.g., QA, Ops, Compliance)
+- Over-scoping the stream (keep it narrow and meaningful)
 
 ---
 
-## 🎙️ Facilitation Script & Prescriptive Steps for Building a VSM
+## Facilitation Script & Prescriptive Steps for Building a VSM
 
 Use the following script and facilitation steps to confidently lead a Value Stream Mapping session. This structured approach ensures the session yields a high-quality map and actionable insights.
 
-### 🧑‍🏫 Before the Session
+### Before the Session
 
 1. **Define the scope and objective**  
    _"We’re here to understand how value flows today—so we can unblock it and drive greater mission impact."_
@@ -131,12 +131,12 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 ---
 
-### 🧩 During the Session
+### During the Session
 
-#### 🗣️ Opening Script (5 mins)
+#### Opening Script (5 mins)
 > _"Thanks for joining. Today we’re mapping our value stream to uncover where work gets stuck, who’s involved, and how it flows—or doesn’t flow—across systems and teams. This helps us deliver outcomes faster and with less pain. Our focus is on the **current state**, not what we wish it looked like."_
 
-#### 🧱 Step-by-Step Facilitation
+#### Step-by-Step Facilitation
 
 1. **Establish the mission outcome**
    - _"What’s the core mission this stream supports?"_
@@ -172,7 +172,7 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 ---
 
-### 📌 After the Session
+### After the Session
 
 1. **Document and digitize the map**
    - Use Miro, Lucidchart, or Mural to clean up and archive.
@@ -189,15 +189,15 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 5. **Decide next play**
    - DDD? Service Blueprint? Outcome Roadmap? Start where the pain is highest.
 
-> 🎯 _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
+> _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
 
+<br/>
 
----
-## 🤔 What Comes After a VSM?
+## What Comes After a VSM?
 
 Now that you have a Value Stream Map, it’s time to **act on it**:
 
-### 🔄 Play Recommendations
+### Play Recommendations
 
 | Next Play's to Consider | Why It Follows VSM |
 |-----------|--------------------|
@@ -209,15 +209,15 @@ Now that you have a Value Stream Map, it’s time to **act on it**:
 
 ---
 
-## 📚 References & Learning Resources
+## Relevant Links & Resources
 
 - **Book**: *Value Stream Mapping* by Karen Martin & Mike Osterling – Essential for understanding the lean and facilitation discipline behind VSM.
 - **eBook**: [4 Easy Steps to Mastering Chaos with VSM](https://enterprise-software.broadcom.com/valueops-connectall-insights) – Useful to contextualize modern software VSM.
 - **Concept**: *Improvement Kata* – Learn to iterate toward outcomes: [Toyota Kata](https://www.toyotakata.org/)
 
----
+<br/>
 
-## ✨ Final Thought
+## Final Thought
 
 > “Until you make the invisible visible, you cannot improve it.”  
 > — *W. Edwards Deming*
