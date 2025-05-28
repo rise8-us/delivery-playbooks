@@ -24,7 +24,7 @@ If we can’t measure it, we can’t manage it. But just as important — if we 
 
 Our approach borrows from the best of modern product and platform thinking:
 
-### 🔍 **Identify What Matters**
+### **Identify What Matters**
 We collaborate with stakeholders to define the mission outcomes that matter most — those tied to user goals, delivery health, and business/mission value. These include:
 - **Mission Outcome Metrics**: e.g., lives protected, critical healthcare delivered, crisis aversion rate, dollars saved/re-invested, assets managed, civilian call center efficiency 
 - **Health Metrics**: e.g., lead time for changes, failed deployment rate, mean time to restore, user satisfaction
@@ -32,7 +32,7 @@ We collaborate with stakeholders to define the mission outcomes that matter most
 
 We prioritize *leading indicators* that help us course-correct early, not just lagging results that are too late to change.
 
-### 🧭 **Start with Questions**
+### **Start with Questions**
 Before jumping into dashboards or automation, we begin by asking:
 - What behavior change do we want to see in users?
 - What mission impact are we hoping to achieve?
@@ -40,13 +40,13 @@ Before jumping into dashboards or automation, we begin by asking:
 
 These questions help us frame our data needs around real-world outcomes. Early on, we often track these metrics manually or with simple tools — spreadsheets, surveys, observation — so we can quickly learn what matters. If a low-fidelity solution helps us assess outcomes in prod, we start there. Then, once we’ve validated what’s important, we invest in automation for greater speed and scale.
 
-### ⚙️ **Instrument & Automate**
+### ⚙**Instrument & Automate**
 We lean on tools like Prometheus, Grafana, and feature flag analytics to automate collection where feasible. This reduces manual burden and ensures we capture high-fidelity data in near-real time.
 
-### 📊 **Analyze & Share**
+### **Analyze & Share**
 Data isn’t useful until it’s interpreted. We visualize and review metrics weekly, monthly, and at key product moments (launches, pivots, retros). Dashboards and reports are made accessible to stakeholders to drive shared understanding and accountability.
 
-### ♻️ **Continuously Improve**
+### ♻**Continuously Improve**
 We don’t treat our metrics as static. As our products evolve, so do the questions we ask. Every iteration is an opportunity to refine how we measure success — and to stop measuring what no longer matters.
 
 ---
