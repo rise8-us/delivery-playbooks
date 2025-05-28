@@ -52,7 +52,7 @@ We don’t treat our metrics as static. As our products evolve, so do the questi
 ---
 
 Want to get better at defining the right metrics for your product or service? Start with this question:  
-**“What is the smallest amount of measurable learning, that shows we’re heading in the right direction for mission impact?”**
+***“What is the smallest amount of measurable learning, that shows we’re heading in the right direction for mission impact?”***
 
 Then test, learn, and adapt — just like we do with everything else.
 
