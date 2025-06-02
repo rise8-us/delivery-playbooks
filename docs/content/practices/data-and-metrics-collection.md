@@ -26,6 +26,7 @@ Our approach borrows from the best of modern product and platform thinking:
 
 ### **Identify What Matters**
 We collaborate with stakeholders to define the mission outcomes that matter most — those tied to user goals, delivery health, and business/mission value. These include:
+
 - **Mission Outcome Metrics**: e.g., lives protected, critical healthcare delivered, crisis aversion rate, dollars saved/re-invested, assets managed, civilian call center efficiency 
 - **Health Metrics**: e.g., lead time for changes, failed deployment rate, mean time to restore, user satisfaction
 - **Usage Metrics**: e.g., adoption curves, churn patterns, completion rates
