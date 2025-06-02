@@ -89,6 +89,8 @@ B --> C[Service Blueprint]
 | Facilitation plan | Keeps session on track |
 | Stopwatch or timer | Time measurements if needed |
 
+> *[Value Stream Mapping Supplemental Materials](https://tkmg.com/wp-content/files/VSM-Supplement.pdf) from Karen Martin & Mike Osterling.*
+
 ---
 
 ### Key Components to Map
