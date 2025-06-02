@@ -31,9 +31,9 @@ At Rise8, we use VSM in relation to Theories of Constraints to draw focus to ide
 
 Regardless of your role at Rise8, it's important to understand the three Value Streams that we influence, and their differences:
 
-1. **Customer Mission**: Represents personnel, capabilities and outcomes in production that impact real mission operations (eg. running Air Operations Center missions such as Intelligence, Surveillance, and Reconnaisssance) 
-2. **IT Delivery**: Enables the delivery of mission capabilities, measured up through deployment into a production environment (eg. enabling continuous delivery).
-3. **Rise8 Delivery Service**: How we partner with customers to bridge the gap between output and impact by identifying opportunities for deploying elite software development for mission critical outcomes in production (eg. deliver cloud & platform, apps & digital products as well as cybersecurity & RMF).
+1. **Customer Mission**: Represents personnel, capabilities and outcomes in production that impact real mission operations (e.g. running Air Operations Center missions such as Intelligence, Surveillance, and Reconnaisssance) 
+2. **IT Delivery**: Enables the delivery of mission capabilities, measured up through deployment into a production environment (e.g. enabling continuous delivery).
+3. **Rise8 Delivery Service**: How we partner with customers to bridge the gap between output and impact by identifying opportunities for deploying elite software development for mission critical outcomes in production (e.g. deliver cloud & platform, apps & digital products as well as cybersecurity & RMF).
 
 ```mermaid
 graph LR
