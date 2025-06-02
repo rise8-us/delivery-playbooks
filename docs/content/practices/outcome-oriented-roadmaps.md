@@ -34,9 +34,9 @@ Outcome Oriented Roadmaps
 * Establish and maintain stakeholder and cross-team alignment, collaboration and visibility
 * Leveraged to help create and prioritize our backlogs
 
-## When do it?
+## When to do it?
 
-The following is not an exhaustive list, but should cover the majority of scenarios that a product team may encounter
+The following is not an exhaustive list, but should cover the majority of scenarios that a product team may encounter:
 
 * You’ve joined a team that is deep into development, and there is no roadmap
 * The prioritized backlog is not aligned to support prioritized goals
