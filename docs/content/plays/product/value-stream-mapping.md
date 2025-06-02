@@ -8,7 +8,7 @@
 
 Value Stream Mapping (VSM) is a Lean tool used to visualize the flow of work, materials, and information needed to deliver value to a customer—from request to delivery. In software delivery, this means mapping everything from a user need to production deployment.
 
-At Rise8, we use VSM in relation to Theories of Constraints to reveal how value flows through our system, highlight inefficiencies, and align teams around transformation priorities.
+At Rise8, we use VSM in relation to Theories of Constraints, where the focus is on identifying and removing constraints that limit throughput, to reveal how value flows through our system, highlight inefficiencies, and align teams around transformation priorities. 
 
 - **Every system has a constraint:** This is the factor that most restricts the system's output.
 - **Improving the constraint improves the system:** Focusing efforts on the constraint yields the most significant performance enhancements.
@@ -123,7 +123,6 @@ B --> C[Service Blueprint]
 - Rushing straight to solutions
 - Over-scoping the stream (keep it narrow and meaningful)
 - Failing to include voices from the edges (e.g., QA, Ops, Compliance)
-- Over-scoping the stream (keep it narrow and meaningful)
 
 ---
 
