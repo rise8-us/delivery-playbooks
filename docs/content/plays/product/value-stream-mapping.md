@@ -25,7 +25,6 @@ At Rise8, we use VSM in relation to Theories of Constraints to draw focus to ide
 
 > *"VSM gives us the lens to diagnose noise in delivery and rewire teams for continuous value flow."*
 
-<br/>
 
 ## Three Value Streams to Remember
 
@@ -35,13 +34,8 @@ Regardless of your role at Rise8, it's important to understand the three Value S
 2. **IT Delivery**: Enables the delivery of mission capabilities, measured up through deployment into a production environment (e.g. enabling continuous delivery).
 3. **Rise8 Delivery Service**: How we partner with customers to bridge the gap between output and impact by identifying opportunities for deploying elite software development for mission critical outcomes in production (e.g. deliver cloud & platform, apps & digital products as well as cybersecurity & RMF).
 
-```mermaid
-graph LR
-A[Rise8 Delivery Service] --> B[IT Delivery]
-B --> C[Customer Mission]
-```
+![Vakye Strans](../../../assets/vsm-types.png)
 
-<br/>
 
 ## Where VSM Fits in Our Continuous Improvement Framework
 
@@ -58,15 +52,10 @@ Value Stream Mapping is the **starting point** for understanding the current con
 
 > *If you don’t know what value you're trying to achieve, how value is flowing, or what’s constraining it—start with a VSM.*
 
-<br/>
 
 ## Order of Context Modeling Tools is Intentional
 
-```mermaid
-graph LR
-A[Value Stream Map] --> B[Domain Driven Design / Event Storming]
-B --> C[Service Blueprint]
-```
+![Vakye Strans](../../../assets/vsm-order.png)
 
 - **VSM** defines the *what and why* (business events, mission impact, and flow).
 - **DDD/Event Storming** defines the *how* (bounded contexts, actors, and system behavior).
@@ -74,7 +63,6 @@ B --> C[Service Blueprint]
 
 > *Without a Value Stream Map, the rest is fiction.*
 
-<br/>
 
 ## How to Facilitate a Value Stream Mapping Exercise
 
@@ -209,7 +197,6 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 > _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
 
-<br/>
 
 ## What Comes After a VSM?
 
@@ -237,9 +224,6 @@ Now that you have a Value Stream Map, it’s time to **act on it**:
 - **[Karen Martin’s Value Stream Transformation talk at Prodacity 2025](https://www.rise8.us/videos/value-stream-transformation-mission-accomplished)**
 - **[Labs Practices Value Stream Mapping Workshop](https://labspractices.com/practices/value-stream-map/)**
 - **[Theory of Constraints & Lean Manufacturing](https://www.leanproduction.com/theory-of-constraints/)**
-
-
-<br/>
 
 ## Final Thought
 
