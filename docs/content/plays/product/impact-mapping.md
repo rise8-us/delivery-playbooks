@@ -9,11 +9,15 @@ At Rise8, we use Impact Mapping to:
 - Prioritize deliverables that create real change
 - Avoid building outputs that don't serve user or mission needs
 
+![Vakye Strans](../../../assets/outcomes-over-outputs.png)
+
 Our modified canvas includes four key dimensions:
 - **Business / Mission Impact** (formerly “Goal”)
 - **Actors** (who can influence outcomes)
 - **Outcomes** (behaviors we want to change)
 - **Deliverables** (what we might build)
+
+![Vakye Strans](../../../assets/impact-map-cheatsheet.png)
 
 <br/>
 
