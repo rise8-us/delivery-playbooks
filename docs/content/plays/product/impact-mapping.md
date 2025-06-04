@@ -25,7 +25,7 @@ While you may find a different standard format for Impact Mapping tools outside 
 Impact Mapping helps teams avoid the **feature factory trap** by focusing on what needs to change, for whom, and why. It's a natural complement to:
 - [**Value Stream Mapping**](../product/value-stream-mapping.md), which confirms how value currently flows (or doesn’t), and how to measure it
 - **OKRs**, which define the measurable company or business level goals we’re aiming for
-- **Event Storming**, which models domain events and interactions
+- **[Event Storming](https://labspractices.com/practices/event-storming/), [Boris](https://labspractices.com/practices/boris/), and [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA)**, which models domain events and interactions
 
 When used correctly, Impact Maps:
 - Uncover hidden assumptions
@@ -51,7 +51,7 @@ Before running an Impact Mapping exercise:
 - Without these, you risk generating a list of disconnected activities with no clear prioritization logic, or way of determining success as you run experiments
 
 If you don’t have these yet:
-- Start with [Value Stream Mapping](../product/value-stream-mapping.md), Event Storming and [Service Blueprint](../design/service-blueprint.md) exercises to clarify impact and outcome opportunities
+- Start with [Value Stream Mapping](../product/value-stream-mapping.md), [Event Storming](https://labspractices.com/practices/event-storming/), [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA) and [Service Blueprint](../design/service-blueprint.md) exercises to clarify impact and outcome opportunities
 - Use those outputs to anchor your Impact Map
 
 <br/>
