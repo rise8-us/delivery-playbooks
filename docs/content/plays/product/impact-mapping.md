@@ -11,10 +11,10 @@ At Rise8, we use Impact Mapping to:
 
 ![Vakye Strans](../../../assets/outcomes-over-outputs.png)
 
-Our modified canvas includes four key dimensions:
-- **Business / Mission Impact** (formerly “Goal”)
+While you may find a different standard format for Impact Mapping tools outside of Rise8, we have modified the four key dimensions to match how we speak about ***outcomes in prod*** which was borrowed from Josh Seiden's framing of Outcomes over Outputs:
+- **Business / Mission Impact** (what we want to measurably change for our customer/organization; formerly “Goal”)
 - **Actors** (who can influence outcomes)
-- **Outcomes** (behaviors we want to change)
+- **Outcomes** (system or user behaviors we want to change; formerly "Impact")
 - **Deliverables** (what we might build)
 
 ![Vakye Strans](../../../assets/impact-map-cheatsheet.png)
@@ -122,3 +122,4 @@ If you don’t have these yet:
 ## Relavant Links & Resources
 - [ImpactMapping.org](https://www.impactmapping.org/)
 - Book: [Impact Mapping: Making a Big Impact with Software Products and Projects](https://www.amazon.com/Impact-Mapping-Software-Products-Projects/dp/0955683645)
+- Book: [Outcomes Over Output: Why customer behavior is the key metric for business success](https://www.amazon.com/Outcomes-Over-Output-customer-behavior/dp/1091173265)
