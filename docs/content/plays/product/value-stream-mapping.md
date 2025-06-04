@@ -1,4 +1,3 @@
-
 # Value Stream Mapping (VSM) Play  
 *A Strategic Guide for Grasping Current State and Accelerating Mission Impact*
 
@@ -58,7 +57,7 @@ Value Stream Mapping is the **starting point** for understanding the current con
 ![Vakye Strans](../../../assets/vsm-order.png)
 
 - **VSM** defines the *what and why* (business events, mission impact, and flow).
-- **DDD/Event Storming** defines the *how* (bounded contexts, actors, and system behavior).
+- **Domain Modeling ([Event Storming](https://labspractices.com/practices/event-storming/), [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA))** defines the *how* (bounded contexts, actors, and system behavior).
 - **[Service Blueprint](../design/service-blueprint.md)** defines the *who and where* (front-stage/back-stage roles and tools).
 
 > *Without a Value Stream Map, the rest is fiction.*
@@ -237,7 +236,7 @@ Now that you have a Value Stream Map, it’s time to **act on it**:
 | Next Play's to Consider | Why It Follows VSM |
 |-----------|--------------------|
 | **Improvement Kata** | Confirm current and target conditions & prioritize changes to test how you could unblock value |
-| **Event Storming / Domain Modeling** | Model the supporting systems and bounded contexts |
+| **Domain Modeling ([Event Storming](https://labspractices.com/practices/event-storming/), [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA))** | Model the supporting systems and bounded contexts |
 | **[Service Blueprint](../design/service-blueprint.md)** | Define user experience & operational architecture |
 | **[Impact Mapping](../product/impact-mapping.md)** | Clarify initiative scope by tying improvements to outcomes in prod with measurable user/system behavior changes & mission impact |
 | **[Outcome-Oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)** | Communicate and align your team and stakeholders to what gets worked now, next and later to address our value stream current conditions |
