@@ -98,7 +98,7 @@ Value Stream Mapping is the **starting point** for understanding the current con
 
 1. **Apply a “Go See and Find Out” mentality** – Encourage participants to describe what *really* happens, not what *should* happen.
 2. **Timebox mapping per stream** – e.g., conduct iterations of 60–90 minutes for mapping, 30 minutes for analysis, until you have enough clarity to make measurable decisions.
-3. **Ask probing questions**: - What mission impact are we trying to enable? What causes delays here? Where do handoffs break down? Where do you wait on feedback? Where do we often repeat steps/work?
+3. **Ask probing questions** - What mission impact are we trying to enable? What causes delays here? Where do handoffs break down? Where do you wait on feedback? Where do we often repeat steps/work?
 4. **Avoid mapping wishful thinking** – It’s about the current state, not the ideal (this is more of a focus for Service Blueprint artifacts).
 
 ---
