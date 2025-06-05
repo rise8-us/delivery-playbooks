@@ -69,31 +69,13 @@ If you don’t have these yet:
 | Whiteboarding Tool | Miro, Mural, Figjam, or physical whiteboard with sticky notes |
 
 ### Facilitation Steps
-
-1. **Frame the Mission Impact**
-   - Revisit the VSM or OKR related quantified impact you’re targeting
-   - Write this at the top of the canvas under **Business / Mission Impact**
-   - Ensure shared clarity across all participants
-
-2. **Identify Actors**
-   - Who can enable or block this impact?
-   - Consider internal roles, external users, partners, and regulators
-   - Capture each actor in the second column
-
-3. **Define Behavioral Outcomes**
-   - For each actor, what specific behavior must change?
-   - Use the format: _"We need [actor] to [do something measurably differently]"
-   - Focus on behavior, not sentiment
-
-4. **Brainstorm Potential Deliverables**
-   - What could we build to influence these behaviors?
-   - List multiple options per outcome — don’t filter too early
-   - Use this moment to provoke critical conversations ("Will this actually cause the behavior change?")
-
-5. **Cluster and Prioritize**
-   - Group deliverables that support the same outcome
-   - Assess risk vs impact to focus efforts
-   - Use dot voting or effort-impact 2x2 prioritization if needed
+| Step | Actions to take |
+|------|-----------------|
+| **1. Frame the Mission Impact** | - Revisit the VSM or OKR related quantified impact you’re targeting<br>- Write this at the top of the canvas under **Business / Mission Impact**<br>- Ensure shared clarity across all participants |
+| **2. Identify Actors** | - Who can enable or block this impact?<br>- Consider internal roles, external users, partners, and regulators<br>- Capture each actor in the second column |
+| **3. Define Behavioral Outcomes** | - For each actor, what specific behavior must change?<br>- Use the format: _"We need [actor] to [do something measurably differently]"<br>- Focus on behavior, not sentiment |
+| **4. Brainstorm Potential Deliverables** | - What could we build to influence these behaviors?<br>- List multiple options per outcome — don’t filter too early<br>- Use this moment to provoke critical conversations ("Will this actually cause the behavior change?") |
+| **5. Cluster and Prioritize** | - Group deliverables that support the same outcome<br>- Assess risk vs impact to focus efforts<br>- Use dot voting or effort-impact 2x2 prioritization if needed |
 
 ### Tips for Better Output
 - Encourage divergent thinking early, then converge later
