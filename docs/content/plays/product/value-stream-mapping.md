@@ -97,22 +97,9 @@ Value Stream Mapping is the **starting point** for understanding the current con
 ### Facilitation Tips
 
 1. **Apply a “Go See and Find Out” mentality** – Encourage participants to describe what *really* happens, not what *should* happen.
-
 2. **Timebox mapping per stream** – e.g., conduct iterations of 60–90 minutes for mapping, 30 minutes for analysis, until you have enough clarity to make measurable decisions.
-
-3. **Ask probing questions**:
-
-   _What mission impact are we trying to enable?_
-
-   _What causes delays here?_
-
-   _Where do handoffs break down?_
-
-   _Where do you wait on feedback?_
-
-   _Where do we often repeat steps/work?_
-
-5. **Avoid mapping wishful thinking** – It’s about the current state, not the ideal (this is more of a focus for Service Blueprint artifacts).
+3. **Ask probing questions**: - What mission impact are we trying to enable? What causes delays here? Where do handoffs break down? Where do you wait on feedback? Where do we often repeat steps/work?
+4. **Avoid mapping wishful thinking** – It’s about the current state, not the ideal (this is more of a focus for Service Blueprint artifacts).
 
 ---
 
@@ -152,77 +139,26 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 #### Step-by-Step Facilitation
 
-1. **Establish the mission outcome**
-
-   _"What’s the core mission this stream supports?" (e.g., “Deliver approved benefits to Veterans”)_
-
-2. **Identify the triggering event**
-
-   _"What starts the process?" (e.g., “Veteran submits claim”)_
-
-3. **Map major process steps**
-
-   Use stickies or virtual cards.
-
-   Ask after each step: _“What happens next?”_
-
-4. **Add actors to each step**
-
-   _"Who does this work?"_
-
-5. **Identify tools/systems used**
-
-   _"What tools support this step?"_
-
-6. **Estimate durations and wait times**
-
-   _"How long does this take?"_
-   
-   _"How long does it wait?"_
-
-7. **Mark handoffs and dependencies**
-
-   Use arrows to denote transitions or approvals.
-
-8. **Capture pain points**
-
-   _"Where do things break down?"_
-
-   _"What causes delay or rework?"_
-
-9. **Highlight visible and invisible work**
-
-   Surface shadow systems, workaround steps, manual interventions.
-
-10. **Review the full map**
-
-    _"What surprises you?"_
-
-    _"Where do we lose the most time or value?"_
+1. **Establish the mission outcome** - "What’s the core mission this stream supports?" (e.g., “Deliver approved benefits to Veterans”)
+2. **Identify the triggering event** - "What starts the process?" (e.g., “Veteran submits claim”)
+3. **Map major process steps** - Use stickies or virtual cards, and ask, “What happens next?” after each step
+4. **Add actors to each step** - "Who does this work?"
+5. **Identify tools/systems used** - "What tools support this step?"
+6. **Estimate durations and wait times** - "How long does this take?"  "How long does it wait?"
+7. **Mark handoffs and dependencies** - Use arrows to denote transitions or approvals.
+8. **Capture pain points** - "Where do things break down?"  "What causes delay or rework?"
+9. **Highlight visible and invisible work** - Surface shadow systems, workaround steps, manual interventions.
+10. **Review the full map** - "What surprises you?"  "Where do we lose the most time or value?"
 
 ---
 
 ### After the Session
 
-1. **Document and digitize the map**
-
-   Use Miro, Lucidchart, or Mural to clean up and archive.
-
-3. **Synthesize insights**
-
-   Highlight biggest bottlenecks, gaps, or silos.
-
-4. **Debrief with participants**
-
-   Share early takeaways and thank them for candor.
-
-5. **Link to Improvement Kata**
-
-   Define the next target condition using the VSM output.
-
-6. **Decide next play**
-
-   DDD? [Service Blueprint](../design/service-blueprint.md)? [Outcome-Oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)? Start where the pain is highest.
+1. **Document and digitize the map** - Use Miro, Lucidchart, or Mural to clean up and archive.
+2. **Synthesize insights** - Highlight biggest bottlenecks, gaps, or silos.
+3. **Debrief with participants** - Share early takeaways and thank them for candor.
+4. **Link to Improvement Kata** - Define the next target condition using the VSM output.
+5. **Decide next play** - DDD?  [Service Blueprint](../design/service-blueprint.md)?  [Outcome-Oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)?
 
 > _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
 
