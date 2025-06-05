@@ -1,4 +1,4 @@
-# Impact Mapping Play
+# Impact Mapping
 
 ## What is Impact Mapping?
 Impact Mapping is a strategic planning and alignment technique designed to help teams visualize the cause-and-effect relationship between the outcomes they aim to achieve and the deliverables they plan to build. It creates a shared understanding among cross-functional teams about what will drive meaningful mission or business impact.
