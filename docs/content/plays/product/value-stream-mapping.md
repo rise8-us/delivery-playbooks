@@ -1,4 +1,4 @@
-# Value Stream Mapping (VSM) Play  
+# Value Stream Mapping (VSM)
 *A Strategic Guide for Grasping Current State and Accelerating Mission Impact*
 
 ---
