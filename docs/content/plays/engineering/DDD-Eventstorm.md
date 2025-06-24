@@ -93,7 +93,7 @@ The primary goal is designing the detailed domain model (Aggregates, Commands, P
   * A clear understanding of the Aggregates and their invariants, forming the core of your domain model.  
   * Input for writing user stories, specifications by example, and designing the actual code.
 
-  #### Steps
+#### Steps
 
 1. **Preparation (Pre-Workshop):**  
    * **Define a Clear Goal:** What specific business problem or large domain are you trying to understand? (e.g., "Understand the entire customer lifecycle," "Map our core product delivery value stream," "Identify Bounded Contexts for a new microservices architecture").  
@@ -125,13 +125,13 @@ The primary goal is designing the detailed domain model (Aggregates, Commands, P
      * Significant complexity.  
      * Bottlenecks or long wait times.  
    * These hotspots indicate areas that need more attention or might delineate future Bounded Contexts.  
-7. **Identify Commands & Actors (Blue/Yellow Sticky Notes):**  
+7. **Identify Commands & Actors (Blue Sticky Notes):**  
    * For each event, ask: "What triggered this event?" (a **Command** \- blue sticky) and "Who or what issued that command?" (an **Actor/System** \- yellow sticky).  
    * Place commands to the left of the event they cause, and actors/systems above the command. This builds out the causal chain.  
 8. **Identify Policies (Purple Sticky Notes):**  
    * These are the rules or reactions to events. "When \[Event happens\], then \[Policy causes something else to happen\]."  
    * Place them between an event and the command/event it triggers.  
-9. **Identify External Systems (Pink/Green Sticky Notes \- Optional):**  
+9. **Identify External Systems (Gray Sticky Notes \- Optional):**  
    * If relevant, add notes for external systems (e.g., Payment Gateway, CRM) that interact with your domain.  
 10. **Discover Bounded Contexts:**  
     * **Look for Consistency:** Observe clusters of sticky notes (events, commands, actors) where the Ubiquitous Language feels consistent and specific.  
@@ -157,32 +157,38 @@ The primary goal is designing the detailed domain model (Aggregates, Commands, P
 * **Syntax:** Always written in the **past tense** (e.g., "Order Placed," "Payment Processed," "User Registered," "Inventory Updated," "Shipment Dispatched").  
 * **Role:** These are the backbone of the Event Storm. They define the narrative of your domain. You start by identifying these.  
 * **Placement:** Placed on the main timeline, from left to right in chronological order.  
-  **Command (Blue 🔵):**  
+
+**Command (Blue 🔵):**  
 * **What it is:** An action or request that triggers a Domain Event. It's an intention to make something happen.  
 * **Syntax:** Written as a **verb in the imperative mood** (e.g., "Place Order," "Process Payment," "Register User," "Update Inventory," "Dispatch Shipment").  
 * **Role:** Explains *why* an event happened. Commands lead to events.  
 * **Placement:** Placed immediately to the left of the Domain Event it causes.  
-  **Actor / User / External System (Yellow 🟡):**  
+
+**Actor / User / External System (Yellow 🟡):**  
 * **What it is:** The person or external system that initiates a Command.  
 * **Syntax:** Noun (e.g., "Customer," "Warehouse Worker," "Payment Gateway," "CRM System," "Scheduler").  
 * **Role:** Identifies who or what is performing the action.  
 * **Placement:** Placed above the Command they issue.  
-  **Aggregate (Pink 🌸) :**  
+
+**Aggregate (Pink 🌸) :**  
 * **What it is:** A cluster of Entities and Value Objects that are treated as a single unit for data changes, ensuring transactional consistency. It has an Aggregate Root that is the only entry point for changes within the aggregate.  
 * **Syntax:** Noun, usually singular (e.g., "Order," "Product," "CustomerAccount," "Invoice").  
 * **Role:** These are the transactional boundaries. Events originate from Aggregates, and Commands target them. They enforce business rules (invariants).  
 * **Placement:** Usually placed above the events and commands they are associated with, often encircling them visually. This is more prominent in tactical Event Storms.  
-  **Policy / Reaction (Purple 🟣):**  
+
+**Policy / Reaction (Purple 🟣):**  
 * **What it is:** A business rule or reaction that triggers a new Command or Event when a specific Domain Event occurs. It represents a side effect or a consequential action.  
 * **Syntax:** Often a phrase like "When \[Event\] then \[Command/Action\]" or "If \[Condition\] then \[Action\]." (e.g., "When Order Placed then Notify Warehouse," "If Payment Fails then Refund Customer").  
 * **Role:** Shows how events lead to further actions within the system, often automating responses.  
 * **Placement:** Placed to the right of the Domain Event it reacts to, and to the left of the Command/Event it triggers.  
-  **Read Model / View (Green 🟢):**  
+
+**Read Model / View (Green 🟢):**  
 * **What it is:** A data projection or a specific view of data optimized for queries or displaying information to a user. It represents a source of information.  
 * **Syntax:** Noun (e.g., "Customer Dashboard," "Product Listing Page," "Order History").  
 * **Role:** Identifies where information is consumed. It often consumes data from events.  
 * **Placement:** Placed above the events that contribute data to it, or above the actors/users who view it. More common in tactical Event Storms.  
-  **Hot Spot / Problem (Red 🔴):**  
+
+**Hot Spot / Problem (Red 🔴):**  
 * **What it is:** An area of pain, confusion, disagreement, or a known bottleneck in the current process.  
 * **Syntax:** A short description of the problem (e.g., "Manual Handoff," "Frequent Errors," "Conflicting Definitions," "Long Approval Time").  
 * **Role:** To highlight areas that need further discussion, clarification, or are candidates for improvement.  
@@ -214,5 +220,7 @@ The primary goal is designing the detailed domain model (Aggregates, Commands, P
 
 ### Relevant Links
 
-* [Domain-Driven Design Practice](https://github.com/rise8-us/delivery-playbooks/blob/add-ddd-eventstorm-play/docs/content/practices/domain-driven-design.md)
+* [Domain-Driven Design Practice](https://delivery-playbooks.rise8.us/content/practices/domain-driven-design/)
+* [Figjam Eventstorm Template](https://www.figma.com/board/cweMw6Yq7ldKCz6KEDN6be/Eventstorm-Template?node-id=0-1&p=f&t=k7UtLcx5BhaS0yVF-0)
+
 
