@@ -125,7 +125,7 @@ The primary goal is designing the detailed domain model (Aggregates, Commands, P
      * Significant complexity.  
      * Bottlenecks or long wait times.  
    * These hotspots indicate areas that need more attention or might delineate future Bounded Contexts.  
-7. **Identify Commands & Actors (Blue Sticky Notes):**  
+7. **Identify Commands & Actors (Blue & Yellow Sticky Notes):**  
    * For each event, ask: "What triggered this event?" (a **Command** \- blue sticky) and "Who or what issued that command?" (an **Actor/System** \- yellow sticky).  
    * Place commands to the left of the event they cause, and actors/systems above the command. This builds out the causal chain.  
 8. **Identify Policies (Purple Sticky Notes):**  
@@ -167,6 +167,12 @@ The primary goal is designing the detailed domain model (Aggregates, Commands, P
 **Actor / User / External System (Yellow 🟡):**  
 * **What it is:** The person or external system that initiates a Command.  
 * **Syntax:** Noun (e.g., "Customer," "Warehouse Worker," "Payment Gateway," "CRM System," "Scheduler").  
+* **Role:** Identifies who or what is performing the action.  
+* **Placement:** Placed above the Command they issue.
+
+**External System (Gray):**  
+* **What it is:**  External system that initiates a Command.  
+* **Syntax:** Noun (e.g., "Payment Gateway," "CRM System," "Scheduler").  
 * **Role:** Identifies who or what is performing the action.  
 * **Placement:** Placed above the Command they issue.  
 
@@ -210,7 +216,7 @@ The primary goal is designing the detailed domain model (Aggregates, Commands, P
 
 **Policy:** A business rule or reaction that describes what happens **when** a specific event occurs, often leading to a new command or event (e.g., "When Order Placed then Notify Warehouse").
 
-**Actor:** A person or external system that initiates a command or interacts with the system (e.g., "Customer," "CI Pipeline," "Payment Gateway").
+**Actor:** A person that initiates a command or interacts with the system (e.g., "Customer," "CI Pipeline," "Payment Gateway").
 
 **Entity:** An object defined by its distinct identity, which persists over time and across different representations (e.g., a specific `Customer` with an ID, a unique `Order`).
 
