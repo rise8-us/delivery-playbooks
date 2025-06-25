@@ -105,3 +105,7 @@ If you don’t have these yet:
 - [ImpactMapping.org](https://www.impactmapping.org/)
 - Book: [Impact Mapping: Making a Big Impact with Software Products and Projects](https://www.amazon.com/Impact-Mapping-Software-Products-Projects/dp/0955683645)
 - Book: [Outcomes Over Output: Why customer behavior is the key metric for business success](https://www.amazon.com/Outcomes-Over-Output-customer-behavior/dp/1091173265)
+- YouTube: [Imapct Mapping & Story Mapping](https://youtu.be/yQzIfKzU9PI?feature=shared&t=240)
+- Slides: [Impact Maps & Story Maps - Delivering what really matters](https://www.slideshare.net/slideshow/2014-0618srdimpact-mapsstorymapsen/36019733)
+
+
