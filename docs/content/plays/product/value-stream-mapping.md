@@ -189,5 +189,6 @@ Now that you have a Value Stream Map, it’s time to **act on it**:
 - **[RiseU Core Practice of Process Mapping](https://delivery-playbooks.rise8.us/content/practices/process-mapping/)**
 - **[Karen Martin’s Value Stream Transformation talk at Prodacity 2025](https://www.rise8.us/videos/value-stream-transformation-mission-accomplished)**
 - **[Labs Practices Value Stream Mapping Workshop](https://labspractices.com/practices/value-stream-map/)**
+- **[DORA Value Stream Map](https://dora.dev/guides/value-stream-management/)**
 - **[Theory of Constraints & Lean Manufacturing](https://www.leanproduction.com/theory-of-constraints/)**
 
