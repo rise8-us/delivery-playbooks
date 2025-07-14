@@ -158,7 +158,6 @@ We recommend involving your team members early and often when scoping out storie
 > Java 17 documentation can be found here
 
 ## Relevant Links
-* [User Stories Applied for Agile Software development](https://github.com/free-educa/books/blob/main/books/User-Stories-Applied-Mike-Cohn.pdf) by Mike Cohn 
 * [How to Write Better User Stories with Gherkin](https://userpilot.com/blog/user-stories-templates/)
 
 
