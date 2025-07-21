@@ -18,7 +18,7 @@ At Rise8, our goal is not just to deliver software but to continuously deliver s
 
 #### 2. Reduce Risk Through Continuous Learning
 
-One of the biggest challenges in large-scale government projects is risk—both in terms of security and usability. A Lean approach to strategic planning mitigates risk by emphasizing small, incremental changes over large, risky bets.
+One of the biggest challenges in large-scale government projects is risk—both in terms of security and usability. A Lean approach to strategic planning, mitigates risks by emphasizing smaller hypotheses and assumption testing, by introducing smaller incremental changes over large, or complex, hypotheses. The key is to learn quickly, and intentionally. When we introduce high amounts of complexity, we also inherit a lot of unnecessary risk.
 
 By working in short cycles, getting user feedback early, and testing assumptions before full-scale implementation, we can de-risk our initiatives. This is particularly crucial in government, where security and compliance requirements often slow down progress.
 
@@ -35,7 +35,7 @@ A clear strategy provides teams with a shared mission while allowing autonomy in
 By defining measures for success up front, we ensure that teams can move fast while staying aligned with the broader organizational mission. We do this by aligning and revisiting the following in our delivery efforts:
 
 * North-star metrics (i.e. One Mission Metric that Matters) for long term focus
-* Objectives and Key Results (OKRs) for deliberate short and long term bets
+* Objectives and Key Results (OKRs) for deliberate short and long term hypotheses
 * Key Performance Indicators (KPIs) to ensure operations are performing as expected
 
 ## Planning Horizons: A Key Framework for Strategic Execution
@@ -84,7 +84,7 @@ Leveraging planning horizons ensures that strategic planning remains actionable.
 
 Align teams on a shared vision while allowing flexibility in execution
 
-* Use real-time data to refine near-term plans and validate mid-term bets
+* Use real-time data to test near-term hypotheses and refine mid-term or long-term hypotheses
 * Encourage innovation while maintaining focus on delivering value today
 * Reassess priorities regularly to ensure ongoing alignment with mission goals
 
