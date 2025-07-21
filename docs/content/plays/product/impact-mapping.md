@@ -88,7 +88,7 @@ If you don’t have these yet:
 |--------|------------------|
 | Jumping straight to, and working backwards from, deliverables | Force conversation to stay in Outcomes layer until well-explored |
 | Vague impact statements | Quantify impact — don’t settle for "improve UX" or "streamline workflow" |
-| Overloading the map | Limit deliverables to high-impact bets, not every possible idea |
+| Overloading the map | Limit deliverables to high-impact hypotheses, not every possible idea |
 | Groupthink | Actively invite dissenting views to expose blind spots |
 
 <br/>
