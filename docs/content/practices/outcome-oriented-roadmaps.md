@@ -90,7 +90,8 @@ A Lean Product Canvas is a one-page, problem-solution-fit framework designed to 
 
 ### Relevant Links
 
-* [Rise8 Standard Outcome Oriented Roadmaps (Internal Link)](https://docs.google.com/presentation/d/1jypCNSf423-zyKfJMS2zQ5_a9cZUOLtTE8xbD-7jo7A/edit#slide=id.g30b2d31cd4f_0_0)
+* [Rise8 Standard Outcome-oriented Roadmap Template (Internal Link)](https://docs.google.com/presentation/d/1jypCNSf423-zyKfJMS2zQ5_a9cZUOLtTE8xbD-7jo7A/edit?slide=id.g33b9f42ef8b_0_1227&pli=1#slide=id.g33b9f42ef8b_0_1227)
+* [Acceptance Criteria - "What good looks like" (Internal Link)](https://docs.google.com/presentation/d/1jypCNSf423-zyKfJMS2zQ5_a9cZUOLtTE8xbD-7jo7A/edit?slide=id.g36322af4c1d_1_83&pli=1#slide=id.g36322af4c1d_1_83)
 * [Lean Business Model Canvas](https://labspractices.com/practices/lean-business-canvas/)
 * [Why “MVP” is Confusing](https://tajmo.medium.com/why-mvp-is-a-contronym-40af0fcb74c0)
 * [SVP: The Shoddiest Viable Product](https://blogs.vmware.com/tanzu/svp-the-shoddiest-viable-product/)
