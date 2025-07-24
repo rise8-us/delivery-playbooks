@@ -1,30 +1,32 @@
 # Outcome Oriented Roadmaps
 
 ## What is it?
-A communication and planning tool that shows sequential experiments with expected outcomes and business or mission impacts, that help execute against your strategy and build towards your vision. At Rise8, Outcomes are categorized as either ***supporting*** (creating value for internal teams) or ***user-facing*** (creating value for civilians, operators, or warfighters), and if we successfully witness user or system behavior change outcomes, we also expect that to drive meaningful business or mission impact.
+A strategy communication tool that highlights prioritized experiments with expected outcomes and mission/business impacts. Outcome-oriented Roadmaps help align execution plansto our overall Mission and One Mission Metric That Matters (OMMTM). At Rise8, Outcomes in Prod are categorized as either ***supporting*** (creating opportunities to enable user-facing outcomes; enabling continuous delivery for an organization is a classic example) or ***user-facing*** (generating value for civilians, operators, or warfighters, and thus achieving the actual customer mission). An Outcome in Prod is considered, a measurable change in user or system behavior (ie outcome), and leads to measurable mission/business results (ie impact).
 
 ![Outcome-Oriented Roadmap](../../assets/oor.png)
 
 Every outcome-in-prod hypothesis experiment includes components that mimic the scientific method.
 
-* A **problem/opportunity** statement anchors to both user sentiment and the impact to the business/mission, that is caused by current challenges and behaviors
-* The **test** will outline our hypothesis, based on the thing we will build, do, or make in order to validate our assumption(s). Here is where we should clarify critical parameters that inform what will produce a confident test result (e.g. volume or quantity of data, segments, time, etc.)
-* Our hypothesis is valid if we see a measurable behavior change for our users or system (i.e. an increase or decrease from X to Y) as the **outcome**
-* And we expect this will result in a measurable **business or mission impact**
+* **Problem/Opportunity:** a succinct explanation of how our user or system persona’s goals/wants/needs are not being met (think jobs to be done), and how that currently impacts the mission.
+* **Hypothesis:** a succinct narrative of what we will do/build, and how we believe that will change user/system behavior, thus leading to mission impacts. 
 
-### Lean Product Canvas
+> ***“We believe [output(s) → solutions we plan to do/build], will drive [outcome → a desired user/system behavior change] and lead to [mission impact → a result that is generated].”***
 
-A Lean Product Canvas is a one-page, problem-solution-fit template designed to help entrepreneurs and product teams systematically evaluate and validate their riskiest assumptions before focusing on product-market-fit. Adapted from the Lean Business Model Canvas, it focuses specifically on the essential elements of a product strategy while aligning with lean and agile principles. The following are key components of a Lean Product Canvas:
+* **Outcome:** The measurable evidence we expect to observe for user or system behavior changes (think leading indicator)
 
-![Lean Canvas](../../assets/lean-canvas.png)
+> ***"Our hypothesis is valid if…[replace with quantitative and/or qualitative measures of user/system behavior change]"***
+
+* **Impact:** The measurable evidence we expect to observe for mission/business impact (think lagging indicator) 
+
+> ***"Leading to…[replace with quantitative and/or qualitative measures of mission impact]"***
 
 ### Uncertainty in a Roadmap
 
-Typically, the further out something is on a roadmap, the less certain we are about it. Product Managers and Product Designers pair to structure research efforts that bring clarity to roadmap items as the team works toward them. This continuous discovery of future opportunities weaves into continuous delivery sometimes known as “dual track agile.” Teams practicing continuous discovery alongside continuous delivery are learning about the product they just delivered alongside learning about other product opportunities to inform the future roadmap.
+Typically, the further out something is on a roadmap, the less certain we are about it. Product Managers and Product Designers pair to structure research efforts that bring clarity to roadmap items as the team works toward them. This continuous discovery of future opportunities weaves into continuous delivery sometimes known as “dual track agile.” We recommend highlighting learning objectives under "Additional Details" to indicate additional insights we hope to capture and utilize for framing future opportunities.
 
 ## Why do it?
 
-By building a roadmap centered around outcomes (rather than outputs), teams are able to align with stakeholders on what success looks like without being tied to any particular solution. Success is defined around the desired change in user behavior and we detach that change from the solutions which may get us there. This flexibility is key for agile development as it allows teams to set goals early, independent from knowing how exactly they will actually achieve success. This reinforces design thinking practices and allows teams to explore the whole solution space and reframe solution outputs as experiments centered around product assumptions. Aligning around outcomes with leadership has the additional benefit of keeping autonomy at the team level; teams can best determine how to achieve the outcome leveraging the balanced team perspective to find a successful solution.
+By building a roadmap centered around outcomes (rather than outputs), teams are able to align with stakeholders on what success looks like without being tied to any particular solution. Success is defined around the desired change in user or system behavior, and we detach that change from the solutions which may get us there. This flexibility is key for agile development as it allows teams to set goals early, independent from knowing how exactly they will actually achieve success. This reinforces design thinking practices and allows teams to explore the whole solution space and reframe solution outputs as experiments centered around product assumptions. Aligning around outcomes with leadership has the additional benefit of keeping autonomy at the team level; teams can best determine how to achieve the outcome leveraging the balanced team perspective to find a successful solution.
 
 Outcome Oriented Roadmaps
 
@@ -43,6 +45,48 @@ The following is not an exhaustive list, but should cover the majority of scenar
 * As you are closing out Discovery & Framing (D\&F), and have settled on a product vision, and prioritized goal(s), user(s), problem(s) and a solution
 * On a time-based cadence (e.g. monthly or quarterly) that aligns with your teams approach to delivery
 * On an event-based cadence where each release produces empirical evidence that immediately informs prioritization decisions for the next experiment
+
+## What does a good Outcome-oriented Roadmap look like?
+
+The following acceptance criteria has been provided to assist all delivery teams in self-evaluating if there is more work to be done to improve the efficacy of our planned outcomes in prod:
+
+***Problem/Opportunity: Are the following clear and succinct?***
+
+* System or User Persona w/ pain,need, or goal
+* How that is currently impacting the mission
+* Ideally highlighting baselined qual./quant. Metrics
+
+***Hypothesis: The following format is adopted, clear and concise:***
+
+* “We believe [activities, outputs, and experiment parameters] will result in [ideal behavior and mission changes]”
+
+***Outcome: The following format is adopted, clear and concise:***
+
+* “Our hypothesis is valid if… [replace with measurable user/system behavior change(s)]”
+* Preferably, highlight the shift from metric baseline “x” to target “y”
+
+***Impact: The following format is adopted, clear and concise:***
+
+* “Leading to…[replace with measurable business/program/mission impact(s)]”
+* Never repeats Outcome success criteria above
+* More time for x" assumes that more of what is valuable is being accomplished - prove it!
+* Preferably, highlight the shift from metric baseline “x” to target “y”
+
+### Some Mission/Business Impacts Require Multiple Outcomes
+
+Sometimes we have to solve two problems, or adjust two behaviors, in order to achieve the desired mission/business impact. Below demonstrates a clear example between the sixth and tenth week of our roadmap
+
+![Outcome-Oriented Roadmap](../../assets/oor-multiple-outcomes.png)
+
+### Example of a good Outcome-oriented Roadmap
+
+![Outcome-Oriented Roadmap](../../assets/oor-good.png)
+
+## Lean Product Canvas Can Identify Gaps in Strategy
+
+A Lean Product Canvas is a one-page, problem-solution-fit framework designed to help delivery teams systematically evaluate and validate their riskiest assumptions before focusing on product-market-fit. Adapted from the Lean Business Model Canvas, it focuses on the essential elements of a product or service strategy which can also help identify gaps. The following are key components of a Lean Product Canvas:
+
+![Lean Canvas](../../assets/lean-canvas.png)
 
 ### Relevant Links
 
