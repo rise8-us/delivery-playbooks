@@ -15,7 +15,7 @@ We believe every Riser should be able to speak to every Core Practice at a high 
 The following is our list of Core Practices and when applicable show some sub-practices which fall under the higher level practice.
 
 ### Teaming, Ceremonies & Collaboration Practices
-* **[Agile Sprint Ceremonies](../agile-ceremonies)** - Standups, Sprint Planning, Sprint Demos, Retrospectives
+* **[Agile Ceremonies](../agile-ceremonies)**
 * **[Balanced Teams](../balanced-team)**
 * **[Continuous Improvement Cycles](../continuous-improvement-cycles)**
 * **[Dual-track Development](../dual-track-development)**
@@ -25,7 +25,7 @@ The following is our list of Core Practices and when applicable show some sub-pr
 * **[Portfolio Management](../portfolio-management)**
 * **[Practice Management](../practice-management)**
 * **[Scoping](../scoping)**
-* **[Team Enablement](../team-enablement)** - I do, We do, You do
+* **[Team Enablement](../team-enablement)**
 
 ### DevSecOps Practices
 * **[Automated Testing](../automated-testing)** - Test Driven Development (TDD), Tests as Documentation

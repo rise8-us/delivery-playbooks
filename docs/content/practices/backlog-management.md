@@ -43,7 +43,7 @@ Effective Backlog Management isn't magic – it's a set of practical, learnable 
 
     *   Don't just create a long list – **actively prioritize** the backlog, ensuring the most valuable items are at the top and ready to be worked on first.  This is about maximizing value delivery and aligning with your product vision.
     *   **Actionable Techniques:**
-        *   **Value-Based Prioritization:**  Consistently prioritize based on user value, business value, and strategic alignment (as discussed in our article on [Ruthless Prioritization](https://delivery-playbooks.rise8.us/content/practices/ruthless-prioritization/)). For a detailed guide on backlog prioritization techniques, see our [Backlog Prioritization Playbook](https://delivery-playbooks.rise8.us/content/plays/product/backlog-prioritization/).
+        *   **Value-Based Prioritization:**  Consistently prioritize based on user value, business value, and strategic alignment (as discussed in our article on [Ruthless Prioritization](../practices/ruthless-prioritization.md)). For a detailed guide on backlog prioritization techniques, see our [Backlog Prioritization Play](../plays/product/backlog-prioritization.md).
         *   **Risk-Based Prioritization:**  Prioritize the backlog to test the riskiest assumptions first and begin to generate validated learnings to steer product direction.
         *   **Use Prioritization Frameworks:** Employ techniques like [MoSCoW Method](https://www.productplan.com/glossary/moscow-prioritization/\#:\~:text=MoSCoW%20prioritization%2C%20also%20known%20as,will%20not%20have%20right%20now.), [2x2 matrices](https://anshamkaushal.medium.com/unlocking-product-design-success-with-the-2x2-matrix-cce3cdb9daae), or [Story Mapping](https://www.productplan.com/glossary/story-mapping/) to structure prioritization discussions and make informed decisions.
 
@@ -59,16 +59,16 @@ Effective Backlog Management isn't magic – it's a set of practical, learnable 
 
     *   Treat your backlog as a living document that requires **regular maintenance and refinement.**  This isn't a one-person job – it's a **team activity**, ideally involving Product, developers, design, and stakeholders. 
     *   **Actionable Steps (Backlog Refinement Sessions):**
-        *   **Schedule Regular Refinement Meetings:** Dedicate time (e.g., weekly or bi-weekly) for backlog refinement sessions, like an IPM (see our [Iteration/Sprint Planning Playbook](https://delivery-playbooks.rise8.us/content/plays/cross-discipline/iteration-sprint-planning/)).
-        *   **Focus on "Ready" Items:** In refinement sessions, focus on preparing backlog items that are coming up soon ("ready for development").  Break down large items, clarify acceptance criteria, estimate effort, and resolve dependencies.  (For guidance on writing effective user stories to populate your backlog, see our [Story Writing Playbook](https://delivery-playbooks.rise8.us/content/plays/product/story-writing/).  For a detailed guide on ensuring stories are "ready" for development, see our [Interview Discussion Guide Playbook](https://delivery-playbooks.rise8.us/content/plays/design/interview-discussion-guide/).)
-        *   **"Right-Size" User Stories:** Break down large epics and features into smaller, more manageable user stories that can be completed within a sprint or iteration.
-        *   **Regularly Review and Re-Prioritize:** Backlog prioritization isn't a one-time thing. Schedule regular backlog refinement sessions to review priorities, incorporate new information, and adjust as needed. Consider how each [Agile Ritual](https://delivery-playbooks.rise8.us/content/practices/agile-ceremonies/) evolves and refines the backlog.
+        *   **Schedule Regular Refinement Meetings:** Dedicate time (e.g., weekly or bi-weekly) for backlog refinement sessions, like an IPM (see our [Iteration Planning Play](../plays/cross-discipline/iteration-planning.md)).
+        *   **Focus on "Ready" Items:** In refinement sessions, focus on preparing backlog items that are coming up soon ("ready for development").  Break down large items, clarify acceptance criteria, estimate effort, and resolve dependencies.  (For guidance on writing effective user stories to populate your backlog, see our [Story Writing Playbook](../plays/product/story-writing.md).  For a detailed guide on ensuring stories are "ready" for development, see our [Interview Discussion Guide Playbook](../plays/design/interview-discussion-guide.md).)
+        *   **"Right-Size" User Stories:** Break down large epics and features into smaller, more manageable user stories that can be completed within an iteration.
+        *   **Regularly Review and Re-Prioritize:** Backlog prioritization isn't a one-time thing. Schedule regular backlog refinement sessions to review priorities, incorporate new information, and adjust as needed. Consider how each [Agile Ritual](../practices/agile-ceremonies/) evolves and refines the backlog.
 
 ## Relevant Links
 
-*   [Backlog Prioritization Playbook](https://delivery-playbooks.rise8.us/content/plays/product/backlog-prioritization/)
-*   [Iteration/Sprint Planning Playbook](https://delivery-playbooks.rise8.us/content/plays/cross-discipline/iteration-sprint-planning/)
-*   [Story Writing Playbook](https://delivery-playbooks.rise8.us/content/plays/product/story-writing/)
-*   [Interview Discussion Guide Playbook](https://delivery-playbooks.rise8.us/content/plays/design/interview-discussion-guide/) 
+*   [Backlog Prioritization Play](../plays/product/backlog-prioritization.md)
+*   [Iteration Planning Play](../plays/cross-discipline/iteration-planning.md)
+*   [Story Writing Play](../plays/product/story-writing.md)
+*   [Interview Discussion Guide Play](../plays/design/interview-discussion-guide.md) 
 *   [Why Have a Product Backlog? - Mountain Goat Software](https://www.mountaingoatsoftware.com/blog/why-have-a-product-backlog)
 *   [What is a Product Backlog? - Atlassian](https://www.atlassian.com/agile/scrum/backlogs)

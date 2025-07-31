@@ -13,7 +13,7 @@ There are some key plays to continuously engage with stakeholders throughout the
 * **Stakeholder Mapping** helps us begin to understand the network of stakeholders in an organization, their influence, and how best to engage with them.
 * **Stakeholder Interviews** allow us to more deeply understand stakeholder roles, what matters to them, constraints they have, and what success looks like from their point of view.
 * **Frequent Stakeholder Check-ins** (workshops, conversations, etc) provide forums to share data & learnings, make prioritization decisions, address risks, align on vision & strategy, and determine how success will be measured
-* **Stakeholder Demos / Sprint Reviews** could be included in your regular stakeholder check-ins, and they help demonstrate meaningful progress, collect feedback on recent work, and maintain alignment on goals and commitments.
+* **Stakeholder Demos** could be included in your regular stakeholder check-ins, and they help demonstrate meaningful progress, collect feedback on recent work, and maintain alignment on goals and commitments.
 * **Backlog Refinement** enables stakeholder engagement and collaboration with the team to shape future priorities.
 
 It's critical for Product Managers to drive alignment with stakeholders while simultaneously making space for Design Thinking. Agile Product Managers focus their alignment at the vision, strategy, outcome and business/mission impact levels (i.e. a viable product/service). This helps us define success around changes in user behavior and the impact of those changes to the organization. This provides the balanced team with autonomy to explore what solutions work best that map to the high level strategy to achieve the end-user outcome.

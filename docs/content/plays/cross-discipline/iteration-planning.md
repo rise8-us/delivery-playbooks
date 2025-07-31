@@ -1,9 +1,9 @@
-# Iteration/Sprint Planning
+# Iteration Planning
 
 ![Iteration Planning](../../../assets/ipm.png)
 
 ## What Is It?
-Commonly called an Iteration Planning Meeting (IPM), this is a forum for the team to organize, negotiate, align, and estimate the work you plan on accomplishing in the upcoming iteration or sprint. All three disciplines (Product, Design, and Engineering) work together to understand the goals for the next iteration and assign each story with an engineering estimate of complexity/effort (known as a point value). 
+Commonly called an Iteration Planning Meeting (IPM), this is a forum for the team to organize, negotiate, align, and estimate the work you plan on accomplishing in the upcoming iteration. All three disciplines (Product, Design, and Engineering) work together to understand the goals for the next iteration and assign an engineering estimate to each story of complexity/effort (known as a point value). 
 
 ## Why Do It?
 Aligning on and scoping the work for an iteration ahead of time helps avoid rework by ensuring the right work gets delivered the first time. It also helps the team understand the technical complexity of each story to aid with prioritization decisions. Additionally, and perhaps most importantly, IPM is an essential ceremony for fostering team alignment, participation, and collective ownership of the product.
@@ -24,8 +24,8 @@ Product Managers, Product Designers, and Engineers. This should be a full team a
     * In order for you to properly scope iterations and releases, you need to establish a pointing scale and list of criteria with your team. This process takes some iterating, but we suggest you pick a point scale at the beginning and stick to it (we recommend fibonacci 0-8). Ensure the team is pointing based on complexity and effort instead of estimated time to completion, since humans are notoriously bad at estimating time
 
 2. **Schedule in advance & come prepared**
-    * IPMs generally work best when they have a standard meeting time and location. This helps the PM stay accountable for planning each iteration/sprint and it also provides the team with a standing meeting to plan around, since attendance is key (take no less than 80% team strength)
-    * An iteration/sprint planning session cannot be successful unless the team has stories in a “ready for IPM” state. This means the stories are fully written, links to designs are available, questions for design/engineering are annotated, scope is defined, and context is detailed
+    * IPMs generally work best when they have a standard meeting time and location. This helps the PM stay accountable for planning each iteration and it also provides the team with a standing meeting to plan around, since attendance is key (take no less than 80% team strength)
+    * An iteration planning session cannot be successful unless the team has stories in a “ready for IPM” state. This means the stories are fully written, links to designs are available, questions for design/engineering are annotated, scope is defined, and context is detailed
 
 3. **Review each story one at a time**
     * Every story in an IPM is a placeholder for conversation. While the PM should have the story fully written, IPM is a forum for product, design, and engineering to negotiate and adjust the scope and execution in order to maximize outcomes and efficiency. Be flexible and make changes on the fly

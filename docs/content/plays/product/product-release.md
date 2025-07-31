@@ -17,8 +17,8 @@ Release cadence varies widely depending on the organization and team, with some 
 2. **As workflows are delivered**
     * Sometimes cutting a release mid-workflow could deliver incomplete usability to users. As a result, many teams will release when the minimum functionality of a feature set or epic has been built. If operating in this model, we encourage you to still scope work into the smallest increments possible and iterate from there.
 
-3. **As dictated by the sprint/iteration**
-    * Many teams release on a schedule following sprints or iterations of set lengths. This can be helpful for communicating your release plan to users and stakeholders, but it gives you a little less flexibility to move fast and learn. If using this model ensure you do not go more than 2 weeks without releasing.
+3. **As dictated by the iteration**
+    * Many teams release on a schedule following iterations of set lengths. This can be helpful for communicating your release plan to users and stakeholders, but it gives you a little less flexibility to move fast and learn. If using this model ensure you do not go more than 2 weeks without releasing.
 
 
 ## Who’s Involved? 
