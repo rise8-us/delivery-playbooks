@@ -70,6 +70,6 @@ Effective Backlog Management isn't magic – it's a set of practical, learnable 
 *   [Backlog Prioritization Play](../plays/product/backlog-prioritization.md)
 *   [Iteration Planning Play](../plays/cross-discipline/iteration-planning.md)
 *   [Story Writing Play](../plays/product/story-writing.md)
-*   [Interview Discussion Guide Playbook](../plays/design/interview-discussion-guide/) 
+*   [Interview Discussion Guide Play](../plays/design/interview-discussion-guide.md) 
 *   [Why Have a Product Backlog? - Mountain Goat Software](https://www.mountaingoatsoftware.com/blog/why-have-a-product-backlog)
 *   [What is a Product Backlog? - Atlassian](https://www.atlassian.com/agile/scrum/backlogs)
