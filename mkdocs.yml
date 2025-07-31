@@ -43,7 +43,7 @@ nav:
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
       - content/plays/cross-discipline/discovery-framing-remote.md
-      - content/plays/cross-discipline/iteration-sprint-planning.md
+      - content/plays/cross-discipline/iteration-planning.md
       - content/plays/cross-discipline/stakeholder-demo.md
       - content/plays/cross-discipline/standup.md
     - Product:

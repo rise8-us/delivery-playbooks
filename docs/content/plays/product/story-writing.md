@@ -14,7 +14,7 @@ There are three different types of user stories that will commonly populate a pr
 **Chores:** Everything else (tech debt, spikes, dependency updates, etc)
 
 ## What makes a good story?
-As we initially mentioned, a story’s primary goal is to function as a communication tool for a balanced team. Sizing and writing successful stories is an iterative process informed by team feedback, so think of every story you write as a placeholder for conversation that will get fine tuned when it is pointed and prioritized during sprint/iteration planning. A story should be easy for all disciplines to understand so the team can align on work to be delivered, and you should not be the one to prescribe specific design or engineering implementations.
+As we initially mentioned, a story’s primary goal is to function as a communication tool for a balanced team. Sizing and writing successful stories is an iterative process informed by team feedback, so think of every story you write as a placeholder for conversation that will get fine tuned when it is pointed and prioritized during iteration planning. A story should be easy for all disciplines to understand so the team can align on work to be delivered, and you should not be the one to prescribe specific design or engineering implementations.
 There are several frameworks for writing stories, but we recommend starting with the INVEST model. Following this method will help you achieve many of the attributes of a successful story.
 
 **Independent:** Aim to have each story be releasable once delivered. Keeping stories independent ensures the application can always be deployed regardless of work completed or not.
@@ -41,11 +41,11 @@ User stories are usually written collaboratively by members of the development t
 
 In general a PM is the primary team member accountable for breaking down outcomes into properly scoped stories, communicating the user value of each story, writing the acceptance criteria, and ensuring the formatting is easy to understand. That said, it is not solely your responsibility to take a story from inception to completion. The designer is responsible for outlining the design interactions and styling for the story as well as providing mockups, prototypes, design guides, and/or annotations for the engineers to reference. The engineers contribute execution strategy, architecture patterns, and best practices. Engineers can also be encouraged to write chores since they have a much better understanding of the technical work that needs to be done, and any team member should be empowered to write a bug report if they discover one. These are all team norms that you will work out over time as you iterate.
 
-We recommend involving your team members early and often when scoping out stories to avoid having to go back to the drawing board during an Iteration or Sprint Planning meeting. If you are struggling to break down a large feature set into stories, consider facilitating a story mapping session before your pointing meeting where you get feedback from design and engineering.
+We recommend involving your team members early and often when scoping out stories to avoid having to go back to the drawing board during an Iteration Planning Meeting (IPM). If you are struggling to break down a large feature set into stories, consider facilitating a story mapping session before your pointing meeting where you get feedback from design and engineering.
 
 ## Tools You Might Need
 
-* **Agile Project Management Software:** There are various project management tools specifically designed for Agile methodologies, such as Jira or Github. These platforms often provide features for creating, organizing, and tracking user stories, as well as managing sprints and backlogs.
+* **Agile Project Management Software:** There are various project management tools specifically designed for Agile methodologies, such as Jira or Github. These platforms often provide features for creating, organizing, and tracking user stories, as well as managing iterations and backlogs.
 * **Whiteboards or Sticky Notes:** Physical whiteboards or sticky notes are often used during brainstorming and collaborative sessions to jot down user stories. They offer a tactile and visual way to organize and prioritize ideas.
 * **Diagramming Tools:** Diagramming tools like Miro, Figma, Lucidchart or draw.io can be useful for creating visual representations, such as flowcharts or diagrams, to supplement user stories and provide additional clarity.
 
@@ -70,13 +70,13 @@ We recommend involving your team members early and often when scoping out storie
 
 5. **Prioritize User Stories:** Arrange user stories in order of priority based on factors such as business value, user impact, dependencies, and technical feasibility. This helps the team focus on delivering the most valuable features first.
 
-6. **Estimate Story Points:** Assign relative estimates, such as story points or t-shirt sizes, to user stories to indicate their complexity and effort required for implementation. This aids in sprint planning and resource allocation.
+6. **Estimate Story Points:** Assign relative estimates, such as story points or t-shirt sizes, to user stories to indicate their complexity and effort required for implementation. This aids in iteration planning and resource allocation.
 
 7. **Refine and Collaborate:** Review user stories with the development team and stakeholders to ensure clarity, completeness, and feasibility. Refine the stories as needed based on feedback and discussions.
 
 8. **Break Down Larger Stories:** If a user story is too large or complex, consider breaking it down into smaller, more manageable stories that can be implemented and delivered incrementally.
 
-9. **Keep Stories Small and Independent:** Aim for user stories that are small enough to be completed within a single iteration (sprint) and are independent of each other. This promotes agility, flexibility, and easier tracking of progress.
+9. **Keep Stories Small and Independent:** Aim for user stories that are small enough to be completed within a single iteration and are independent of each other. This promotes agility, flexibility, and easier tracking of progress.
 
 10. **Iterate and Adapt:** User stories are not set in stone and may evolve over time as the project progresses and as the team gains more insights. Continuously review, refine, and adapt user stories based on feedback, changing requirements, and lessons learned.
 
