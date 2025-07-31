@@ -29,17 +29,17 @@ The full balanced team (Product Manager, Designer, Engineers), Customer Support 
    Pick a high-priority or common scenario from a persona or journey map. This anchors the blueprint in a real use case. Determine an agreed upon “zoom-level” for the questions you need to answer with the activity. The fidelity of the artifact should match the fidelity of the conversation blueprinting is meant to enable.
 2. **Define the swimlanes**  
    Set up horizontal rows for:
-* User Actions
-* Frontstage (customer-facing interactions: UI, emails, phone calls)
-* Backstage (internal actions not visible to the user)
-* Support Processes (e.g., databases, 3rd-party systems)
-* Physical Evidence (emails, receipts, screens)
+      * User Actions
+      * Frontstage (customer-facing interactions: UI, emails, phone calls)
+      * Backstage (internal actions not visible to the user)
+      * Support Processes (e.g., databases, 3rd-party systems)
+      * Physical Evidence (emails, receipts, screens)
 3. **Walk through the journey**  
    Have the team collaboratively walk through the steps the user takes, and for each:
-* Add what happens frontstage (visible to the user)
-* Then backstage (internal team/system actions)
-* Note the systems or tools involved
-* Add artifacts or physical evidence if applicable
+      * Add what happens frontstage (visible to the user)
+      * Then backstage (internal team/system actions)
+      * Note the systems or tools involved
+      * Add artifacts or physical evidence if applicable
 4. **Identify pain points and gaps**  
    Look for disconnects: delays, unclear ownership, missing tools, or inconsistencies across channels. Mark these with different colors or annotations.
 5. **Capture improvement ideas**  
