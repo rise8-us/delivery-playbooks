@@ -3,7 +3,7 @@
 ![Iteration Planning](../../../assets/ipm.png)
 
 ## What Is It?
-Commonly called an Iteration Planning Meeting (IPM), this is a forum for the team to organize, negotiate, align, and estimate the work you plan on accomplishing in the upcoming iteration. All three disciplines (Product, Design, and Engineering) work together to understand the goals for the next iteration and assign each story with an engineering estimate of complexity/effort (known as a point value). 
+Commonly called an Iteration Planning Meeting (IPM), this is a forum for the team to organize, negotiate, align, and estimate the work you plan on accomplishing in the upcoming iteration. All three disciplines (Product, Design, and Engineering) work together to understand the goals for the next iteration and assign each story an engineering estimate of complexity/effort (known as a point value). 
 
 ## Why Do It?
 Aligning on and scoping the work for an iteration ahead of time helps avoid rework by ensuring the right work gets delivered the first time. It also helps the team understand the technical complexity of each story to aid with prioritization decisions. Additionally, and perhaps most importantly, IPM is an essential ceremony for fostering team alignment, participation, and collective ownership of the product.
