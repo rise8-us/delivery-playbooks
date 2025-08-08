@@ -43,7 +43,7 @@ nav:
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
       - content/plays/cross-discipline/discovery-framing-remote.md
-      - content/plays/cross-discipline/iteration-sprint-planning.md
+      - content/plays/cross-discipline/iteration-planning.md
       - content/plays/cross-discipline/stakeholder-demo.md
       - content/plays/cross-discipline/standup.md
     - Product:
@@ -58,7 +58,7 @@ nav:
     - Design:
       - content/plays/design/assumptions-workshop.md
       - content/plays/design/design-studio.md
-      - content/plays/design/Interview-Discussion-Guide.md
+      - content/plays/design/interview-discussion-guide.md
       - content/plays/design/service-blueprint.md
       - content/plays/design/user-research-planning-play.md
     - Engineering:
