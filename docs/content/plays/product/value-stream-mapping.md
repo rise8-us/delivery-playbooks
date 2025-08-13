@@ -193,11 +193,11 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 <br/>
 
-## Facilitation Script & Prescriptive Steps for Building a VSM
+## Facilitation Script & Prescriptive Steps for Building a Current & Target State VSM
 
 Use the following script and facilitation steps to confidently lead a Value Stream Mapping session. This structured approach ensures the session yields a high-quality map and actionable insights.
 
-### Before the Session
+### Before the VSM Workshop
 
 1. **Define the scope and objective**  
    _"We’re here to understand how value flows today—so we can unblock it and drive greater mission impact."_
@@ -209,38 +209,69 @@ Use the following script and facilitation steps to confidently lead a Value Stre
    Whether virtual or physical, have clear lanes for steps, time, pain points, actors, and tools.
 
 4. **Send pre-read materials**  
-   Share what a VSM is, why it matters, and the session goals.
+   Share what a VSM is, why it matters, any existing VSM artifacts, and the session goals.
 
 ---
 
-### During the Session
+### During the Workshop
 
 #### Opening Script (5 mins)
 > _"Thanks for joining. Today we’re mapping our value stream to uncover where work gets stuck, who’s involved, and how it flows—or doesn’t flow—across systems and teams. This helps us deliver outcomes faster and with less pain. Our focus is on the **current state**, not what we wish it looked like."_
 
-#### Step-by-Step Facilitation
+#### Step-by-Step Current State VSM Facilitation
 
 1. **Establish the mission impact** - "What’s the core mission this stream supports?" (e.g., “Deliver approved benefits to Veterans”)
-2. **Identify the triggering event** - "What starts the process?" (e.g., “Veteran submits claim”)
-3. **Map major process steps** - Use stickies or virtual cards, and ask, “What happens next?” after each step
-4. **Add actors to each step** - "Who does this work?"
-5. **Identify tools/systems used** - "What tools support this step?"
-6. **Estimate lead time and process time** - "How long does this take?"  "How long does it wait?"
-7. **Mark handoffs and dependencies** - Use arrows to denote transitions or approvals.
-8. **Capture pain points** - "Where do things break down?"  "What causes delay or rework?"
-9. **Highlight visible and invisible work** - Surface shadow systems, workaround steps, manual interventions.
-10. **Review the full map** - "What surprises you?"  "Where do we lose the most time or value?"
+2. **Reaffirm known mission impact(s)** - “What’s the core mission/business impact this value stream supports?” “How do we measure business/mission impact success today?”
+3. **Identify the initiator (supplier)** - “Who starts the desired outcome of the flow?”
+4. **Identify the triggering event or inputs** - "What starts the process?" (e.g., “Veteran submits claim”)
+5. **Identify end-user (customer)** - “Who realizes the desired outcome(s) of the flow?”
+6. **Generate any outputs received by the customer** - "What outputs do customers/end-users receive from our business/ mission process?"
+7. **Create the last mission/business process step** - "What is the last process step that delivers the desired outcome(s) to our custoemr and helps us achieve our mission impact(s)?"
+8. **Create the initial mission/business process step** - "What is the first process step towards our desired outcome(s) + mission impact(s)?"
+9. **Continue adding mission/business process steps** - "Is this next step value added, non-value added, or required non-value added?"
+10. **Add flow context** - "Is flow automatically or manually pushed to the next mission/business process step?"
+11. **Add actors to each step** - "Who or what does this work?"
+12. **Identify tools/systems used** - "What tools support this step?"
+13. **Mark handoffs and dependencies** - Use arrows to denote transitions or approvals.
+14. **Estimate lead time and process time** - "How long does this take?"  "How long does it wait?"
+15. **Capture pain points** - "Where do things break down?"  "What causes delay or rework?"  "What work gets kicked back?"
+16. **Highlight visible and invisible work** - Surface shadow systems, workaround steps, manual interventions.
+17. **Review the full map** - "What surprises you?"  "Where do we lose the most time or value?"
+18. **Upon final walkthrough, capture questions and assumptions!** 
 
 ---
 
-### After the Session
+#### After the Current State VSM Session
 
 1. **Document and digitize the map** - Use Figjam, Miro, Lucidchart, or Mural to clean up and archive.
-2. **Synthesize insights** - Highlight biggest bottlenecks, gaps, or silos.
-3. **Debrief with participants** - Share early takeaways and thank them for candor.
-4. **Link to Improvement Kata** - Define the next target condition using the VSM output.
+2. **Synthesize insights** - Highlight biggest bottlenecks, gaps, silos, questions and assumptions.
+3. **Debrief with participants** - Share early takeaways and thank them for their candor.
+4. **Schedule Target State VSM** - Define the next target conditions using the VSM output.
 
 > _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
+
+#### Step-by-Step Target State VSM Facilitation
+
+1. Present a quick overview of the Current State VSM
+2. Highlight the NVA and RNVA steps, major lead time (LT) and process time (PT) differences, low %C&A values
+3. Clarify any key questions or assumptions
+4. For the key problem steps, a brainstorm improvement process step
+5. Encourage “big vision” thinking, no idea is too big at this point
+6. Focus on: Eliminating NVA steps entirely, reducing lead time (LT), improving %C&A, streamlining RVNA steps
+7. Group ideas around steps the ideas will replace
+8. Synthesize based on type of improvement
+9. Start with the first step in the value stream map
+10. Clearly outline for each new step
+
+    - Process step (value add, required non-value add, or non-value add)
+    - Estimate process time (PT) and lead time (LT)
+    - Estimate %C&A
+    - Write a concise description of the Target State -- include any proposed features or technology
+    - Add the current state step(s) being eliminated or changed
+
+11. Calculate total lead time (LT), total process time (PT), and rolled %C&A
+12. Calculate the % improved for total lead time (LT), total process time (PT) , and rolled %C&A
+13. Focus on the prompt: “Does this Target State get us closer to our goal? What’s the significance of the improvement?”
 
 <br/>
 
