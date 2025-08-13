@@ -237,9 +237,13 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 15. **Capture pain points** - "Where do things break down?"  "What causes delay or rework?"  "What work gets kicked back?"
 16. **Highlight visible and invisible work** - Surface shadow systems, workaround steps, manual interventions.
 17. **Review the full map** - "What surprises you?"  "Where do we lose the most time or value?"
-18. **Upon final walkthrough, capture questions and assumptions!** 
+18. **Upon final walkthrough, capture questions and assumptions!**
 
----
+<br/>
+
+![Vakye Strans](../../../assets/va-current-state-example.png)
+
+<br/>
 
 #### After the Current State VSM Session
 
@@ -274,6 +278,12 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 13. Focus on the prompt: “Does this Target State get us closer to our goal? What’s the significance of the improvement?”
 
 <br/>
+
+![Vakye Strans](../../../assets/va-target-state-example.png)
+
+<br/>
+
+---
 
 ## What Comes After a VSM?
 
