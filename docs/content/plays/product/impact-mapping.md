@@ -28,7 +28,7 @@ Impact Mapping helps teams avoid the **feature factory trap** by focusing on wha
 
 - [**Value Stream Mapping**](../product/value-stream-mapping.md), which confirms how value currently flows (or doesn’t), and how to measure it
 - **OKRs**, which define the measurable goals we’re aiming for
-- **[DDD Event Storming](../engineering/DDD-Eventstorm.md), [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA), which models domain events and interactions
+- **[DDD Event Storming](../engineering/DDD-Eventstorm.md)**, [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA), which models domain events and interactions
 - **[Service Blueprint](../design/service-blueprint.md)**, which defines your user experience & operational architecture
 - **[Outcome-oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)**, which communicates and aligns your team and stakeholders to what gets worked now, next and later to address our current conditions
 
