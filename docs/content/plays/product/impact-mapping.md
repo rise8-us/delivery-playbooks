@@ -5,14 +5,14 @@ Impact Mapping is a strategic planning and alignment technique designed to help 
 
 At Rise8, we use Impact Mapping to:
 
-- Align work with measurable **Business/Mission Impact**
+- Align work with measurable **Mission/Business Impact**
 - Facilitate strategic conversations with stakeholders
 - Prioritize deliverables that create real change
 - Avoid building outputs that don't serve user or mission needs
 
 ![Vakye Strans](../../../assets/outcomes-over-outputs.png)
 
-While you may find a different standard format for Impact Mapping tools outside of Rise8, we have modified the four key dimensions to match how we speak about ***outcomes in prod*** which was borrowed from Josh Seiden's framing of Outcomes over Outputs:
+While you may find a different standard formats for Impact Mapping tools outside of Rise8, we have modified the four key dimensions to match how we speak about ***outcomes in prod*** which was borrowed from Josh Seiden's framing of Outcomes over Outputs:
 
 - **Business / Mission Impact** (what we want to measurably change for our customer/organization; formerly “Goal”)
 - **Actors** (who can influence outcomes)
@@ -27,8 +27,10 @@ While you may find a different standard format for Impact Mapping tools outside 
 Impact Mapping helps teams avoid the **feature factory trap** by focusing on what needs to change, for whom, and why. It's a natural complement to:
 
 - [**Value Stream Mapping**](../product/value-stream-mapping.md), which confirms how value currently flows (or doesn’t), and how to measure it
-- **OKRs**, which define the measurable company or business level goals we’re aiming for
-- **[Event Storming](https://labspractices.com/practices/event-storming/), [Boris](https://labspractices.com/practices/boris/), and [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA)**, which models domain events and interactions
+- **OKRs**, which define the measurable goals we’re aiming for
+- **[DDD Event Storming](../engineering/DDD-Eventstorm.md), [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA), which models domain events and interactions
+- **[Service Blueprint](../design/service-blueprint.md)**, which defines your user experience & operational architecture
+- **[Outcome-oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)**, which communicates and aligns your team and stakeholders to what gets worked now, next and later to address our current conditions
 
 When used correctly, Impact Maps:
 
@@ -36,6 +38,7 @@ When used correctly, Impact Maps:
 - Clarify intent before jumping to solutions
 - Strengthen outcome-first thinking
 - Improve stakeholder alignment
+- Using a curiosity-led approach to delivering software with experiment framing 
 
 <br/>
 
@@ -52,12 +55,12 @@ When used correctly, Impact Maps:
 ## Prerequisite: Have a Clear Impact Target
 Before running an Impact Mapping exercise:
 
-- Confirm that your team has a clearly defined and **quantified Business/Mission Impact and current state Outcome** targets 
+- Confirm that your team has a clearly defined and **quantified Mission/Business Impact as well as current and target state outcome** targets 
 - Without these, you risk generating a list of disconnected activities with no clear prioritization logic, or way of determining success as you run experiments
 
 If you don’t have these yet:
 
-- Start with [Value Stream Mapping](../product/value-stream-mapping.md), [Event Storming](https://labspractices.com/practices/event-storming/), [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA) and [Service Blueprint](../design/service-blueprint.md) exercises to clarify impact and outcome opportunities
+- Start with **[Value Stream Mapping](../product/value-stream-mapping.md)**, **[DDD Event Storming](../engineering/DDD-Eventstorm.md)**, **[Boris](https://labspractices.com/practices/boris/)**, **[Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA)**, and **[Service Blueprint](../design/service-blueprint.md)**
 - Use those outputs to anchor your Impact Map
 
 <br/>
@@ -77,11 +80,12 @@ If you don’t have these yet:
 ### Facilitation Steps
 | Step | Actions to take |
 |------|-----------------|
-| **1. Frame the Mission Impact** | - Revisit the VSM or OKR related quantified impact you’re targeting<br>- Write this at the top of the canvas under **Business / Mission Impact**<br>- Ensure shared clarity across all participants |
+| **1. Frame the Mission Impact** | - Revisit the VSM or OKR related quantified impact you’re targeting<br>- Write this at the top of the canvas tree under **Business / Mission Impact**<br>- Ensure shared clarity across all participants |
 | **2. Identify Actors** | - Who can enable or block this impact?<br>- Consider internal roles, external users, partners, and regulators<br>- Capture each actor in the second column |
-| **3. Define Behavioral Outcomes** | - For each actor, what specific behavior must change?<br>- Use the format: _"We need [actor] to [do something measurably differently]"<br>- Focus on behavior, not sentiment |
-| **4. Brainstorm Potential Deliverables** | - What could we build to influence these behaviors?<br>- List multiple options per outcome — don’t filter too early<br>- Use this moment to provoke critical conversations ("Will this actually cause the behavior change?") |
-| **5. Cluster and Prioritize** | - Group deliverables that support the same outcome<br>- Assess risk vs impact to focus efforts<br>- Use dot voting or effort-impact 2x2 prioritization if needed |
+| **3. Define Behavioral Outcomes** | - For each actor, what specific behavior must change?<br>- Use the format: _"We need [actor] to [do something measurably different]"<br>- Focus on behavior, not sentiment |
+| **4. Brainstorm Potential Deliverables** | - What could we do or build to influence these behaviors?<br>- List multiple options per outcome — don’t filter too early<br>- Use this moment to provoke critical conversations ("Will this actually cause the behavior change?" "What's more likely to change the behavior?" "what's more likely to exceed our change in behavior target metric?") |
+| **5. Cluster and Prioritize** | - Group deliverables that support the same outcome<br>- Assess risk vs impact vs effort to scope your experiment<br>- Use dot voting or 2x2 prioritization if needed |
+| **6. Frame Hypothesis Experiment** | - Succinctly explain the problem/opportunity encompassing both the current state of user/system goals/wants/needs not being met, and mission impact<br>- Refine your hypothesis as, “We believe [output(s) → solutions we plan to do/build], will drive [outcome → a desired user/system behavior change] and lead to [mission impact → a result that is generated]”.<br>- Confirm what emperical behavior evidence will validate your hypothesis as, "Our hypothesis is valid if…[replace with quantitative and/or qualitative measures of user/system behavior change]."<br>- Confirm what emperical evidence will validate behavior changes led to greater mission impact as, "Leading to…[replace with quantitative and/or qualitative measures of mission impact]."<br>- Now you're ready to align with your **[Outcome-oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)** |
 
 ### Tips for Better Output
 
@@ -104,7 +108,7 @@ If you don’t have these yet:
 
 - Synthesize the output into a cleaned-up map
 - Highlight any assumptions or validation needs
-- Connect prioritized Impact, Outcomes and Deliverables to your [Outcome-Oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)
+- Connect prioritized Impact, Outcomes and Deliverables to your [Outcome-oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/)
 - Use the map in stakeholder conversations to justify choices
 
 <br/>
