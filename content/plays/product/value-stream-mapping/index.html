@@ -1,0 +1,3231 @@
+<!-- Elements added to main will be displayed on all pages -->
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://delivery-playbooks.rise8.us/content/plays/product/value-stream-mapping/">
+      
+      
+        <link rel="prev" href="../../cross-discipline/standup/">
+      
+      
+        <link rel="next" href="../impact-mapping/">
+      
+      
+      <link rel="icon" href="https://rise8.us/images/favicons/cropped-rise8-favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+    
+    
+      
+        <title>Value Stream Mapping (VSM) - Delivery Playbooks</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-TLK83CLMXL"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-TLK83CLMXL",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-TLK83CLMXL",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#value-stream-mapping-vsm" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Delivery Playbooks" class="md-header__button md-logo" aria-label="Delivery Playbooks" data-md-component="logo">
+      
+  <img src="../../../../riseu-logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Delivery Playbooks
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Value Stream Mapping (VSM)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../practices/core-practices/" class="md-tabs__link">
+          
+  
+  
+  Core Practices
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../cross-discipline/discovery-framing-remote/" class="md-tabs__link">
+          
+  
+  
+  Plays
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../roles/Product-Management-Role-Definition/" class="md-tabs__link">
+          
+  
+  
+  Roles
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Delivery Playbooks" class="md-nav__button md-logo" aria-label="Delivery Playbooks" data-md-component="logo">
+      
+  <img src="../../../../riseu-logo.svg" alt="logo">
+
+    </a>
+    Delivery Playbooks
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Core Practices
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Core Practices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/core-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rise8 Core Practices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Teaming, Ceremonies & Collaboration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Teaming, Ceremonies & Collaboration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/agile-ceremonies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agile Ceremonies
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/balanced-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Balanced Teams
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/continuous-improvement-cycles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Continuous Improvement Cycles
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/dual-track-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dual-Track Development
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/facilitation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Facilitation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Feedback
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/pairing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pairing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/portfolio-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Portfolio Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/practice-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Practice Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/scoping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Scoping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/team-enablement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Team Enablement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    DevSecOps
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            DevSecOps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/automated-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Automated Testing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/ci-cd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Continuous Integration/Continuous Deplyment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/domain-driven-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Domain Driven Design (DDD)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/environment-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Environment Control
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/platform-health-monitoring-and-observability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Platform Health Monitoring &amp; Observability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/security-early-and-throughout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Implementing Security Early and Throughout
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/version-control-systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Version Control System (VCS)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/zero-downtime-deployments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Zero-Downtime Deploys
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Product & Design
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Product & Design
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/backlog-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog Management
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/data-and-metrics-collection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data and Metrics Collection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/discovery-and-framing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discovery &amp; Framing (D&amp;F)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/human-centered-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Human Centered Design (HCD)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/launching-with-a-minimum-viable-product/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Launching With a Minimum Viable Product (MVP)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/making-and-testing-assumptions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Making and Testing Assumptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/opportunity-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Opportunity Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/outcome-oriented-roadmaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Outcome Oriented Roadmaps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/process-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Process Mapping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/ruthless-prioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ruthless Prioritization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/stakeholder-management-and-engagement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stakeholder Management &amp; Engagement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/strategic-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Strategic Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/user-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Research
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Plays
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Plays
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Cross-Discipline
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Cross-Discipline
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/discovery-framing-remote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Discovery &amp; Framing Kick Off
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/iteration-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Iteration Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/stakeholder-demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stakeholder Demo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/standup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Standup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Product
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Product
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Value Stream Mapping (VSM)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Value Stream Mapping (VSM)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-value-stream-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Value Stream Mapping?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What is Value Stream Mapping?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-is-value-stream-mapping-valuable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why is Value Stream Mapping valuable?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-we-categorize-waste" class="md-nav__link">
+    <span class="md-ellipsis">
+      How do we categorize waste?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-metrics-are-commonly-used-in-vsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      What metrics are commonly used in VSM?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#three-value-streams-relevant-to-rise8s-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      Three Value Streams Relevant to Rise8's Business
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-vsm-fits-in-our-continuous-improvement-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where VSM Fits in Our Continuous Improvement Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-facilitate-a-value-stream-mapping-exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Facilitate a Value Stream Mapping Exercise
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Facilitate a Value Stream Mapping Exercise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-work-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Work Checklist
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-components-to-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Components to Map
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workshop-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workshop Tips
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#facilitation-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facilitation Tips
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-to-avoid" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to Avoid
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#facilitation-script-prescriptive-steps-for-building-a-current-target-state-vsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facilitation Script &amp; Prescriptive Steps for Building a Current &amp; Target State VSM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Facilitation Script &amp; Prescriptive Steps for Building a Current &amp; Target State VSM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-the-vsm-workshop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before the VSM Workshop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#during-the-workshop" class="md-nav__link">
+    <span class="md-ellipsis">
+      During the Workshop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="During the Workshop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opening-script-5-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opening Script (5 mins)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-current-state-vsm-facilitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step Current State VSM Facilitation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#after-the-current-state-vsm-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      After the Current State VSM Session
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-target-state-vsm-facilitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step Target State VSM Facilitation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-comes-after-a-vsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Comes After a VSM?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Comes After a VSM?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#next-play-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Play Recommendations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relevant-links-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relevant Links &amp; Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../impact-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Impact Mapping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vision-statement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Vision Statement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Strategy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../story-writing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Story Writing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog-prioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Backlog Prioritization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product-release/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Releasing a Product
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Design
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Design
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/assumptions-workshop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Assumptions Workshop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/design-studio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Design Studio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/interview-discussion-guide.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    None
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/journey-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Journey Mapping
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/service-blueprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Service Blueprint
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/user-research-planning-play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    User Research Planning
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Engineering
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Engineering
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../engineering/ai-generated-code-execution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Safely Executing AI Generated Code on your local machine
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../engineering/DDD-Eventstorm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DDD Eventstorm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Roles
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Roles
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Product-Management-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Management at Rise8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Product-Design-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Product Design at Rise8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Engineering-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Engineering at Rise8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-value-stream-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is Value Stream Mapping?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What is Value Stream Mapping?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-is-value-stream-mapping-valuable" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why is Value Stream Mapping valuable?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-we-categorize-waste" class="md-nav__link">
+    <span class="md-ellipsis">
+      How do we categorize waste?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-metrics-are-commonly-used-in-vsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      What metrics are commonly used in VSM?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#three-value-streams-relevant-to-rise8s-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      Three Value Streams Relevant to Rise8's Business
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-vsm-fits-in-our-continuous-improvement-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where VSM Fits in Our Continuous Improvement Framework
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-facilitate-a-value-stream-mapping-exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Facilitate a Value Stream Mapping Exercise
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Facilitate a Value Stream Mapping Exercise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pre-work-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pre-Work Checklist
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-components-to-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Components to Map
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workshop-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workshop Tips
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#facilitation-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facilitation Tips
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-to-avoid" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to Avoid
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#facilitation-script-prescriptive-steps-for-building-a-current-target-state-vsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facilitation Script &amp; Prescriptive Steps for Building a Current &amp; Target State VSM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Facilitation Script &amp; Prescriptive Steps for Building a Current &amp; Target State VSM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#before-the-vsm-workshop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Before the VSM Workshop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#during-the-workshop" class="md-nav__link">
+    <span class="md-ellipsis">
+      During the Workshop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="During the Workshop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#opening-script-5-mins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Opening Script (5 mins)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-current-state-vsm-facilitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step Current State VSM Facilitation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#after-the-current-state-vsm-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      After the Current State VSM Session
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-by-step-target-state-vsm-facilitation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Step-by-Step Target State VSM Facilitation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-comes-after-a-vsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Comes After a VSM?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What Comes After a VSM?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#next-play-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Play Recommendations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relevant-links-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Relevant Links &amp; Resources
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="value-stream-mapping-vsm">Value Stream Mapping (VSM)</h1>
+<p><em>A Strategic Guide for Grasping Current State and Accelerating Mission Impact</em></p>
+<hr />
+<h2 id="what-is-value-stream-mapping">What is Value Stream Mapping?</h2>
+<p>Value Stream Mapping (VSM) is a Lean tool used to visualize the flow of work, materials, and information needed to deliver value to a customer—from request to delivery. In software delivery, this means mapping everything from a user need to production deployment.</p>
+<p>At Rise8, we use VSM in relation to Theories of Constraints to draw focus to identifying and removing constraints that limit throughput, and thus increasing manufacturing capacity. By revealing how value flows through our system, highlighting inefficiencies, and aligning teams around transformation priorities we create imbalances to maximize throughput at the constraint. </p>
+<ul>
+<li><strong>Every system has a constraint:</strong> This is the factor that most restricts the system's output.</li>
+<li><strong>Constraints set the pace:</strong> Draw focus to the constraint until it is no longer the constraint</li>
+<li><strong>Improving the constraint improves the system:</strong> Focusing efforts on the constraint yields the most significant performance enhancements.</li>
+<li><strong>Continuous improvement:</strong> Once a constraint is resolved, another will emerge, necessitating ongoing attention and refinement.</li>
+</ul>
+<h3 id="why-is-value-stream-mapping-valuable">Why is Value Stream Mapping valuable?</h3>
+<p>To visualize and improve our process of delivering greater value to customers, we follow seven key principles for Value Stream Mapping:</p>
+<ol>
+<li><strong>Customer-Centric Focus:</strong> VSM should always begin with the customer in mind. Understanding what the customer values ensures that the mapping process aligns with delivering that value efficiently.</li>
+<li><strong>Holistic Systems Thinking:</strong> Rather than optimizing individual processes, VSM emphasizes viewing the entire value stream to identify and eliminate waste, ensuring improvements benefit the whole system.</li>
+<li><strong>Leadership Engagement:</strong> Effective VSM requires the involvement of stakeholders who have the authority and vision to implement significant changes. Their engagement ensures that improvements are strategic and aligned with mission objectives.</li>
+<li><strong>Distinction Between Core and Supportive Value Streams:</strong> Both core value streams (directly delivering products or services) and supportive value streams (such as employee onboarding or software delivery) are crucial for overall organizational performance.</li>
+<li><strong>Data-Driven Analysis:</strong> VSM relies on collecting accurate data for process times, lead times, and other metrics that are relevant to your mission/business process to identify bottlenecks and areas for improvement.</li>
+<li><strong>Visualization for Clarity:</strong> Creating visual maps of processes helps teams understand current workflows, identify inefficiencies, and design improved future states.</li>
+<li><strong>Iterative Improvement:</strong> VSM is not a one-time activity. Organizations should regularly revisit and update their value stream maps to reflect changes and continue improving.</li>
+</ol>
+<blockquote>
+<p><em>"VSM gives us the lens to diagnose noise in delivery and rewire teams for continuous value flow."</em></p>
+</blockquote>
+<h3 id="how-do-we-categorize-waste">How do we categorize waste?</h3>
+<p>The following categories of waste are used by nearly all communities. We've provided some Software Delivery and Healthcare examples to help translate this into various contexts.</p>
+<table>
+<thead>
+<tr>
+<th>Waste Category</th>
+<th>Software Delivery Example</th>
+<th>Healthcare Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Defects:</strong> products or services requiring rework due to errors or non-conformity</td>
+<td>Bugs in production causing hotfixes or patches</td>
+<td>Misdiagnoses or medication errors requiring correction</td>
+</tr>
+<tr>
+<td><strong>Overproduction:</strong> making more than required or before needed</td>
+<td>Developing extra features that go unused by end-users</td>
+<td>Conducting unnecessary diagnostic tests or preparing surplus supplies</td>
+</tr>
+<tr>
+<td><strong>Overprocessing:</strong> doing more work than the customer needs or expects</td>
+<td>Extra documentation or rework due to unclear requirements</td>
+<td>Duplicate paperwork or redundant procedural steps</td>
+</tr>
+<tr>
+<td><strong>Waiting:</strong> idle time when processes or people wait for the next step</td>
+<td>Delays waiting for code reviews, QA, or deployment approvals</td>
+<td>Patients waiting for test results, physician availability, or beds</td>
+</tr>
+<tr>
+<td><strong>Inventory:</strong> excess materials or work-in-progress not yet adding value</td>
+<td>Backlog of unfinished code or features (WIP)</td>
+<td>Stockpiling supplies or medications that risk expiration</td>
+</tr>
+<tr>
+<td><strong>Transportation:</strong> unnecessary movement of materials or information</td>
+<td>Excessive handoffs between teams or environments</td>
+<td>Moving patients between departments more than needed</td>
+</tr>
+<tr>
+<td><strong>Motion:</strong> unnecessary movement by people or equipment</td>
+<td>Frequent context switching between tasks</td>
+<td>Staff walking long distances to fetch equipment or records</td>
+</tr>
+<tr>
+<td><strong>Unused Talent:</strong> under-utilizing employees’ skills, creativity, or knowledge</td>
+<td>Developers limited by bureaucracy and not tapped for improvement ideas</td>
+<td>Staff ideas or advanced skills not leveraged for process improvements</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<h3 id="what-metrics-are-commonly-used-in-vsm">What metrics are commonly used in VSM?</h3>
+<p>VSM metrics can span categories like time, flow, quality, cost, people, or any metric that is relevant to your mission context</p>
+<table>
+<thead>
+<tr>
+<th>Metric Category</th>
+<th>Metric Name</th>
+<th>Description</th>
+<th>Software Delivery Example (Results)</th>
+<th>Healthcare Example (Results)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Time, Flow &amp; Efficiency</strong></td>
+<td>Lead Time (LT)</td>
+<td>Time to complete an individual process step, as well as total time from order to delivery—reflects responsiveness of the process.</td>
+<td>5 days from ticket submission to production deploy</td>
+<td>35 minutes from prescription request to fulfillment</td>
+</tr>
+<tr>
+<td></td>
+<td>Process Time (PT)</td>
+<td>Time it takes between when the work arrives at a process step until it’s passed on to the next step, as well as total time spent executing all process steps (touch time).</td>
+<td>4 hours—actual coding, testing, and merging time per feature</td>
+<td>4 minutes—actual work in filling prescription</td>
+</tr>
+<tr>
+<td></td>
+<td>Throughput</td>
+<td>Rate at which units are delivered over time.</td>
+<td>3 features released per sprint</td>
+<td>20 prescriptions filled per hour</td>
+</tr>
+<tr>
+<td></td>
+<td>Utilization</td>
+<td>Percentage of time resources are in active use.</td>
+<td>Developers active ~80% of day</td>
+<td>Nurses spend ~70% shift on value-added patient tasks</td>
+</tr>
+<tr>
+<td></td>
+<td>Flow Efficiency</td>
+<td>Ratio of processing time vs total lead time.</td>
+<td>(4h PT ÷ 5 days LT) ≈ 3%</td>
+<td>(4 min PT ÷ 35 min LT) ≈ 11%</td>
+</tr>
+<tr>
+<td><strong>Quality</strong></td>
+<td>Defect Rate</td>
+<td>Number or percentage of defect occurrences.</td>
+<td>10% bug rate found post-release</td>
+<td>2% medication dispensed incorrectly</td>
+</tr>
+<tr>
+<td></td>
+<td>First Pass Yield</td>
+<td>Share of units completed accurately without rework.</td>
+<td>85% of deployments succeed without hotfix</td>
+<td>90% of patient charts correct on first review</td>
+</tr>
+<tr>
+<td></td>
+<td>Quality Filter Mapping</td>
+<td>Percent of defects detected at each stage (e.g., dev, QA).</td>
+<td>Dev: 5%, QA: 3%, Prod: 2%</td>
+<td>Registration errors: 4%; Diagnostic errors: 6%</td>
+</tr>
+<tr>
+<td></td>
+<td>% Complete &amp; Accurate (%C&amp;A)</td>
+<td>Share of work handed downstream with no issues.</td>
+<td>95% of code reviews pass without rework</td>
+<td>92% of patient charts are complete and accurate</td>
+</tr>
+<tr>
+<td></td>
+<td>Rolled %C&amp;A</td>
+<td>Overall downstream-ready rate across all steps (product of stepwise %C&amp;A).</td>
+<td>0.95 × 0.90 × 0.92 ≈ 79% overall yield</td>
+<td>0.92 × 0.95 × 0.90 ≈ 79% across admission, assessment, care</td>
+</tr>
+<tr>
+<td></td>
+<td>Simple Avg %C&amp;A</td>
+<td>Unweighted average of %C&amp;A across steps.</td>
+<td>(95% + 90% + 92%) ÷ 3 ≈ 92.3%</td>
+<td>(92% + 95% + 90%) ÷ 3 ≈ 92.3%</td>
+</tr>
+<tr>
+<td></td>
+<td>Weighted Avg %C&amp;A</td>
+<td>Average of %C&amp;A weighted by volume at each step.</td>
+<td>(95% × 50 + 90% × 30 + 92% × 20) ÷ 100 ≈ 92.1%</td>
+<td>(92% × 40 + 95% × 40 + 90% × 20) ÷ 100 ≈ 92.4%</td>
+</tr>
+<tr>
+<td><strong>Cost</strong></td>
+<td>Inventory Cost</td>
+<td>Cost associated with holding WIP or stock.</td>
+<td>$5,000 in backlog work-in-progress</td>
+<td>$1,200 of unused medications in stock</td>
+</tr>
+<tr>
+<td></td>
+<td>Waste Cost</td>
+<td>Estimated cost of inefficiencies or defects in the stream.</td>
+<td>$3,000 per sprint from bug-fix rework</td>
+<td>$500 per week from patient flow delays</td>
+</tr>
+<tr>
+<td><strong>Customer/Delivery</strong></td>
+<td>On-Time Delivery (%)</td>
+<td>Percentage of units delivered by promised deadlines.</td>
+<td>95% of features released on planned date</td>
+<td>90% of patients receive meds on schedule</td>
+</tr>
+<tr>
+<td></td>
+<td>Customer Satisfaction</td>
+<td>User-rated satisfaction.</td>
+<td>4.5/5 from product surveys</td>
+<td>4.3/5 from patient feedback surveys</td>
+</tr>
+<tr>
+<td><strong>Bottleneck Analysis</strong></td>
+<td>Relative Bottleneck Frequency</td>
+<td>How often a particular stage becomes a bottleneck.</td>
+<td>Code reviews are bottleneck 60% of the time</td>
+<td>Lab results delay bottlenecks in 40% of patient flows</td>
+</tr>
+<tr>
+<td></td>
+<td>Relative Bottleneck Severity</td>
+<td>Degree of impact when a stage becomes a bottleneck.</td>
+<td>Delays lead to +2 days release delay</td>
+<td>Adds +30 min to patient wait time</td>
+</tr>
+<tr>
+<td><strong>Mission</strong></td>
+<td>One Mission Metric That Matters (OMMTM)</td>
+<td>The north star guiding metric, and any other critical KPIs that are relevant to the mission we're serving.</td>
+<td>Deployment Frequency (target on-demand) Lead Time for Changes (target less than one day) Change Failure Rate (target &lt; 15%)</td>
+<td>Eliminate annual deaths caused by treatment failures (target = 0)</td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<h2 id="three-value-streams-relevant-to-rise8s-business">Three Value Streams Relevant to Rise8's Business</h2>
+<p>Regardless of your role at Rise8, it's important to understand the three Value Streams that we influence, and how they support our company's value equation of optimizing for mission value:</p>
+<ol>
+<li><strong>Customer Mission</strong>: Represents personnel, capabilities and outcomes in production that impact real mission operations (e.g. running Air Operations Center missions such as Intelligence, Surveillance, and Reconnaisssance) </li>
+<li><strong>IT/Software Delivery</strong>: Enables the delivery of mission capabilities, measured up through deployment into a production environment (e.g. enabling continuous delivery).</li>
+<li><strong>Rise8 Delivery Service</strong>: How we partner with customers to bridge the gap between output and impact by identifying opportunities for deploying elite software development for mission critical outcomes in production (e.g. deliver cloud &amp; platform, apps &amp; digital products as well as cybersecurity &amp; RMF).</li>
+</ol>
+<p><img alt="Vakye Strans" src="../../../../assets/vsm-types.png" /></p>
+<h2 id="where-vsm-fits-in-our-continuous-improvement-framework">Where VSM Fits in Our Continuous Improvement Framework</h2>
+<p>Value Stream Mapping is the <strong>starting point</strong> for understanding the current condition within the Improvement Kata framework:</p>
+<ol>
+<li><strong>Understand the direction or challenge</strong><br />
+<em>What mission impact are we trying to enable?</em></li>
+<li><strong>Grasp the current condition</strong><br />
+<em>Use VSM to visualize the actual flow of value.</em></li>
+<li><strong>Establish the next target condition</strong><br />
+<em>Set SMART goals based on constraints or opportunities identified.</em></li>
+<li><strong>Experiment your way forward</strong><br />
+<em>Use this insight to conduct safe-to-fail experiments.</em></li>
+</ol>
+<blockquote>
+<p><em>If you don’t know what value you're trying to achieve, how value is flowing, or what’s constraining it—start with a VSM.</em></p>
+</blockquote>
+<p><br/></p>
+<h2 id="how-to-facilitate-a-value-stream-mapping-exercise">How to Facilitate a Value Stream Mapping Exercise</h2>
+<p>Try out our Figjam template <a href="https://www.figma.com/board/h6EfV3nAOHoAR9JOa7UXF7/-CREATE-COPY----Rise8-Standard-Delivery-Artifacts?node-id=0-1&amp;p=f&amp;t=y3WJv70v7goBSbmo-0">VSM Resources</a> to facilitate current and target state VSM workshops, or assist in digitizing outputs from a workshop leveraging sticky notes. </p>
+<h3 id="pre-work-checklist">Pre-Work Checklist</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Why It’s Needed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clear mission objective</td>
+<td>Guides what to optimize</td>
+</tr>
+<tr>
+<td>Cross-functional participants</td>
+<td>Ensures holistic view</td>
+</tr>
+<tr>
+<td>Physical or virtual wall space</td>
+<td>Allows collaborative mapping</td>
+</tr>
+<tr>
+<td>Sticky notes or <a href="https://www.figma.com/board/h6EfV3nAOHoAR9JOa7UXF7/-CREATE-COPY----Rise8-Standard-Delivery-Artifacts?node-id=0-1&amp;p=f&amp;t=y3WJv70v7goBSbmo-0">Figjam board</a></td>
+<td>Visual collaboration</td>
+</tr>
+<tr>
+<td>Facilitation plan</td>
+<td>Keeps session on track</td>
+</tr>
+<tr>
+<td>Stopwatch or timer</td>
+<td>Timebox conversations or measuring time performance of steps wihtin your VSM</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><em><a href="https://tkmg.com/wp-content/files/VSM-Supplement.pdf">Value Stream Mapping Supplemental Materials</a> from Karen Martin &amp; Mike Osterling.</em></p>
+</blockquote>
+<hr />
+<h3 id="key-components-to-map">Key Components to Map</h3>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mission Impact</strong></td>
+<td>“What’s the core mission/business impact this value stream supports?” “How do we measure business/mission impact success today?”</td>
+</tr>
+<tr>
+<td><strong>Trigger</strong></td>
+<td>What kicks off the process?</td>
+</tr>
+<tr>
+<td><strong>Supplier/Initiator</strong></td>
+<td>Who starts the desired outcome of flow?</td>
+</tr>
+<tr>
+<td><strong>Inputs</strong></td>
+<td>What inputs are provided or required from initiators to drive our mission/business process?</td>
+</tr>
+<tr>
+<td><strong>Customer/End-User</strong></td>
+<td>Who receives our outputs, what do they do with it?</td>
+</tr>
+<tr>
+<td><strong>Outputs</strong></td>
+<td>What outputs do customers/end-users receive from our business/ mission process?</td>
+</tr>
+<tr>
+<td><strong>Mission/Business Process Steps</strong></td>
+<td>High level 'Value Added' 'Non-value Added' or 'Required Non-value Added' steps taken to deliver value</td>
+</tr>
+<tr>
+<td><strong>Information/Material Flow</strong></td>
+<td>Confirm how we move between steps in the value stream, and confirm if they're automated or manual transitions</td>
+</tr>
+<tr>
+<td><strong>Tools</strong></td>
+<td>Clarifying systems or artifacts used</td>
+</tr>
+<tr>
+<td><strong>Metrics</strong></td>
+<td>Align on what we need to measure for our value stream, how they'll be used to help make and validate decisions</td>
+</tr>
+<tr>
+<td><strong>Handoffs</strong></td>
+<td>Between people, systems, departments</td>
+</tr>
+<tr>
+<td><strong>Pain Points</strong></td>
+<td>Bottlenecks, delays, rework, rejections</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="workshop-tips">Workshop Tips</h3>
+<p>💡 Ensure the right participants are invited to VSM workshops. Inviting the following personas will lead to better success:</p>
+<ul>
+<li><strong>Customer Leadership:</strong> would be considered a leader of the government organization</li>
+<li><strong>Buyer:</strong> responsible for making future contract decisions</li>
+<li><strong>Mission Owner:</strong> represents the interests of the mission</li>
+<li><strong>Influencer:</strong> someone who can advocate or dissuade leadership in the organization due to their experience or clout</li>
+<li><strong>User Community:</strong> a leader, proxy, or member of the user base</li>
+</ul>
+<p>💡 Start with your “Current State” value streams for the initial stream to be mapped.</p>
+<p>💡 Focus on “Target State” once you have today’s streams mapped. Encourage participants to describe what really happens.</p>
+<p>💡 Agree on refresh triggers/cycles (we recommend fitting this into your hypothesis validation steps, before starting a new hypothesis experiment)</p>
+<p>💡 What to Avoid:</p>
+<ul>
+<li>Mapping discrete actor (systems or users) actions instead of flows</li>
+<li>Rushing straight to solutions</li>
+<li>Only soliciting contributions of a few people (only SMEs speaking)</li>
+</ul>
+<hr />
+<h3 id="facilitation-tips">Facilitation Tips</h3>
+<p>💡 <strong>Apply a “Go See and Find Out” mentality</strong> – Encourage participants to describe what <em>really</em> happens, not what <em>should</em> happen.</p>
+<p>💡 <strong>Time-box mapping per stream</strong> – e.g., conduct iterations of 60–90 minutes for mapping, 30 minutes for analysis, until you have enough clarity to make measurable decisions.</p>
+<p>💡 <strong>Ask probing questions</strong> - What mission impact are we trying to enable? What causes delays here? Where do handoffs break down? Where do you wait on feedback? Where do we often repeat steps/work?</p>
+<p>💡 <strong>Avoid mapping wishful thinking</strong> – It’s about the current state, not the ideal (this is more of a focus for Service Blueprint artifacts).</p>
+<p>💡 There can be multiple initiators and end-users; A VSM can start &amp; end with an end-user</p>
+<p>💡 Steps should be high-level enough to demonstrate the overall process flow, but specific enough to be able to identify waste, hand-offs, and improvement areas. Examples:</p>
+<ul>
+<li>❌ Too broad: Testing happens</li>
+<li>✅ Just right: Lab tech runs blood test</li>
+<li>❌ Too detailed: Lab tech labels the sample (we will get into deep, user-specific, behaviors with other artifacts)</li>
+</ul>
+<hr />
+<h3 id="what-to-avoid">What to Avoid</h3>
+<ul>
+<li>Mapping systems or roles instead of flows</li>
+<li>Rushing straight to solutions</li>
+<li>Over-scoping the stream (keep it narrow and meaningful)</li>
+<li>Failing to include voices from the edges (e.g., QA, Ops, Compliance)</li>
+</ul>
+<hr />
+<p><br/></p>
+<h2 id="facilitation-script-prescriptive-steps-for-building-a-current-target-state-vsm">Facilitation Script &amp; Prescriptive Steps for Building a Current &amp; Target State VSM</h2>
+<p>Use the following script and facilitation steps to confidently lead a Value Stream Mapping session. This structured approach ensures the session yields a high-quality map and actionable insights.</p>
+<h3 id="before-the-vsm-workshop">Before the VSM Workshop</h3>
+<ol>
+<li>
+<p><strong>Define the scope and objective</strong><br />
+<em>"We’re here to understand how value flows today—so we can unblock it and drive greater mission impact."</em></p>
+</li>
+<li>
+<p><strong>Identify the right participants</strong><br />
+   Include frontline workers, key process owners, system leads, and stakeholders.</p>
+</li>
+<li>
+<p><strong>Prepare the collaboration space</strong><br />
+   Whether virtual or physical, have clear lanes for steps, time, pain points, actors, and tools.</p>
+</li>
+<li>
+<p><strong>Send pre-read materials</strong><br />
+   Share what a VSM is, why it matters, any existing VSM artifacts, and the session goals.</p>
+</li>
+</ol>
+<hr />
+<h3 id="during-the-workshop">During the Workshop</h3>
+<h4 id="opening-script-5-mins">Opening Script (5 mins)</h4>
+<blockquote>
+<p><em>"Thanks for joining. Today we’re mapping our value stream to uncover where work gets stuck, who’s involved, and how it flows—or doesn’t flow—across systems and teams. This helps us deliver outcomes faster and with less pain. Our focus is on the <strong>current state</strong>, not what we wish it looked like."</em></p>
+</blockquote>
+<h4 id="step-by-step-current-state-vsm-facilitation">Step-by-Step Current State VSM Facilitation</h4>
+<ol>
+<li><strong>Establish the mission impact</strong> - "What’s the core mission this stream supports?" (e.g., “Deliver approved benefits to Veterans”)</li>
+<li><strong>Reaffirm known mission impact(s)</strong> - “What’s the core mission/business impact this value stream supports?” “How do we measure business/mission impact success today?”</li>
+<li><strong>Identify the initiator (supplier)</strong> - “Who starts the desired outcome of the flow?”</li>
+<li><strong>Identify the triggering event or inputs</strong> - "What starts the process?" (e.g., “Veteran submits claim”)</li>
+<li><strong>Identify end-user (customer)</strong> - “Who realizes the desired outcome(s) of the flow?”</li>
+<li><strong>Generate any outputs received by the customer</strong> - "What outputs do customers/end-users receive from our business/ mission process?"</li>
+<li><strong>Create the last mission/business process step</strong> - "What is the last process step that delivers the desired outcome(s) to our custoemr and helps us achieve our mission impact(s)?"</li>
+<li><strong>Create the initial mission/business process step</strong> - "What is the first process step towards our desired outcome(s) + mission impact(s)?"</li>
+<li><strong>Continue adding mission/business process steps</strong> - "Is this next step value added, non-value added, or required non-value added?"</li>
+<li><strong>Add flow context</strong> - "Is flow automatically or manually pushed to the next mission/business process step?"</li>
+<li><strong>Add actors to each step</strong> - "Who or what does this work?"</li>
+<li><strong>Identify tools/systems used</strong> - "What tools support this step?"</li>
+<li><strong>Mark handoffs and dependencies</strong> - Use arrows to denote transitions or approvals.</li>
+<li><strong>Estimate lead time and process time</strong> - "How long does this take?"  "How long does it wait?"</li>
+<li><strong>Capture pain points</strong> - "Where do things break down?"  "What causes delay or rework?"  "What work gets kicked back?"</li>
+<li><strong>Highlight visible and invisible work</strong> - Surface shadow systems, workaround steps, manual interventions.</li>
+<li><strong>Review the full map</strong> - "What surprises you?"  "Where do we lose the most time or value?"</li>
+<li><strong>Upon final walkthrough, capture questions and assumptions!</strong></li>
+</ol>
+<p><br/></p>
+<p><img alt="Vakye Strans" src="../../../../assets/enterprise-app-deployment-current-state.png" /></p>
+<p><br/></p>
+<h4 id="after-the-current-state-vsm-session">After the Current State VSM Session</h4>
+<ol>
+<li><strong>Document and digitize the map</strong> - Use Figjam, Miro, Lucidchart, or Mural to clean up and archive.</li>
+<li><strong>Synthesize insights</strong> - Highlight biggest bottlenecks, gaps, silos, questions and assumptions.</li>
+<li><strong>Debrief with participants</strong> - Share early takeaways and thank them for their candor.</li>
+<li><strong>Schedule Target State VSM</strong> - Define the next target conditions using the VSM output.</li>
+</ol>
+<blockquote>
+<p><em>“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”</em></p>
+</blockquote>
+<h4 id="step-by-step-target-state-vsm-facilitation">Step-by-Step Target State VSM Facilitation</h4>
+<ol>
+<li>Present a quick overview of the Current State VSM</li>
+<li>Highlight the NVA and RNVA steps, major lead time (LT) and process time (PT) differences, low %C&amp;A values</li>
+<li>Clarify any key questions or assumptions</li>
+<li>For the key problem steps, a brainstorm improvement process step</li>
+<li>Encourage “big vision” thinking, no idea is too big at this point</li>
+<li>Focus on: Eliminating NVA steps entirely, reducing lead time (LT), improving %C&amp;A, streamlining RVNA steps</li>
+<li>Group ideas around steps the ideas will replace</li>
+<li>Synthesize based on type of improvement</li>
+<li>Start with the first step in the value stream map</li>
+<li>
+<p>Clearly outline for each new step</p>
+<ul>
+<li>Process step (value add, required non-value add, or non-value add)</li>
+<li>Estimate process time (PT) and lead time (LT)</li>
+<li>Estimate %C&amp;A</li>
+<li>Write a concise description of the Target State -- include any proposed features or technology</li>
+<li>Add the current state step(s) being eliminated or changed</li>
+</ul>
+</li>
+<li>
+<p>Calculate total lead time (LT), total process time (PT), and rolled %C&amp;A</p>
+</li>
+<li>Calculate the % improved for total lead time (LT), total process time (PT) , and rolled %C&amp;A</li>
+<li>Focus on the prompt: “Does this Target State get us closer to our goal? What’s the significance of the improvement?”</li>
+</ol>
+<p><br/></p>
+<p><img alt="Vakye Strans" src="../../../../assets/enterprise-app-deployment-target-state.png" /></p>
+<p><br/></p>
+<hr />
+<h2 id="what-comes-after-a-vsm">What Comes After a VSM?</h2>
+<p>Now that you have a Value Stream Map, it’s time to <strong>act on it</strong>:</p>
+<h3 id="next-play-recommendations">Next Play Recommendations</h3>
+<table>
+<thead>
+<tr>
+<th>Next Play's to Consider</th>
+<th>Why It Follows VSM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Improvement Kata</strong></td>
+<td>Confirm current and target conditions &amp; prioritize changes to test how you could unblock value</td>
+</tr>
+<tr>
+<td><strong>Domain Modeling (<a href="../../engineering/DDD-Eventstorm/">DDD Event Storming</a>, <a href="https://labspractices.com/practices/boris/">Boris</a>, <a href="https://www.youtube.com/watch?v=7-fRtd8LUwA">Swift Method</a>)</strong></td>
+<td>Model the supporting systems and bounded contexts</td>
+</tr>
+<tr>
+<td><strong><a href="../../design/service-blueprint/">Service Blueprint</a></strong></td>
+<td>Define user experience &amp; operational architecture</td>
+</tr>
+<tr>
+<td><strong><a href="../impact-mapping/">Impact Mapping</a></strong></td>
+<td>Clarify initiative scope by tying improvements to outcomes in prod with measurable user/system behavior changes &amp; mission impact</td>
+</tr>
+<tr>
+<td><strong><a href="https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/">Outcome-oriented Roadmap</a></strong></td>
+<td>Communicate and align your team and stakeholders to what gets worked now, next and later to address our value stream current conditions</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="relevant-links-resources">Relevant Links &amp; Resources</h3>
+<ul>
+<li><strong>eBook</strong>: <a href="https://enterprise-software.broadcom.com/valueops-connectall-insights">4 Easy Steps to Mastering Chaos with VSM</a> – Useful to contextualize modern software VSM.</li>
+<li><strong>Book</strong>: <a href="https://www.goodreads.com/book/show/17718225-value-stream-mapping">Value Stream Mapping – Essential for understanding the lean and facilitation discipline behind VSM</a>.</li>
+<li><strong>eLearning Courses</strong>: <a href="https://tkmgacademy.com/courses/value-stream-transformation-part-1/">Value Stream Transformation Part 1 of 2</a> <a href="https://tkmgacademy.com/courses/value-stream-transformation-part-2/">Value Stream Transformation Part 2 of 2</a></li>
+<li><strong>Concept</strong>: <em>Improvement Kata</em> – Learn to iterate toward outcomes: <a href="https://www.toyotakata.org/">Toyota Kata</a></li>
+<li><strong><a href="https://www.loom.com/share/bab879ee127a4dd6b73fb563b14c79fe">Digital Operating Model 3: Alignment</a></strong></li>
+<li><strong><a href="https://delivery-playbooks.rise8.us/content/practices/process-mapping/">RiseU Core Practice of Process Mapping</a></strong></li>
+<li><strong><a href="https://www.rise8.us/videos/value-stream-transformation-mission-accomplished">Karen Martin’s Value Stream Transformation talk at Prodacity 2025</a></strong></li>
+<li><strong><a href="https://labspractices.com/practices/value-stream-map/">Labs Practices Value Stream Mapping Workshop</a></strong></li>
+<li><strong><a href="https://dora.dev/guides/value-stream-management/">DORA Value Stream Map</a></strong></li>
+<li><strong><a href="https://www.leanproduction.com/theory-of-constraints/">Theory of Constraints &amp; Lean Manufacturing</a></strong></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+<footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" title="MkDocs">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/"
+                   title="Material for MkDocs">
+                    Material for MkDocs</a>
+            </div>
+            
+            <div class="md-social">
+  
+</div>
+            
+        </div>
+    </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+    
+  </body>
+</html>
