@@ -30,7 +30,7 @@ One powerful starting point is to deeply understand your users. Frameworks like 
 
 Once we have a better grasp of potential opportunities, we need ways to explore and structure our thinking.  **Opportunity Solution Trees** ([Learn More](https://www.producttalk.org/opportunity-solution-fit/)) provide a visual approach to break down broad opportunities into smaller, more manageable chunks, and then brainstorm potential solutions for each. This helps us map out the opportunity space and efficiently evaluate different paths forward.
 
-To ensure our opportunity planning is strategically aligned and focused on delivering real impact, **Impact Mapping** ([Learn More](https://www.impactmapping.org/)) is a valuable collaborative technique.  Impact Mapping helps us connect our product roadmap to broader strategic goals by visualizing the actors involved, the impacts we want to create on those actors, and the deliverables (solutions) that will drive those impacts.  This ensures we are always considering the bigger picture and prioritizing opportunities that contribute to meaningful outcomes.
+To ensure our opportunity planning is strategically aligned and focused on delivering real impact, **Impact Mapping** ([Learn More](https://delivery-playbooks.rise8.us/content/plays/product/impact-mapping/)) is a valuable collaborative technique.  Impact Mapping helps us connect our product roadmap to broader strategic goals by visualizing the actors involved, the impacts we want to create on those actors, and the deliverables (solutions) that will drive those impacts.  This ensures we are always considering the bigger picture and prioritizing opportunities that contribute to meaningful outcomes.
 
 Approaches like the **Lean Startup methodology** ([Learn More](https://theleanstartup.com/)) also encourage an iterative and efficient approach to opportunity planning and validation. By embracing build-measure-learn cycles, we can quickly test assumptions, gather feedback, and adapt our plans based on real-world data, ensuring we are continuously refining our understanding of the best opportunities to pursue.
 
@@ -38,7 +38,7 @@ Ultimately, "How to do it?" for Opportunity Planning is about thoughtfully combi
 
 ## Relevant Links
 
-* [Impact Mapping](https://www.impactmapping.org/)
+* [Impact Mapping](https://delivery-playbooks.rise8.us/content/plays/product/impact-mapping/)
 * [Lean Startup methodology](https://theleanstartup.com/)
 * [Opportunity Solution Trees](https://www.producttalk.org/opportunity-solution-fit/)
 * [The Different Styles of Pair Programming \- Drovio Blog](https://www.drovio.com/blog/the-different-styles-of-pair-programming/)
