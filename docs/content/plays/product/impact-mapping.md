@@ -38,7 +38,7 @@ When used correctly, Impact Maps:
 - Clarify intent before jumping to solutions
 - Strengthen outcome-first thinking
 - Improve stakeholder alignment
-- Using a curiosity-led approach to delivering software with experiment framing 
+- Promote an experimental-led hypothesis approach to delivering softw
 
 <br/>
 
