@@ -42,18 +42,25 @@ If we can’t measure it, we can’t manage it. But just as important — if we 
 Leading indicators are forward-looking, providing predictive insights into future performance by measuring activities or conditions that influence eventual outcomes, while lagging indicators are backward-looking, measuring past results or events that have already occurred. Leaders use lagging indicators to assess past success and leading indicators to guide proactive measures and ensure future goals are met.
 
 - **Leading indicators** move first. They are inputs you can influence now that predict an outcome.
-- **Lagging indicators** move after the outcome happens. They confirm impact and are harder to change quickly.
+- **Lagging indicators** move after the outcome happens. They confirm past performance and measure the results of past actions. 
+
 
 > Rule of thumb: If you can move it this week/sprint and it should move the mission metric later, it’s leading. If it proves the mission moved (often after a delay), it’s lagging.
 
-### Outcome in Prod Mental Model
+### How to use them together
+
+- **Driving Progress**: Use leading indicators to drive future success and make proactive changes. 
+- **Measuring Effectiveness**: Use lagging indicators to evaluate the effectiveness of those changes and confirm desired outcomes. 
+- **Balanced View**: Combine both to gain a comprehensive view, similar to driving a car with both the windshield and rearview mirror. 
+
+#### Applied to an Outcome in Prod Mental Model
 
 Inputs (leading)  →  Behavior Outcomes (mix leading & lagging)  →  Mission Impact (lagging)
 
 Examples:
 
-- Page speed → higher task completion → better customer satisfaction
-- Parts fill rate → faster maintenance TAT → higher mission-capable rate
+- Increase page speed → higher task completion → better customer satisfaction
+- Increase parts fill rate → faster maintenance TAT → higher mission-capable rate
 
 ### Quick Test: Is it Leading or Lagging?
 
