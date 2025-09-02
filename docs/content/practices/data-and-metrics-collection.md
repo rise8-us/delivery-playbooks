@@ -2,13 +2,13 @@
 
 ## What is it?
 
-Data & Metrics Collection is the disciplined way we capture, govern, and interpret evidence to learn whether our products, services or processes are achieving the desired outcomes, and improving the mission. At Rise8, we don’t collect metrics for metrics’ sake. We focus on what the *Lean Analytics* community calls the “One Metric That Matters” (more commonly referred to as ***One Mission Metric that Matters*** in our Rise8 context), and the smallest useful set of inputs that move it.
+Data & Metrics Collection is the disciplined way we capture, govern, and interpret evidence to learn whether our products, services or even delivery processes are achieving the desired outcomes, and improving the mission. At Rise8, we don’t collect metrics for metrics’ sake. We focus on measuring only what helps us make decisions, and to identify the smallest useful set of inputs that will generate a bias for action.
 
-Aligning everyone on context that is relevant to the problem space we're solving, will ensure that we balance the application of both quantitative and qualitative data, metrics and ultimately insights. The combination helps delivery teams build better hypotheses, smarter experiments, and stronger empirical evidence for what's working — or not.
+Aligning everyone on context that is relevant to the problem we're trying to solve, will ensure that we balance the application of both quantitative and qualitative data, metrics and ultimately insights. The combination helps delivery teams build better hypotheses, smarter experiments, and stronger empirical evidence for what's working — or not.
 
 ## Why is it important?
 
-As highlighted in books like *Lean Startup*, *The Four Disciplines of Execution*, and thought leader posts across the product world on OMTM, Objectives and Key Results (OKRs) and Key Performance Indicators (KPIs), effective teams use data as a compass. Here’s why that matters for us:
+As highlighted in books like *Lean Startup* community, *The Four Disciplines of Execution*, and thought leader posts across the product world on One Metric That Matters (OMTM; more commonly referred to as ***One Mission Metric that Matters*** in our Rise8 context), Objectives and Key Results (OKRs) and Key Performance Indicators (KPIs), effective teams use data as a compass. Here’s why that matters for us:
 
 1. **Diagnose & optimize:** Reveal where we’re winning, stalling, or wasting effort.
 2. **Decide with evidence:** Replace anecdotes with signal; make pivot/persevere calls confidently.
@@ -26,6 +26,14 @@ If we can’t measure it, we can’t manage it. But just as important — if we 
 4. **Leading indicators first:** Guide course-corrections early; confirm with lagging indicators later.
 5. **Version everything:** Treat metric definitions as code; own them, review them, change-log them.
 6. **Ethical by design:** Minimize data collected; protect data types like PII/PHI; document risks and consent.
+
+### Common Anti-Patterns
+
+1. Counting events without a decision tied to them.
+2. Changing metric definitions silently (no versioning/governance).
+3. Over-indexing on outputs/vanity KPIs; no balance of inputs/quality guardrails.
+4. Declaring wins on under-powered tests; p-hacking without priors.
+5. Dashboards nobody owns; alerts without run-books.
 
 ### What makes a good metric
 
@@ -47,21 +55,6 @@ Leading indicators are forward-looking, providing predictive insights into futur
 
 > Rule of thumb: If you can move it this week/sprint and it should move the mission metric later, it’s leading. If it proves the mission moved (often after a delay), it’s lagging.
 
-### How to use them together
-
-- **Driving Progress**: Use leading indicators to drive future success and make proactive changes. 
-- **Measuring Effectiveness**: Use lagging indicators to evaluate the effectiveness of those changes and confirm desired outcomes. 
-- **Balanced View**: Combine both to gain a comprehensive view, similar to driving a car with both the windshield and rearview mirror. 
-
-#### Applied to an Outcome in Prod Mental Model
-
-Inputs (leading)  →  Behavior Outcomes (mix leading & lagging)  →  Mission Impact (lagging)
-
-Examples:
-
-- Increase page speed → higher task completion → better customer satisfaction
-- Increase parts fill rate → faster maintenance TAT → higher mission-capable rate
-
 ### Quick Test: Is it Leading or Lagging?
 
 - Causality: Does it plausibly cause the outcome? → Leading
@@ -72,7 +65,20 @@ Examples:
 
 > You need **both**: lead to steer; lag to prove.
 
-### Examples by context
+### How to use them together
+
+- **Driving Progress**: Use leading indicators to drive future success and make proactive changes. 
+- **Measuring Effectiveness**: Use lagging indicators to evaluate the effectiveness of those changes and confirm desired outcomes. 
+- **Balanced View**: Combine both to gain a comprehensive view, similar to driving a car with both the windshield and rearview mirror. 
+
+### KPIs applied to Outcomes in Prod
+
+| Inputs (leading)         | Behavior Outcomes (mix leading & lagging) | Mission Impact (lagging)     |
+| ------------------------ | ----------------------------------------- | ---------------------------- |
+| Increase page speed      | higher task completion                    | better customer satisfaction |
+| Increase parts fill rate | faster maintenance TAT                    | higher mission-capable rate  |
+
+### Examples by customer context
 
 #### Healthcare / VA Programs
 
@@ -173,29 +179,49 @@ Confirm what Mission Impact looks like → Align on OMMTM → Limit to no more t
     - Error Rate: Failed requests over total number of requests.
     - Crash Rate: Crashes per session, over total number of users
 
-
-
 ### **2. Start with Questions**
+
 Before jumping into dashboards or automation, we begin by asking:
-- What behavior change do we want to see in users?
-- What mission impact are we hoping to achieve?
+
+- What is the smallest, measurable, result that shows we’re heading in the right direction for mission impact?
+- What behavior change do we want to see in users, or our systems, that drive mission impact to change?
 - What assumptions are we trying to validate?
+- What pain in our delivery processes can we prioritize, and measure?
 
 These questions help us frame our data needs around real-world outcomes. Early on, we often track these metrics manually or with simple tools — spreadsheets, surveys, observation — so we can quickly learn what matters. If a low-fidelity solution helps us assess outcomes in prod, we start there. Then, once we’ve validated what’s important, we invest in automation for greater speed and scale.
 
-### **3. Instrument & Automate**
-We lean on tools like Prometheus, Grafana, and feature flag analytics to automate collection where feasible. This reduces manual burden and ensures we capture high-fidelity data in near-real time.
+### **3. Define your Metric
 
-### **4. Analyze & Share**
+Start by defining and documenting your metrics in a single location where all teammates and stakeholders can access, and include at least the following context:
+
+- Name (i.e. the name of your metric)
+- Purpose (i.e. the decision it informs)
+- Owner / Review Cadence (i.e. who makes decisions with it, and how often)
+- Formula (i.e. how to calculate, with units, and how timeframes should be used)
+- Filters & Exclusions (i.e. how to handle segmentation, edge cases, etc.)
+- Data Source & Refresh SLA (i.e. where and how do we collect the data, and how often we refresh the data and metric for review)
+
+### **4. Instrument & Automate**
+Lean on industry tools to automate collection where feasible. This reduces manual burden and ensures we capture high-fidelity data in near-real time.
+
+### **5. Analyze & Share**
 Data isn’t useful until it’s interpreted. We visualize and review metrics weekly, monthly, and at key product moments (launches, pivots, retros). Dashboards and reports are made accessible to stakeholders to drive shared understanding and accountability.
 
-### **5. Continuously Improve**
+### **6. Continuously Improve**
 We don’t treat our metrics as static. As our products evolve, so do the questions we ask. Every iteration is an opportunity to refine how we measure success — and to stop measuring what no longer matters.
 
----
+## How we know we're doing it well
 
-Want to get better at defining the right metrics for your product or service? Start with this question:  
-***“What is the smallest amount of measurable learning, that shows we’re heading in the right direction for mission impact?”***
+### Data & Metrics Competency Rubric
 
-Then test, learn, and adapt — just like we do with everything else.
-
+| Dimension                                      | Beginner                                                                                      | Novice                                                                                                                         | Expert (Mastery Consulting Bar)                                                                                                                                                  |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1) Metric Strategy & Framing**               | Can define problem statements, goals, and basic KPIs; distinguishes input vs. output metrics. | Builds **metric trees** from Mission → NSM → Inputs; selects OMTM; aligns metrics to hypotheses & bets.                        | Leads exec-level **North Star** tradeoffs; reframes “vanity” KPIs; designs metric portfolios resilient to gaming; ties to mission outcomes (e.g., PSI, readmissions, adherence). |
+| **2) Measurement Design**                      | Writes clear metric definitions (name, owner, formula).                                       | Establishes **content & context**: numerator/denominator integrity, unit, window, filters, edge cases, exclusions.             | Anticipates failure modes; formalizes **metric governance** (owners, review cadence, change logs, deprecation policy).                                                           |
+| **3) Instrumentation & Data Quality**          | Partners with engineers to add basic events; knows what a schema and event property are.      | Designs **event specs** (who/what/when/where/why/how); defines acceptance tests; monitors **% Complete & Accurate**.           | Runs **DQ SLAs** (freshness, latency, coverage, accuracy); maintains lineage; automates anomaly detection & backfills.                                                           |
+| **4) Analysis & SQL/Excel**                    | Can pull simple counts, joins, time series; builds descriptive dashboards.                    | Writes performant SQL; window functions; cohort analysis; funnels; retention & segmentation.                                   | Turns ambiguous questions into analyses; creates reusable **semantic layer** + KPI definitions; reviews others’ queries for bias & correctness.                                  |
+| **5) Experimentation & Causality**             | Understands A/B basics (randomization, control, minimum sample size).                         | Designs **experiments** w/ guardrails; calculates power, MDE; knows CUPED; reads p-values & CIs responsibly.                   | Selects methods by constraint (RCT, stepped-wedge, diff-in-diff, synthetic control); runs multi-armed and sequential tests; ships **experimentation playbook**.                  |
+| **6) Forecasting & Modeling**                  | Knows moving averages and simple projections.                                                 | Builds baseline forecasts (ARIMA/Prophet), scenario bands; error metrics (MAPE, RMSE).                                         | Pairs with data scientists to deploy parsimonious models; validates on business impact; owns **forecast → capacity → budget** loops.                                             |
+| **7) Decision Narratives & Data Storytelling** | Presents charts with correct labels and takeaways.                                            | Writes **1-pager** with So-What; builds exec dashboard with leading/lagging indicators, red/amber/green.                       | Crafts **decision memos** that drive action; runs “top-of-house” readouts; anticipates objections; ties recommendations to risk, cost, and time.                                 |
+| **8) Operationalization & Change**             | Shares dashboards and basic alerts.                                                           | Implements **run-books**, alerts, and owner handoffs; integrates metrics into rituals (standups, ops reviews).                 | Turns metrics into **behaviors**: incentives, playbooks, coaching; embeds metrics in roadmaps, SLOs, and contracts; prevents metric drift.                                       |
+| **9) Ethics, Privacy & Compliance (GovTech)**  | Aware of PII/PHI basics; redacts sensitive fields.                                            | Designs with **least privilege**, audit logs, and consent; documents statistical risks (e.g., differential privacy tradeoffs). | Advises stakeholders on **responsible measurement**; runs DPIAs; balances utility vs. privacy in public sector constraints.                                                      |
