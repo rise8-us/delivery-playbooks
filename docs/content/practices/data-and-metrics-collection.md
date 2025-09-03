@@ -190,7 +190,7 @@ Before jumping into dashboards or automation, we begin by asking:
 
 These questions help us frame our data needs around real-world outcomes. Early on, we often track these metrics manually or with simple tools — spreadsheets, surveys, observation — so we can quickly learn what matters. If a low-fidelity solution helps us assess outcomes in prod, we start there. Then, once we’ve validated what’s important, we invest in automation for greater speed and scale.
 
-### **3. Define your Metric
+### **3. Define your Metric**
 
 Start by defining and documenting your metrics in a single location where all teammates and stakeholders can access, and include at least the following context:
 
