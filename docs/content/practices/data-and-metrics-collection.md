@@ -2,7 +2,7 @@
 
 ## What is it?
 
-Data & Metrics Collection is the disciplined way we capture, govern, and interpret evidence to learn whether our products, services or even delivery processes are achieving the desired outcomes, and improving the mission. At Rise8, we don’t collect metrics for metrics’ sake. We focus on measuring only what helps us make decisions, and to identify the smallest useful set of inputs that will generate a bias for action.
+Data & Metrics Collection is the disciplined way we capture, govern, and interpret evidence to learn/validate whether our products, services or even delivery processes are achieving the desired outcomes, and improving the mission. At Rise8, we don’t collect metrics for metrics’ sake. We focus on measuring only what helps us learn from the results of our previous decisions, make new decisions, and to identify the smallest set of usefuly inputs to generate a bias for action.
 
 Aligning everyone on context that is relevant to the problem we're trying to solve, will ensure that we balance the application of both quantitative and qualitative data, metrics and ultimately insights. The combination helps delivery teams build better hypotheses, smarter experiments, and stronger empirical evidence for what's working — or not.
 
@@ -32,8 +32,8 @@ If we can’t measure it, we can’t manage it. But just as important — if we 
 1. Counting events without a decision tied to them.
 2. Changing metric definitions silently (no versioning/governance).
 3. Over-indexing on outputs/vanity KPIs; no balance of inputs/quality guardrails.
-4. Declaring wins on under-powered tests; p-hacking without priors.
-5. Dashboards nobody owns; alerts without run-books.
+4. Declaring wins on under-powered tests; causation and relevancy hacking without first understanding current state baselines.
+5. Catalogs, dashboards or reports that nobody owns; alerts without run-books.
 
 ### What makes a good metric
 
@@ -92,34 +92,34 @@ Leading indicators are forward-looking, providing predictive insights into futur
 
 #### Department of State
 
-| Metric                        | Role    | Why it matters                    |
-| ----------------------------- | ------- | --------------------------------- |
-| Application completeness rate | Leading | Reduces rework → on-time delivery |
-| Interview-slot availability   | Leading | Drives visa wait times            |
-| Passports delivered on-time   | Lagging | Citizen service outcome proof     |
+| Metric                         | Role    | Why it matters                    |
+| ------------------------------ | ------- | --------------------------------- |
+| Application completeness rate  | Leading | Reduces rework → on-time delivery |
+| Interview-slot availability    | Leading | Drives visa wait times            |
+| Passports delivered on-time    | Lagging | Citizen service outcome proof     |
 
 #### Delivery & Performance Mix
 
-| Metric                     | Role    | Why it matters                                   |
-| -------------------------- | ------- | ------------------------------------------------ |
-| Page load p95              | Leading | Faster pages → higher conversion/task completion |
-| Feature adoption (%)       | Leading | Predicts retention/revenue after a delay         |
-| DAU/MAU stickiness         | Leading | Habit strength → future retention                |
-| Change Failure Rate (DORA) | Leading | Predicts incident volume/quality risk            |
-| MTTR                       | Lagging | Confirms recovery performance after incidents    |
-| Retention @ 90 days        | Lagging | Proof of durable value                           |
-| NPS/CSAT                   | Lagging | Summative signal after experience                |
+| Metric                            | Role    | Why it matters                                   |
+| --------------------------------- | ------- | ------------------------------------------------ |
+| Page load p95                     | Leading | Faster pages → higher conversion/task completion |
+| Feature adoption (%)              | Leading | Predicts retention/revenue after a delay         |
+| DAU/MAU stickiness                | Leading | Habit strength → future retention                |
+| Change Failure Rate (DORA)        | Leading | Predicts incident volume/quality risk            |
+| Mean Time to Restore (MTTR; DORA) | Lagging | Confirms recovery performance after incidents    |
+| Retention @ 90 days               | Lagging | Proof of durable value                           |
+| NPS/CSAT                          | Lagging | Summative signal after experience                |
 
 ## How do we do it?
 
 Our approach borrows from the best of modern product and platform thinking:
 
-### **1. Identify What Matters**
+### **1. Identify What Matters and Who's Responsible**
 We collaborate with stakeholders to define the outcomes in production that matter most — those are tied to user goals, delivery health, and business/mission value. These include:
 
 #### Draft a metric tree
 
-Confirm what Mission Impact looks like → Align on OMMTM → Limit to no more than five Leading & Lagging KPIs
+Confirm what Mission Impact looks like → Align on OMMTM → Limit to no more than five Leading & Lagging KPIs that support your OMMTM
 
 #### Example OMMTM
 
@@ -196,7 +196,7 @@ Start by defining and documenting your metrics in a single location where all te
 
 - Name (i.e. the name of your metric)
 - Purpose (i.e. the decision it informs)
-- Owner / Review Cadence (i.e. who makes decisions with it, and how often)
+- Owner / Review Cadence (i.e. who makes decisions with it, and how often are decisions made, who needs to be aware vs. responsible for changes to the metric)
 - Formula (i.e. how to calculate, with units, and how timeframes should be used)
 - Filters & Exclusions (i.e. how to handle segmentation, edge cases, etc.)
 - Data Source & Refresh SLA (i.e. where and how do we collect the data, and how often we refresh the data and metric for review)
