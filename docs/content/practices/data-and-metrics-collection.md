@@ -225,3 +225,8 @@ We don’t treat our metrics as static. As our products evolve, so do the questi
 | **7) Decision Narratives & Data Storytelling** | Presents charts with correct labels and takeaways.                                            | Writes **1-pager** with So-What; builds exec dashboard with leading/lagging indicators, red/amber/green.                       | Crafts **decision memos** that drive action; runs “top-of-house” readouts; anticipates objections; ties recommendations to risk, cost, and time.                                 |
 | **8) Operationalization & Change**             | Shares dashboards and basic alerts.                                                           | Implements **run-books**, alerts, and owner handoffs; integrates metrics into rituals (standups, ops reviews).                 | Turns metrics into **behaviors**: incentives, playbooks, coaching; embeds metrics in roadmaps, SLOs, and contracts; prevents metric drift.                                       |
 | **9) Ethics, Privacy & Compliance (GovTech)**  | Aware of PII/PHI basics; redacts sensitive fields.                                            | Designs with **least privilege**, audit logs, and consent; documents statistical risks (e.g., differential privacy tradeoffs). | Advises stakeholders on **responsible measurement**; runs DPIAs; balances utility vs. privacy in public sector constraints.                                                      |
+
+## Relevant Links
+
+*   [Rate and Ratio Metrics Play](../plays/product/rate-ratio-metrics.md)
+*   [Composite Metrics Play](../plays/product/composite-metrics.md)
