@@ -49,32 +49,32 @@ If we can’t measure it, we can’t manage it. But just as important — if we 
 
 Leading indicators are forward-looking, providing predictive insights into future performance by measuring activities or conditions that influence eventual outcomes, while lagging indicators are backward-looking, measuring past results or events that have already occurred. Leaders use lagging indicators to assess past success and leading indicators to guide proactive measures and ensure future goals are met.
 
-- **Leading indicators** move first. They are inputs you can influence now that predict an outcome.
-- **Lagging indicators** move after the outcome happens. They confirm past performance and measure the results of past actions. 
+**Leading indicators** move first. They are inputs you can influence now that predict an outcome.
+**Lagging indicators** move after the outcome happens. They confirm past performance and measure the results of past actions. 
 
 
 > Rule of thumb: If you can move it this week/sprint and it should move the mission metric later, it’s leading. If it proves the mission moved (often after a delay), it’s lagging.
 
 ### Quick Test: Is it Leading or Lagging?
 
-- Causality: Does it plausibly cause the outcome? → Leading
-- Controllability: Can we move it this sprint? → Leading
-- Latency: Will it respond fast enough to steer? → Leading
-- Confirmation: Is it the proof that outcomes changed? → Lagging
-- Decision-use: Would we act on it before the outcome shows up? → Leading
+Causality: Does it plausibly cause the outcome? → Leading
+Controllability: Can we move it this sprint? → Leading
+Latency: Will it respond fast enough to steer? → Leading
+Confirmation: Is it the proof that outcomes changed? → Lagging
+Decision-use: Would we act on it before the outcome shows up? → Leading
 
 > You need **both**: lead to steer; lag to prove.
 
 ### How to use them together
 
-- **Driving Progress**: Use leading indicators to drive future success and make proactive changes. 
-- **Measuring Effectiveness**: Use lagging indicators to evaluate the effectiveness of those changes and confirm desired outcomes. 
-- **Balanced View**: Combine both to gain a comprehensive view, similar to driving a car with both the windshield and rearview mirror. 
+**Driving Progress**: Use leading indicators to drive future success and make proactive changes. 
+**Measuring Effectiveness**: Use lagging indicators to evaluate the effectiveness of those changes and confirm desired outcomes. 
+**Balanced View**: Combine both to gain a comprehensive view, similar to driving a car with both the windshield and rearview mirror. 
 
 ### KPIs applied to Outcomes in Prod
 
 | Inputs (leading)         | Behavior Outcomes (mix leading & lagging) | Mission Impact (lagging)     |
-| ------------------------ | ----------------------------------------- | ---------------------------- |
+| -----------------------| ----------------------------------------| ---------------------------|
 | Increase page speed      | higher task completion                    | better customer satisfaction |
 | Increase parts fill rate | faster maintenance TAT                    | higher mission-capable rate  |
 
@@ -121,72 +121,81 @@ We collaborate with stakeholders to define the outcomes in production that matte
 
 Confirm what Mission Impact looks like → Align on OMMTM → Limit to no more than five Leading & Lagging KPIs that support your OMMTM
 
-#### Example OMMTM
+##### Healthcare Example
 
-- **Healthcare**: Deaths caused by treatement failures, patient safety indicator, readmission rates, medication adherence rate, and infection rates
-- **Department of State**: Passports delivered on-time, visa interview access, crisis accountability speed, and digital self-service
-- **United States Air Force**: Mission-capable rate, sorties, generate rate, and sensor-to-shooter timeline
-- **United States Space Force**: on-orbit mission availability, custody time for resident space objects, and sensory-to-action latency
+* **Mission:** Building AI-powered tools to prevent harm and improve outcomes for every Veteran, before it’s too late.
+* **OMMTM:** Eliminate annual deaths caused by treatment failures (Target = 0; Current = 22,500)
+* **Supporting Leading/Lagging KPIs:**
+    * Patient Safety Indicator (PSI)
+    * Readmission Rates
+    * Medication Adherence
+    * Infection Rates
+
+#### Additional OMMTM Examples
+
+* **Department of State**: Passports delivered on-time, visa interview access, crisis accountability speed, and digital self-service
+* **United States Air Force**: Mission-capable rate, sorties, generate rate, and sensor-to-shooter timeline
+* **United States Space Force**: on-orbit mission availability, custody time for resident space objects, and sensory-to-action latency
 
 #### Example Delivery Health Metrics
 
-- **DORA**
+* **DORA**
 
-    - Deployment Frequency: how often you deploy.
-    - Lead Time for Changes: code commit → running in prod.
-    - Change Failure Rate: % of deployments that cause incidents/rollbacks.
-    - Time to Restore Service (MTTR): time to recover from a failure.
+    * **Deployment Frequency:** how often you deploy.
+    * **Lead Time for Changes:** code commit → running in prod.
+    * **Change Failure Rate:** % of deployments that cause incidents/rollbacks.
+    * **Time to Restore Service (MTTR):** time to recover from a failure.
 
-- **Flow**
+* **Flow**
 
-    - Lead Time: time from commitment to “done.”
-    - Cycle Time: time from “started” to “done.”
-    - Throughput: completed work items per time period.
-    - Work in Progress (WIP): count of items currently in flight.
-    - Work Item Aging: how long an in-progress item has been open.
+    * **Lead Time:** time from commitment to “done.”
+    * **Cycle Time:** time from “started” to “done.”
+    * **Throughput:** completed work items per time period.
+    * **Work in Progress (WIP):** count of items currently in flight.
+    * **Work Item Aging:** how long an in-progress item has been open.
 
-- **Quality**
+* **Quality**
 
-    - Escaped Defects or Defect Rate: defects found after release (often by severity; complementary to DORA).
+    * **Escaped Defects or Defect Rate:** defects found after release (often by severity; complementary to DORA).
 
-- **Planning & Predictability**
+* **Planning & Predictability**
 
-    - Velocity: completed story points per sprint (use for team-internal forecasting only).
-    - Sprint Burndown: remaining work vs. time inside the sprint.
-    - Epic/Release Burn-up/Down: progress toward a larger goal over multiple sprints.
+    * **Velocity:** completed story points per sprint (use for team-internal forecasting only).
+    * **Sprint Burndown:** remaining work vs. time inside the sprint.
+    * **Epic/Release Burn-up/Down:** progress toward a larger goal over multiple sprints.
 
 #### Example User, Usage and Performance/Reliability Metrics
 
-- **Users (Who are they? Do they stay?)**
+* **Users (Who are they? Do they stay?)**
 
-    - New Users: First-time users in given period.
-    - Active Users (DAU/WAU/MAU) Users with one or more meaningful event in timeframe.
-    - Activation Rate: New users reaching first value milestone.
-    - Churn Rate: Users inactive beyond threshold.
+    * **New Users:** First-time users in given period.
+    * **Active Users (DAU/WAU/MAU):** Users with one or more meaningful event in timeframe.
+    * **Activation Rate:** New users reaching first value milestone.
+    * **Churn Rate:** Users inactive beyond threshold.
  
-- **Usage (How often? How deep? How broad?)**
+* **Usage (How often? How deep? How broad?)**
 
-    - Sessions/User: Avg sessions per active user.
-    - Events/Session: Avg meaningful actions per session.
-    - Feature Adoption: Unique users who used feature x.
-    - Task Completion Rate: Users completing task without help.
-    - Funnel Conversion: Step-to-step percetnage drop-offs.
+    * **Sessions/User:** Avg sessions per active user.
+    * **Events/Session:** Avg meaningful actions per session.
+    * **Feature Adoption:** Unique users who used feature x.
+    * **Task Completion Rate:** Users completing task without help.
+    * **Funnel Conversion:** Step-to-step percetnage drop-offs.
 
-- **Performance/Reliability**
+* **Performance/Reliability**
 
-    - Availability/Uptime: Percetnage of time service meets Service Level Objective (SLO).
-    - Latency: Response time distribution.
-    - Error Rate: Failed requests over total number of requests.
-    - Crash Rate: Crashes per session, over total number of users
+    * **Availability/Uptime:** Percetnage of time service meets Service Level Objective (SLO).
+    * Latency:** Response time distribution.
+    * Error Rate:** Failed requests over total number of requests.
+    * Crash Rate:** Crashes per session, over total number of users
 
 ### **2. Start with Questions**
 
 Before jumping into dashboards or automation, we begin by asking:
 
-- What is the smallest, measurable, result that shows we’re heading in the right direction for mission impact?
-- What behavior change do we want to see in users, or our systems, that drive mission impact to change?
-- What assumptions are we trying to validate?
-- What pain in our delivery processes can we prioritize, and measure?
+* What is the smallest, measurable, result that shows we’re heading in the right direction for mission impact?
+* What behavior change do we want to see in users, or our systems, that drive mission impact to change?
+* What assumptions are we trying to validate?
+* What pain in our delivery processes can we prioritize, and measure?
 
 These questions help us frame our data needs around real-world outcomes. Early on, we often track these metrics manually or with simple tools — spreadsheets, surveys, observation — so we can quickly learn what matters. If a low-fidelity solution helps us assess outcomes in prod, we start there. Then, once we’ve validated what’s important, we invest in automation for greater speed and scale.
 
@@ -194,12 +203,12 @@ These questions help us frame our data needs around real-world outcomes. Early o
 
 Start by defining and documenting your metrics in a single location where all teammates and stakeholders can access, and include at least the following context:
 
-- Name (i.e. the name of your metric)
-- Purpose (i.e. the decision it informs)
-- Owner / Review Cadence (i.e. who makes decisions with it, and how often are decisions made, who needs to be aware vs. responsible for changes to the metric)
-- Formula (i.e. how to calculate, with units, and how timeframes should be used)
-- Filters & Exclusions (i.e. how to handle segmentation, edge cases, etc.)
-- Data Source & Refresh SLA (i.e. where and how do we collect the data, and how often we refresh the data and metric for review)
+* Name (i.e. the name of your metric)
+* Purpose (i.e. the decision it informs)
+* Owner / Review Cadence (i.e. who makes decisions with it, and how often are decisions made, who needs to be aware vs. responsible for changes to the metric)
+* Formula (i.e. how to calculate, with units, and how timeframes should be used)
+* Filters & Exclusions (i.e. how to handle segmentation, edge cases, etc.)
+* Data Source & Refresh SLA (i.e. where and how do we collect the data, and how often we refresh the data and metric for review)
 
 ### **4. Instrument & Automate**
 Lean on industry tools to automate collection where feasible. This reduces manual burden and ensures we capture high-fidelity data in near-real time.
