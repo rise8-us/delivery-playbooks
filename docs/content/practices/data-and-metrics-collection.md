@@ -184,9 +184,9 @@ Confirm what Mission Impact looks like → Align on OMMTM → Limit to no more t
 * **Performance/Reliability**
 
     * **Availability/Uptime:** Percetnage of time service meets Service Level Objective (SLO).
-    * Latency:** Response time distribution.
-    * Error Rate:** Failed requests over total number of requests.
-    * Crash Rate:** Crashes per session, over total number of users
+    * **Latency:** Response time distribution.
+    * **Error Rate:** Failed requests over total number of requests.
+    * **Crash Rate:** Crashes per session, over total number of users
 
 ### **2. Start with Questions**
 
