@@ -5,9 +5,9 @@
 
 ## What are Rate and Ratio Metrics?
 
-Rate and ratio-based metrics both compare two numbers through division, but the distinction lies in the relationship between the quantities and the role of time. A rate metric explicitly measures a change over time, while a ratio metric compares two quantities that can be of different units and do not necessarily involve time. 
+Rate and ratio-based metrics both compare two numbers through division, but the distinction lies in the relationship between the quantities and the role of time. A rate metric explicitly measures a change over time, while a ratio metric compares two quantities that can be of different units and do not necessarily involve time.
 
-### Why Delivery Teams Use Them
+### Why Delivery Teams use them
 
 #### Apples-to-apples comparability
 
@@ -45,7 +45,21 @@ Ratios collapse complexity into a single, stable idea (e.g., “9.7 readmissions
 
 ### Rate-based Metrics
 
-A rate measures the frequency of an event over a specific time period. It describes how one quantity changes in relation to another, with time as a critical component. Rates often answer the question, "how often is something happening?". 
+A rate measures the frequency of an event over a specific time period. It describes how one quantity changes in relation to another, with time as a critical component. Rates often answer the question, "how often is something happening?". So think of this metric as events per unit of exposure (time, people, assets, miles, $$). 
+
+> Incidents per 1,000 users, per week
+
+#### Rate Mini Template
+
+```
+name: <metric name>
+formula: numerator / exposure × K
+numerator: <event count or amount>
+exposure: <time, users, assets, $…>
+K (scaling): <1, 100, 1,000…>
+window: <e.g., weekly, rolling 7d>
+notes: zero-denominator rule, stratifications, owner
+```
 
 #### Rate Metric Characteristics
 
@@ -63,7 +77,20 @@ A rate measures the frequency of an event over a specific time period. It descri
 
 ### Ratio-based metrics
 
-A ratio is a metric that compares two numbers or aggregations to show their relationship. Unlike rates, the denominator is not necessarily a unit of time and can be customized to align with specific business needs. Ratios help to normalize data and provide more nuanced insights into performance. 
+A ratio is a metric that compares two numbers or aggregations to show their relationship. Unlike rates, the denominator is not necessarily a unit of time and can be customized to align with specific business needs. Ratios help to normalize data and provide more nuanced insights into performance. So think of this metric as ***(success or failure dataset ÷ total opportunities) * 100*** 
+
+> On-time passports ÷ all passports = on-time %
+
+#### Ratio Mini Template
+
+```
+name: <metric name>
+formula: numerator / denominator × 100
+numerator: <what counts as “success”>
+denominator: <opportunity set>
+window: <e.g., trailing 28 days>
+notes: exclusions, min denominator N, owner
+```
 
 #### Ratio Metric Characteristics
 
@@ -96,7 +123,50 @@ A ratio is a metric that compares two numbers or aggregations to show their rela
 * **Guard against tiny denominators.** Set a minimum N before reporting or alerting.
 * **Pair rates with counts.** A small rate change on massive volume can be mission-critical.
 
-### Misleading Signals to Monitor
+### Five denominator patterns
+
+| Pattern                                 | Denominator (exposure)                                                   | Formula template                      | Example metrics                                                                         | When to use / Notes                                                                           |
+| --------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **1) Time exposure**                    | Time window (hours, days, weeks)                                         | `rate = events / time_window × K`     | Errors/day; Deploys/week; Tickets/hour                                                  | Great for tempo/throughput. Use rolling windows (e.g., trailing 7/28d) to smooth seasonality. |
+| **2) Population at risk / Users**       | Active users / people at risk in window                                  | `rate = events / active_users × K`    | Incidents per 1k users; Help tickets per 100 employees; Security alerts per 10k devices | Fair comparisons across different user counts. Define “active/at risk” precisely.             |
+| **3) Opportunity set**                  | Attempts / eligible items                                                | `ratio = successes / opportunities`   | Conversion %; On-time %; Test pass rate                                                 | Best for effectiveness. Ensure numerator ⊆ denominator and eligibility is stable.             |
+| **4) Asset / capacity units**           | Asset exposure (aircraft-days, server-hours, adjudicator-days, FTE-days) | `rate = outputs / asset_exposure`     | Sorties per aircraft-day; Requests per server-hour; Interviews per adjudicator-day      | For productivity/utilization. Align asset time with operating hours, not calendar.            |
+| **5) Size / work / cost normalization** | Size of work (KLOC, GB, miles, transactions, \$)                         | `metric_per_unit = amount / size × K` | Defects per KLOC; Cost per transaction; Energy per GB                                   | For density/unit economics. Watch for case-mix differences as size grows.                     |
+
+#### Notes
+
+* ***K*** is a readability scaler (e.g., ×100 for %, ×1,000 for “per 1k”).
+* Aggregate across segments with sums, not averages: Σnumerators / Σdenominators (avoid averaging percentages).
+* Always publish the exact definition (numerator, denominator, window, exclusions) with an owner and a change log.
+
+### Picking the right denominator
+
+| If your question is…               | Use this denominator                                   |
+| ---------------------------------- | ------------------------------------------------------ |
+| “How often over time?”             | Time window (hours/days/weeks)                         |
+| “How common among users?”          | Active users / population at risk                      |
+| “How effective out of tries?”      | Eligible attempts / opportunities                      |
+| “How productive are assets/teams?” | Asset-exposure (aircraft-days, server-hours, FTE-days) |
+| “How dense relative to size?”      | Size measure (KLOC, GB, miles, \$)                     |
+
+### Mini-examples by domain
+
+| Domain              | Metric                                    | Type       | Formula (windowed)                                                       | Example Unit/Scale       | Notes                                                    |
+| ------------------- | ----------------------------------------- | ---------- | ------------------------------------------------------------------------ | ------------------------ | -------------------------------------------------------- |
+| Product / Software  | Error rate                                | Rate       | `errors_per_1k = (error_requests / total_requests) × 1_000`              | errors per 1k requests   | Normalize by requests for fair comparison.               |
+| Product / Software  | Crash-free sessions                       | Proportion | `crash_free = 1 − (crashed_sessions / total_sessions)`                   | %                        | Higher is better; pair with crash count.                 |
+| Product / Software  | Throughput                                | Rate       | `throughput = completed_items / elapsed_time`                            | items per day/week       | Compute from totals; **don’t** use `1 / avg_cycle_time`. |
+| Department of State | On-time passport                          | Proportion | `on_time_pct = on_time_deliveries / all_deliveries`                      | %                        | Define service standard window explicitly.               |
+| Department of State | Interviews per adjudicator-day            | Rate       | `interviews_per_adjudicator_day = interviews / Σ(adjudicator_work_days)` | interviews per day       | Use **work** days, not calendar days.                    |
+| Department of State | Visa no-show                              | Proportion | `no_show_pct = no_shows / scheduled_interviews`                          | %                        | Track by post and appointment type.                      |
+| U.S. Air Force      | Sorties per aircraft-day (SGR)            | Rate       | `SGR = sorties / Σ(aircraft_possessed_days)`                             | sorties per aircraft-day | Align exposure to **possessed/available** days.          |
+| U.S. Air Force      | Maintenance findings per 100 flight hours | Rate       | `findings_per_100_fh = findings / flight_hours × 100`                    | per 100 FH               | Good for reliability density.                            |
+| U.S. Space Force    | Conjunction alerts                        | Rate       | `alerts_per_10k = alerts / (tracked_objects × weeks) × 10_000`           | alerts per 10k objs/wk   | Normalizes by catalog size and time.                     |
+| U.S. Space Force    | Custody ratio                             | Proportion | `custody_pct = custody_time / total_time`                                | %                        | Also track reacquire time (p50/p90).                     |
+| Healthcare / VA     | 30-day medication adherence               | Proportion | `adherent_pct = adherent_patients / eligible_patients`                   | %                        | Define eligibility & lookback precisely.                 |
+| Healthcare / VA     | Readmissions                              | Rate       | `readmit_per_1k = readmissions / discharges × 1_000`                     | per 1k discharges        | Pair with severity/case-mix stratification.              |
+
+### Misleading signals to monitor
 
 #### 1) Context
 
@@ -113,7 +183,7 @@ Fixes to consider (pick 2 to 3):
 
 * **Compare like with like:** Break the metric into slices (by region, device, severity). Trend each slice.
 * **Publish the mix:** Show a small table: segment %, segment rate.
-* **Recompute from sums:** Use Σnumerators / Σdenominators for rollups.
+* **Recompute from sums:** Use Σnumerators / Σdenominators for rollups - don't average percentages.
 * **Pin the denominator:** When possible, keep the “at risk” group definition stable over time.
 
 #### 3) Gaming (moving the number without real progress)
