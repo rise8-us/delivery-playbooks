@@ -168,11 +168,11 @@ notes: exclusions, min denominator N, owner
 
 ### Misleading signals to monitor
 
-#### 1) Context
+#### 1. Context
 
 When interpreting both rate and ratio metrics, it is important to consider the context of the underlying numbers. For example, "revenue per visit" might improve simply because the number of visits has decreased, not because the revenue per user has increased. Always examine the component metrics (the numerator and denominator) to understand what is driving the change. 
 
-#### 2) Denominator Drift / Case-Mix Changes
+#### 2. Denominator Drift / Case-Mix Changes
 
 Imagine two jars of jellybeans: big beans and tiny beans. You taste a few from each jar and both taste yummier than last time. But today you scooped way more tiny beans into your bowl than big ones. Your bowl now tastes less yummy overall—even though each jar got yummier. The mix changed.
 
@@ -186,7 +186,7 @@ Fixes to consider (pick 2 to 3):
 * **Recompute from sums:** Use Σnumerators / Σdenominators for rollups - don't average percentages.
 * **Pin the denominator:** When possible, keep the “at risk” group definition stable over time.
 
-#### 3) Gaming (moving the number without real progress)
+#### 3. Gaming (moving the number without real progress)
 
 Your chore score is “toys put away per minute.” You want a gold star, so you count only tiny toys and stop the timer early. Number looks great; the room is still messy.
 
@@ -200,7 +200,7 @@ Fixes to consider (guardrails + governance):
 * **Audit edge cases:** Sample items just below/above thresholds.
 * **Balance the portfolio:** Use 3–7 inputs that push in different directions so one can’t be gamed without another flashing red.
 
-#### 4) Over-normalization (ratios hide real people or cost)
+#### 4. Over-normalization (ratios hide real people or cost)
 
 “99% of kids got lunch” sounds amazing—until you hear there are a million kids. That missing 1% is 10,000 hungry kids.
 
@@ -213,7 +213,7 @@ Fixes to consider (apply the always show both rule)
 * **Add thresholds in counts:** “No more than 50 severe incidents / month” and “<0.1 per 1k users.”
 * **Escalate big absolutes:** Create alerts when the count crosses a mission-meaningful line, even if the rate is fine.
 
-#### 5) Seasonality
+#### 5. Seasonality
 
 In Florida summers, the sky makes afternoon lightning almost every day. If you only look at calm months (October–April), you’ll think “We almost never get weather alerts!” Then June shows up with daily thunderstorms and you panic. It’s not that the team got worse—it’s summer storm season.
 
@@ -242,7 +242,7 @@ Fixes to consider:
 * **Annotated dashboards:** Mark known seasonal drivers: sea-breeze thunderstorm season (May–Sep), hurricane season (Jun–Nov), major front passages, range maintenance windows.
 * **Capacity & scheduling:** Bias critical ops toward morning windows in summer; pre-plan extra buffer days May–September.
 
-#### 6) Scope alignment
+#### 6. Scope alignment
 
 You count red blocks in the jar, but then you divide by all blocks in the room. That’s mixing jars and rooms—your math is confused.
 
@@ -257,7 +257,7 @@ Fixes to consider:
 * **Eligibility first:** Define who’s in the game before counting wins (e.g., “eligible users” vs. “all users”).
 * **Version & lock:** Treat KPI definitions like code; change log any tweak.
 
-#### 7) Stratify critical KPIs
+#### 7. Stratify critical KPIs
 
 Your class average is an A, yay! But some kids are quietly failing. Looking only at the average hides who needs help.
 
