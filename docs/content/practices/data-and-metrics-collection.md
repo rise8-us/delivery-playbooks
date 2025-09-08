@@ -238,4 +238,3 @@ We don’t treat our metrics as static. As our products evolve, so do the questi
 ## Relevant Links
 
 *   [Rate and Ratio Metrics Play](../plays/product/rate-ratio-metrics.md)
-*   [Composite Metrics Play](../plays/product/composite-metrics.md)
