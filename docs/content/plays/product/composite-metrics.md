@@ -51,7 +51,9 @@ Have you ever encountered a situation where your team couldn't agree on, or it w
 * If value is half the target → n = 0.5
 * If value exceeds target → n sticks at 1
 
-> Tiny example:  value 0.88 (88%), target 0.95 (95%) → 0.88/0.95 = 0.926 → 0.926
+##### Tiny example:
+
+value 0.88 (88%), target 0.95 (95%) → 0.88/0.95 = 0.926 → 0.926
 
 ##### Sheets/Excel:
 
@@ -68,7 +70,9 @@ Have you ever encountered a situation where your team couldn't agree on, or it w
 * If value is double the target → n = 0.5
 * If value drops below target → n caps at 1
 
-> Tiny example:  value 22 days, target 14 days → 14/22 = 0.636 → 0.636
+##### Tiny example:
+
+value 22 days, target 14 days → 14/22 = 0.636 → 0.636
 
 ##### Sheets/Excel:
 
@@ -90,7 +94,8 @@ Have you ever encountered a situation where your team couldn't agree on, or it w
 
 Like a school GPA. A great grade in one subject can make up for a weaker grade in another. You’re averaging, but giving some parts more weight. Use this approach when you’re OK with trade-offs and you want a clear, explainable score.
 
-> Tiny example:
+##### Tiny example:
+
 * Components (already on a 0–1 scale): A=0.90, B=0.60, C=0.80
 * Weights: A 50%, B 30%, C 20%
 * Score = 0.5×0.90 + 0.3×0.60 + 0.2×0.80 = 0.79 (79/100)
@@ -109,7 +114,8 @@ Leverage non-compensatory aggregate functions when all parts of the composite me
 * All components are strictly positive and well measured on a stable 0-1 scale.
 * You want weak links to be penalized more than a sum would (e.g. reliability score blending uptime, latency and error rate).
 
-> Tiny example:
+##### Tiny example:
+
 * A=0.90, B=0.60, C=0.80 (weights 0.5/0.3/0.2)
 * **Min**: min = 0.60
 * **Geometric mean**: ≈ 0.778 (a bit lower than the 0.79 average because B is weak)
@@ -125,7 +131,8 @@ Leverage non-compensatory aggregate functions when all parts of the composite me
 
 Rule: “If any critical part is below a bar, cap the whole score.” Using a driver's test analogy, you can ace parking and signaling, but if you run a red light, you fail—no amount of other goodness can fully compensate.
 
-> Tiny example:
+##### Tiny example:
+
 * Add non-compensatory gate for critical standards or sacred dimensions (e.g. safety, accessibility)
 * "If accessibility < 95%, cap the result at 0.60"
 
