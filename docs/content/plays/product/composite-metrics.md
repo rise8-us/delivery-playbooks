@@ -271,7 +271,9 @@ Final Index (Month B) = 0.60 (capped), not 0.9685.
 
 If you want the math itself to be less compensatory, use the geometric mean (still with the same 0–1 normals and weights). Geometric mean naturally down-weights any single weak link, making “all-around” performance matter more.
 
-> Citizen Service Index = (n_on_time^0.35) × (n_speed^0.25) × (n_csat^0.25) × (n_access^0.15)
+#### Citizen Service Index Example
+
+* Formula = (n_on_time^0.35) × (n_speed^0.25) × (n_csat^0.25) × (n_access^0.15)
 * Month A (0.88, 0.636, 0.933, 0.97) → ≈ 0.836 (vs 0.846 sum)
 * Month B (0.94, 1.00, 1.00, 0.93) → ≈ 0.968 before gate → 0.60 after gate
 
