@@ -28,7 +28,7 @@ To visualize and improve our process of delivering greater value to customers, w
 
 > *"VSM gives us the lens to diagnose noise in delivery and rewire teams for continuous value flow."*
 
-#### The difference between Value Stream vs. Process Map Perspectives
+#### The difference between Value Stream vs. Process Map perspectives
 
 Value stream perspectives should focus on the macro view of the system. This is where we are thinking about strategic "what" and "why" conversations with leaderhip based on the organizations context. They're typically broader in scope, involve cross-functional handoffs, and have longer lead times. Some examples coule be:
 
@@ -87,7 +87,40 @@ VSM metrics can span categories like time, flow, quality, cost, people, or any m
 
 <br/>
 
-## Three Value Streams Relevant to Rise8's Business
+### Key metrics
+
+#### Lead Time & Processing Time
+
+Lead time (aka Elapsed Time, Throughput Time, or Turnaround Time) accounts for all time between work received and work passed to the next process step - including the processing time. Process time (aka Touch Time, Work Time, or Cycle Time) is measured whenever work is not sitting idle. Another way to think about process time is when we're touching, talking or thinking about the work.
+
+![Vakye Strans](../../../lead-process-time.png)
+_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+
+<br/>
+
+#### Percent Complete & Accurate (%C&A)
+
+When calculating %C&A, we're trying to understand the quality of both inputs and outputs throughout our value stream. It's important to note that %C&A of one mission/business process step is calculated based upon the feedback from the downstream mission/business process step(s). If we take the 80% C&A designation for Process step #1 as an example, what this actually communicates is that only 80% of the work that Process step #2 receives from Process step #1 is "usable as is". In other words, 20% of the time the owner of Process step #2 is having to take one or more of the following actions to be 100% C&A (i.e. zero quality issues; optimal flow)
+
+1. **Correcting** infromation or material that was supplied
+2. **Adding** information that should have been supplied
+3. **Clarifying** informaiton that should/could have been clearer
+
+![Vakye Strans](../../../%c&a-example.png)
+_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+
+<br/>
+
+##### Multiple downstream process owners receive work from one upstream process owner
+
+When multiple downstream process owners are using the work provided by one upstream process owner, we want to reflect %C&A for the upstream process owner by combining the feedback from all of the applicable downstream process owners. In the example below, process block owner #5 states that the %C&A should be 75%, while process block owner #7 says %C&A is 50%. So the overall %C&A for process block #4, who provided the work that process block #5 and #7 relied on, is actually 37.5%.
+
+![Vakye Strans](../../../multiple-%c&a-example.png)
+_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+
+<br/>
+
+## Three value streams relevant to Rise8's business
 
 Regardless of your role at Rise8, it's important to understand the three Value Streams that we influence, and how they support our company's value equation of optimizing for mission value:
 
@@ -97,7 +130,7 @@ Regardless of your role at Rise8, it's important to understand the three Value S
 
 ![Vakye Strans](../../../assets/vsm-types.png)
 
-## Basic Current State Value Stream Map
+## Basic current state VSM
 
 A basic current state value stream map will highlight the following at a minimum:
 
@@ -120,31 +153,15 @@ Below is an example of a basic current state VSM, and some obvious waste signals
 <br/>
 
 ![Vakye Strans](../../../assets/basic-current-state-vsm.png)
+_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
 <br/>
 
-## Where VSM Fits in Our Continuous Improvement Framework
-
-Value Stream Mapping is the **starting point** for understanding the current condition within the Improvement Kata framework:
-
-1. **Understand the direction or challenge**  
-   _What mission impact are we trying to enable?_
-2. **Grasp the current condition**  
-   _Use VSM to visualize the actual flow of value._
-3. **Establish the next target condition**  
-   _Set goals based on constraints or opportunities identified._
-4. **Experiment your way forward**  
-   _Use this insight to conduct experiments, reflect on the results and make new decisions._
-
-> *If you don’t know what value you're trying to achieve, how value is flowing, or what’s constraining it—start with a VSM.*
-
-<br/>
-
-## How to Facilitate a Value Stream Mapping Exercise
+## How to facilitate a Value Stream Mapping exercise
 
 Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nAOHoAR9JOa7UXF7/-CREATE-COPY----Rise8-Standard-Delivery-Artifacts?node-id=0-1&p=f&t=y3WJv70v7goBSbmo-0) to facilitate current and target state VSM workshops, or assist in digitizing outputs from a workshop leveraging sticky notes. 
 
-### Pre-Work Checklist
+### Pre-work checklist
 
 | Item | Why It’s Needed |
 |------|-----------------|
@@ -159,7 +176,7 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 ---
 
-### Key Components to Map
+### Key components to map
 
 | Component | Description |
 |----------|-------------|
@@ -174,11 +191,11 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 | **Tools** | Clarifying systems or artifacts used |
 | **Metrics** | Align on what we need to measure for our value stream, how they'll be used to help make and validate decisions |
 | **Handoffs** | Between people, systems, departments |
-| **Pain Points** | Bottlenecks, delays, rework, rejections |
+| **Pain Points** | Bottlenecks, delays, queues, rework, rejections |
 
 ---
 
-### Workshop Tips
+### Workshop tips
 
 💡 Ensure the right participants are invited to VSM workshops. Inviting the following personas will lead to better success:
 
@@ -194,6 +211,12 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 💡 Agree on refresh triggers/cycles (we recommend fitting this into your hypothesis validation steps, before starting a new hypothesis experiment)
 
+💡 Build the Current State VSM in three passse
+
+1. Mission/Business process blocks & work in process
+2. Information flow (i.e. applications, systems, and how information is transfered)
+3. Metrics and timelines
+
 💡 What to Avoid:
 
 - Mapping discrete actor (systems or users) actions instead of flows
@@ -202,7 +225,7 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 ---
 
-### Facilitation Tips
+### Facilitation tips
 
 💡 **Apply a “Go See and Find Out” mentality** – Encourage participants to describe what *really* happens, not what *should* happen.
 
@@ -224,7 +247,7 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 ---
 
-### What to Avoid
+### What to avoid
 
 - Mapping systems or roles instead of flows
 - Rushing straight to solutions
@@ -235,11 +258,11 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 <br/>
 
-## Facilitation Script & Prescriptive Steps for Building a Current & Target State VSM
+## Facilitation script & prescriptive steps for building a current & target state VSM
 
 Use the following script and facilitation steps to confidently lead a Value Stream Mapping session. This structured approach ensures the session yields a high-quality map and actionable insights.
 
-### Before the VSM Workshop
+### Before the VSM workshop
 
 1. **Define the scope and objective**  
    _"We’re here to understand how value flows today—so we can unblock it and drive greater mission impact."_
@@ -255,12 +278,12 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 ---
 
-### During the Workshop
+### During the workshop
 
-#### Opening Script (5 mins)
+#### Opening script (5 mins)
 > _"Thanks for joining. Today we’re mapping our value stream to uncover where work gets stuck, who’s involved, and how it flows—or doesn’t flow—across systems and teams. This helps us deliver outcomes faster and with less pain. Our focus is on the **current state**, not what we wish it looked like."_
 
-#### Step-by-Step Current State VSM Facilitation
+#### Step-by-step current state VSM facilitation
 
 1. **Establish the mission impact** - "What’s the core mission this stream supports?" (e.g., “Deliver approved benefits to Veterans”)
 2. **Reaffirm known mission impact(s)** - “What’s the core mission/business impact this value stream supports?” “How do we measure business/mission impact success today?”
@@ -287,7 +310,7 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 <br/>
 
-#### After the Current State VSM Session
+#### After the current state VSM session
 
 1. **Document and digitize the map** - Use Figjam, Miro, Lucidchart, or Mural to clean up and archive.
 2. **Synthesize insights** - Highlight biggest bottlenecks, gaps, silos, questions and assumptions.
@@ -296,7 +319,7 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 > _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
 
-#### Step-by-Step Target State VSM Facilitation
+#### Step-by-step target state VSM facilitation
 
 1. Present a quick overview of the Current State VSM
 2. Highlight the NVA and RNVA steps, major lead time (LT) and process time (PT) differences, low %C&A values
@@ -327,11 +350,11 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 ---
 
-## What Comes After a VSM?
+## What comes after a VSM?
 
 Now that you have a Value Stream Map, it’s time to **act on it**:
 
-### Next Play Recommendations
+### Next play recommendations
 
 | Next Play's to Consider | Why It Follows VSM |
 |-----------|--------------------|
@@ -343,7 +366,7 @@ Now that you have a Value Stream Map, it’s time to **act on it**:
 
 ---
 
-### Relevant Links & Resources
+### Relevant links & resources
 
 - **eBook**: [4 Easy Steps to Mastering Chaos with VSM](https://enterprise-software.broadcom.com/valueops-connectall-insights) – Useful to contextualize modern software VSM.
 - **Book**: [Value Stream Mapping – Essential for understanding the lean and facilitation discipline behind VSM](https://www.goodreads.com/book/show/17718225-value-stream-mapping).
