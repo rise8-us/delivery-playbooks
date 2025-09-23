@@ -5,9 +5,9 @@
 
 ## What is Value Stream Mapping?
 
-Value Stream Mapping (VSM) is a Lean tool used to visualize the flow of work, materials, and information needed to deliver value to a customer—from request to delivery. In software delivery, this means mapping everything from a user need to production deployment.
+Value Stream Mapping (VSM) is a Lean tool used to visualize the flow of how value is delivered to a customer—from request to fulfillment. Whether we're talking about software delivery, medication prescriptions, or launching rockets into orbit, this means mapping all of the activities required to transform a customer request into a good or service being fulfilled.
 
-At Rise8, we use VSM in relation to Theories of Constraints to draw focus to identifying and removing constraints that limit throughput, and thus increasing manufacturing capacity. By revealing how value flows through our system, highlighting inefficiencies, and aligning teams around transformation priorities we create imbalances to maximize throughput at the constraint. 
+At Rise8, we use VSM in relation to Theories of Constraints to help identify and remove constraints that limit throughput, and thus increasing value stream capacity and qualtiy. By revealing how value flows through our system, highlighting inefficiencies, and aligning teams around transformation priorities, we create imbalances to maximize throughput at the constraint. 
 
 - **Every system has a constraint:** This is the factor that most restricts the system's output.
 - **Constraints set the pace:** Draw focus to the constraint until it is no longer the constraint
@@ -19,7 +19,7 @@ At Rise8, we use VSM in relation to Theories of Constraints to draw focus to ide
 To visualize and improve our process of delivering greater value to customers, we follow seven key principles for Value Stream Mapping:
 
 1. **Customer-Centric Focus:** VSM should always begin with the customer in mind. Understanding what the customer values ensures that the mapping process aligns with delivering that value efficiently.
-2. **Holistic Systems Thinking:** Rather than optimizing individual processes, VSM emphasizes viewing the entire value stream to identify and eliminate waste, ensuring improvements benefit the whole system.
+2. **Holistic Systems Thinking:** Rather than optimizing individual processes (i.e. individual "component" efficiency), VSM emphasizes viewing the entire value stream to identify and eliminate waste, ensuring systematic improvements and efficiency (e.g. if one rower suddenly changed their stroke rate, they'd immediately cause the boat to change direction and potentially lose the race).
 3. **Leadership Engagement:** Effective VSM requires the involvement of stakeholders who have the authority and vision to implement significant changes. Their engagement ensures that improvements are strategic and aligned with mission objectives.
 4. **Distinction Between Core and Supportive Value Streams:** Both core value streams (directly delivering products or services) and supportive value streams (such as employee onboarding or software delivery) are crucial for overall organizational performance.
 5. **Data-Driven Analysis:** VSM relies on collecting accurate data for process times, lead times, and other metrics that are relevant to your mission/business process to identify bottlenecks and areas for improvement.
@@ -28,9 +28,23 @@ To visualize and improve our process of delivering greater value to customers, w
 
 > *"VSM gives us the lens to diagnose noise in delivery and rewire teams for continuous value flow."*
 
+#### The difference between Value Stream vs. Process Map Perspectives
+
+Value stream perspectives should focus on the macro view of the system. This is where we are thinking about strategic "what" and "why" conversations with leaderhip based on the organizations context. They're typically broader in scope, involve cross-functional handoffs, and have longer lead times. Some examples coule be:
+
+- A complex overview of highway system that supports continuous flow of traffic
+- Delivering a car to a customer
+- Staffing an employee to work on a contract
+
+Whereas process mapping perspectives help us see the micro level details. This is where we focus on the tactical "how" conversations.
+
+- A state highway patrol officer responsible for radaring traffic on a designated section of I-90
+- How exteroir car parts are painted
+- Writing and posting a job req on external websites
+
 ### How do we categorize waste?
 
-The following categories of waste are used by nearly all communities. We've provided some Software Delivery and Healthcare examples to help translate this into various contexts.
+The following categories of waste are used by nearly all communities. We've provided some Software Delivery and Healthcare examples to help translate these for different context settings.
 
 | Waste Category                                                                     | Software Delivery Example                                              | Healthcare Example                                                      |
 |------------------------------------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------------------|
@@ -83,6 +97,32 @@ Regardless of your role at Rise8, it's important to understand the three Value S
 
 ![Vakye Strans](../../../assets/vsm-types.png)
 
+## Basic Current State Value Stream Map
+
+A basic current state value stream map will highlight the following at a minimum:
+
+- If there is a supplier and customer involved, or the customer plays both roles, for how value is generated.
+- Information flow layer (e.g. IT systems or other products that help move data)
+- Process flow layer (e.g. the high level mission/business process steps that deliver value)
+- Key metrics (i.e. Lead Time, Processing Time, and Rolled % Complete and Accurate)
+- The number of processed units/items that are sitting or waiting in inventory or a queue between processes
+- What function/department/group is responsible for completing the process step
+- The number of operators/workers that are required for a process step to be completed (also indicates where a process step is not automated)
+
+### Example and obvious waste signals
+
+Below is an example of a basic current state VSM, and some obvious waste signals that should be addressed:
+
+1. 45 items are being queued between process steps 2 and 3
+2. LT is nearly 10 days while PT is only 3 hours
+3. IT systems 1 and 2 within the Information flow layer are not integrated throughout this value stream
+
+<br/>
+
+![Vakye Strans](../../../assets/basic-current-state-vsm.png)
+
+<br/>
+
 ## Where VSM Fits in Our Continuous Improvement Framework
 
 Value Stream Mapping is the **starting point** for understanding the current condition within the Improvement Kata framework:
@@ -92,9 +132,9 @@ Value Stream Mapping is the **starting point** for understanding the current con
 2. **Grasp the current condition**  
    _Use VSM to visualize the actual flow of value._
 3. **Establish the next target condition**  
-   _Set SMART goals based on constraints or opportunities identified._
+   _Set goals based on constraints or opportunities identified._
 4. **Experiment your way forward**  
-   _Use this insight to conduct safe-to-fail experiments._
+   _Use this insight to conduct experiments, reflect on the results and make new decisions._
 
 > *If you don’t know what value you're trying to achieve, how value is flowing, or what’s constraining it—start with a VSM.*
 
