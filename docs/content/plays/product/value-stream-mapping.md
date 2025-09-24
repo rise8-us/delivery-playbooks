@@ -59,6 +59,24 @@ The following categories of waste are used by nearly all communities. We've prov
 
 <br/>
 
+### When to introduce new process blocks
+
+As teams are discussing and laying out process blocks along their current value stream, there is always a question of how macro to go, and this takes some practice. You want to make sure that your value stream map isn’t so large that it becomes unwieldy, nor so simple that it becomes useless. To aid in targeting the right level of information, we aim for 5 to 15 serial process blocks. If we have fewer than 5 process blocks, we may not have enough details to make meaningful or effective decisions. If we have more than 15 process blocks, it could mean our scope is too broad, or we could be slipping into Process Mapping territory with micro level details. Neither should cause us to immediately jump to the conclusion that a VSM would not be valuable. It just means we need to recalibrate and make sure we make a concious decision to proceed as is, or make an adjustment. This often prompts the question, "how do we know when to add a new process block vs. combine them?". Remember, value flow is present when work moves from one process to the next in the value stream without interruption or delay. Generally, ***a new process block is warranted when the work stops flowing***. This often 
+occurs when there is a break in the timeline or flow:
+
+- a **handoff to a new work area**
+- **work accumulates** - a buildup of work-in-process
+- the **work is only processed at a predetermined time interval** - batching
+
+### Acceptable parallel process branching
+
+At times we may find it is important to deliniate scenarios where ratios of our value stream split into multiple processes. For example, You may find that the output from one process block is passed to two or more functions and is worked on concurrently. We call these ***parallel processes***. In this case, the process blocks are stacked above one
+another in the same vertical plane. process blocks 3 and
+4 in Figure 3.2 depict branching, not parallel processes.)  
+
+
+
+
 ### What metrics are commonly used in VSM?
 
 VSM metrics can span categories like time, flow, quality, cost, people, or any metric that is relevant to your mission context
@@ -93,7 +111,7 @@ VSM metrics can span categories like time, flow, quality, cost, people, or any m
 
 Lead time (aka Elapsed Time, Throughput Time, or Turnaround Time) accounts for all time between work received and work passed to the next process step - including the processing time. Process time (aka Touch Time, Work Time, or Cycle Time) is measured whenever work is not sitting idle. Another way to think about process time is when we're touching, talking or thinking about the work.
 
-![Vakye Strans](../../../lead-process-time.png)
+![Vakye Strans](../../../assets/lead-process-time.png)
 _© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
 <br/>
@@ -106,16 +124,19 @@ When calculating %C&A, we're trying to understand the quality of both inputs and
 2. **Adding** information that should have been supplied
 3. **Clarifying** informaiton that should/could have been clearer
 
-![Vakye Strans](../../../%c&a-example.png)
+![Vakye Strans](../../../assets/percent-c-and-a-example.png)
 _© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
 <br/>
 
 ##### Multiple downstream process owners receive work from one upstream process owner
 
-When multiple downstream process owners are using the work provided by one upstream process owner, we want to reflect %C&A for the upstream process owner by combining the feedback from all of the applicable downstream process owners. In the example below, process block owner #5 states that the %C&A should be 75%, while process block owner #7 says %C&A is 50%. So the overall %C&A for process block #4, who provided the work that process block #5 and #7 relied on, is actually 37.5%.
+When multiple downstream process owners are using the work provided by one upstream process owner, we want to reflect %C&A for the upstream process owner by combining the feedback from all of the applicable downstream process owners. 
 
-![Vakye Strans](../../../multiple-%c&a-example.png)
+- In the example below, process block owner #5 states that the %C&A should be 75%, while process block owner #7 says %C&A is 50%.
+- So the overall %C&A for process block #4, who provided the work that process block #5 and #7 relied on, is actually 37.5%.
+
+![Vakye Strans](../../../assets/multiple-percent-c-and-a-example.png)
 _© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
 <br/>
