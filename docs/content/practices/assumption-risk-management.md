@@ -1,4 +1,4 @@
-# Making and Testing Assumptions
+# Managing Assumptions & Risk
 
 ## What is it?
 
