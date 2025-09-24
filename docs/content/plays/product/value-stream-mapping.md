@@ -68,7 +68,7 @@ occurs when there is a break in the timeline or flow:
 - **work accumulates** - a buildup of work-in-process
 - the **work is only processed at a predetermined time interval** - batching
 
-### Parallel vs branching process steps
+### Parallel vs branching process blocks
 
 At times we may need to articulate scenarios where our value stream splits into multiple processes. For example, You may find that the output from one process block is passed to two or more functions and is worked on concurrently. We call these ***parallel processes***, and facilitators should stack these process blocks above one another in the same vertical plane as shown by the example below and notated with a 2a and 2b, as well as 3a and 3b, respectively. 
 
@@ -77,9 +77,9 @@ _© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
 <br/>
 
-In other cases, we may need to distinguish that work is proceeding to different downstream processes based on specified segmentation criteria (e.g. depending on the software change complexity or urgency, we may trigger a slightly different process step). The figure below highlights an example where process blocks 3 and 4 are branching, but they are not parallel processes.
+In other cases, we may need to distinguish that work is proceeding to different downstream processes based on specified segmentation criteria (e.g. depending on the software change complexity or urgency, we may trigger a slightly different process block). The figure below highlights an example where process blocks 3 and 4 are branching, but they are not parallel processes.
 
-![Vakye Strans](../../../assets/branch-vsm-process-blocks-example.png)
+![Vakye Strans](../../../assets/branch-vsm-process-blocks-example.png)    
 _© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
 <br/>
@@ -90,8 +90,8 @@ VSM metrics can span categories like time, flow, quality, cost, people, or any m
 
 | Metric Category             | Metric Name                                | Description                                                                                          | Software Delivery Example (Results)                       | Healthcare Example (Results)                                   |
 |-----------------------------|--------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------|
-| **Time, Flow & Efficiency** | Lead Time (LT)                             | Time to complete an individual process step, as well as total time from order to delivery—reflects responsiveness of the process.                                | 5 days from ticket submission to production deploy         | 35 minutes from prescription request to fulfillment      |
-|                             | Process Time (PT)                          | Time it takes between when the work arrives at a process step until it’s passed on to the next step, as well as total time spent executing all process steps (touch time).                                                   | 4 hours—actual coding, testing, and merging time per feature | 4 minutes—actual work in filling prescription          |
+| **Time, Flow & Efficiency** | Lead Time (LT)                             | Time to complete an individual process block, as well as total time from order to delivery—reflects responsiveness of the process.                                | 5 days from ticket submission to production deploy         | 35 minutes from prescription request to fulfillment      |
+|                             | Process Time (PT)                          | Time it takes between when the work arrives at a process block until it’s passed on to the next step, as well as total time spent executing all process blocks (touch time).                                                   | 4 hours—actual coding, testing, and merging time per feature | 4 minutes—actual work in filling prescription          |
 |                             | Throughput                                 | Rate at which units are delivered over time.                                                         | 3 features released per sprint                            | 20 prescriptions filled per hour                               |
 |                             | Utilization                                | Percentage of time resources are in active use.                                                  | Developers active ~80% of day                             | Nurses spend ~70% shift on value-added patient tasks           |
 |                             | Flow Efficiency                            | Ratio of processing time vs total lead time.                                                         | (4h PT ÷ 5 days LT) ≈ 3%                                  | (4 min PT ÷ 35 min LT) ≈ 11%                      |
@@ -116,7 +116,7 @@ VSM metrics can span categories like time, flow, quality, cost, people, or any m
 
 #### Lead Time & Processing Time
 
-Lead time (aka Elapsed Time, Throughput Time, or Turnaround Time) accounts for all time between work received and work passed to the next process step - including the processing time. Process time (aka Touch Time, Work Time, or Cycle Time) is measured whenever work is not sitting idle. Another way to think about process time is when we're touching, talking or thinking about the work.
+Lead time (aka Elapsed Time, Throughput Time, or Turnaround Time) accounts for all time between work received and work passed to the next process block - including the processing time. Process time (aka Touch Time, Work Time, or Cycle Time) is measured whenever work is not sitting idle. Another way to think about process time is when we're touching, talking or thinking about the work.
 
 ![Vakye Strans](../../../assets/lead-process-time.png)
 _© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
@@ -125,7 +125,7 @@ _© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
 #### Percent Complete & Accurate (%C&A)
 
-When calculating %C&A, we're trying to understand the quality of both inputs and outputs throughout our value stream. It's important to note that %C&A of one mission/business process step is calculated based upon the feedback from the downstream mission/business process step(s). If we take the 80% C&A designation for Process step #1 as an example, what this actually communicates is that only 80% of the work that Process step #2 receives from Process step #1 is "usable as is". In other words, 20% of the time the owner of Process step #2 is having to take one or more of the following actions to be 100% C&A (i.e. zero quality issues; optimal flow)
+When calculating %C&A, we're trying to understand the quality of both inputs and outputs throughout our value stream. It's important to note that %C&A of one mission/business process block is calculated based upon the feedback from the downstream mission/business process block(s). If we take the 80% C&A designation for Process block #1 as an example, what this actually communicates is that only 80% of the work that Process block #2 receives from Process block #1 is "usable as is". In other words, 20% of the time the owner of Process block #2 is having to take one or more of the following actions to be 100% C&A (i.e. zero quality issues; optimal flow)
 
 1. **Correcting** infromation or material that was supplied
 2. **Adding** information that should have been supplied
@@ -154,7 +154,7 @@ Regardless of your role at Rise8, it's important to understand the three Value S
 
 1. **Customer Mission**: Represents personnel, capabilities and outcomes in production that impact real mission operations (e.g. running Air Operations Center missions such as Intelligence, Surveillance, and Reconnaisssance) 
 2. **IT/Software Delivery**: Enables the delivery of mission capabilities, measured up through deployment into a production environment (e.g. enabling continuous delivery).
-3. **Rise8 Delivery Service**: How we partner with customers to bridge the gap between output and impact by identifying opportunities for deploying elite software development for mission critical outcomes in production (e.g. deliver cloud & platform, apps & digital products as well as cybersecurity & RMF).
+3. **Rise8 Delivery Service**: How we partner with customers from pre-sales to delivering outcoms in prod, we bridge the gap between output and mission impact through standard Rise8 services such as delivering cloud & platform solutions, misison-critical apps, as well as continuous software delivery capabilities).
 
 ![Vakye Strans](../../../assets/vsm-types.png)
 
@@ -164,17 +164,17 @@ A basic current state value stream map will highlight the following at a minimum
 
 - If there is a supplier and customer involved, or the customer plays both roles, for how value is generated.
 - Information flow layer (e.g. IT systems or other products that help move data)
-- Process flow layer (e.g. the high level mission/business process steps that deliver value)
+- Process flow layer (e.g. the high level mission/business process blocks that deliver value)
 - Key metrics (i.e. Lead Time, Processing Time, and Rolled % Complete and Accurate)
 - The number of processed units/items that are sitting or waiting in inventory or a queue between processes
-- What function/department/group is responsible for completing the process step
-- The number of operators/workers that are required for a process step to be completed (also indicates where a process step is not automated)
+- What function/department/group is responsible for completing the process block
+- The number of operators/workers that are required for a process block to be completed (also indicates where a process block is not automated)
 
 ### Example and obvious waste signals
 
 Below is an example of a basic current state VSM, and some obvious waste signals that should be addressed:
 
-1. 45 items are being queued between process steps 2 and 3
+1. 45 items are being queued between process blocks 2 and 3
 2. LT is nearly 10 days while PT is only 3 hours
 3. IT systems 1 and 2 within the Information flow layer are not integrated throughout this value stream
 
@@ -198,7 +198,7 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 | Physical or virtual wall space | Allows collaborative mapping |
 | Sticky notes or [Figjam board](https://www.figma.com/board/h6EfV3nAOHoAR9JOa7UXF7/-CREATE-COPY----Rise8-Standard-Delivery-Artifacts?node-id=0-1&p=f&t=y3WJv70v7goBSbmo-0) | Visual collaboration |
 | Facilitation plan | Keeps session on track |
-| Stopwatch or timer | Timebox conversations or measuring time performance of steps wihtin your VSM |
+| Stopwatch or timer | Timebox conversations or measuring time performance of process blocks within your VSM |
 
 > *[Value Stream Mapping Supplemental Materials](https://tkmg.com/wp-content/files/VSM-Supplement.pdf) from Karen Martin & Mike Osterling.*
 
@@ -214,10 +214,9 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 | **Inputs** | What inputs are provided or required from initiators to drive our mission/business process? |
 | **Customer/End-User** | Who receives our outputs, what do they do with it? |
 | **Outputs** | What outputs do customers/end-users receive from our business/ mission process? |
-| **Mission/Business Process Steps** | High level 'Value Added' 'Non-value Added' or 'Required Non-value Added' steps taken to deliver value |
-| **Information/Material Flow** | Confirm how we move between steps in the value stream, and confirm if they're automated or manual transitions |
-| **Tools** | Clarifying systems or artifacts used |
-| **Metrics** | Align on what we need to measure for our value stream, how they'll be used to help make and validate decisions |
+| **Mission/Business Process Flow** | Confirm how value is delivered and classify process blocks as 'Value Added' 'Non-value Added' or 'Required Non-value Added' |
+| **Information Flow** | Confirm what systems/applications are used in support of the mission/business process flow, and how they transmit or receive data |
+| **Key Metrics** | Align on what we need to measure for our value stream. At a minimum we should always have Lead Time, Process Time and %C&A |
 | **Handoffs** | Between people, systems, departments |
 | **Pain Points** | Bottlenecks, delays, queues, rework, rejections |
 
@@ -233,17 +232,17 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 - **Influencer:** someone who can advocate or dissuade leadership in the organization due to their experience or clout
 - **User Community:** a leader, proxy, or member of the user base
 
-💡 Start with your “Current State” value streams for the initial stream to be mapped.
+💡 Start with your “Current State” value streams for the initial stream to be mapped. Encourage participants to describe what really happens.
 
-💡 Focus on “Target State” once you have today’s streams mapped. Encourage participants to describe what really happens.
+💡 Focus on “Target State” once you have today’s streams mapped, and directionally measured.
 
 💡 Agree on refresh triggers/cycles (we recommend fitting this into your hypothesis validation steps, before starting a new hypothesis experiment)
 
-💡 Build the Current State VSM in three passse
+💡 Build the Current State VSM in three phases
 
 1. Mission/Business process blocks & work in process
 2. Information flow (i.e. applications, systems, and how information is transfered)
-3. Metrics and timelines
+3. Key Metrics and timelines
 
 💡 What to Avoid:
 
@@ -257,13 +256,35 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 💡 **Apply a “Go See and Find Out” mentality** – Encourage participants to describe what *really* happens, not what *should* happen.
 
-💡 **Time-box mapping per stream** – e.g., conduct iterations of 60–90 minutes for mapping, 30 minutes for analysis, until you have enough clarity to make measurable decisions.
+💡 **Time-box mapping per stream** – e.g., conduct iterations of 60–90 minutes for mapping, 30 minutes for analysis, until you have enough directional clarity to make informed decisions.
 
-💡 **Ask probing questions** - What mission impact are we trying to enable? What causes delays here? Where do handoffs break down? Where do you wait on feedback? Where do we often repeat steps/work?
+💡 **Ask probing questions** - 
 
-💡 **Avoid mapping wishful thinking** – It’s about the current state, not the ideal (this is more of a focus for Service Blueprint artifacts).
+- What mission impact are we trying to enable? What causes delays here?
+- Where do handoffs break down?
+- Where do you wait on feedback?
+- Where do we often repeat steps/work?
+- Where does work slow/stop/accumulate?
+- Which process metrics point to a significant need?
+- Where do we see pockets of greatest pain (anecdotally)?
+- How effective is our information flow design?
 
-💡 There can be multiple initiators and end-users; A VSM can start & end with an end-user.
+💡 **Process blocks with repeating actors** – If process blocks start to repeat the same actor, this might be a sign we are process mapping at a micro level (especially if PT is reflected as a couple minutes or seconds). In this case, we need to  explore how we consolidate and elevate to a macro process block. The unique context of the situation should drive a decision to elevate or maintain the level we're capturing in the VSM.
+
+💡 **Save wishful thinking for target state** – Ask participants to articulate a perfect target state using short phrases. 
+
+- What are the problems or opportunities we wish we could address?
+- What does our customer truly value?
+- Touch points (reduce handoffs?)
+- Delays (why? how to eliminate?)
+- Sequencing & pacing (more in parallel?)
+- Variation management (work segmentation?)
+- Technology (supportive?)
+- Quality (error-proofing needed?)
+- Labor effort (reduce PT while improving safety & quality?)
+- Value stream management (how? who?)
+
+💡 There can be multiple initiators and customers; A VSM can start & end with our customer.
 
 💡 While we tend to favor present tense / action verbs since VSMs are meant to visualize how work flows through a system, and not just document what has already occurred, we recommend matching the style to your organization’s standards (if they exist). For example, some healthcare or government teams prefer noun phrases or past tense for audit-readiness, while Lean product or software teams almost always stick with present-tense verbs.
 
@@ -277,9 +298,9 @@ Try out our Figjam template [VSM Resources](https://www.figma.com/board/h6EfV3nA
 
 ### What to avoid
 
-- Mapping systems or roles instead of flows
-- Rushing straight to solutions
-- Over-scoping the stream (keep it narrow and meaningful)
+- Just mapping systems or roles instead of flows
+- Rushing straight to target state solutions
+- Over-scoping the value stream (if its critical to cover a broader scope, set logical, segmented, goal posts)
 - Failing to include voices from the edges (e.g., QA, Ops, Compliance)
 
 ---
@@ -293,13 +314,13 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 ### Before the VSM workshop
 
 1. **Define the scope and objective**  
-   _"We’re here to understand how value flows today—so we can unblock it and drive greater mission impact."_
+   _"We’re here to understand how value flows today—so we can unblock it and drive greater mission impact tomorrow."_
 
 2. **Identify the right participants**  
    Include frontline workers, key process owners, system leads, and stakeholders.
 
 3. **Prepare the collaboration space**  
-   Whether virtual or physical, have clear lanes for steps, time, pain points, actors, and tools.
+   Whether virtual or physical, have clear lanes for mission/business process blocks, time, pain points, actors, and information flow.
 
 4. **Send pre-read materials**  
    Share what a VSM is, why it matters, any existing VSM artifacts, and the session goals.
@@ -309,28 +330,27 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 ### During the workshop
 
 #### Opening script (5 mins)
-> _"Thanks for joining. Today we’re mapping our value stream to uncover where work gets stuck, who’s involved, and how it flows—or doesn’t flow—across systems and teams. This helps us deliver outcomes faster and with less pain. Our focus is on the **current state**, not what we wish it looked like."_
+> _"Thanks for joining. Today we’re mapping our value stream to uncover where work gets stuck, who’s involved, and how it flows—or doesn’t flow—across systems and teams. This will help us deliver mission impact faster, and with less pain. Our focus right now is on the **current state**, not what we wish it looked like."_
 
 #### Step-by-step current state VSM facilitation
 
-1. **Establish the mission impact** - "What’s the core mission this stream supports?" (e.g., “Deliver approved benefits to Veterans”)
-2. **Reaffirm known mission impact(s)** - “What’s the core mission/business impact this value stream supports?” “How do we measure business/mission impact success today?”
-3. **Identify the initiator (supplier)** - “Who starts the desired outcome of the flow?”
-4. **Identify the triggering event or inputs** - "What starts the process?" (e.g., “Veteran submits claim”)
-5. **Identify end-user (customer)** - “Who realizes the desired outcome(s) of the flow?”
-6. **Generate any outputs received by the customer** - "What outputs do customers/end-users receive from our business/ mission process?"
-7. **Create the last mission/business process step** - "What is the last process step that delivers the desired outcome(s) to our custoemr and helps us achieve our mission impact(s)?"
-8. **Create the initial mission/business process step** - "What is the first process step towards our desired outcome(s) + mission impact(s)?"
-9. **Continue adding mission/business process steps** - "Is this next step value added, non-value added, or required non-value added?"
-10. **Add flow context** - "Is flow automatically or manually pushed to the next mission/business process step?"
-11. **Add actors to each step** - "Who or what does this work?"
-12. **Identify tools/systems used** - "What tools support this step?"
-13. **Mark handoffs and dependencies** - Use arrows to denote transitions or approvals.
-14. **Estimate lead time and process time** - "How long does this take?"  "How long does it wait?"
-15. **Capture pain points** - "Where do things break down?"  "What causes delay or rework?"  "What work gets kicked back?"
-16. **Highlight visible and invisible work** - Surface shadow systems, workaround steps, manual interventions.
-17. **Review the full map** - "What surprises you?"  "Where do we lose the most time or value?"
-18. **Upon final walkthrough, capture questions and assumptions!**
+1. **Establish the mission impact** - "What’s the core mission this stream supports?" “How do we measure business/mission impact success today?” (e.g., “Deliver approved benefits to Veterans”)
+2. **Identify the initiator (supplier)** - “Who starts the desired outcome of the flow?”
+3. **Identify the triggering event and/or inputs** - "What starts the process?" (e.g., “Veteran submits claim”)
+4. **Identify the end-user (customer)** - “Who realizes the desired outcome(s) of the flow?”
+5. **Generate any outputs our cusotmer receives** - "What outputs do customers/end-users receive from our business/ mission process?"
+6. **Create the last mission/business process block** - "What is the last process block that delivers the desired outcome(s) to our custoemr and helps us achieve our mission impact(s)?"
+7. **Create the initial mission/business process block** - "What is the first process block towards our desired outcome(s) + mission impact(s)?"
+8. **Continue adding mission/business process blocks** - "Is this next process block value added, non-value added, or required non-value added?"
+9. **Add flow context** - "Is flow automatically or manually pushed to the next mission/business process block?"
+10. **Add actors to each process block** - "Who or what does this work?" "How many people are required to complete this process block?"
+11. **Identify systems/applications used** - "What systems/applications support these process blocks, and how?"
+12. **Mark handoffs and dependencies** - Use arrows to denote transitions or approvals.
+13. **Estimate lead time and process time** - "How long does this take?"  "How long does it wait?"
+14. **Capture pain points** - "Where do things break down?"  "What causes delay or rework?"  "What work gets kicked back?"  "Where do we see work being queued?"  "How much work is queued before batches are processed?"
+15. **Highlight visible and invisible work** - Surface shadow systems, workaround steps, manual interventions.
+16. **Review the full map** - "What surprises you?"  "Where do we lose the most time or value?"
+17. **Upon final walkthrough, capture questions and assumptions!**
 
 <br/>
 
@@ -350,25 +370,25 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 #### Step-by-step target state VSM facilitation
 
 1. Present a quick overview of the Current State VSM
-2. Highlight the NVA and RNVA steps, major lead time (LT) and process time (PT) differences, low %C&A values
+2. Highlight the NVA and RNVA process blocks, major lead time (LT) and process time (PT) differences, and what is driving low %C&A values
 3. Clarify any key questions or assumptions
-4. For the key problem steps, a brainstorm improvement process step
+4. For each key problem process block, facilirate a brainstorming exercise to ideate how we would improve the process block and overall value stream
 5. Encourage “big vision” thinking, no idea is too big at this point
-6. Focus on: Eliminating NVA steps entirely, reducing lead time (LT), improving %C&A, streamlining RVNA steps
-7. Group ideas around steps the ideas will replace
+6. Focus on: Eliminating NVA process blocks entirely, reducing lead time (LT), improving %C&A, streamlining RVNA process blocks
+7. Group ideas around process blocks the ideas will replace
 8. Synthesize based on type of improvement
-9. Start with the first step in the value stream map
-10. Clearly outline for each new step
+9. Start with the first process block in the value stream map
+10. Clearly highlight for each new or adjusted process block the following:
 
-    - Process step (value add, required non-value add, or non-value add)
+    - The process block is value add, required non-value add, or non-value add
     - Estimate process time (PT) and lead time (LT)
     - Estimate %C&A
     - Write a concise description of the Target State -- include any proposed features or technology
-    - Add the current state step(s) being eliminated or changed
+    - Clarify which current state process block(s) are being eliminated or changed
 
-11. Calculate total lead time (LT), total process time (PT), and rolled %C&A
-12. Calculate the % improved for total lead time (LT), total process time (PT) , and rolled %C&A
-13. Focus on the prompt: “Does this Target State get us closer to our goal? What’s the significance of the improvement?”
+11. Calculate total estimated lead time (LT), total process time (PT), and rolled %C&A
+12. Calculate the estimated % improved for total lead time (LT), total process time (PT) , and rolled %C&A
+13. Focus on the prompt: “Does this Target State get us closer to our goal? What’s the significance of this improvement?”
 
 <br/>
 
@@ -384,9 +404,8 @@ Now that you have a Value Stream Map, it’s time to **act on it**:
 
 ### Next play recommendations
 
-| Next Play's to Consider | Why It Follows VSM |
+| Next play's to consider | Why it comes after VSM exercises |
 |-----------|--------------------|
-| **Improvement Kata** | Confirm current and target conditions & prioritize changes to test how you could unblock value |
 | **Domain Modeling ([DDD Event Storming](../engineering/DDD-Eventstorm.md), [Boris](https://labspractices.com/practices/boris/), [Swift Method](https://www.youtube.com/watch?v=7-fRtd8LUwA))** | Model the supporting systems and bounded contexts |
 | **[Service Blueprint](../design/service-blueprint.md)** | Define user experience & operational architecture |
 | **[Impact Mapping](../product/impact-mapping.md)** | Clarify initiative scope by tying improvements to outcomes in prod with measurable user/system behavior changes & mission impact |
