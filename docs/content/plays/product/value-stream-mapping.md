@@ -68,14 +68,21 @@ occurs when there is a break in the timeline or flow:
 - **work accumulates** - a buildup of work-in-process
 - the **work is only processed at a predetermined time interval** - batching
 
-### Acceptable parallel process branching
+### Parallel vs branching process steps
 
-At times we may find it is important to deliniate scenarios where ratios of our value stream split into multiple processes. For example, You may find that the output from one process block is passed to two or more functions and is worked on concurrently. We call these ***parallel processes***. In this case, the process blocks are stacked above one
-another in the same vertical plane. process blocks 3 and
-4 in Figure 3.2 depict branching, not parallel processes.)  
+At times we may need to articulate scenarios where our value stream splits into multiple processes. For example, You may find that the output from one process block is passed to two or more functions and is worked on concurrently. We call these ***parallel processes***, and facilitators should stack these process blocks above one another in the same vertical plane as shown by the example below and notated with a 2a and 2b, as well as 3a and 3b, respectively. 
 
+![Vakye Strans](../../../assets/parallel-vsm-process-blocks-example.png)
+_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
 
+<br/>
 
+In other cases, we may need to distinguish that work is proceeding to different downstream processes based on specified segmentation criteria (e.g. depending on the software change complexity or urgency, we may trigger a slightly different process step). The figure below highlights an example where process blocks 3 and 4 are branching, but they are not parallel processes.
+
+![Vakye Strans](../../../assets/branch-vsm-process-blocks-example.png)
+_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+
+<br/>
 
 ### What metrics are commonly used in VSM?
 
