@@ -4,7 +4,7 @@
 
 An assumption is something we take on faith or as a best guess despite a lack of proof, and can range from domain context, problems solutions, usability, technical feasibility, etc. Evidence can be on a scale from “wild guess” to having validated learnings from things like market research, user research, and actual results in production.
 
-At Rise8, **risk management = assumption management**. Every assumption we make—from “users will adopt this flow” to “this service can handle 10k RPS” to “the AO will accept this control implementation”—carries risk because it’s not guaranteed. Our practice is to surface risks early and often, quantify their impact, track them, and deliberately burn them down through experiments, engineering practices, and operational guardrails—so we ship outcomes in prod with confidence and pace.
+If you stop and think about it, **risk management = assumption management**. Every assumption we make—from “users will adopt this flow” to “this service can handle 10k RPS” to “the AO will accept this control implementation”—carries risk because it’s not guaranteed. Our practice is to surface risks early and often, quantify their impact, track them, and deliberately burn them down through experiments, engineering practices, and operational guardrails—so we ship outcomes in prod with confidence and pace.
 
 ![Assumptions Prioritization](../../assets/assumptions-2-by-2.png)
 
@@ -17,7 +17,7 @@ We use a few shared lenses to keep everyone aligned:
 
 Throughout a product’s lifecycle, it’s helpful for teams to articulate, prioritize and track and regularly revisit these assumptions. If you haven’t released software in awhile, your product is likely full of risks and assumptions. This can especially be the case early in a product’s lifecycle if you're delivering an MVP experiment. 
 
-> Check out the [Assumptions Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/) for an in depth how to.
+> Check out the [Assumptions/Risks Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/) for an in depth how to.
 
 ![Assumptions and Risk](../../assets/assumptions-risk.png)
 
@@ -34,11 +34,11 @@ Throughout a product’s lifecycle, it’s helpful for teams to articulate, prio
 
 ### Facilitate a recurring conversation
 
-Assumption and risk management starts with a facilitated conversation that focuses on generating concerns that may cause us to not meet our goals, or not achieve desirable outcomes in production with our customers. Whether you're using sticky notes, or a digital whiteboarding solution, we recommend checking out our [Assumptions Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/) for a detailed guide on how to facilitate this conversation. Running this formal exercise should happen as often as the team makes strategic prioritization decisions, because managing risk is a critical component of establishing and managing strategy.
+Assumption and risk management starts with a facilitated conversation that focuses on generating concerns that may cause us to not meet our goals, or not achieve desirable outcomes in production with our customers. Whether you're using sticky notes, or a digital whiteboarding solution, we recommend checking out our [Assumptions/Risks Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/) for a detailed guide on how to facilitate this conversation. Running this formal exercise should happen as often as the team makes strategic prioritization decisions, because managing risk is a critical component of establishing and managing strategy.
 
 ### Assumptions and risk tracking
 
-Wehther you're completeing formal exercises as part of contract kick-off, starting a new project, synthesizing research insights, or simply recognizing new risks on a day-to-day basis, it's important that delivery teams make risks and assumptions visibile with Tracker, so that we can prioritize and strategize how we will manage them. At Rise8 we recommend teams create their own copy of our [Assumptions/Risks Tracker Template](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0). This provides a consistent and flexible way to manage and prioritize both assumptions and risks that could impact our success. Elite delivery teams report risks and blockers that remain open, week-over-week, until they are either mitigated or otherwise closed out.
+Wehther you're completeing formal exercises as part of contract kick-off, starting a new project, synthesizing research insights, or simply recognizing new risks on a day-to-day basis, it's important that delivery teams make risks and assumptions visibile with Tracker, so that we can prioritize and strategize how we will manage them. At Rise8 we recommend teams create their own copy of our [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) template. This provides a consistent and flexible way to manage and prioritize both assumptions and risks that could impact our success. Elite delivery teams report risks and blockers that remain open, week-over-week, until they are either mitigated or otherwise closed out.
 
 #### Risk statement format expectations
 
@@ -52,11 +52,15 @@ Below are examples of our preferred format for capturing ***Course of Actions (C
 * **COA**: [Who?], [is doing/delivering what?] [By when?].
 * **Support Asks**: We need [person(s)] to help with [action item(s)], by [date], so that [impact].
 
+<br/>
+
 #### Assumption statement format expectations
 
 Below is an example of our preferred format for capturing assumption statements, because it represents team alignment on an assumption that we collectively believe to be true and have prioritized for testing. This format also keeps the team honest on how they will objectively validate or invalidate the assumption, similarly to how we design hypothesis-led experiments.
 
 * We believe [conditional context]. We will know this is true if [measurable/observable evidence is present]
+
+<br/>
 
 #### 2x2 prioritization matrix
 
@@ -65,7 +69,25 @@ When assessing assumptions and risks, one of our most common 2x2 matrix formats 
 * **X-axis**: Certainty (Very low to Very high): How confident are you that this assumption or risk is true?
 * **Y-axis**: Impact (Very low to Very high): How significant are the consequences if this assumption or risk is validated or invalidated?
 
-##### Four quadrant focus areas and actions
+<br/>
+
+#### What about timing of assumptions or risks?
+
+Many practicioners argue that ***timing can greatly influence decisions*** on the importance of a given assumption or risk item. Timing absolutely matters! In nearly all cases where timing comes up in assessing assumptions and risks, it tends to influence one or both of the axis inputs from teammates during discussions regarding Certainty vs. Impact 2x2.
+
+<br/>
+
+#### Assumption and risk scoring guidance
+
+When leveraging the [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) templates, the following scoring rubric can also help drive prioritization conversations with teammates and stakeholders:
+
+1. **Focus energy, and week-over-week reporting**, on items with a score between 16 - 25.
+2. **Monitor and re-score as new context or data points surface** for items with a score between 6 - 15.
+3. **Consider discarding** items that scored between 1 - 5 because they're either unlikely to cause any real damage to our success, and if they become more impactful assumptions or risks, we will likely rewrite them with better context.
+
+<br/>
+
+#### Four quadrant focus areas and actions
 
 | Quadrant | Grouping                                           | Focus                                                                                                                                                    | Action                                                                                                                           |
 |----------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -78,8 +100,6 @@ When assessing assumptions and risks, one of our most common 2x2 matrix formats 
 
 #### Risk treatment strategies
 
-The four primary strategies for treating risks are to avoid, mitigate, accept, or transfer them.
-
 | Risk Treatment | Definition                                                                                                                               | Example                                                                                                                                                                                                                                                                                                                                                          | Product Management Application                                                                                                                                                |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Avoid          | This strategy involves completely eliminating a process or activity to prevent a risk from occurring.                                    | A federal agency managing benefits might postpone a full-scale migration to a new cloud platform if the testing phase reveals the new system cannot handle the transaction volume of the legacy system. The agency instead opts to continue investing in and maintaining the legacy system to avoid a high-risk failure that would affect citizen services.      | If a new feature introduces an unacceptable legal or security risk, you may choose not to build it.                                                                           |
@@ -89,21 +109,34 @@ The four primary strategies for treating risks are to avoid, mitigate, accept, o
 
 <br/>
 
-#### Assumption and risk tracker scoring
+#### Validating assumptions
 
-When leveraging the [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) templates, the following scoring rubric can also help drive prioritization conversations with teammates and stakeholders:
+Testing assumptions is both essential to how we validate changes in user or system behavior as well as delivering mission impact, and it's arguable the most exciting part of delivering software! There are several techniques that we can deploy to validate, or invalidate, our assumptions. Applying them is not only an art and science, but also an important decision for delivery teams because it requires our own investment of resources to successfully conduct them. Below are just a handful of validation plays that we can leverage to test our assumptions:
 
-1. **Focus energy, and week-over-week reporting**, on items with a score between 16 - 25.
-2. **Monitor and re-score as new context or data points surface** for items with a score between 6 - 15.
-3. **Consider discarding** items that scored between 1 - 5 because they're either unlikely to cause any real damage to our success, and if they become more impactful assumptions or risks, we will likely rewrite them with better context.
+##### Pre-development
 
-#### What about timing of assumptions or risks?
+* **Problem-solution interviews**: Conduct targeted interviews with potential users to explore their pain points, goals, and existing behaviors. This technique helps determine if the problem you are solving is significant enough for users to want a solution.
+* **Landing page tests (Fake door tests)**: Create a landing page for a product or feature that doesn't yet exist. The page describes the concept and prompts users to "Learn More" or "Sign Up." The call-to-action is then tracked to gauge interest.
+* **Concierge MVP**: Rather than building a product, you manually perform the service for a small number of customers. This provides deep insight into the core value proposition and user experience before any code is written.
+* **Mock press release**: Write a press release for the product you intend to build. This forces the team to articulate the product's core value and benefits in a way that resonates with customers.
 
-Many practicioners argue that ***timing can greatly influence decisions*** on the importance of a given assumption or risk item. Timing absolutely matters! In nearly all cases where timing comes up in assessing assumptions and risks, it tends to influence one or both of the axis inputs from teammates during discussions regarding Certainty vs. Impact 2x2.
+##### During development
+
+* **Usability testing (with prototypes)**: Use low- or high-fidelity prototypes (e.g., paper sketches, clickable wireframes) to test user flows and feature concepts. Observing users interact with these prototypes helps identify usability issues and unmet expectations.
+* **"Wizard of Oz" MVP**: Create a front-end experience that appears to be powered by AI or advanced technology, but is actually being controlled manually by a human behind the scenes. This is useful for testing feasibility and user expectations for complex features.
+* **Beta testing**: Release a pre-production version of the product to a small, controlled group of external users. Beta testers provide feedback on bugs, performance, and usability in a real-world environment before the official launch.
+* **Feature flagging**: Deploy new features or changes but keep them hidden from most users. Enable the features for specific users or segments to test performance and gather targeted feedback. 
+
+##### Post-launch
+
+* **A/B testing**: Roll out a feature to two different user groups. One group sees version A (the control), and the other sees version B (the variant). By comparing key metrics, teams can validate which version performs better.
+* **Multi-variant Tests (MVT)**: Systematically evaluate multiple variables and their combinations to determine which combination produces the best outcome. Unlike A/B testing, which compares two or more versions of a single element, MVT tests multiple different elements at the same time to understand how they interact with each other and what their combined effect is on user behavior.
+* **Analytics and monitoring**: Continuously track user behavior through analytics tools. This helps product teams validate that a new feature is being used as intended and provides the expected value.
+* **User engagement**: Implement in-app surveys, customer satisfaction scores (CSAT), and Net Promoter Scores (NPS) to gather both quantitative and qualitative feedback from a large user base.
 
 ## Relevant Links
 
-* [Assumptions Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/)
+* [Assumptions/Risks Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/)
 * [Assumptions/Risks Tracker Template](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0)
 * [Tracking Research Questions, Assumptions, and Facts in Agile](https://www.nngroup.com/articles/tracking-questions-assumptions-facts-agile/)
 
