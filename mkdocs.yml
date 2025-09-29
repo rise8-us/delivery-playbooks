@@ -43,18 +43,19 @@ nav:
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
       - content/plays/cross-discipline/discovery-framing-remote.md
-      - content/plays/cross-discipline/iteration-planning.md
       - content/plays/cross-discipline/stakeholder-demo.md
       - content/plays/cross-discipline/standup.md
     - Product:
       - content/plays/product/value-stream-mapping.md
       - content/plays/product/impact-mapping.md
+      - content/plays/product/problem-statement-framing.md
       - content/plays/product/vision-statement.md
       - content/plays/product/product-strategy.md
       - content/plays/product/rate-ratio-metrics.md
       - content/plays/product/composite-metrics.md
-      - content/plays/product/story-writing.md
       - content/plays/product/backlog-prioritization.md
+      - content/plays/product/story-writing.md
+      - content/plays/product/iteration-planning.md
       - content/plays/product/product-release.md
     - Design:
       - content/plays/design/assumptions-workshop.md
