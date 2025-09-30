@@ -70,4 +70,4 @@ Use this litmus test on any problem statement draft, and if any box is unchecked
 
 ### How to generate problem statements
 
-Check out our [problem statement framing play](https://delivery-playbooks.rise8.us/content/plays/product/problem-statement-framing.md/).
+Check out our [problem statement framing play](https://delivery-playbooks.rise8.us/content/plays/product/problem-statement-framing/).
