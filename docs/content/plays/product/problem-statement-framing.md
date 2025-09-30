@@ -15,7 +15,7 @@ A problem statement is a clear, concise, and focused description of an issue tha
 
 ### What makes an effective problem statement?
 
-An effective problem statement includes the following key components: 
+An effective problem statement includes the following key components, and will help drive prioritization conversations: 
 
 * **The Current Situation**: A clear, unambiguous description of the current conditions where the issue or unmet need occurs.
 * **The Context**: Background information to give the problem meaning and explain why it's an issue now.
@@ -25,14 +25,14 @@ An effective problem statement includes the following key components:
 * **Specificity**: Providing concrete details about the problem's scope rather than being vague or broad.
 * **Objectivity**: Presenting the facts about the problem without introducing bias, and avoiding any mention of a presupposed solution.
 
-#### Outcome in prod causal chain sweet spot
+### Outcome in prod causal chain sweet spot
 
 When we generate and refine problem statements that set the scene for delivering outcomes in prod, it's beneficial to imagine them as a causal chain. By doing so, we not only align everyone to what we're solving, why it is important, and how we will measure success, but it also simplifies how we structure the results of our hypothesis experiments. Specifically, when we adopt a causal chain mindset with our experiment narratives, the after-effect will be similar to our problem statement framing - thus making before and after statements more clear and concise.
 
 **Causal Chain Framing Example**:
 > Because of [context], our actor experiences [current condition pain-point or challenge context] which causes [current mission impact conditions]. 
 
-##### Outcome in prod hypothesis experiment example
+#### Outcome in prod hypothesis experiment example
 
 **Problem**: *Veterans often leave appointments relying on memory to manage complex medication regimens (context). This leads to confusion, missed doses, and adverse interactions (current condition challenges)—driving down adherence to 70% and increasing readmission rates to 25.7% (current mission impact conditions).*
 **Hypothesis**: *We believe that auto-generating personalized digital medication summaries (indicating what each drug is for, when to take it, and for how long) will result in greater Veteran understanding and adherence, while reducing admission rates.*
@@ -68,13 +68,42 @@ Use this litmus test on any problem statement draft, and if any box is unchecked
 
 <br/>
 
-## Problem Statement Template
+## Problem Statement Templates
 
-The follwoing template will ensure problem statements are specifc, actor-focused, and aligned to results that matter.
+The following templates will ensure problem statements are specifc, actor-focused, and aligned to results that matter.
 
+### Option one
 
+* **I am a** *[persona of interest; could be users, stakeholders, services or even entire systems].*
+* **I'm trying to** *[accomplish a task, job-to-be-done, goal],*
+* **but** *[the problem or challenge they're experiencing]*
+* **because** *[the root cause to our problem/challenge]*
+* **which makes me feel** *[emotion/sentiment]*
+* **and contributes to** *[current mission/business impact condition].*
 
+#### Option one exmaples
 
+| Domain                   | Scenario                                         | Problem Statement (preferred format)                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------------------------ | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Developer Platforms      | OAuth onboarding & docs                          | I am a partner developer integrating OAuth 2.0. I’m trying to complete authentication and make my first successful API call, but I keep receiving token errors and 4xx responses on day one because the quickstart examples are inconsistent across languages and the doc flow buries required parameters. Which makes me feel frustrated and uncertain, and contributes to delayed integrations, higher support ticket volume, and early churn risk. |
+| Developer Platforms      | FedRAMP/ATO-friendly CI                          | I am a federal platform engineer. I’m trying to pass security scans in CI to move toward ATO, but my builds fail on approved runners because there are no STIG-hardened base images or signed SBOMs available. Which makes me feel blocked and anxious about compliance timelines, and contributes to missed delivery milestones and stalled accreditation.                                                                                           |
+| Developer Platforms      | Webhooks reliability in sandbox                  | I am a backend engineer. I’m trying to validate webhooks end-to-end before production, but I can’t reliably replay events because the platform sandbox lacks message retry and an easy tunnel for local testing. Which makes me feel nervous about hidden failure modes, and contributes to production rollbacks and longer incident MTTR.                                                                                                            |
+| Developer Platforms      | Quotas & rate limits                             | I am an API consumer on a new team. I’m trying to achieve time-to-first-2xx under 30 minutes, but I keep hitting rate limits unexpectedly because default quotas and 429 guidance are undocumented in the quickstart. Which makes me feel confused and stuck, and contributes to false incident escalations and wasted engineering time.                                                                                                              |
+| Developer Platforms      | Cross-SDK observability                          | I am an SRE on call. I’m trying to triage an incident quickly, but traces and metrics are inconsistent across official SDKs because they ship different OpenTelemetry versions and naming conventions. Which makes me feel blind during outages, and contributes to longer MTTR and SLO breaches.                                                                                                                                                     |
+| Dept of Veterans Affairs | Post-discharge enrollment                        | I am a recently discharged Veteran. I’m trying to enroll in primary care and benefits, but I have to re-enter the same information across multiple portals because systems aren’t integrated for identity and data reuse. Which makes me feel exhausted and discouraged, and contributes to delayed access to care and increased no-shows.                                                                                                            |
+| Dept of Veterans Affairs | Caregiver respite scheduling                     | I am a family caregiver. I’m trying to schedule respite care, but appointment availability is a black box because clinic calendars and eligibility checks aren’t synchronized. Which makes me feel helpless and burned out, and contributes to missed appointments and avoidable emergency visits.                                                                                                                                                    |
+| Dept of Veterans Affairs | Claims intake system (system persona)            | I am the claims intake system. I’m trying to accept complete submissions the first time, but I receive duplicate and abandoned forms because session timeouts are aggressive and progress saving is unclear. Which makes me feel overloaded and inefficient, and contributes to a growing backlog and longer decision timelines.                                                                                                                      |
+| Dept of Veterans Affairs | Medical records acquisition                      | I am a VA claims processor. I’m trying to verify medical evidence quickly, but provider records arrive late or via fax because there’s no reliable electronic exchange with key networks. Which makes me feel overwhelmed, and contributes to 30+ day stalls and dissatisfaction for Veterans.                                                                                                                                                        |
+| Dept of Veterans Affairs | Rural telehealth access                          | I am a rural Veteran. I’m trying to attend a video visit, but my connection drops repeatedly because the app is bandwidth-heavy and my area lacks broadband. Which makes me feel embarrassed and neglected, and contributes to missed visits and worsening health outcomes.                                                                                                                                                                           |
+| Dept of State            | Visa category selection                          | I am a first-time traveler. I’m trying to select the correct visa category, but I often choose the wrong form because eligibility rules are buried in lengthy policy PDFs. Which makes me feel confused and anxious, and contributes to abandoned applications and rework at consulates.                                                                                                                                                              |
+| Dept of State            | Emergency passport appointments abroad           | I am a U.S. citizen abroad. I’m trying to book an emergency passport appointment, but no slots appear for days because there’s no waitlist or auto-reassignment when cancellations occur. Which makes me feel stranded and stressed, and contributes to travel disruptions and hotline overload.                                                                                                                                                      |
+| Dept of State            | Cross-system applicant identity                  | I am a consular officer. I’m trying to adjudicate cases efficiently, but I keep encountering duplicate or mismatched records because there is no single applicant identifier across legacy systems. Which makes me feel frustrated and error-prone, and contributes to longer processing times and increased denial appeals.                                                                                                                          |
+| Dept of State            | Student (F-1) processing                         | I am an international student applicant. I’m trying to complete my F-1 application on time, but my I-20 uploads fail intermittently because the SEVIS integration times out under peak load. Which makes me feel worried about missing my start date, and contributes to rescheduling and school intake delays.                                                                                                                                       |
+| Dept of State            | Appointment scheduling platform (system persona) | I am the visa appointment scheduling platform. I’m trying to help applicants confirm slots reliably, but many drop off at confirmation because time zones and local holidays aren’t surfaced clearly. Which makes me feel inefficient and brittle, and contributes to high no-show rates and uneven consular utilization.                                                                                                                             |
+
+<br/>
+
+### Option two
 
 
 
