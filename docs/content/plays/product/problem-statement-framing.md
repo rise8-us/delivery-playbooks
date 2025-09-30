@@ -19,9 +19,28 @@ After seeing the problem for yourself, talk to the people closest to it. That mi
 
 ## 2) Find the root cause
 
-This is the opportunity to really dig into the "why" questions behind the issue to identify its origin point. To do this we often consider changing the way we look at the problem, so that we can get closer to the root cause and challenge our initial framing.
+This is the opportunity to really dig into the "why" questions behind the issue to identify its origin point. To do this we can execute a number of other practices and plays to uncover root cause context that will help us refine our problem statements.
 
-### 
+### Root cause methods
+
+#### Qualitative and conversational
+
+* [**5 Whys**](https://delivery-playbooks.rise8.us/content/plays/cross-discipline/5-whys.md/): A simple but powerful technique where you repeatedly ask "why" to dig deeper into a problem.
+* **User interviews**: One-on-one conversations with users allow you to explore their experiences, needs, and motivations in depth. The open-ended nature of interviews helps uncover pain points that users might not be consciously aware of or articulate in a survey.
+* **Focus groups**: While not for deep root cause discovery, focus groups can be used in the early stages of a project to brainstorm and explore a problem space.
+
+#### Observational and analytical
+
+* **Usability testing**: Observe users as they attempt to complete specific tasks. Researchers can see exactly where users get stuck, make mistakes, or become confused. Asking users to "think aloud" during the process can provide the "why" behind their behavior.
+* **User session recordings**: Tools that record real users' screens as they interact with your product can visually reveal usability issues and points of friction. You can watch their actual behavior rather than just relying on what they say they do.
+* **Analytics and heatmaps**: Quantitative analytics tools track user behavior at a macro level.
+
+#### Framework-based
+* **Journey mapping**: This visualization of the end-to-end user experience, including all touchpoints and emotional states, can highlight specific pain points and opportunities for improvement along the way.
+* **Service Blueprint mapping**: A user research technique that creates a visual diagram of an entire service, showing the customer experience alongside the internal processes that support it, including front-stage interactions, backstage employee actions, and underlying support systems. 
+* **Affinity diagramming**: A collaborative process where a team groups similar observations and ideas from research into clusters. This method helps to synthesize qualitative data and identify common themes that point toward underlying root causes.
+
+<br/>
 
 ## 3) Refine problem statements
 
