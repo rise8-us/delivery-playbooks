@@ -30,6 +30,7 @@ nav:
       - content/practices/data-and-metrics-collection.md
       - content/practices/discovery-and-framing.md
       - content/practices/human-centered-design.md
+      - content/practices/problem-statements.md
       - content/practices/launching-with-a-minimum-viable-product.md
       - content/practices/assumption-risk-management.md
       - content/practices/opportunity-planning.md
@@ -43,18 +44,20 @@ nav:
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
       - content/plays/cross-discipline/discovery-framing-remote.md
-      - content/plays/cross-discipline/iteration-planning.md
       - content/plays/cross-discipline/stakeholder-demo.md
       - content/plays/cross-discipline/standup.md
+      - content/plays/cross-discipline/5-whys.md
     - Product:
       - content/plays/product/value-stream-mapping.md
       - content/plays/product/impact-mapping.md
+      - content/plays/product/problem-statement-framing.md
       - content/plays/product/vision-statement.md
       - content/plays/product/product-strategy.md
       - content/plays/product/rate-ratio-metrics.md
       - content/plays/product/composite-metrics.md
-      - content/plays/product/story-writing.md
       - content/plays/product/backlog-prioritization.md
+      - content/plays/product/story-writing.md
+      - content/plays/product/iteration-planning.md
       - content/plays/product/product-release.md
     - Design:
       - content/plays/design/assumptions-workshop.md
