@@ -36,9 +36,39 @@ Throughout a product’s lifecycle, it’s helpful for teams to articulate, prio
 
 Assumption and risk management starts with a facilitated conversation that focuses on generating concerns that may cause us to not meet our goals, or not achieve desirable outcomes in production with our customers. Whether you're using sticky notes, or a digital whiteboarding solution, we recommend checking out our [Assumptions/Risks Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/) for a detailed guide on how to facilitate this conversation. Running this formal exercise should happen as often as the team makes strategic prioritization decisions, because managing risk is a critical component of establishing and managing strategy.
 
-### Assumptions and risk tracking
+### Risk tracking
 
-Wehther you're completeing formal exercises as part of contract kick-off, starting a new project, synthesizing research insights, or simply recognizing new risks on a day-to-day basis, it's important that delivery teams make risks and assumptions visibile with Tracker, so that we can prioritize and strategize how we will manage them. At Rise8 we recommend teams create their own copy of our [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) template. This provides a consistent and flexible way to manage and prioritize both assumptions and risks that could impact our success. Elite delivery teams report risks and blockers that remain open, week-over-week, until they are either mitigated or otherwise closed out.
+Wehther you're completing formal exercises as part of contract kick-off, starting a new project, or simply recognizing new risks on a day-to-day basis, it's important that delivery teams make risks visibile to everyone, so that we can prioritize and strategize how we will manage them. At Rise8 we recommend teams create their own copy of our [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) template to do this. Below you'll find detailed definitions to help assist in your adoption of this standard artifact.
+
+#### Risk categorization
+
+When discussing risks, we categorize potential issues within the areas of product, technology, customer, and team. Teams always have the flexibility to add additional categories that are relevant to their situations. Here's an example of how to categorize risks across these areas:
+
+##### Product
+
+* **Value Risk**: The risk that customers won't find the product useful or valuable.
+* Usability Risk**: The risk that users won't be able to use the product effectively.
+* Business Viability Risk**: The risk that the product won't fit the strategic goals. 
+
+##### Customer
+
+* **Customer Experience Risk**: Risks related to poor customer service, negative perceptions, or failure to meet customer expectations
+* **Customer Management Risk**: Shifts in customer preferences, or changes in the competitive landscape can impact customer relationships
+
+##### Technology
+
+* **Technical Feasibility**: The risk that the team can't build or maintain the product due to technical challenges.
+* **Technology Failures**: Issues with system failures, bugs, data breaches, or the failure to adopt new technologies.
+* **Cybersecurity**: Risks associated with data breaches, malware, and unauthorized access to technology systems.
+* **Operational & Third-Party Risks**: Failures in technology systems, downtime, or issues with vendors providing technology services. 
+
+##### Team
+
+* **Resource Allocation**: Lack of internal resources, including the right technology.
+* **Skill Shortages**: Not having enough people with the necessary skills to meet project needs.
+* **Organizational & Project Management Risks**: Inefficiencies in internal processes, poor planning, or misalignment with project goals.
+
+<br/>
 
 #### Risk statement format expectations
 
@@ -47,64 +77,58 @@ Below are examples of our preferred format for capturing risk statements, becaus
 * If [conditional context] is true, then [measurable consequence]
 * Because of [condition context], we’re more/less likely to [event], resulting in [measurable consequence]
 
-Below are examples of our preferred format for capturing ***Course of Actions (COA)*** or ***Supporting Asks*** statements that should be included with our risk management strategy, and be presented during stakeholder check-in calls or other strategy review meetings.
-
-* **COA**: [Who?], [is doing/delivering what?] [By when?].
-* **Support Asks**: We need [person(s)] to help with [action item(s)], by [date], so that [impact].
-
 <br/>
 
-#### Assumption statement format expectations
+#### Risk tracker rating guidelines
 
-Below is an example of our preferred format for capturing assumption statements, because it represents team alignment on an assumption that we collectively believe to be true and have prioritized for testing. This format also keeps the team honest on how they will objectively validate or invalidate the assumption, similarly to how we design hypothesis-led experiments.
+##### Impact Rating
 
-* We believe [conditional context]. We will know this is true if [measurable/observable evidence is present]
+Relative impact refers to the potential consequences if a risk materializes. We often apply this as the **X-axis** when leveraging a 2x2 matrix to assess risk management prioritization
 
-<br/>
+| Rating        | Description                                                                                      |
+|---------------|--------------------------------------------------------------------------------------------------|
+| 1 - Very Low  | Minor inconvenience, negligible impact to quality, scope, budget, or reputation.                 |
+| 2 - Low       | Small increase in budget or schedule, minor impact to quality, scope, or reputation.             |
+| 3 - Medium    | Moderate increase in budget or schedule, noticeable impact to quality or scope.                  |
+| 4 - High      | Significant failure, large project delay, major impact to quality, scope, budget, or reputation. |
+| 5 - Very High | Major failure, project cancellation, major reputation damage, massive financial implication.     |
 
-#### 2x2 prioritization matrix
+##### Probability Rating
 
-When assessing assumptions and risks, one of our most common 2x2 matrix formats uses the axes of Likelihood (or Probability) and Impact. Teams will assess these two axes based on their situational context, as well as in relativity to other assumptions or risks items on the matrix. While impact can be assessed qualitatively, it is critical that teams assess impact in a quantifiable way as much as possible to help make assumption and risk prioritzation easier. While this is oour standard 2x2 format for assumption and risk assessments, teams may opt for swapping an axis label if it drives a more specific conversation and desirable outcome for decision-making.
+Relative probability refers to the likelihood of a risk occurring. We often apply this as the **Y-axis** when leveraging a 2x2 matrix to assess risk management prioritization
 
-* **X-axis**: Likelihood (Very low to Very high): How confident are you that this assumption or risk is true?
-* **Y-axis**: Impact (Very low to Very high): How significant are the consequences if this assumption or risk is validated or invalidated?
+| Rating        | Description |
+|---------------|-------------|
+| 1 - Very Low  | <20%        |
+| 2 - Low       | 20-40%      |
+| 3 - Medium    | 40-60%      |
+| 4 - High      | 60-80%      |
+| 5 - Very High | >80%        |
 
-<br/>
+##### Risk scoring
 
-#### What about timing of assumptions or risks?
+The risk score is calculated by multiplying the Impact Value by the Probability Rating. This score helps in ranking and prioritizing risks by providing a quantitative measure of their potential severity and likelihood.
 
-Many practicioners argue that ***timing can greatly influence decisions*** on the importance of a given assumption or risk item. Timing absolutely matters! In nearly all cases where timing comes up in assessing assumptions and risks, it tends to influence one or both of the axis inputs from teammates during discussions regarding Likelihood vs. Impact 2x2.
+| Risk Score  | Risk Level    | Actions                                           |
+|-------------|---------------|---------------------------------------------------|
+| 1 - 5       | Low Risk      | Ignore; Don't report                              |
+| 6 - 10      | Medium Risk   | Monitor and reassess monthly; Don't report weekly |
+| 11 - 15     | High Risk     | Monitor and reasess as needed; Report weekly      |
+| 16 - 25     | Critical Risk | Address immediately; Report weekly                |
 
-#### What about assessing level of effort?
+Risks with higher scores (represented by colors like Red and Orange in the Tracker template) should be addressed with greater urgency and receive more resources for mitigation, allowing teams to focus on the most critical threats to the project.
 
-Many practicioners also argue that referencing level of effort (LOE) alongside likelihood and impact can effect decision-making with assumptions and risks. If this is an important factor for your situation, teams are encouraged to establish an LOE that is relevant to their situation. Here's an example of one:
+##### Level of effort (LOE)
 
-* 1 - Very Low: Hours to complete (minimal)
-* 2 - Low: Couple of days to complete (straightforward)
-* 3 - Medium: Between a couple of days and one week (moderate) 
-* 4 - High: Between one week and one month (significant)
-* 5 - Very High: Greater than one month (major)
+LOE refers to the resources and time required to mitigate or address a risk, and can be additional valuable context that helps the team make prioritization decisions. Teams should align on the LOE scale that works for their context. Below is an example that works for most software delivery teams.
 
-<br/>
-
-#### Assumption and risk scoring guidance
-
-When leveraging the [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) templates, the following scoring rubric can also help drive prioritization conversations with teammates and stakeholders:
-
-1. **Focus energy, and week-over-week reporting**, on items with a score between 16 - 25.
-2. **Monitor and re-score as new context or data points surface** for items with a score between 6 - 15.
-3. **Consider discarding** items that scored between 1 - 5 because they're either unlikely to cause any real damage to our success, and if they become more impactful assumptions or risks, we will likely rewrite them with better context.
-
-<br/>
-
-#### Four quadrant focus areas and actions
-
-| Quadrant | Grouping                                            | Focus                                                                                                                                                    | Action                                                                                                                           |
-|----------|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| One      | High Likelihood, High Impact: Critical Items        | These are your greatest assumptions/risks and potential "showstoppers." If they are wrong, they could cause major problems for your project.             | These risks must be treated immediately, or assumptions must be validated immediately through experiments, research, or testing. |
-| Two      | Low Likelihood, High Impact: Medium/High Items      | These assumptions/risks have major consequences but are unlikely to be true. You should still monitor them, but they do not require immediate action.    | Continue to track these but dedicate your limited resources to more uncertain assumptions and critical risks.                    |
-| Three    | Low Likelihood, Low Impact: Unimportant Assumptions | These are assumptions/risks you are unsure about, and they won't significantly affect your project if they occur or turn out to be wrong.                | Don't waste time on these. You can track them and address them later if the situation changes.                                   |
-| Four     | High Likelihood, Low Impact: Trivial Assumptions    | These assumptions/risks have a low impact, but highly likely to occur on your project or be true.                                                        | Accept and document these assumptions and risks. Move on to the more critical areas.                                             |
+| Rating        | Time to complete (Relative effort)                |
+|---------------|---------------------------------------------------|
+| 1 - Very Low  | Hours to complete (minimal)                       |
+| 2 - Low       | Couple of days to complete (straightforward)      |
+| 3 - Medium    | Between a couple of days and one week (modeerate) |
+| 4 - High      | Between one week and one month (significant)      |
+| 5 - Very High | Greater than one month (major)                    |
 
 <br/>
 
@@ -116,6 +140,117 @@ When leveraging the [Assumptions/Risks Tracker](https://docs.google.com/spreadsh
 | Mitigate       | This is the most common strategy and involves taking action to reduce the likelihood or impact of a risk.                                | When deploying an AI tool for analyzing intelligence data, a defense agency can mitigate the risk of biased outputs by implementing "human-in-the-loop" decision support. This ensures a human expert reviews and validates critical decisions made by the AI, reducing the likelihood of erroneous or biased conclusions.                                       | If a feature is technically complex, you might allocate extra engineering time to de-risk key integrations or use a phased rollout (canary deployment) to a small user group. |
 | Accept         | This strategy involves understanding and acknowledging a risk and choosing to move forward without taking specific action to address it. | Federal Emergency Management Agency (FEMA) manages projects to improve disaster response. It must accept the unavoidable risk that a natural disaster (e.g., a new hurricane) may disrupt a recovery project's timeline. This is managed by building adaptable processes, rather than trying to avoid or transfer the risk of a natural disaster itself.         | This is often the best approach for trivial risks or for risks where the cost of mitigation is too high.                                                                      |
 | Transfer       | This involves shifting the consequences of a risk to a third party.                                                                      | A federal agency developing a new public-facing service can choose to host its application on an authorized cloud service provider, like those available under the Federal Risk and Authorization Management Program (FedRAMP). This transfers the risk of maintaining the underlying IT infrastructure to a vendor that specializes in security and compliance. | A company can outsource the development of a complex system to a vendor with specialized expertise, transferring the feasibility risk.                                        |
+
+<br/>
+
+#### Course of actions & support asks
+
+Below are examples of our preferred format for capturing ***Course of Actions (COA)*** or ***Supporting Asks*** statements that should be included with our risk management strategy, and be presented during stakeholder check-in calls or other strategy review meetings.
+
+* **COA**: [Who?], [is doing/delivering what?] [By when?].
+* **Support Asks**: We need [person(s)] to help with [action item(s)], by [date], so that [impact].
+
+Dates included in COAs and Support Asks help communicate urgency as well as hold action owners accountable to ensure we don't experience risk escapes that then become issues.
+
+#### 2x2 matrix risk management 
+
+If a team prefers to leverage a 2x2 matrix to assess the impact and probability of their risks instead of the formulas provided in the Risk Tracker template, we've provided a helpful guide on how to interpret the quadrant results below. As you'll see we often follow a zig-zag pattern when prioritizing quadrant results of a 2x2 exercise (e.g. For risks this looks like 1 - Critical, 2 - High, 4 - Medium and then 3 - Low). 
+
+| Quadrant | Grouping                                      | Focus                                                                                                                                                                                         | Action                                                                  |
+|----------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| One      | High Impact, High Probability: Critical Risks | These are your greatest risks and potential "showstoppers." If they are not managed, they could cause major problems for your project.                                                        | Address these immediately and report on them weekly at a minimum. |
+| Two      | Low Impact, High Probability: High Risks      | These risks have a low impact, but important to mitigate as they're highly likely to occur on your project.                                                                                   | Monitor closely, reassess as needed and report on them weekly, but prioritize your critical items. |
+| Three    | Low Impact, Low Probability: Low Risks        | These are risks you are unsure about, and they won't significantly affect your project; Ignore these for now.                                                                                 | Ignore these and do not report on them. You can track them and address them later if their situation changes. |
+| Four     | High Impact, Low Probability: Medium Risks    | These risks have major consequences, but are unlikely to occur. You should still monitor them closely, and identify signals that would indicate their probability of occurance is increasing. | Monitor closely, reassess monthly and report on them as needed, but prioritize your critical items         |
+
+<br/>
+
+### Assumption tracking
+
+Wehther you're completing formal exercises as part of contract kick-off, starting a new project, or simply generating new assumptions about users, problems and solutions on a day-to-day basis, it's important that delivery teams make assumptions testing visibile to everyone, so that we can maintain context continuity at all times. At Rise8 we recommend teams create their own copy of our [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) template to do this. Below you'll find detailed definitions to help assist in your adoption of this standard artifact.
+
+#### Assumption categorization and organization
+
+Because it can get pretty noisy to track assumptions day-to-day, it's helpful to categorize and organize them in a way that makes it easier to organize, filter, search, and prioritize. Because this decision is very context specific, there is no one size fits all approach to accomplish this. However, below are some examples to consider when managing assumptions across discovery or delivery cycles:
+
+##### Category labels for abreviated context
+
+One way to organize asssumptions could be to apply tags that are relevant to current team focus areas
+
+* User workflow assessment
+* Screen xyz assessment
+* Feature xyz assessment
+* User sentiment assessment
+* Research guide xyz
+* Release xyz test
+* Goal(s) xyz
+* Retrospective mm/dd/yyyy
+* etc.
+
+##### Tracker tabs
+
+Another way to consider organizing assumptions is by apply Tracker tab system
+
+* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Assumption statement format expectations
+
+Below is an example of our preferred format for capturing assumption statements, because it represents team alignment on an assumption that we collectively believe to be true and have prioritized for testing. This format also keeps the team honest on how they will objectively validate or invalidate the assumption, similarly to how we design hypothesis-led experiments.
+
+* We believe [conditional context]. We will know this is true if [measurable/observable evidence is present]
+
+<br/>
+
+
+
+<br/>
+
+#### What about timing of assumptions or risks?
+
+Many practicioners argue that ***timing can greatly influence decisions*** on the importance of a given assumption or risk item. Timing absolutely matters! In nearly all cases where timing comes up in assessing assumptions and risks, it tends to influence one or both of the axis inputs from teammates during discussions regarding Likelihood vs. Impact 2x2.
+
+<br/>
+
+#### Assumption and risk scoring guidance
+
+When leveraging the [Assumptions/Risks Tracker](https://docs.google.com/spreadsheets/d/17Z4Trp6_ByVgQ8kF2BgjX_fLE-pLLLSa9XmYPa0ewJ0/edit?gid=0#gid=0) templates, the following scoring rubric can also help drive prioritization conversations with teammates and stakeholders:
+
+1. **Focus energy, and week-over-week reporting**, on items with a score between 16 - 25.
+2. **Monitor and re-score as new context or data points surface** for items with a score between 6 - 15.
+3. **Consider discarding** items that scored between 1 - 5 because they're either unlikely to cause any real damage to our success, and if they become more impactful assumptions or risks, we will likely rewrite them with better context.
+
+
+
+
+
+
+
+
+
+
+
+<br/>
+
+#### Four quadrant focus areas and actions
+
+| Quadrant | Grouping                                             | Focus                                                                                                                                                    | Action                                                                                                                           |
+|----------|------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| One      | High Impact, High Probability: Critical Items        | These are your greatest assumptions/risks and potential "showstoppers." If they are wrong, they could cause major problems for your project.             | These risks must be treated immediately, or assumptions must be validated immediately through experiments, research, or testing. |
+| Two      | Low Impact, High Probability: Medium/High Items      | These assumptions/risks have a low impact, but highly likely to occur on your project or be true.                                                        | Accept and document these assumptions and risks. Move on to the more critical areas.                                             |
+| Three    | Low Impact, Low Probability: Unimportant Assumptions | These are assumptions/risks you are unsure about, and they won't significantly affect your project if they occur or turn out to be wrong.                | Don't waste time on these. You can track them and address them later if the situation changes.                                   |
+| Four     | High Impact, Low Probability: Trivial Assumptions    | These assumptions/risks have major consequences but are unlikely to be true. You should still monitor them, but they do not require immediate action.    | Continue to track these but dedicate your limited resources to more uncertain assumptions and critical risks.                    |
 
 <br/>
 
