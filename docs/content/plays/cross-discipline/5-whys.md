@@ -116,7 +116,7 @@ One simple way to turn root-causes into potential next steps for the team, is to
 
 Once we've captured the root causes to problems we want to solve, we need to refine and prioritize them.
 
-1. Leverage our [**Problem Statement Framing**](https://delivery-playbooks.rise8.us/content/plays/product/problem-statement-framing/) play to ensure the issue is clear, concise, actor-centric and aligned to measurable results.
+1. Leverage our [**Problem Statement Framing**](https://delivery-playbooks.rise8.us/content/plays/product/problem-statement-framing/) play to refine the issue into a clear, concise, actor-centric and aligned to measurable problem that can support organizing your [**Outcome-oriented Roadmap**](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/).
 
 2. Leverage a 2x2 matrix or another favorite prioritization technique (e.g. dot voting), and select the root causes that we believe need to be addressed next.
     
