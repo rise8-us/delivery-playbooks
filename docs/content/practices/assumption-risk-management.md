@@ -64,16 +64,16 @@ Below is an example of our preferred format for capturing assumption statements,
 
 #### 2x2 prioritization matrix
 
-When assessing assumptions and risks, one of our most common 2x2 matrix formats uses the axes of Certainty (likelihood or probability can also be used interchangeably) and Impact. Teams will assess these two axes based on their situational context, as well as in relativity to other assumptions or risks items on the matrix. While impact can be assessed qualitatively, it is critical that teams assess impact in a quantifiable way as much as possible to help make assumption and risk prioritzation easier. While this is oour standard 2x2 format for assumption and risk assessments, teams may opt for swapping an axis label if it drives a more specific conversation and desirable outcome for decision-making.
+When assessing assumptions and risks, one of our most common 2x2 matrix formats uses the axes of Likelihood and Impact. Teams will assess these two axes based on their situational context, as well as in relativity to other assumptions or risks items on the matrix. While impact can be assessed qualitatively, it is critical that teams assess impact in a quantifiable way as much as possible to help make assumption and risk prioritzation easier. While this is oour standard 2x2 format for assumption and risk assessments, teams may opt for swapping an axis label if it drives a more specific conversation and desirable outcome for decision-making.
 
-* **X-axis**: Certainty (Very low to Very high): How confident are you that this assumption or risk is true?
+* **X-axis**: Likelihood (Very low to Very high): How confident are you that this assumption or risk is true?
 * **Y-axis**: Impact (Very low to Very high): How significant are the consequences if this assumption or risk is validated or invalidated?
 
 <br/>
 
 #### What about timing of assumptions or risks?
 
-Many practicioners argue that ***timing can greatly influence decisions*** on the importance of a given assumption or risk item. Timing absolutely matters! In nearly all cases where timing comes up in assessing assumptions and risks, it tends to influence one or both of the axis inputs from teammates during discussions regarding Certainty vs. Impact 2x2.
+Many practicioners argue that ***timing can greatly influence decisions*** on the importance of a given assumption or risk item. Timing absolutely matters! In nearly all cases where timing comes up in assessing assumptions and risks, it tends to influence one or both of the axis inputs from teammates during discussions regarding Likelihood vs. Impact 2x2.
 
 <br/>
 
@@ -91,10 +91,10 @@ When leveraging the [Assumptions/Risks Tracker](https://docs.google.com/spreadsh
 
 | Quadrant | Grouping                                           | Focus                                                                                                                                                    | Action                                                                                                                           |
 |----------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| One      | High Impact, Low Certainty: Critical Items         | These are your greatest assumptions/risks and potential "showstoppers." If they are wrong, they could cause major problems for your project.             | These risks must be treated immediately, or assumptions must be validated immediately through experiments, research, or testing. |
-| Two      | High Impact, High Certainty: Safe Bets             | These assumptions/risks have major consequences but are very likely to be true. You should still monitor them, but they do not require immediate action. | Continue to track these but dedicate your limited resources to more uncertain assumptions and critical risks.                    |
-| Three    | Low Impact, Low Certainty: Unimportant Assumptions | These are assumptions/risks you are unsure about, but they won't significantly affect your project if they turn out to be wrong.                         | Don't waste time on these. You can track them and address them later if the situation changes.                                   |
-| Four     | Low Impact, High Certainty: Trivial Assumptions    | These assumptions/risks have a low impact and you are confident they are correct. They are unlikely to be a source of risk.                              | Accept and document these assumptions and risks. Move on to the more critical areas.                                             |
+| One      | High Impact, Low Likelihood: Critical Items         | These are your greatest assumptions/risks and potential "showstoppers." If they are wrong, they could cause major problems for your project.             | These risks must be treated immediately, or assumptions must be validated immediately through experiments, research, or testing. |
+| Two      | High Impact, High Likelihood: Safe Bets             | These assumptions/risks have major consequences but are very likely to be true. You should still monitor them, but they do not require immediate action. | Continue to track these but dedicate your limited resources to more uncertain assumptions and critical risks.                    |
+| Three    | Low Impact, Low Likelihood: Unimportant Assumptions | These are assumptions/risks you are unsure about, but they won't significantly affect your project if they turn out to be wrong.                         | Don't waste time on these. You can track them and address them later if the situation changes.                                   |
+| Four     | Low Impact, High Likelihood: Trivial Assumptions    | These assumptions/risks have a low impact and you are confident they are correct. They are unlikely to be a source of risk.                              | Accept and document these assumptions and risks. Move on to the more critical areas.                                             |
 
 <br/>
 
