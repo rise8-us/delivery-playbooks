@@ -112,4 +112,4 @@ Once you have refined a top list of problems, the next steps to consider are:
 
 1. Continue performing ongoing [assumptions tracking](https://delivery-playbooks.rise8.us/content/practices/assumption-risk-management/)
 2. Bring all mission, user and system context together with [Impact Mapping](https://delivery-playbooks.rise8.us/content/plays/product/impact-mapping/), and run solution generation and prioritization exercises.
-3. Organize Impact Map conclusions as hypothesis experiments in an [Outcome-oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/) 
+3. Organize Impact Map conclusions as hypothesis experiments, and leverage problem statements as the basis for framing outcomes on an [Outcome-oriented Roadmap](https://delivery-playbooks.rise8.us/content/practices/outcome-oriented-roadmaps/) 
