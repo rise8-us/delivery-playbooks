@@ -34,10 +34,10 @@ When we generate and refine problem statements that set the scene for delivering
 
 #### Outcome in prod hypothesis experiment example
 
-**Problem**: *Veterans often leave appointments relying on memory to manage complex medication regimens (context). This leads to confusion, missed doses, and adverse interactions (current condition challenges)—driving down adherence to 70% and increasing readmission rates to 25.7% (current mission impact conditions).*
-**Hypothesis**: *We believe that auto-generating personalized digital medication summaries (indicating what each drug is for, when to take it, and for how long) will result in greater Veteran understanding and adherence, while reducing admission rates.*
-**Outcome target**: *Our hypothesis is valid if ≥60% of Veterans view the summary within 48 hours, and ≥80% report that their medication plan is clear and easy to follow (target behavior change conditions).*
-**Impact target**: *Leading to an +8% improvement in monthly medication adherence (70% → 78%), and 2.5% drop in monthly readmission rate (25.7% → 23.2%) (target mission impact conditions).*
+* **Problem**: *Veterans often leave appointments relying on memory to manage complex medication regimens (context). This leads to confusion, missed doses, and adverse interactions (current condition challenges)—driving down adherence to 70% and increasing readmission rates to 25.7% (current mission impact conditions).*
+* **Hypothesis**: *We believe that auto-generating personalized digital medication summaries (indicating what each drug is for, when to take it, and for how long) will result in greater Veteran understanding and adherence, while reducing admission rates.*
+* **Outcome target**: *Our hypothesis is valid if ≥60% of Veterans view the summary within 48 hours, and ≥80% report that their medication plan is clear and easy to follow (target behavior change conditions).*
+* **Impact target**: *Leading to an +8% improvement in monthly medication adherence (70% → 78%), and 2.5% drop in monthly readmission rate (25.7% → 23.2%) (target mission impact conditions).*
 
 ### Good vs. bad problem statement examples
 
