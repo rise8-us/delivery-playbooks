@@ -10,7 +10,11 @@ This technique involves asking a series of “why”s until you eventually uncov
 
 ## Limits to be aware of
 
-5 Whys can oversimplify complex/entangled causes if used dogmatically. Treat it as a why-tree (branch when needed), require evidence for each why, and stop when you hit a controllable, testable cause.
+5 Whys can oversimplify complex/entangled causes if used dogmatically. To avoid this outcome, teams should consider the following principles:
+
+* Treat it as a why-tree (branch when needed)
+* Require evidence for each why
+* Stop when you hit a controllable, and testable cause
 
 ## When to use it
 
@@ -38,7 +42,7 @@ Avoid or augment when:
 
 ### Prep (10–15 min before)
 
-1.Grab a copy of [5 Whys template](https://www.figma.com/board/noltgJqNPddIymd4r8AjJm/5-Whys-Analysis?node-id=0-1&p=f&t=igdr8EM7yhU4IJrh-0)
+1. Grab a copy of [5 Whys template](https://www.figma.com/board/noltgJqNPddIymd4r8AjJm/5-Whys-Analysis?node-id=0-1&p=f&t=igdr8EM7yhU4IJrh-0), or search and add the template directly into your existing Figjam board
 
 2. Assign roles
 
@@ -54,7 +58,7 @@ Avoid or augment when:
 
     * Timeline of events, recent changes, alerts, relevant tickets.
 
-### Facilitate the 5 Whys (30–40 min)
+### Facilitate the 5 Whys (40 min)
 
 1. **Why #1 — Proximate cause**
 
@@ -80,8 +84,8 @@ Avoid or augment when:
 5. **Converge on the primary root cause(s)**
 
     * You may end with 1–3 root causes across branches.
-    * Link to VSM, User Experience Maps or DDD artifacts: Map where the cause lives in the value stream, user journey or system behavior designs.
-
+    * Link to VSM, User Experience Maps, DDD Event Storm maps, or other artifacts.
+  
 ### Capture potential actions for causes
 
 One simple way to turn root-causes into potential next steps for the team, is to ideate on Corrective and Preventative Actions (CAPA)
@@ -89,7 +93,6 @@ One simple way to turn root-causes into potential next steps for the team, is to
 * **Containment**: immediate guardrails to reduce risk of this problem recurring (feature flag, hotfix, alert).
 * **Corrective**: introduce a change to stop recurrence in the short term (procedure, check, test).
 * **Preventive**: design/process improvement that makes the failure mode impossible or highly unlikely (automation, architecture, training, policy, incentives).
-
 
 ### Facilitator cheat-sheet phrases
 
@@ -106,3 +109,16 @@ One simple way to turn root-causes into potential next steps for the team, is to
 | **Developer Platform**            | **Service onboarding takes 15 days** (target ≤5); teams miss milestones and spin up shadow infra. | 1) Onboarding tickets sit **idle ~6 days**. *(Jira cycle-time report)*  2) Approvals are **manual and batched weekly**. *(SOP, approver calendar)*  3) Approvers **fear over-provisioning** without standardized roles. *(interviews)*  4) **No codified IAM policy packs**; each request needs bespoke review. *(repo audit)*  5) Platform backlog **prioritized features over governance**; no OKR for time-to-first-commit. *(backlog history, OKR doc)* | Missing **least-privilege IAM policy packs** and **self-service provisioning** policy, driven by misaligned prioritization.                                       | **Containment:** Daily approval SLA; temporary pre-approved “starter” roles.  **Corrective:** Ship 3 standardized IAM policy packs (read-only, contributor, admin) with guardrails; add request form validation.  **Preventive:** Terraform module + policy-as-code tests in CI; platform OKR on **TTFC**; monthly access review.                   | Median **Time-to-First-Commit ≤5 days**; **≥80%** of onboardings fully self-service; zero shadow infra exceptions in a quarter. |
 | **Dept of Veterans Affairs (VA)** | **Claims status data >72 hours stale**; call center volume **+35%**; Veteran trust at risk.       | 1) Nightly ETL **failed two nights**. *(Airflow logs)*  2) Source API was **rate-limited (429s)**. *(HTTP logs)*  3) Batch window **overlapped partner’s peak** after their schedule change. *(partner notice)*  4) **No alerting/backoff** for 429s; rigid schedule. *(observability config)*  5) **No SLO/clear ownership** for data freshness across data eng/integration teams. *(RACI, SLO gap)*                                                       | Absent **ownership & SLO for data freshness**, leaving **rate-limit failures unmonitored** and schedules inflexible.                                              | **Containment:** Manual re-run off-peak; throttle requests.  **Corrective:** 429 alerting; exponential backoff + retry; reschedule to partner off-peak.  **Preventive:** Define **Data Freshness SLO (P95 < 6h)**; RACI ownership; partner-schedule change webhook; migrate critical flows to **event-driven** ingestion.                           | Sustain **P95 freshness < 6h** for 30 days; call volume returns to baseline; 0 unacknowledged 429 episodes per month.           |
 | **Dept of State**                 | **Passport median processing = 14 weeks** (target ≤8); public service delays and backlog growth.  | 1) **Manual review queue +60%**. *(queue metrics)*  2) Photo auto-screen **flag rate 40%** (↑). *(model logs)*  3) New vendor **model sensitivity increased**. *(release notes)*  4) Deployed **without calibration/shadow testing**. *(QA plan)*  5) **No representative, privacy-approved dataset** or governance to validate model; **no DSA** enabling safe testing. *(legal/policy audit)*                                                             | **Model governance gap:** photo-screening model deployed without **calibrated, representative validation** due to missing data-governance & shadow-test protocol. | **Containment:** Lower sensitivity / rollback; add human-in-the-loop triage shifts.  **Corrective:** Create privacy-approved **synthetic dataset**; run **shadow test** vs prior model; calibrate threshold.  **Preventive:** Formal **ML governance** (pre-prod shadowing, bias/error checks, sign-off); vendor **DSA**; ongoing drift monitoring. | Median processing **≤8 weeks**; manual-review rate **≤15%**; false-positive photo flags **≤5%** sustained.                      |
+
+<br/>
+
+## Next steps
+
+Once we've captured the root causes to problems we want to solve, we need to refine and prioritize them.
+
+1. Leverage our [**Problem Statement Framing**](https://delivery-playbooks.rise8.us/content/plays/product/problem-statement-framing/) play to ensure the issue is clear, concise, actor-centric and aligned to measurable results.
+
+2. Leverage a 2x2 matrix or another favorite prioritization technique (e.g. dot voting), and select the root causes that we believe need to be addressed next.
+    
+    * You need to determine the axes, and scope the definitions for each, that best aligns with your situational decision-making.
+    * Basic axis example for validated causes we want to prioritize could look like x = Value ("more or less value if we solve") and y = Effort ("requires more or less effort to solve").
