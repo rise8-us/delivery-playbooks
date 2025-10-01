@@ -44,8 +44,9 @@ nav:
   - Plays: # All content for plays are referenced here
     - Cross-Discipline:
       - content/plays/cross-discipline/discovery-framing-remote.md
-      - content/plays/cross-discipline/stakeholder-demo.md
+      - content/plays/cross-discipline/iteration-planning.md
       - content/plays/cross-discipline/standup.md
+      - content/plays/cross-discipline/stakeholder-demo.md
       - content/plays/cross-discipline/5-whys.md
     - Product:
       - content/plays/product/value-stream-mapping.md
@@ -57,7 +58,6 @@ nav:
       - content/plays/product/composite-metrics.md
       - content/plays/product/backlog-prioritization.md
       - content/plays/product/story-writing.md
-      - content/plays/product/iteration-planning.md
       - content/plays/product/product-release.md
     - Design:
       - content/plays/design/assumptions-workshop.md
