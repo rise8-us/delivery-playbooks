@@ -1,5 +1,7 @@
 # Problem Statement Framing
 
+> Step-by-step guidance to synthesizing, refining and prioritizing problem statements
+
 ## 1) Identify and contextualize the problem
 
 The first step in writing a problem statement is to spot the issue, and start gathering data. Step into the environment where the problem happens—whether in support, production, or somewhere else—and try to experience it firsthand. Begin to connect how this problem currently effects the mission or business.
@@ -31,22 +33,24 @@ This is the opportunity to really dig into the "why" questions behind the issue 
 
 #### Observational and analytical
 
+* [**Value Stream Mapping**](https://delivery-playbooks.rise8.us/content/plays/product/value-stream-mapping/): A Lean tool used to visualize the flow of work, materials, and information needed to deliver value to a customer—from request to delivery.
 * [**Usability testing**](https://delivery-playbooks.rise8.us/content/practices/user-research/#usability-testing): Observe users as they attempt to complete specific tasks. Researchers can see exactly where users get stuck, make mistakes, or become confused. Asking users to "think aloud" during the process can provide the "why" behind their behavior.
 * [**Accessibility testing**](https://delivery-playbooks.rise8.us/content/practices/user-research/#accessibility-testing): Accessibility testing is the practice of ensuring your product is usable to as many people as possible, including those with visual impairments, hearing disabilities, and other physical or cognitive conditions.
 * **User session recordings**: Tools that record real users' screens as they interact with your product can visually reveal usability issues and points of friction. You can watch their actual behavior rather than just relying on what they say they do.
-* **Analytics and heatmaps**: Quantitative analytics tools track user behavior at a macro level.
+* **Analytics and heatmaps**: Quantitative analytics tools that track user or system behavior at a macro or micro level.
 * [**Data and metrics collection**](https://delivery-playbooks.rise8.us/content/practices/data-and-metrics-collection/): Data & Metrics Collection is the disciplined way we capture, govern, and interpret evidence to learn/validate whether our products, services or even delivery processes are achieving the desired outcomes, and improving the mission.
 
 #### Framework-based
 * [**Journey mapping**](https://delivery-playbooks.rise8.us/content/plays/design/journey-mapping/): This visualization of the end-to-end user experience, including all touchpoints and emotional states, can highlight specific pain points and opportunities for improvement along the way.
 * [**Service Blueprint mapping**](https://delivery-playbooks.rise8.us/content/plays/design/service-blueprint/): A user research technique that creates a visual diagram of an entire service, showing the customer experience alongside the internal processes that support it, including front-stage interactions, backstage employee actions, and underlying support systems. 
 * **Affinity diagramming**: A collaborative process where a team groups similar observations and ideas from research into clusters. This method helps to synthesize qualitative data and identify common themes that point toward underlying root causes.
+* [**DDD Event Storming**](https://delivery-playbooks.rise8.us/content/plays/engineering/DDD-Eventstorm/): serves as a highly collaborative workshop integral to Domain-Driven Design, facilitating the rapid discovery and exploration of a domain's core business processes.
 
 <br/>
 
 ## 3) Refine problem statements
 
-The following templates will ensure problem statements are specifc, actor-focused, and aligned to results that matter.
+The following templates will ensure problem statements are specifc, actor-focused (e.g. users, stakeholder or systems), and aligned to results that matter.
 
 ### Wholistic and thourough approach
 
