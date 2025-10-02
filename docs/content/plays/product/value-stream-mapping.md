@@ -151,7 +151,7 @@ Regardless of your role at Rise8, it's important to understand the three Value S
 2. **IT/Software Delivery**: Enables the delivery of mission capabilities, measured up through deployment into a production environment (e.g. enabling continuous delivery).
 3. **Rise8 Delivery Service**: How we partner with customers from pre-sales to delivering outcoms in prod, we bridge the gap between output and mission impact through standard Rise8 services such as delivering cloud & platform solutions, misison-critical apps, as well as continuous software delivery capabilities).
 
-![Vakye Strans](../../../assets/vsm-types.png)
+![Rise8 VSM Types](../../../assets/vsm-types.png)
 
 ## Basic current state VSM
 
