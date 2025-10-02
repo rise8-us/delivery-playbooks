@@ -47,8 +47,8 @@ When discussing risks, we categorize potential issues within the areas of produc
 ##### Product
 
 * **Value Risk**: The risk that customers won't find the product useful or valuable.
-* Usability Risk**: The risk that users won't be able to use the product effectively.
-* Business Viability Risk**: The risk that the product won't fit the strategic goals. 
+* **Usability Risk**: The risk that users won't be able to use the product effectively.
+* **Business Viability Risk**: The risk that the product won't fit the strategic goals. 
 
 ##### Customer
 
@@ -78,11 +78,15 @@ Below are examples of our preferred format for capturing risk statements, becaus
 
 > Because of [condition context], we’re more/less likely to [event], resulting in [measurable consequence]
 
+<br/>
+
 Below are examples of our preferred format for capturing ***Course of Actions (COA)*** or ***Support Asks*** statements. Clearly and consistently describing the what, what, when and why in our risk response strategy is how we maintain alignment and accountability with all parties involved, and should be presented during risk review sessions. By including dates, we can more effectively communicate urgency with stakeholders, and acts as helpful signal for reassessing risks.
 
 > **COA**: [Who?], [is doing/delivering what?] [By when?].
 
 > **Support Asks**: We need [person(s)] to help with [action item(s)], by [date], so that [impact].
+
+<br/>
 
 ##### Risk/Blocker, COA, and Support Ask statement examples
 
@@ -206,10 +210,12 @@ Below is an example of our preferred format for capturing assumption statements,
 
 > We believe [conditional context]. We will know this is true if [measurable/observable evidence is present]
 
+<br/>
+
 ##### Assumption statement examples
 
 * *We believe that auto-generating personalized digital medication summaries (indicating what each drug is for, when to take it, and for how long) will result in greater Veteran understanding and adherence. We will know this is true if ≥60% of Veterans view the summary within 48 hours of their clinical visit, and ≥80% report that their medication plan is clear and easy to follow.*
-* *We believe that scheduling an "IPM backlog pre-read" session on our calendars will lead to more consistent IPM sessions and improve our sprint goal success rate. We will know this is true if 100% of IPM sessions end on time or early, and sprint backlog delivery success rate improves >=25%. *
+* *We believe that scheduling an "IPM backlog pre-read" session on our calendars will lead to more consistent IPM sessions and improve our sprint goal success rate. We will know this is true if 100% of IPM sessions end on time or early, and sprint backlog delivery success rate improves >=25%.*
 
 <br/>
 
