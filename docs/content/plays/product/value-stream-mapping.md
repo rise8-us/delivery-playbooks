@@ -118,8 +118,7 @@ VSM metrics can span categories like time, flow, quality, cost, people, or any m
 
 Lead time (aka Elapsed Time, Throughput Time, or Turnaround Time) accounts for all time between work received and work passed to the next process block - including the processing time. Process time (aka Touch Time, Work Time, or Cycle Time) is measured whenever work is not sitting idle. Another way to think about process time is when we're touching, talking or thinking about the work.
 
-![Vakye Strans](../../../assets/lead-process-time.png)
-_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+![Lead Time and Process Time](../../../assets/lead-process-time.png)
 
 <br/>
 
@@ -131,8 +130,7 @@ When calculating %C&A, we're trying to understand the quality of both inputs and
 2. **Adding** information that should have been supplied
 3. **Clarifying** informaiton that should/could have been clearer
 
-![Vakye Strans](../../../assets/percent-c-and-a-example.png)
-_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+![Percent Complete and Accurate](../../../assets/percent-c-and-a-example.png)
 
 <br/>
 
@@ -143,8 +141,7 @@ When multiple downstream process owners are using the work provided by one upstr
 - In the example below, process block owner #5 states that the %C&A should be 75%, while process block owner #7 says %C&A is 50%.
 - So the overall %C&A for process block #4, who provided the work that process block #5 and #7 relied on, is actually 37.5%.
 
-![Vakye Strans](../../../assets/multiple-percent-c-and-a-example.png)
-_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+![Multiple Customers](../../../assets/multiple-percent-c-and-a-example.png)
 
 <br/>
 
@@ -180,8 +177,7 @@ Below is an example of a basic current state VSM, and some obvious waste signals
 
 <br/>
 
-![Vakye Strans](../../../assets/basic-current-state-vsm.png)
-_© 2025 TKMG, Inc. | tkmg.com | tkmgacademy.com_
+![Basic Current State](../../../assets/basic-current-state-vsm.png)
 
 <br/>
 
