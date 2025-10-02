@@ -348,7 +348,7 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 <br/>
 
-![Vakye Strans](../../../assets/enterprise-app-deployment-current-state.png)
+![App Deployment Current State](../../../assets/enterprise-app-deployment-current-state.png)
 
 <br/>
 
@@ -386,7 +386,7 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 
 <br/>
 
-![Vakye Strans](../../../assets/enterprise-app-deployment-target-state.png)
+![App Deployment Target State](../../../assets/enterprise-app-deployment-target-state.png)
 
 <br/>
 
