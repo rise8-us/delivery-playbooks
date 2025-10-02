@@ -74,13 +74,9 @@ At times we may need to articulate scenarios where our value stream splits into 
 
 ![Parallel Process Blocks](../../../assets/parallel-vsm-process-blocks.png)
 
-<br/>
-
 In other cases, we may need to distinguish that work is proceeding to different downstream processes based on specified segmentation criteria (e.g. depending on the software change complexity or urgency, we may trigger a slightly different process block). The figure below highlights an example where process blocks 3 and 4 are branching, but they are not parallel processes.
 
 ![Branch Process Blocks](../../../assets/branch-vsm-process-blocks.png)    
-
-<br/>
 
 ### What metrics are commonly used in VSM?
 
@@ -118,8 +114,6 @@ Lead time (aka Elapsed Time, Throughput Time, or Turnaround Time) accounts for a
 
 ![Lead Time and Process Time](../../../assets/lead-process-time.png)
 
-<br/>
-
 #### Percent Complete & Accurate (%C&A)
 
 When calculating %C&A, we're trying to understand the quality of both inputs and outputs throughout our value stream. It's important to note that %C&A of one mission/business process block is calculated based upon the feedback from the downstream mission/business process block(s). If we take the 80% C&A designation for Process block #1 as an example, what this actually communicates is that only 80% of the work that Process block #2 receives from Process block #1 is "usable as is". In other words, 20% of the time the owner of Process block #2 is having to take one or more of the following actions to be 100% C&A (i.e. zero quality issues; optimal flow)
@@ -140,8 +134,6 @@ When multiple downstream process owners are using the work provided by one upstr
 - So the overall %C&A for process block #4, who provided the work that process block #5 and #7 relied on, is actually 37.5%.
 
 ![Multiple Customers](../../../assets/multiple-percent-c-and-a-example.png)
-
-<br/>
 
 ## Three value streams relevant to Rise8's business
 
