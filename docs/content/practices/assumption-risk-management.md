@@ -231,41 +231,28 @@ Relative impact refers to the potential consequences if an assumption is validat
 
 Relative uncertainty refers to our confidence about an assumption being a fact, or completely unknown. We often apply this as the **Y-axis** when leveraging a 2x2 matrix when prioritzing assumptions.
 
-| Rating        | Description |
-|---------------|-------------|
-| 1 - Very Low  | <20%        |
-| 2 - Low       | 20-40%      |
-| 3 - Medium    | 40-60%      |
-| 4 - High      | 60-80%      |
-| 5 - Very High | >80%        |
+| Rating        | Description                                                      |
+|---------------|------------------------------------------------------------------|
+| 1 - Very Low  | This is, or is nearly, 100% factual (extremely confident)        |
+| 2 - Low       | This is likely factual based on data we have on hand (confident) |
+| 3 - Medium    | We at least have some anecdotal evidence (relatively confident)  |
+| 4 - High      | Feeling uneasy about this (low confidence)                       |
+| 5 - Very High | Completely unknown (very low confidence)                         |
 
-##### Assumption scoring
+##### Assumption action recommendations
 
-The risk score is calculated by multiplying the Impact Value by the Probability Rating. This score helps in ranking and prioritizing risks by providing a quantitative measure of their potential severity and likelihood.
+Whether you're leveraging the Assumption Tracker or a 2x2 matrix, here is how we recommend managing resources for researching and testing assumptions. 
 
-| Assumption Score  | Priority Level  | Actions                                                           |
-|-------------------|-----------------|-------------------------------------------------------------------|
-| 1 - 5             | Low             | Ignore                                                            |
-| 6 - 10            | Medium          | Monitor and reassess monthly                                      |
-| 11 - 15           | High            | Prioritize testing once critical items have test plans solidified |
-| 16 - 25           | Critical        | Test immediately and thouroughly; Most important experiments      |
-
-Assumptions with higher scores (represented by colors like Red and Orange in the Tracker template) should be addressed with greater urgency and receive more resources for researaching and testing, while assumptions with lower 
+| Quadrant | Grouping                                             | Focus                                                                                                                                           | Action                                                                                                        |
+|----------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| One      | High Impact, High Uncertainty: Critical Assumptions  | These are the most important assumptions to test first; could cause harm to desired outcomes and mission impact if proven wrong.                | Invest the most effort on researching and experimenting these.                                                |
+| Two      | Low Impact, High Uncertainty: Peripheral Assumptions | These are less important to mission success right now.                                                                                          | You can monitor them but do not need to spend significant resources on them unless they shift in importance.  |
+| Three    | Low Impact, Low Uncertainty: Irrelevant Assumptions  | These are not worth our time or effort to validate, as they have little bearing on mission impact.                                              | Don't waste time on these. You can track them and address them later if the situation changes.                |
+| Four     | High Impact, Low Uncertainty: Confirmed Facts        | These require less energy and focus for testing, because we're highly certain that they are valuable.                                           | Limit or eliminate research efforts. Immediately solve and prioritize post-launch test techniques.            |
 
 <br/>
 
-#### Four quadrant focus areas and actions
-
-| Quadrant | Grouping                                             | Focus                                                                                                                                           | Action                                                                                                       |
-|----------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| One      | High Impact, High Uncertainty: Critical Assumptions  | These are the most important assumptions to test first; could cause harm to desired outcomes and mission impact if proven wrong.                | Focus your initial efforts on researching and experimenting with these.                                      |
-| Two      | Low Impact, High Uncertainty: Peripheral Assumptions | These are less important to mission success right now.                                                                                          | You can monitor them but do not need to spend significant resources on them unless they shift in importance. |
-| Three    | Low Impact, Low Uncertainty: Irrelevant Assumptions  | These are not worth our time or effort to validate, as they have little bearing on mission impact.                                              | Don't waste time on these. You can track them and address them later if the situation changes.               |
-| Four     | High Impact, Low Uncertainty: Confirmed Facts        | These require less energy and focus for testing, because we're highly certain that they are valuable.                                           | No research effort is required. Immediately solve for these and test in prod.                                |
-
-<br/>
-
-#### Test validating assumptions
+#### Assumption validation testing techniques
 
 Testing assumptions is both essential to how we validate changes in user or system behavior as well as delivering mission impact, and it's arguable the most exciting part of delivering software! There are several techniques that we can deploy to validate, or invalidate, our assumptions. Applying them is not only an art and science, but also an important decision for delivery teams because it requires our own investment of resources to successfully conduct them. Below are just a handful of validation plays that we can leverage to test our assumptions:
 
