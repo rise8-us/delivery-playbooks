@@ -26,7 +26,11 @@ To visualize and improve our process of delivering greater value to customers, w
 6. **Visualization for Clarity:** Creating visual maps of processes helps teams understand current workflows, identify inefficiencies, and design improved future states.
 7. **Iterative Improvement:** VSM is not a one-time activity. Organizations should regularly revisit and update their value stream maps to reflect changes and continue improving.
 
-> *"VSM gives us the lens to diagnose noise in delivery and rewire teams for continuous value flow."*
+![Component vs System Efficiency](../../../assets/component-vs-system-efficiency.png)
+
+> **It's not about the map.** *It's about the conversations, insights, decisions, and organizational healing that mapping enables for continuous value flow.*
+
+<br/>
 
 #### The difference between Value Stream vs. Process Map perspectives
 
@@ -170,6 +174,12 @@ Below is an example of a basic current state VSM, and some obvious waste signals
 ![Basic Current State](../../../assets/basic-current-state-vsm.png)
 
 <br/>
+
+> _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
+
+<br/>
+
+![Basic Target State](../../../assets/basic-target-state-vsm.png)
 
 ## How to facilitate a Value Stream Mapping exercise
 
@@ -350,8 +360,6 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 2. **Synthesize insights** - Highlight biggest bottlenecks, gaps, silos, questions and assumptions.
 3. **Debrief with participants** - Share early takeaways and thank them for their candor.
 4. **Schedule Target State VSM** - Define the next target conditions using the VSM output.
-
-> _“The goal isn’t just the map—it’s momentum. Use your VSM to drive the next best improvement toward better mission outcomes.”_
 
 #### Step-by-step target state VSM facilitation
 
