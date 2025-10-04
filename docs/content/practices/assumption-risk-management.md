@@ -2,33 +2,41 @@
 
 ## What is it?
 
-An assumption is something we take on faith or as a best guess despite a lack of proof, and can range from domain context, problems, solutions, usability, technical feasibility, etc. Evidence can be on a scale from “wild guess” to having validated learnings from things like market research, user research, and actual results in production.
+We should always expect to deal with both assumptions and risks when executing projects, and delivering products and services. It's also very easy to form the opinion that assumptions and risks are the same thing. Afterall, every assumption carries a potential consequence, thus a risk! While this statement is true, there are intentional practices that we employ to best manage these for specific purposes. 
 
-If you stop and think about it, **risk management = assumption management**. Every assumption we make—from “users will adopt this flow” to “this service can handle 10k RPS” to “the AO will accept this control implementation”—carries risk because it’s not guaranteed. Our practice is to surface risks early and often, quantify their impact, track them, and deliberately burn them down through experiments, engineering practices, and operational guardrails—so we ship outcomes in prod with confidence and pace.
+Said another way, attempting to eliminate all risks is not only futile due to limited resource constraints, it is also an anti-pattern to not take bold, calculated, risks when shipping software with assumptions that can only truly be validated once we are in production. Therefore, this practice is both an art and a science. We need to surface assumptions and risks early and often, quantify them, track them, and deliberately burn down the most critical items through experiments, engineering practices, and operational guardrails—so we ship outcomes in prod with confidence and pace.
 
-![Assumptions Prioritization](../../assets/assumptions-2-by-2.png)
+<br/>
 
-We use a few shared lenses to keep everyone aligned:
+> We must be both ***vigilent in recognizing what's important to manage*** and ***diligently manage them effectively.***  
 
-* **Product risks**: value, usability, feasibility, and mission/business viability.
-* **Security & privacy risks**: managed with NIST’s Risk Management Framework (categorize → select/implement/assess controls → authorize → continuously monitor).
-* **Reliability risks**: governed by SLOs and error budgets to balance speed with stability.
-* **Project risks**: the skills, headcount, and availability of our team as well as the stakeholder landscape and relationships are setting us up for success.
+<br/>
 
-Throughout a product’s lifecycle, it’s helpful for teams to articulate, prioritize and track and regularly revisit these assumptions. If you haven’t released software in awhile, your product is likely full of risks and assumptions. This can especially be the case early in a product’s lifecycle if you're delivering an MVP experiment. 
+Below is a high-level framing to help ground ourselves in the differences between Assumptions Management and Risk Management before we get into the details.
 
-> Check out the [Assumptions/Risks Workshop Play](https://delivery-playbooks.rise8.us/content/plays/design/assumptions-workshop/) for an in depth how to.
+| Practice                  | What are they?                                                                                                                                                                                  | When do they come into play?                                                                                                                                                                      | Timing example    | 
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| **Assumption Management** | Things we believe to be true, with varying degress of confidence, that we want to test and validate with empirical evidence to support timely, strategic, decision-making. (think play calling) | Everytime we're in a decision-making flow, based on available signals (i.e. anything between a gut feeling to having non-causal data or insights), and we desire at least an absolute conclusion. | Supporting every strategic decision → A reseach guide consolidates assumptions we want to validate and learn about current conditions; Ideation for solving user pain-points that lead to mission impact aligns teams on assumptions we test before or after launching them; Preparing story's and questions for a stakeholder call that influences alignment, prioritizes assumptions that we will validate with realtime reactions and decisions. |
+| **Risk Management**       | Things that could impact our ability to achieve our goals, ranging from annoyance to completely blocking or killing our efforts. (think blocking and tackling)                                  | Risks can show up as early as prior to, or at the start of, a new project. Constraints could exist before we even attempt to deliver a new product or service.                                    | Before we even begin our contract → Because it takes 6 months to obtain AWS accounts from our supplier, we’re less likely to ship our MVP product before end of fiscal year, resulting in 0% percent chance of securing next fiscal year funding. |
 
-![Assumptions and Risk](../../assets/assumptions-risk.png)
+<br/>
 
 ## Why do it?
 
+Throughout a product’s lifecycle, it’s helpful for teams to articulate, prioritize, track and regularly revisit their assumptions and risks. If you haven’t released software in awhile, your product is likely full of assumptions that may or may not solve a real problem for your users, or meaningfully impact the mission. This is certainly the case when we are in the early stagees of a product’s lifecycle, delivering an MVP experiment to prod. 
+
+![Assumptions and Risk](../../assets/assumptions-risk.png)
+
+Here are some principles to live by when managing assumptions and risks
+
 * **Outcomes over outputs** - Writing down the assumptions and risks about the product, our users, technical feasibility, dependencies, solutions etc. helps the team gain a shared understanding of what underlying beliefs the team has about what needs to be true in order for a product or our current project to be successful.
 * **Learning velocity** - Systematic assumption testing and continuous delivery reduce the cost and risk of change—empowering us to learn in prod.
-* **Mission and compliance** - RMF + continuous monitoring turns security/privacy risk into a daily habit, not a once-a-year scramble; it’s also foundational to cATO. 
+* **Mission and compliance** - RMF + continuous monitoring turns security/privacy risk into a daily habit, not a once-a-year scramble; it’s also foundational to [cATO](https://playbook.rise8.us/). 
 * **Prioritize resource energy** - It’s important to understand, as a team, which assumptions are the riskiest (i.e. which ones, if proven wrong, could risk the success of our product or current project) so you can engage in activities to help de-risk those assumptions.
 * **Maintaining flow** - Tracking the assumptions and the evidence that adds validity (or removes validity) to the assumption is helpful in making decisions on whether to pivot or persevere. If a key assumption you made early on in the product life cycle turns out to be incorrect- it’s important to evaluate how that assumption being invalidated informs what you do next as a product team.
 * **Comfortable accepting risk** - Tracking and de-risking assumptions also allows teams to feel more confident that the product they’re building and releasing will be desirable, viable & feasible to build.
+
+<br/>
 
 ## How to do it?
 
@@ -167,7 +175,7 @@ Many practicioners argue that ***timing can greatly influence decisions*** on th
 
 #### 2x2 matrix risk management 
 
-If a team prefers to leverage a 2x2 matrix to assess the impact and probability of their risks instead of the formulas provided in the Risk Tracker template, we've provided a helpful guide on how to interpret the quadrant results below. As you'll see we often follow a zig-zag pattern when prioritizing quadrant results of a 2x2 exercise (e.g. For risks this looks like 1 - Critical, 2 - High, 4 - Medium and then 3 - Low). 
+If a team prefers to leverage a 2x2 matrix to assess the impact and probability of their risks instead of the formulas provided in the Risk Tracker template, we've provided a helpful guide on how to interpret the quadrant results below. As you'll see in the table below, we often follow a zig-zag pattern when prioritizing quadrant results of a 2x2 exercise (e.g. For risks this looks like 1 - Critical, 2 - High, 4 - Medium and then 3 - Low). 
 
 | Quadrant | Grouping                                      | Focus                                                                                                                                                                                         | Action                                                                                                        |
 |----------|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
