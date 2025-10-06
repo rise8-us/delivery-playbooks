@@ -8,10 +8,6 @@ Said another way, attempting to eliminate all risks is not only futile due to li
 
 <br/>
 
-> We must be both ***vigilent in recognizing what's important to manage*** and ***diligently manage them effectively.***  
-
-<br/>
-
 Below is a high-level framing to help ground ourselves in the differences between Assumptions Management and Risk Management before we get into the details.
 
 | Practice                  | What are they?                                                                                                                                                                                  | When do they come into play?                                                                                                                                                                      | Timing example    | 
