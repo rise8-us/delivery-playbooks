@@ -122,9 +122,9 @@ Lead time (aka Elapsed Time, Throughput Time, or Turnaround Time) accounts for a
 
 When calculating %C&A, we're trying to understand the quality of both inputs and outputs throughout our value stream. It's important to note that %C&A of one mission/business process block is calculated based upon the feedback from the downstream mission/business process block(s). If we take the 80% C&A designation for Process block #1 as an example, what this actually communicates is that only 80% of the work that Process block #2 receives from Process block #1 is "usable as is". In other words, 20% of the time the owner of Process block #2 is having to take one or more of the following actions to be 100% C&A (i.e. zero quality issues; optimal flow)
 
-1. **Correcting** infromation or material that was supplied
+1. **Correcting** information or material that was supplied
 2. **Adding** information that should have been supplied
-3. **Clarifying** informaiton that should/could have been clearer
+3. **Clarifying** information that should/could have been clearer
 
 ![Percent Complete and Accurate](../../../assets/percent-c-and-a-example.png)
 
