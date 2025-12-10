@@ -447,7 +447,7 @@ Now that you have a Value Stream Map, it’s time to **act on it**:
 
 - **eBook**: [4 Easy Steps to Mastering Chaos with VSM](https://enterprise-software.broadcom.com/valueops-connectall-insights) – Useful to contextualize modern software VSM.
 - **Book**: [Value Stream Mapping – Essential for understanding the lean and facilitation discipline behind VSM](https://www.goodreads.com/book/show/17718225-value-stream-mapping).
-- **eLearning Courses**: [Value Stream Transformation Part 1 of 2](https://tkmgacademy.com/courses/value-stream-transformation-part-1/) [Value Stream Transformation Part 2 of 2](https://tkmgacademy.com/courses/value-stream-transformation-part-2/)
+- **eLearning Courses**: [Value Stream Transformation Part 1](https://tkmgacademy.com/courses/value-stream-transformation-part-1/) [Value Stream Transformation Part 2](https://tkmgacademy.com/courses/value-stream-transformation-part-2/)
 - **Concept**: *Improvement Kata* – Learn to iterate toward outcomes: [Toyota Kata](https://www.toyotakata.org/)
 - **[Digital Operating Model 3: Alignment](https://www.loom.com/share/bab879ee127a4dd6b73fb563b14c79fe)**
 - **[RiseU Core Practice of Process Mapping](https://delivery-playbooks.rise8.us/content/practices/process-mapping/)**
