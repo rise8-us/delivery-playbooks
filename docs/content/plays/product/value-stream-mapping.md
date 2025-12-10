@@ -328,7 +328,7 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 #### Opening script (5 mins)
 > _"Thanks for joining. Today we’re mapping our value stream to uncover where work gets stuck, who’s involved, and how it flows—or doesn’t flow—across systems and teams. This will help us deliver mission impact faster, and with less pain. Our focus right now is on the **current state**, not what we wish it looked like."_
 
-#### VSM Current State - Set the stage
+#### VSM Current State Steps - Set the stage
 
 1. **Establish the mission impact** - "What’s the core mission this value stream supports?" “How do we measure business/mission impact success today?” (e.g., “Deliver approved benefits to Veterans”)
 2. **Identify the initiator (supplier)** - “Who starts the desired outcome of our value stream?”
@@ -336,7 +336,7 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 4. **Identify the end-user (customer)** - “Who realizes the desired outcome(s) of the value stream?”
 5. **Generate any outputs our customer receives** - "What outputs do customers/end-users receive from our value stream?"
 
-#### VSM Current State - First Pass - Value Flow
+#### VSM Current State Steps - First Pass - Value Flow
 
 1. Create the last mission/business process block (i.e. final step before desired outcome(s) + mission impact(s) are realized).
 2. Create the initial mission/business process block (i.e. the step that initiates the flow of work through the value stream).
@@ -347,14 +347,14 @@ Use the following script and facilitation steps to confidently lead a Value Stre
     - Number of people required to complete, and move, the work
     - Queuing and Batching context
 
-#### VSM Current State - Second Pass - Information Flow
+#### VSM Current State Steps - Second Pass - Information Flow
 
 1. Identify IT systems that support the value flow.
 2. Confirm the direction of information flow (i.e. pull or push), between IT Systems and Process Blocks.
 
     - Use different colors to represent information flow lines and IT system relationships
 
-#### VSM Current State - Third Pass - Metrics Flow
+#### VSM Current State Steps - Third Pass - Metrics Flow
 
 1. Confirm the current PT, LT and %C&A for each process block
 
@@ -371,16 +371,16 @@ Use the following script and facilitation steps to confidently lead a Value Stre
     - Calculate simple average %C&A -- If you need a quick comparison across equal-sized units
     - Calculate weighted average %C&A -- If you need a comparison when unit size impacts performance
 
-#### VSM Current State - Forth Pass - Add Visual Aides
+#### VSM Current State Steps - Forth Pass - Add Visual Aides
 
 1. Add icons or other visual aides that help describe what happens in the Value Flow.
 2. Add any questions or assumptions that would improve context for next steps.
 
-#### VSM Current State - Fifth Pass - Process Block Classification
+#### VSM Current State Steps - Fifth Pass - Process Block Classification
 
 1. Classify process blocks as value added, non-value added, or required non-value added.
 
-#### VSM Current State - Sixth Pass - Waste Categories
+#### VSM Current State Steps - Sixth Pass - Waste Categories
 
 1. Identify and label appropriate waste categories.
 
@@ -397,28 +397,38 @@ Use the following script and facilitation steps to confidently lead a Value Stre
 3. **Debrief with participants** - Share early takeaways and thank them for their candor.
 4. **Schedule Target State VSM** - Define the next target conditions using the VSM output.
 
-#### Step-by-step target state VSM facilitation
+#### VSM Target State Steps - Review
 
 1. Present a quick overview of the Current State VSM
 2. Highlight the NVA and RNVA process blocks, major lead time (LT) and process time (PT) differences, and what is driving low %C&A values
 3. Clarify any key questions or assumptions
-4. For each key problem process block, facilirate a brainstorming exercise to ideate how we would improve the process block and overall value stream
-5. Encourage “big vision” thinking, no idea is too big at this point
-6. Focus on: Eliminating NVA process blocks entirely, reducing lead time (LT), improving %C&A, streamlining RVNA process blocks
-7. Group ideas around process blocks the ideas will replace
-8. Synthesize based on type of improvement
-9. Start with the first process block in the value stream map
-10. Clearly highlight for each new or adjusted process block the following:
 
-    - The process block is value add, required non-value add, or non-value add
+#### VSM Target State Steps - Brainstorm the Target State
+
+1. For the key problem process blocks, a brainstorm improvement ideas
+
+    - Encourage “big vision” thinking, no idea is too big at this point
+    - Focus on eliminating NVA steps entirely, reducing lead time (LT), improving %C&A, and streamlining RNVA blocks
+
+2. Affinity map ideas around the process blocks they intend to effect
+3. Synthesize and refine improvement ideas 
+
+#### VSM Target State Steps - Design the Target State
+
+1. Start with the first process block in the value stream map
+2. Clearly highlight for each new or adjusted process block the following:
+
+    - The process block is value add (VA), required non-value add (RNVA), or non-value add (NVA)
     - Estimate process time (PT) and lead time (LT)
     - Estimate %C&A
     - Write a concise description of the Target State -- include any proposed features or technology
-    - Clarify which current state process block(s) are being eliminated or changed
+    - Clarify between current and target state maps, which process block(s) are being eliminated or adjusted
 
-11. Calculate total estimated lead time (LT), total process time (PT), and rolled %C&A
-12. Calculate the estimated % improved for total lead time (LT), total process time (PT) , and rolled %C&A
-13. Focus on the prompt: “Does this Target State get us closer to our goal? What’s the significance of this improvement?”
+#### VSM Target State Steps - Calculate Target State Metric Improvements
+
+1. Calculate total estimated lead time (LT), total process time (PT), and rolled %C&A
+2. Calculate the estimated % improved for total lead time (LT), total process time (PT) , and rolled %C&A
+3. Focus on the prompt: “Does this Target State get us closer to our goal? What’s the significance of this improvement?”
 
 <br/>
 
