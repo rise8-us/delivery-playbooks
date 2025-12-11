@@ -1,0 +1,3306 @@
+<!-- Elements added to main will be displayed on all pages -->
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://delivery-playbooks.rise8.us/content/plays/engineering/DDD-Eventstorm/">
+      
+      
+        <link rel="prev" href="../ai-generated-code-execution/">
+      
+      
+        <link rel="next" href="../../../roles/Product-Management-Role-Definition/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="https://rise8.us/images/favicons/cropped-rise8-favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>DDD Eventstorm - Delivery Playbooks</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-TLK83CLMXL"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-TLK83CLMXL",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-TLK83CLMXL",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ddd-eventstorm" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Delivery Playbooks" class="md-header__button md-logo" aria-label="Delivery Playbooks" data-md-component="logo">
+      
+  <img src="../../../../riseu-logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Delivery Playbooks
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              DDD Eventstorm
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../practices/core-practices/" class="md-tabs__link">
+          
+  
+  
+  Core Practices
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../cross-discipline/discovery-framing-remote/" class="md-tabs__link">
+          
+  
+  
+  Plays
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../roles/Product-Management-Role-Definition/" class="md-tabs__link">
+          
+  
+  
+  Roles
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Delivery Playbooks" class="md-nav__button md-logo" aria-label="Delivery Playbooks" data-md-component="logo">
+      
+  <img src="../../../../riseu-logo.svg" alt="logo">
+
+    </a>
+    Delivery Playbooks
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Practices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Core Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/core-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rise8 Core Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teaming, Ceremonies & Collaboration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Teaming, Ceremonies & Collaboration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/agile-ceremonies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agile Ceremonies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/balanced-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Balanced Teams
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/continuous-improvement-cycles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Continuous Improvement Cycles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/dual-track-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dual-Track Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/facilitation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facilitation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feedback
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/pairing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pairing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/portfolio-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portfolio Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/practice-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Practice Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/scoping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scoping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/team-enablement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Enablement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DevSecOps
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DevSecOps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/automated-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Automated Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/ci-cd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Continuous Integration/Continuous Deplyment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/domain-driven-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domain Driven Design (DDD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/environment-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/platform-health-monitoring-and-observability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform Health Monitoring &amp; Observability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/security-early-and-throughout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Implementing Security Early and Throughout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/version-control-systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version Control System (VCS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/zero-downtime-deployments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zero-Downtime Deploys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product & Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Product & Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/backlog-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/data-and-metrics-collection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data and Metrics Collection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/discovery-and-framing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery &amp; Framing (D&amp;F)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/human-centered-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Human Centered Design (HCD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/problem-statements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Statements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/launching-with-a-minimum-viable-product/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Launching With a Minimum Viable Product (MVP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/assumption-risk-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Managing Assumptions &amp; Risk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/opportunity-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opportunity Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/outcome-oriented-roadmaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outcome Oriented Roadmaps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/process-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/ruthless-prioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ruthless Prioritization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/stakeholder-management-and-engagement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stakeholder Management &amp; Engagement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/strategic-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Strategic Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/user-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plays
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Plays
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cross-Discipline
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cross-Discipline
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/discovery-framing-remote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery &amp; Framing Kick Off
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/iteration-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iteration Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/standup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/stakeholder-demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stakeholder Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/5-whys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 5 whys method
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Product
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/value-stream-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Value Stream Mapping (VSM)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/impact-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impact Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/problem-statement-framing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Statement Framing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/vision-statement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision Statement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/product-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/rate-ratio-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rate and Ratio Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/composite-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Composite Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/backlog-prioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog Prioritization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/story-writing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Story Writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../product/product-release/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Releasing a Product
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/assumptions-workshop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assumptions Workshop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/design-studio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Studio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/interview-discussion-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Discussion Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/journey-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Journey Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/service-blueprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Service Blueprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/user-research-planning-play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Research Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Engineering
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai-generated-code-execution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Safely Executing AI Generated Code on your local machine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DDD Eventstorm
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DDD Eventstorm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ddd-eventstorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DDD Eventstorm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DDD Eventstorm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-do-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why do it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-do-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to do it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#who-to-involve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Who to Involve?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-you-might-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools You Might Need
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-you-might-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time You Might Need
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-do-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to do it
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to do it">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#strategic-eventstorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strategic Eventstorm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tactical-eventstorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tactical Eventstorm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stickies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stickies
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Glossary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relevant-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relevant Links
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Roles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Product-Management-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Management at Rise8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Product-Design-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Design at Rise8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Engineering-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering at Rise8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ddd-eventstorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DDD Eventstorm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DDD Eventstorm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-do-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why do it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-to-do-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to do it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#who-to-involve" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Who to Involve?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-you-might-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tools You Might Need
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#time-you-might-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Time You Might Need
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-do-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to do it
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to do it">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#strategic-eventstorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strategic Eventstorm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tactical-eventstorm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tactical Eventstorm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stickies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stickies
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#glossary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Glossary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relevant-links" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relevant Links
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>DDD Eventstorm</h1>
+
+<h2 id="ddd-eventstorm"><code>DDD Eventstorm</code></h2>
+<h3 id="what-is-it">What is it?</h3>
+<ul>
+<li>Event Storming serves as a highly collaborative workshop integral to Domain-Driven Design, facilitating the rapid discovery and exploration of a domain's core business processes.  </li>
+<li>It can be employed <strong>strategically</strong> to identify Bounded Contexts and their relationships by mapping out key domain events across an entire system, or <strong>tactically</strong> to flesh out Aggregates, Commands, and deeper business rules within a specific context.  </li>
+<li>It is focused on how the system <strong>wants to behave, not</strong> how it <strong>behaves currently</strong>.</li>
+</ul>
+<h3 id="why-do-it">Why do it?</h3>
+<ul>
+<li>It immerses a software team in the business's operational flow, defining bound contexts and fostering a <strong>Ubiquitous Language</strong>.    </li>
+<li>Empowers software engineers by enabling them to gain a deep understanding of the underlying business logic, resulting in the creation of more accurate, resilient, and valuable software solutions.</li>
+</ul>
+<h3 id="when-to-do-it">When to do it?</h3>
+<ul>
+<li>Strategic  </li>
+<li><strong>Starting a New Project or Product:</strong> Before writing any significant code, a strategic Event Storm helps the entire team (business and technical) gain a shared, big-picture understanding of the entire problem space. This ensures you're building the right thing and can anticipate architectural needs.  </li>
+<li><strong>Addressing a Growing Monolith or System Complexity:</strong> If an existing system is becoming unmanageable, difficult to change, or has tangled logic, a strategic Event Storm can help identify natural seams and potential Bounded Contexts.  </li>
+<li>Discover the <strong>Ubiquitous Language</strong> that exists across your various Bounded Contexts.  </li>
+<li>Tactical  </li>
+<li><strong>DDD Implementation:</strong> When you're ready to define the aggregates, entities, value objects, domain services, and repositories that will form the backbone of your code within a Bounded Context, the tactical Event Storm provides the granular detail needed.  </li>
+<li>Perfect a <strong>Ubiquitous Language</strong> within its boundary, right down to the naming of classes and methods in the code.</li>
+</ul>
+<h3 id="who-to-involve">Who to Involve?</h3>
+<ul>
+<li><strong>Facilitator</strong> (Mandatory):  </li>
+<li>Someone impartial who understands Event Storming and can guide the session, keep it on track, and ensure everyone participates. This person should not be a primary domain expert or developer for the domain being mapped, to remain objective.  </li>
+<li>Why they're critical: To manage the flow, enforce rules, and ensure the desired outcomes are achieved.  </li>
+<li><strong>Domain Experts</strong> (Absolutely Essential):  </li>
+<li>These are the people who live and breathe the business process you're mapping. They understand the rules, the nuances, the exceptions, and the current challenges.  </li>
+<li>Examples: Product Owners, Business Analysts, Department Heads, Subject Matter Experts (SMEs), Customer Service Representatives, Sales Managers, Operations Staff, Legal/Compliance officers.  </li>
+<li>Why they're critical: They define the "what" and the "why." Without them, you risk building software that doesn't solve real business problems or misunderstands existing processes.  </li>
+<li><strong>Engineers</strong> (Absolutely Essential):  </li>
+<li>The engineers who will be building the system.  </li>
+<li>Examples: Software Engineers, Architects, Technical Leads, Platform Engineers, Cybersecurity Engineers, SREs and CI/CD Engineers.  </li>
+<li>Why they're critical: They need to understand the domain deeply to translate business needs into code. Their technical questions can also help uncover hidden assumptions or ambiguities in the business process. They also bring feasibility insights.  </li>
+<li><strong>Product Managers/Owners:</strong> (Recommended)  </li>
+<li>They bridge the gap between business strategy, customer needs, and technical execution.  </li>
+<li>Why they're critical: They ensure the discussion stays focused on delivering value and that the identified solutions align with the product roadmap.  </li>
+<li><strong>UI/UX Designers:</strong> (Recommended)  </li>
+<li>They bring the customer's interaction and experience perspective.  </li>
+<li>Why they're critical: They can help identify how users interact with the system, leading to better-defined commands and user-facing events.</li>
+</ul>
+<h3 id="tools-you-might-need">Tools You Might Need</h3>
+<ul>
+<li>Whiteboarding tool (figjam, miro) or Post-Its and Sharpies.</li>
+</ul>
+<h3 id="time-you-might-need">Time You Might Need</h3>
+<ul>
+<li>Prioritize the quality of collaboration and outcome over sticking rigidly to a timebox. Be flexible and willing to adjust the schedule according to the group's energy and progress.  </li>
+<li><strong>Strategic</strong> “Big Picture” Event Storms:  </li>
+<li><strong>Duration</strong>: Typically 1 to 3 full days.  </li>
+<li><strong>Reasoning</strong>: These sessions aim to map the entire business domain, discover Bounded Contexts, and establish the high-level Ubiquitous Language. This involves a lot of initial exploration, surfacing conflicts, and reaching a shared understanding across a broad area. Trying to rush this often leads to superficial results.  </li>
+<li><strong>Format</strong>: Often structured with a half-day or full-day session, followed by a break and then another session to solidify insights.  </li>
+<li><strong>Tactical</strong> "Process Modeling" / "Design Level"  Event Storms:  </li>
+<li><strong>Duration</strong>: Can range from half a day (3-4 hours) to 1.5 days.  </li>
+<li><strong>Reasoning</strong>: Once a specific Bounded Context is identified, these sessions delve into the detailed workflow, commands, aggregates, and policies within that context. The scope is narrower, allowing for more focused, intense work.  </li>
+<li><strong>Format</strong>: A focused half-day session can be highly productive, especially if the team is already familiar with Event Storming and the context. For more complex contexts, a full day or a day and a half might be needed.</li>
+</ul>
+<h3 id="how-to-do-it">How to do it</h3>
+<h4 id="strategic-eventstorm">Strategic Eventstorm</h4>
+<p>The primary goal is to discover Bounded Contexts and their high-level interactions across a very broad domain. The scope is the entire business or a large segment of it.</p>
+<ul>
+<li><strong>Breadth over Depth:</strong> You're rapidly identifying all significant events across the entire domain. Less time is spent on the intricate details of each event's consequences.  </li>
+<li><strong>Chronological Flow:</strong> The main focus is getting events in the correct relative time order, creating a comprehensive timeline.  </li>
+<li><strong>Boundary Identification:</strong> The main purpose of this phase is to see where the language and concepts naturally cluster and where they shift, indicating potential Bounded Context boundaries.  </li>
+<li><strong>Focus on High-Level Commands/Actors:</strong> You identify the major actors (users, external systems) and the primary commands that trigger the core events. The "why" (commands) and "who" (actors) are important for understanding the flow across contexts.  </li>
+<li><strong>Minimal Detail on Aggregates/Policies:</strong> You might hint at where aggregates could form or where policies exist, but you don't go into detail on their internal structure. Their main purpose here is to help delineate contexts.  </li>
+<li><strong>Relationships between Contexts:</strong> A crucial strategic step is mapping the relationships between the identified Bounded Contexts (e.g., using different colored lines to show data flow or dependencies).  </li>
+<li><strong>Outcome and Artifacts:</strong>  </li>
+<li>A large wall covered with orange events and high-level commands/actors.  </li>
+<li>Clearly drawn Bounded Context boundaries.  </li>
+<li>A Context Map showing how Bounded Contexts interact.  </li>
+<li>A shared, high-level <strong>Ubiquitous Language</strong>.  </li>
+<li>Identified "Hot Spots" (problem areas) that might warrant their own tactical sessions.</li>
+</ul>
+<h4 id="tactical-eventstorm">Tactical Eventstorm</h4>
+<p>The primary goal is designing the detailed domain model (Aggregates, Commands, Policies, Entities, Value Objects) within a single, already identified Bounded Context. The scope is much narrower and deeper.</p>
+<ul>
+<li><strong>Depth over Breadth:</strong> You're focused intensely on all events within the chosen Bounded Context. Every event's cause, consequence, and precise meaning are critical.  </li>
+<li><strong>Trigger-to-Outcome Chains:</strong> You're very interested in the chain of events: "This event happened -&gt; it triggered this command -&gt; which caused this effect -&gt; leading to this next event."  </li>
+<li><strong>Invariants and Business Rules:</strong> You're actively looking for rules that govern state changes and validate commands.  </li>
+<li><strong>Deep Dive on Aggregates:</strong> This is where Aggregates become central. For each event, you identify the Aggregate that emitted the event and the Aggregate that will handle the command that caused the event. You're trying to figure out which data belongs together and needs to be transactionally consistent.  </li>
+<li><strong>Precise Commands:</strong> Commands (blue sticky notes) are very specific, often mapping directly to methods.  </li>
+<li><strong>Granular Policies:</strong> Policies (purple sticky notes) are explicitly defined as reactions to events within the context, often triggering new commands.  </li>
+<li><strong>Read Models / Projections:</strong> You often introduce these (green sticky notes) to show where data is consumed or denormalized for specific views or reporting, which is a tactical implementation concern.  </li>
+<li><strong>Outcomes and Artifacts:</strong>  </li>
+<li>A segment of the wall (representing one Bounded Context) dense with orange events, blue commands, yellow actors, pink/yellow aggregates, purple policies, and potentially green read models.  </li>
+<li>A much more detailed and precise <strong>Ubiquitous Language</strong> for that specific context, ready to be translated into code.  </li>
+<li>A clear understanding of the Aggregates and their invariants, forming the core of your domain model.  </li>
+<li>Input for writing user stories, specifications by example, and designing the actual code.</li>
+</ul>
+<h4 id="steps">Steps</h4>
+<ol>
+<li><strong>Preparation (Pre-Workshop):</strong>  </li>
+<li><strong>Define a Clear Goal:</strong> What specific business problem or large domain are you trying to understand? (e.g., "Understand the entire customer lifecycle," "Map our core product delivery value stream," "Identify Bounded Contexts for a new microservices architecture").  </li>
+<li><strong>Invite the Right People:</strong> As discussed, a diverse group including key domain experts, product owners, architects, senior developers, and possibly UX/QA. Aim for 6-12 people for effective collaboration.  </li>
+<li><strong>Secure a Large Space:</strong> You'll need a very long wall or a large whiteboard if done physically. The longer, the better, as events are placed chronologically.  </li>
+<li><strong>Gather Materials:</strong> Lots of sticky notes (different colors are helpful), thick markers, a timer, and some tape if using paper rolls.  </li>
+<li><strong>Explain the Basics (Pre-briefing/Intro):</strong> Briefly introduce Event Storming concepts (events, commands, roles, the "past tense" rule for events, color coding) before the main session to save time.  </li>
+<li><strong>Introduction &amp; Kick-off (Workshop Start):</strong>  </li>
+<li><strong>Facilitator's Role:</strong> Welcome participants, reiterate the goal, set expectations, explain the rules of engagement (e.g., "no debates, just put it on the wall for now," "past tense verbs for events").  </li>
+<li><strong>Define the Starting Point:</strong> Ask the group: "Where does the story begin for the domain we're exploring?" This helps anchor the timeline.  </li>
+<li><strong>Define the Horizon:</strong> Identify a clear "end point" or the scope boundary.  </li>
+<li><strong>Storming Domain Events (Orange Sticky Notes):</strong>  </li>
+<li><strong>The Core Activity:</strong> Instruct everyone to write down every <strong>significant thing that happens in the business domain</strong> as a <strong>past-tense verb</strong> on an orange sticky note.  </li>
+<li><strong>No Debate:</strong> Emphasize rapid ideation. If there's a disagreement on wording or whether something is an event, write <em>both</em> versions and put them on the wall. Ambiguity is a discovery tool at this stage.  </li>
+<li><strong>Timeboxed Rounds:</strong> Run short, focused bursts (e.g., 5-10 minutes) where everyone writes events. Play some LoFi background music. Quickly review and repeat as necessary. It's okay if some events are missed, as you’ll be able to add them in later steps.  </li>
+<li><strong>Silence is Golden:</strong> Encourage individual thinking and writing, followed by putting them on the wall. Discourage immediate discussion.  </li>
+<li><strong>Laying Out the Timeline:</strong>  </li>
+<li><strong>Chronological Order:</strong> As events are written, participants stick them on the wall in roughly chronological order, from left to right.  </li>
+<li><strong>Dealing with Parallels:</strong> Events happening at the same time can be placed vertically above each other.  </li>
+<li><strong>Finding Gaps &amp; Clusters:</strong> This visual arrangement naturally starts to highlight missing events, concentrations of activity, or major shifts in the process.  </li>
+<li><strong>Narrate the Story &amp; Question:</strong>  </li>
+<li><strong>Walk the Wall:</strong> The facilitator (or a brave volunteer) walks along the wall, narrating the story of the business domain using only the sticky notes.  </li>
+<li><strong>Ask "Why" and "What If":</strong> This narration immediately exposes inconsistencies, missing steps, or areas of confusion. "Why did that happen?" "What happens next?" "What if X failed?"  </li>
+<li><strong>Add Missing Events:</strong> As questions arise, new orange sticky notes (events) are added.  </li>
+<li><strong>Identify Hot Spots / Bottlenecks (Red Sticky Notes):</strong>  </li>
+<li>Invite participants to place <strong>red sticky notes</strong> on areas of the timeline where there are:  <ul>
+<li>Confusion or disagreement about the domain.  </li>
+<li>Known business problems or pain points.  </li>
+<li>Significant complexity.  </li>
+<li>Bottlenecks or long wait times.  </li>
+</ul>
+</li>
+<li>These hotspots indicate areas that need more attention or might delineate future Bounded Contexts.  </li>
+<li><strong>Identify Commands &amp; Actors (Blue &amp; Yellow Sticky Notes):</strong>  </li>
+<li>For each event, ask: "What triggered this event?" (a <strong>Command</strong> - blue sticky) and "Who or what issued that command?" (an <strong>Actor/System</strong> - yellow sticky).  </li>
+<li>Place commands to the left of the event they cause, and actors/systems above the command. This builds out the causal chain.  </li>
+<li><strong>Identify Policies (Purple Sticky Notes):</strong>  </li>
+<li>These are the rules or reactions to events. "When [Event happens], then [Policy causes something else to happen]."  </li>
+<li>Place them between an event and the command/event it triggers.  </li>
+<li><strong>Identify External Systems (Gray Sticky Notes - Optional):</strong>  </li>
+<li>If relevant, add notes for external systems (e.g., Payment Gateway, CRM) that interact with your domain.  </li>
+<li><strong>Discover Bounded Contexts:</strong>  <ul>
+<li><strong>Look for Consistency:</strong> Observe clusters of sticky notes (events, commands, actors) where the Ubiquitous Language feels consistent and specific.  </li>
+<li><strong>Look for Handoffs/Translations:</strong> Identify where concepts change meaning or where there are significant data transformations. These are often the boundaries.  </li>
+<li><strong>Draw Boundaries:</strong> Use long lines or tape (or a different colored long sticky note) to draw rectangles around these consistent clusters. These are your candidate <strong>Bounded Contexts</strong>.  </li>
+<li><strong>Name the Contexts:</strong> Collaboratively give each Bounded Context a meaningful, business-oriented name.  </li>
+</ul>
+</li>
+<li><strong>Define Relationships Between Contexts (Context Mapping):</strong>  <ul>
+<li><strong>Map Interactions:</strong> Draw lines between Bounded Contexts to show how they communicate (e.g., via events, API calls, shared databases).  </li>
+<li><strong>Identify Relationship Types:</strong> Briefly discuss the nature of these relationships (e.g., Shared Kernel, Customer/Supplier, Conformist, Anti-Corruption Layer). This is a bridge to strategic DDD patterns.  </li>
+</ul>
+</li>
+<li><strong>Review &amp; Refine:</strong>  <ul>
+<li><strong>Walk the Contexts:</strong> Review each identified Bounded Context, ensuring its events and commands make sense within its boundary.  </li>
+<li><strong>Address Ambiguity:</strong> Discuss any remaining hot spots or ambiguous terms. Decide if terms need to be refined, split, or if new contexts are needed.  </li>
+<li><strong>Capture Decisions:</strong> Document key decisions and the agreed-upon Ubiquitous Language for each context.  </li>
+</ul>
+</li>
+<li><strong>Photograph &amp; Digitize</strong> (when done physically)<strong>:</strong>  <ul>
+<li>Take high-resolution photos of the entire wall.  </li>
+<li>Consider digitizing the map using tools like Miro or Mural for easier sharing and future reference.</li>
+</ul>
+</li>
+</ol>
+<h4 id="stickies">Stickies</h4>
+<p><strong>Domain Event (Orange 🟠):</strong></p>
+<ul>
+<li><strong>What it is:</strong> A significant fact about something that happened in the business domain. It's an outcome, a result, or a state change.  </li>
+<li><strong>Syntax:</strong> Always written in the <strong>past tense</strong> (e.g., "Order Placed," "Payment Processed," "User Registered," "Inventory Updated," "Shipment Dispatched").  </li>
+<li><strong>Role:</strong> These are the backbone of the Event Storm. They define the narrative of your domain. You start by identifying these.  </li>
+<li><strong>Placement:</strong> Placed on the main timeline, from left to right in chronological order.  </li>
+</ul>
+<p><strong>Command (Blue 🔵):</strong><br />
+* <strong>What it is:</strong> An action or request that triggers a Domain Event. It's an intention to make something happen.<br />
+* <strong>Syntax:</strong> Written as a <strong>verb in the imperative mood</strong> (e.g., "Place Order," "Process Payment," "Register User," "Update Inventory," "Dispatch Shipment").<br />
+* <strong>Role:</strong> Explains <em>why</em> an event happened. Commands lead to events.<br />
+* <strong>Placement:</strong> Placed immediately to the left of the Domain Event it causes.  </p>
+<p><strong>Actor / User / External System (Yellow 🟡):</strong><br />
+* <strong>What it is:</strong> The person or external system that initiates a Command.<br />
+* <strong>Syntax:</strong> Noun (e.g., "Customer," "Warehouse Worker," "Payment Gateway," "CRM System," "Scheduler").<br />
+* <strong>Role:</strong> Identifies who or what is performing the action.<br />
+* <strong>Placement:</strong> Placed above the Command they issue.</p>
+<p><strong>External System (Gray):</strong><br />
+* <strong>What it is:</strong>  External system that initiates a Command.<br />
+* <strong>Syntax:</strong> Noun (e.g., "Payment Gateway," "CRM System," "Scheduler").<br />
+* <strong>Role:</strong> Identifies who or what is performing the action.<br />
+* <strong>Placement:</strong> Placed above the Command they issue.  </p>
+<p><strong>Aggregate (Pink 🌸) :</strong><br />
+* <strong>What it is:</strong> A cluster of Entities and Value Objects that are treated as a single unit for data changes, ensuring transactional consistency. It has an Aggregate Root that is the only entry point for changes within the aggregate.<br />
+* <strong>Syntax:</strong> Noun, usually singular (e.g., "Order," "Product," "CustomerAccount," "Invoice").<br />
+* <strong>Role:</strong> These are the transactional boundaries. Events originate from Aggregates, and Commands target them. They enforce business rules (invariants).<br />
+* <strong>Placement:</strong> Usually placed above the events and commands they are associated with, often encircling them visually. This is more prominent in tactical Event Storms.  </p>
+<p><strong>Policy / Reaction (Purple 🟣):</strong><br />
+* <strong>What it is:</strong> A business rule or reaction that triggers a new Command or Event when a specific Domain Event occurs. It represents a side effect or a consequential action.<br />
+* <strong>Syntax:</strong> Often a phrase like "When [Event] then [Command/Action]" or "If [Condition] then [Action]." (e.g., "When Order Placed then Notify Warehouse," "If Payment Fails then Refund Customer").<br />
+* <strong>Role:</strong> Shows how events lead to further actions within the system, often automating responses.<br />
+* <strong>Placement:</strong> Placed to the right of the Domain Event it reacts to, and to the left of the Command/Event it triggers.  </p>
+<p><strong>Read Model / View (Green 🟢):</strong><br />
+* <strong>What it is:</strong> A data projection or a specific view of data optimized for queries or displaying information to a user. It represents a source of information.<br />
+* <strong>Syntax:</strong> Noun (e.g., "Customer Dashboard," "Product Listing Page," "Order History").<br />
+* <strong>Role:</strong> Identifies where information is consumed. It often consumes data from events.<br />
+* <strong>Placement:</strong> Placed above the events that contribute data to it, or above the actors/users who view it. More common in tactical Event Storms.  </p>
+<p><strong>Hot Spot / Problem (Red 🔴):</strong><br />
+* <strong>What it is:</strong> An area of pain, confusion, disagreement, or a known bottleneck in the current process.<br />
+* <strong>Syntax:</strong> A short description of the problem (e.g., "Manual Handoff," "Frequent Errors," "Conflicting Definitions," "Long Approval Time").<br />
+* <strong>Role:</strong> To highlight areas that need further discussion, clarification, or are candidates for improvement.<br />
+* <strong>Placement:</strong> Placed directly on or near the events/commands/areas where the problem occurs.</p>
+<h3 id="glossary">Glossary</h3>
+<p><strong>Domain:</strong> The sphere of knowledge, influence, or activity for which the user is building the application. It represents the subject area of the software.</p>
+<p><strong>Subdomain:</strong> A smaller, distinct area within a larger domain, often representing a particular business capability or area of expertise. Can be classified as Core, Supporting, or Generic.</p>
+<p><strong>Bounded Context:</strong> An explicit boundary within a software system where a particular domain model is consistent and its Ubiquitous Language holds a precise, unambiguous meaning. It helps manage complexity by dividing a large domain into smaller, cohesive parts.</p>
+<p><strong>Event Storming:</strong> A collaborative workshop technique used in Domain-Driven Design to rapidly explore and model a business domain by identifying events, commands, actors, and policies. It facilitates shared understanding, discovers Bounded Contexts, and helps define a ubiquitous language.</p>
+<p><strong>Event:</strong> A significant occurrence or fact about something that happened in the business domain, always expressed as a <strong>past tense verb</strong> (e.g., "Order Placed," "Payment Processed").</p>
+<p><strong>Command:</strong> A request or instruction to perform an action within the domain, typically expressed as an <strong>imperative verb</strong> (e.g., "Place Order," "Process Payment").</p>
+<p><strong>Policy:</strong> A business rule or reaction that describes what happens <strong>when</strong> a specific event occurs, often leading to a new command or event (e.g., "When Order Placed then Notify Warehouse").</p>
+<p><strong>Actor:</strong> A person that initiates a command or interacts with the system (e.g., "Customer," "CI Pipeline," "Payment Gateway").</p>
+<p><strong>Entity:</strong> An object defined by its distinct identity, which persists over time and across different representations (e.g., a specific <code>Customer</code> with an ID, a unique <code>Order</code>).</p>
+<p><strong>Value Object:</strong> An object defined by its attributes rather than a conceptual identity; it measures, quantifies, or describes a thing and is immutable (e.g., an <code>Address</code> with street, city, zip, or <code>Money</code> with amount and currency).</p>
+<p><strong>Aggregate:</strong> A cluster of associated Entities and Value Objects that are treated as a single unit for data changes, enforcing transactional consistency and business rules through a designated "Aggregate Root" entity.</p>
+<h3 id="relevant-links">Relevant Links</h3>
+<ul>
+<li><a href="https://delivery-playbooks.rise8.us/content/practices/domain-driven-design/">Domain-Driven Design Practice</a></li>
+<li><a href="https://www.figma.com/board/cweMw6Yq7ldKCz6KEDN6be/Eventstorm-Template?node-id=0-1&amp;p=f&amp;t=k7UtLcx5BhaS0yVF-0">Figjam Eventstorm Template</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+<footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" title="MkDocs">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/"
+                   title="Material for MkDocs">
+                    Material for MkDocs</a>
+            </div>
+            
+            
+<div class="md-social">
+  
+</div>
+            
+        </div>
+    </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

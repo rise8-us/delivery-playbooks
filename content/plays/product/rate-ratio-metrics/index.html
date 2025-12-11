@@ -1,0 +1,3991 @@
+<!-- Elements added to main will be displayed on all pages -->
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://delivery-playbooks.rise8.us/content/plays/product/rate-ratio-metrics/">
+      
+      
+        <link rel="prev" href="../product-strategy/">
+      
+      
+        <link rel="next" href="../composite-metrics/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="https://rise8.us/images/favicons/cropped-rise8-favicon-32x32.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Rate and Ratio Metrics - Delivery Playbooks</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-TLK83CLMXL"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-TLK83CLMXL",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-TLK83CLMXL",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#rate-and-ratio-metrics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Delivery Playbooks" class="md-header__button md-logo" aria-label="Delivery Playbooks" data-md-component="logo">
+      
+  <img src="../../../../riseu-logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Delivery Playbooks
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rate and Ratio Metrics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../practices/core-practices/" class="md-tabs__link">
+          
+  
+  
+  Core Practices
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../cross-discipline/discovery-framing-remote/" class="md-tabs__link">
+          
+  
+  
+  Plays
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../roles/Product-Management-Role-Definition/" class="md-tabs__link">
+          
+  
+  
+  Roles
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Delivery Playbooks" class="md-nav__button md-logo" aria-label="Delivery Playbooks" data-md-component="logo">
+      
+  <img src="../../../../riseu-logo.svg" alt="logo">
+
+    </a>
+    Delivery Playbooks
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Practices
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Core Practices
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/core-practices/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rise8 Core Practices
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teaming, Ceremonies & Collaboration
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Teaming, Ceremonies & Collaboration
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/agile-ceremonies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Agile Ceremonies
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/balanced-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Balanced Teams
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/continuous-improvement-cycles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Continuous Improvement Cycles
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/dual-track-development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dual-Track Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/facilitation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Facilitation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/feedback/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Feedback
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/pairing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pairing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/portfolio-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Portfolio Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/practice-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Practice Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/scoping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scoping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/team-enablement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Team Enablement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DevSecOps
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    DevSecOps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/automated-testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Automated Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/ci-cd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Continuous Integration/Continuous Deplyment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/domain-driven-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domain Driven Design (DDD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/environment-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environment Control
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/platform-health-monitoring-and-observability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Platform Health Monitoring &amp; Observability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/security-early-and-throughout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Implementing Security Early and Throughout
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/version-control-systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Version Control System (VCS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/zero-downtime-deployments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Zero-Downtime Deploys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product & Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Product & Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/backlog-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/data-and-metrics-collection/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data and Metrics Collection
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/discovery-and-framing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery &amp; Framing (D&amp;F)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/human-centered-design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Human Centered Design (HCD)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/problem-statements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Statements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/launching-with-a-minimum-viable-product/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Launching With a Minimum Viable Product (MVP)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/assumption-risk-management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Managing Assumptions &amp; Risk
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/opportunity-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Opportunity Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/outcome-oriented-roadmaps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outcome Oriented Roadmaps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/process-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Process Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/ruthless-prioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ruthless Prioritization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/stakeholder-management-and-engagement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stakeholder Management &amp; Engagement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/strategic-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Strategic Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../practices/user-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Plays
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Plays
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cross-Discipline
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cross-Discipline
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/discovery-framing-remote/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery &amp; Framing Kick Off
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/iteration-planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Iteration Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/standup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Standup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/stakeholder-demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stakeholder Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cross-discipline/5-whys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The 5 whys method
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Product
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../value-stream-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Value Stream Mapping (VSM)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../impact-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Impact Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../problem-statement-framing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Statement Framing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vision-statement/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vision Statement
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rate and Ratio Metrics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rate and Ratio Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-rate-and-ratio-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What are Rate and Ratio Metrics?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What are Rate and Ratio Metrics?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-delivery-teams-use-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Delivery Teams use them
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Delivery Teams use them">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apples-to-apples-comparability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apples-to-apples comparability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-performance-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fair performance signals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-ready-levers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decision-ready levers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecasting-capacity-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forecasting &amp; capacity planning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experiment-attribution-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experiment &amp; attribution clarity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmarking-slos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmarking &amp; SLOs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#executive-storytelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive storytelling
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-the-difference-between-rate-and-ratio-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's the difference between rate and ratio metrics?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What&#39;s the difference between rate and ratio metrics?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rate-based-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rate-based Metrics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rate-based Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rate-mini-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rate Mini Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rate-metric-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rate Metric Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-rate-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Rate Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ratio-based-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ratio-based metrics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ratio-based metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ratio-mini-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ratio Mini Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ratio-metric-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ratio Metric Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-ratio-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Ratio Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-differences-and-interpretations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Differences and Interpretations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-them-well" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to use them well
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#five-denominator-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Five denominator patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Five denominator patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#picking-the-right-denominator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Picking the right denominator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mini-examples-by-domain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mini-examples by domain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misleading-signals-to-monitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Misleading signals to monitor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Misleading signals to monitor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Context
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-denominator-drift-case-mix-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Denominator Drift / Case-Mix Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-gaming-moving-the-number-without-real-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Gaming (moving the number without real progress)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-over-normalization-ratios-hide-real-people-or-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Over-normalization (ratios hide real people or cost)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-seasonality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Seasonality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-scope-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Scope alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-stratify-critical-kpis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Stratify critical KPIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../composite-metrics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Composite Metrics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog-prioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backlog Prioritization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../story-writing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Story Writing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../product-release/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Releasing a Product
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Design
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/assumptions-workshop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Assumptions Workshop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/design-studio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design Studio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/interview-discussion-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interview Discussion Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/journey-mapping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Journey Mapping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/service-blueprint/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Service Blueprint
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../design/user-research-planning-play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Research Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Engineering
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../engineering/ai-generated-code-execution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Safely Executing AI Generated Code on your local machine
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../engineering/DDD-Eventstorm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DDD Eventstorm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Roles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Product-Management-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Management at Rise8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Product-Design-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Design at Rise8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../roles/Engineering-Role-Definition/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineering at Rise8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-are-rate-and-ratio-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What are Rate and Ratio Metrics?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What are Rate and Ratio Metrics?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-delivery-teams-use-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Delivery Teams use them
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Delivery Teams use them">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#apples-to-apples-comparability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Apples-to-apples comparability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fair-performance-signals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fair performance signals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-ready-levers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decision-ready levers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forecasting-capacity-planning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forecasting &amp; capacity planning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#experiment-attribution-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Experiment &amp; attribution clarity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benchmarking-slos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmarking &amp; SLOs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#executive-storytelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Executive storytelling
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#whats-the-difference-between-rate-and-ratio-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What's the difference between rate and ratio metrics?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What&#39;s the difference between rate and ratio metrics?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rate-based-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rate-based Metrics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rate-based Metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rate-mini-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rate Mini Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rate-metric-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Rate Metric Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-rate-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Rate Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ratio-based-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ratio-based metrics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ratio-based metrics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ratio-mini-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ratio Mini Template
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ratio-metric-characteristics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ratio Metric Characteristics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-ratio-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Ratio Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-differences-and-interpretations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Differences and Interpretations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-use-them-well" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to use them well
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#five-denominator-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Five denominator patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Five denominator patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Notes
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#picking-the-right-denominator" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Picking the right denominator
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mini-examples-by-domain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mini-examples by domain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#misleading-signals-to-monitor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Misleading signals to monitor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Misleading signals to monitor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Context
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-denominator-drift-case-mix-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Denominator Drift / Case-Mix Changes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-gaming-moving-the-number-without-real-progress" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Gaming (moving the number without real progress)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-over-normalization-ratios-hide-real-people-or-cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Over-normalization (ratios hide real people or cost)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-seasonality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Seasonality
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-scope-alignment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Scope alignment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-stratify-critical-kpis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Stratify critical KPIs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="rate-and-ratio-metrics">Rate and Ratio Metrics</h1>
+<p><em>The ideal way to measure success as changes are introduced</em></p>
+<hr />
+<h2 id="what-are-rate-and-ratio-metrics">What are Rate and Ratio Metrics?</h2>
+<p>Rate and ratio-based metrics both compare two numbers through division, but the distinction lies in the relationship between the quantities and the role of time. A rate metric explicitly measures a change over time, while a ratio metric compares two quantities that can be of different units and do not necessarily involve time.</p>
+<h3 id="why-delivery-teams-use-them">Why Delivery Teams use them</h3>
+<h4 id="apples-to-apples-comparability">Apples-to-apples comparability</h4>
+<p>Normalizing by exposure (time, users, assets, $$) removes scale effects.</p>
+<blockquote>
+<p>Example: 500 errors with 50M requests (0.01 per 1k) is far better than 50 errors with 10k requests (5 per 1k).</p>
+</blockquote>
+<h4 id="fair-performance-signals">Fair performance signals</h4>
+<p>Rates/ratios separate effort/scale from quality/effectiveness so teams with different sizes can be compared fairly.</p>
+<blockquote>
+<p>Example: Sorties per aircraft-day, interviews per adjudicator-day, incidents per 1k users.</p>
+</blockquote>
+<h4 id="decision-ready-levers">Decision-ready levers</h4>
+<p>Every rate = numerator ÷ denominator → two levers to pull. You can ask “do we fix quality (numerator) or increase capacity (denominator)?”</p>
+<blockquote>
+<p>Example: On-time % can improve by reducing delays or by better intake completeness to shrink rework.</p>
+</blockquote>
+<h4 id="forecasting-capacity-planning">Forecasting &amp; capacity planning</h4>
+<p>Rates are plug-and-play for projections.</p>
+<blockquote>
+<p>Example: Throughput per FTE-day × staffed FTE-days ⇒ next sprint’s delivery forecast.</p>
+</blockquote>
+<h4 id="experiment-attribution-clarity">Experiment &amp; attribution clarity</h4>
+<p>Ratios (conversion, adherence, success %) and rates (per user/week) are robust to traffic swings, making A/B testing results interpretable and comparable across cohorts.</p>
+<h4 id="benchmarking-slos">Benchmarking &amp; SLOs</h4>
+<p>You set thresholds on normalized scales (e.g., p95 latency, &lt;1 change failure per 20 deploys, &gt;95% on-time). This ties directly to policy and user promises.</p>
+<h4 id="executive-storytelling">Executive storytelling</h4>
+<p>Ratios collapse complexity into a single, stable idea (e.g., “9.7 readmissions per 1,000 discharges”). It’s easy to compare over time or against peers.</p>
+<h2 id="whats-the-difference-between-rate-and-ratio-metrics">What's the difference between rate and ratio metrics?</h2>
+<h3 id="rate-based-metrics">Rate-based Metrics</h3>
+<p>A rate measures the frequency of an event over a specific time period. It describes how one quantity changes in relation to another, with time as a critical component. Rates often answer the question, "how often is something happening?". So think of this metric as events per unit of exposure (time, people, assets, miles, $$). </p>
+<blockquote>
+<p>Incidents per 1,000 users, per week</p>
+</blockquote>
+<h4 id="rate-mini-template">Rate Mini Template</h4>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span>
+<span class="normal"><a href="#__codelineno-0-7">7</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a>name: &lt;metric name&gt;
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>formula: numerator / exposure × K
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a>numerator: &lt;event count or amount&gt;
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a>exposure: &lt;time, users, assets, $…&gt;
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>K (scaling): &lt;1, 100, 1,000…&gt;
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>window: &lt;e.g., weekly, rolling 7d&gt;
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a>notes: zero-denominator rule, stratifications, owner
+</code></pre></div></td></tr></table></div>
+<h4 id="rate-metric-characteristics">Rate Metric Characteristics</h4>
+<ul>
+<li>The denominator is a unit of time, such as seconds, hours, or years.</li>
+<li>It quantifies a dynamic process, flow, or speed.</li>
+<li>The comparison is between two quantities with different units of measure. </li>
+</ul>
+<h4 id="example-rate-metrics">Example Rate Metrics</h4>
+<ul>
+<li>Heart rate: Beats per minute.</li>
+<li>Website traffic: Requests per second.</li>
+<li>Speed: Miles per hour.</li>
+<li>Birth rate: Births per 1,000 people per year.</li>
+<li>Conversion rate: Percentage of users who complete a desired action, like a purchase, within a given period. </li>
+</ul>
+<h3 id="ratio-based-metrics">Ratio-based metrics</h3>
+<p>A ratio is a metric that compares two numbers or aggregations to show their relationship. Unlike rates, the denominator is not necessarily a unit of time and can be customized to align with specific business needs. Ratios help to normalize data and provide more nuanced insights into performance. So think of this metric as <strong><em>(success or failure dataset ÷ total opportunities) * 100</em></strong> </p>
+<blockquote>
+<p>On-time passports ÷ all passports = on-time %</p>
+</blockquote>
+<h4 id="ratio-mini-template">Ratio Mini Template</h4>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span>
+<span class="normal"><a href="#__codelineno-1-5">5</a></span>
+<span class="normal"><a href="#__codelineno-1-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>name: &lt;metric name&gt;
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a>formula: numerator / denominator × 100
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a>numerator: &lt;what counts as “success”&gt;
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a>denominator: &lt;opportunity set&gt;
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a>window: &lt;e.g., trailing 28 days&gt;
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a>notes: exclusions, min denominator N, owner
+</code></pre></div></td></tr></table></div>
+<h4 id="ratio-metric-characteristics">Ratio Metric Characteristics</h4>
+<ul>
+<li>The denominator is a user-defined quantity, such as accounts, orders, or another event.</li>
+<li>It can compare quantities with the same or different units.</li>
+<li>Ratios normalize data to provide a fairer comparison between different groups or time periods. </li>
+</ul>
+<h4 id="example-ratio-metrics">Example Ratio Metrics</h4>
+<ul>
+<li>Average Order Value (AOV): Total revenue divided by the number of orders. This provides a more meaningful comparison than simply looking at total revenue, especially if the number of orders fluctuates.</li>
+<li>Revenue per add-to-cart click: Total revenue from purchases divided by the number of clicks on the "add to cart" button. This measures the efficiency of the cart addition process.</li>
+<li>Average revenue per paying user (ARPPU): Total revenue divided by the number of paying users. This metric excludes non-paying users from the calculation.</li>
+<li>Feature adoption per account: Total uses of a feature divided by the number of accounts. For B2B software, this can be more insightful than feature adoption per user, which might be skewed by a high number of users at a single account.</li>
+</ul>
+<h3 id="key-differences-and-interpretations">Key Differences and Interpretations</h3>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Rate</th>
+<th>Ratio</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Denominator</td>
+<td>A unit of time (e.g., per second, per year)</td>
+<td>A user-defined quantity (e.g., per account, per order)</td>
+</tr>
+<tr>
+<td>Purpose</td>
+<td>To measure the frequency, speed, or occurrence of an event over time</td>
+<td>To compare the relationship between two quantities for normalization or efficiency analysis</td>
+</tr>
+<tr>
+<td>Use Case</td>
+<td>Tracking trends in dynamic processes like website requests or mortality</td>
+<td>Analyzing efficiency metrics like revenue generation or feature engagement</td>
+</tr>
+<tr>
+<td>Interpreation</td>
+<td>How quickly or often something happens</td>
+<td>How one number relates to another, providing context and normalization</td>
+</tr>
+</tbody>
+</table>
+<h3 id="how-to-use-them-well">How to use them well</h3>
+<ul>
+<li><strong>Always show the denominator.</strong> Publish numerator / denominator × K in the definition.</li>
+<li><strong>Pick the right exposure.</strong> Time, users at risk, attempts, assets, or size (KLOC, $, miles).</li>
+<li><strong>Use rolling windows</strong> (e.g., trailing 28d) to reduce seasonality noise.</li>
+<li><strong>Aggregate from sums, not averages.</strong> Compute Σnumerators / Σdenominators across segments.</li>
+<li><strong>Guard against tiny denominators.</strong> Set a minimum N before reporting or alerting.</li>
+<li><strong>Pair rates with counts.</strong> A small rate change on massive volume can be mission-critical.</li>
+</ul>
+<h3 id="five-denominator-patterns">Five denominator patterns</h3>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Denominator (exposure)</th>
+<th>Formula template</th>
+<th>Example metrics</th>
+<th>When to use / Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1) Time exposure</strong></td>
+<td>Time window (hours, days, weeks)</td>
+<td><code>rate = events / time_window × K</code></td>
+<td>Errors/day; Deploys/week; Tickets/hour</td>
+<td>Great for tempo/throughput. Use rolling windows (e.g., trailing 7/28d) to smooth seasonality.</td>
+</tr>
+<tr>
+<td><strong>2) Population at risk / Users</strong></td>
+<td>Active users / people at risk in window</td>
+<td><code>rate = events / active_users × K</code></td>
+<td>Incidents per 1k users; Help tickets per 100 employees; Security alerts per 10k devices</td>
+<td>Fair comparisons across different user counts. Define “active/at risk” precisely.</td>
+</tr>
+<tr>
+<td><strong>3) Opportunity set</strong></td>
+<td>Attempts / eligible items</td>
+<td><code>ratio = successes / opportunities</code></td>
+<td>Conversion %; On-time %; Test pass rate</td>
+<td>Best for effectiveness. Ensure numerator ⊆ denominator and eligibility is stable.</td>
+</tr>
+<tr>
+<td><strong>4) Asset / capacity units</strong></td>
+<td>Asset exposure (aircraft-days, server-hours, adjudicator-days, FTE-days)</td>
+<td><code>rate = outputs / asset_exposure</code></td>
+<td>Sorties per aircraft-day; Requests per server-hour; Interviews per adjudicator-day</td>
+<td>For productivity/utilization. Align asset time with operating hours, not calendar.</td>
+</tr>
+<tr>
+<td><strong>5) Size / work / cost normalization</strong></td>
+<td>Size of work (KLOC, GB, miles, transactions, \$)</td>
+<td><code>metric_per_unit = amount / size × K</code></td>
+<td>Defects per KLOC; Cost per transaction; Energy per GB</td>
+<td>For density/unit economics. Watch for case-mix differences as size grows.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="notes">Notes</h4>
+<ul>
+<li><strong><em>K</em></strong> is a readability scaler (e.g., ×100 for %, ×1,000 for “per 1k”).</li>
+<li>Aggregate across segments with sums, not averages: Σnumerators / Σdenominators (avoid averaging percentages).</li>
+<li>Always publish the exact definition (numerator, denominator, window, exclusions) with an owner and a change log.</li>
+</ul>
+<h3 id="picking-the-right-denominator">Picking the right denominator</h3>
+<table>
+<thead>
+<tr>
+<th>If your question is…</th>
+<th>Use this denominator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>“How often over time?”</td>
+<td>Time window (hours/days/weeks)</td>
+</tr>
+<tr>
+<td>“How common among users?”</td>
+<td>Active users / population at risk</td>
+</tr>
+<tr>
+<td>“How effective out of tries?”</td>
+<td>Eligible attempts / opportunities</td>
+</tr>
+<tr>
+<td>“How productive are assets/teams?”</td>
+<td>Asset-exposure (aircraft-days, server-hours, FTE-days)</td>
+</tr>
+<tr>
+<td>“How dense relative to size?”</td>
+<td>Size measure (KLOC, GB, miles, \$)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mini-examples-by-domain">Mini-examples by domain</h3>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>Metric</th>
+<th>Type</th>
+<th>Formula (windowed)</th>
+<th>Example Unit/Scale</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Product / Software</td>
+<td>Error rate</td>
+<td>Rate</td>
+<td><code>errors_per_1k = (error_requests / total_requests) × 1_000</code></td>
+<td>errors per 1k requests</td>
+<td>Normalize by requests for fair comparison.</td>
+</tr>
+<tr>
+<td>Product / Software</td>
+<td>Crash-free sessions</td>
+<td>Proportion</td>
+<td><code>crash_free = 1 − (crashed_sessions / total_sessions)</code></td>
+<td>%</td>
+<td>Higher is better; pair with crash count.</td>
+</tr>
+<tr>
+<td>Product / Software</td>
+<td>Throughput</td>
+<td>Rate</td>
+<td><code>throughput = completed_items / elapsed_time</code></td>
+<td>items per day/week</td>
+<td>Compute from totals; <strong>don’t</strong> use <code>1 / avg_cycle_time</code>.</td>
+</tr>
+<tr>
+<td>Department of State</td>
+<td>On-time passport</td>
+<td>Proportion</td>
+<td><code>on_time_pct = on_time_deliveries / all_deliveries</code></td>
+<td>%</td>
+<td>Define service standard window explicitly.</td>
+</tr>
+<tr>
+<td>Department of State</td>
+<td>Interviews per adjudicator-day</td>
+<td>Rate</td>
+<td><code>interviews_per_adjudicator_day = interviews / Σ(adjudicator_work_days)</code></td>
+<td>interviews per day</td>
+<td>Use <strong>work</strong> days, not calendar days.</td>
+</tr>
+<tr>
+<td>Department of State</td>
+<td>Visa no-show</td>
+<td>Proportion</td>
+<td><code>no_show_pct = no_shows / scheduled_interviews</code></td>
+<td>%</td>
+<td>Track by post and appointment type.</td>
+</tr>
+<tr>
+<td>U.S. Air Force</td>
+<td>Sorties per aircraft-day (SGR)</td>
+<td>Rate</td>
+<td><code>SGR = sorties / Σ(aircraft_possessed_days)</code></td>
+<td>sorties per aircraft-day</td>
+<td>Align exposure to <strong>possessed/available</strong> days.</td>
+</tr>
+<tr>
+<td>U.S. Air Force</td>
+<td>Maintenance findings per 100 flight hours</td>
+<td>Rate</td>
+<td><code>findings_per_100_fh = findings / flight_hours × 100</code></td>
+<td>per 100 FH</td>
+<td>Good for reliability density.</td>
+</tr>
+<tr>
+<td>U.S. Space Force</td>
+<td>Conjunction alerts</td>
+<td>Rate</td>
+<td><code>alerts_per_10k = alerts / (tracked_objects × weeks) × 10_000</code></td>
+<td>alerts per 10k objs/wk</td>
+<td>Normalizes by catalog size and time.</td>
+</tr>
+<tr>
+<td>U.S. Space Force</td>
+<td>Custody ratio</td>
+<td>Proportion</td>
+<td><code>custody_pct = custody_time / total_time</code></td>
+<td>%</td>
+<td>Also track reacquire time (p50/p90).</td>
+</tr>
+<tr>
+<td>Healthcare / VA</td>
+<td>30-day medication adherence</td>
+<td>Proportion</td>
+<td><code>adherent_pct = adherent_patients / eligible_patients</code></td>
+<td>%</td>
+<td>Define eligibility &amp; lookback precisely.</td>
+</tr>
+<tr>
+<td>Healthcare / VA</td>
+<td>Readmissions</td>
+<td>Rate</td>
+<td><code>readmit_per_1k = readmissions / discharges × 1_000</code></td>
+<td>per 1k discharges</td>
+<td>Pair with severity/case-mix stratification.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="misleading-signals-to-monitor">Misleading signals to monitor</h3>
+<h4 id="1-context">1. Context</h4>
+<p>When interpreting both rate and ratio metrics, it is important to consider the context of the underlying numbers. For example, "revenue per visit" might improve simply because the number of visits has decreased, not because the revenue per user has increased. Always examine the component metrics (the numerator and denominator) to understand what is driving the change. </p>
+<h4 id="2-denominator-drift-case-mix-changes">2. Denominator Drift / Case-Mix Changes</h4>
+<p>Imagine two jars of jellybeans: big beans and tiny beans. You taste a few from each jar and both taste yummier than last time. But today you scooped way more tiny beans into your bowl than big ones. Your bowl now tastes less yummy overall—even though each jar got yummier. The mix changed.</p>
+<blockquote>
+<p><strong>What goes wrong:</strong>
+Rates are “thing per something.” If the “per something” (the denominator) changes a lot—more low-conversion traffic, more hard cases, a different region—your overall rate can go up or down just because the mix changed, not because you got better or worse.</p>
+</blockquote>
+<p>Fixes to consider (pick 2 to 3):</p>
+<ul>
+<li><strong>Compare like with like:</strong> Break the metric into slices (by region, device, severity). Trend each slice.</li>
+<li><strong>Publish the mix:</strong> Show a small table: segment %, segment rate.</li>
+<li><strong>Recompute from sums:</strong> Use Σnumerators / Σdenominators for rollups - don't average percentages.</li>
+<li><strong>Pin the denominator:</strong> When possible, keep the “at risk” group definition stable over time.</li>
+</ul>
+<h4 id="3-gaming-moving-the-number-without-real-progress">3. Gaming (moving the number without real progress)</h4>
+<p>Your chore score is “toys put away per minute.” You want a gold star, so you count only tiny toys and stop the timer early. Number looks great; the room is still messy.</p>
+<blockquote>
+<p><strong>What goes wrong:</strong>
+People optimize the formula, not the outcome: narrowing eligibility, skipping hard cases, redefining “done,” or timing windows to look good.</p>
+</blockquote>
+<p>Fixes to consider (guardrails + governance):</p>
+<ul>
+<li><strong>Lock definitions:</strong> Numerator, denominator, window, exclusions—versioned with a change log.</li>
+<li><strong>Add guardrails:</strong> Pair the KPI with quality/safety checks (e.g., accessibility ≥95%, no severity-1 incidents).</li>
+<li><strong>Audit edge cases:</strong> Sample items just below/above thresholds.</li>
+<li><strong>Balance the portfolio:</strong> Use 3–7 inputs that push in different directions so one can’t be gamed without another flashing red.</li>
+</ul>
+<h4 id="4-over-normalization-ratios-hide-real-people-or-cost">4. Over-normalization (ratios hide real people or cost)</h4>
+<p>“99% of kids got lunch” sounds amazing—until you hear there are a million kids. That missing 1% is 10,000 hungry kids.</p>
+<blockquote>
+<p><strong>What goes wrong:</strong>
+Beautiful rates can mask big absolute numbers (or tiny ones that don’t matter). Leaders need both the rate and the raw count.</p>
+</blockquote>
+<p>Fixes to consider (apply the always show both rule)</p>
+<ul>
+<li><strong>Publish pairs:</strong> “On-time = 96% (48,000/50,000).”</li>
+<li><strong>Add thresholds in counts:</strong> “No more than 50 severe incidents / month” and “&lt;0.1 per 1k users.”</li>
+<li><strong>Escalate big absolutes:</strong> Create alerts when the count crosses a mission-meaningful line, even if the rate is fine.</li>
+</ul>
+<h4 id="5-seasonality">5. Seasonality</h4>
+<p>In Florida summers, the sky makes afternoon lightning almost every day. If you only look at calm months (October–April), you’ll think “We almost never get weather alerts!” Then June shows up with daily thunderstorms and you panic. It’s not that the team got worse—it’s summer storm season.</p>
+<blockquote>
+<p><strong>What goes wrong:</strong>
+If you baseline your “weather holds per week” or “scrubs due to weather” using October–April, you’ll set targets that are too optimistic for May–September. You’ll trigger false alarms, overreact, and misjudge performance. (Hurricane season June–November adds more spikes.)</p>
+</blockquote>
+<p>Fixes to consider: </p>
+<ul>
+<li>
+<p><strong>Seasonal baselines:</strong> Keep two bands:</p>
+<ul>
+<li><strong>Wet/convective season:</strong> May–September (daily sea-breeze storms; frequent lightning alerts).</li>
+<li>Drier season:** October–April (fewer lightning alerts; different wind/ceiling patterns).</li>
+</ul>
+</li>
+<li>
+<p><strong>Compare like with like:</strong></p>
+<ul>
+<li><strong>Month-over-month YoY</strong> (July this year vs. July last year), not July vs. January.</li>
+<li><strong>Same time-of-day windows</strong> (morning vs. afternoon launches) since storms peak in afternoons.</li>
+</ul>
+</li>
+<li>
+<p><strong>Rolling windows:</strong> Show trailing 28/84-day rates to smooth noisy bursts from storm clusters or tropical systems.</p>
+</li>
+<li>
+<p><strong>Weather-adjusted rates:</strong> Normalize by exposure to weather, e.g.:</p>
+</li>
+</ul>
+<blockquote>
+<p>scrubs_per_10_lightning_alert_days = scrubs / lightning_alert_days × 10
+holds_per_100_operating_hours_in_alert = holds / hours_under_alert × 100</p>
+</blockquote>
+<ul>
+<li><strong>Annotated dashboards:</strong> Mark known seasonal drivers: sea-breeze thunderstorm season (May–Sep), hurricane season (Jun–Nov), major front passages, range maintenance windows.</li>
+<li><strong>Capacity &amp; scheduling:</strong> Bias critical ops toward morning windows in summer; pre-plan extra buffer days May–September.</li>
+</ul>
+<h4 id="6-scope-alignment">6. Scope alignment</h4>
+<p>You count red blocks in the jar, but then you divide by all blocks in the room. That’s mixing jars and rooms—your math is confused.</p>
+<blockquote>
+<p><strong>What goes wrong:</strong>
+The numerator and denominator don’t describe the same set (product, region, device, time window, eligibility). You get a pretty number that doesn’t mean anything true.</p>
+</blockquote>
+<p>Fixes to consider:</p>
+<ul>
+<li><strong>Same filters, always:</strong> Numerator ⊆ Denominator with identical product/region/device/time filters.</li>
+<li><strong>One definition card:</strong> Every KPI has a definition with numerator, denominator, window, exclusions, owner.</li>
+<li><strong>SQL sanity checks:</strong> Unit tests—if you sum segment rates weighted by segment denominators, you get the overall rate.</li>
+<li><strong>Eligibility first:</strong> Define who’s in the game before counting wins (e.g., “eligible users” vs. “all users”).</li>
+<li><strong>Version &amp; lock:</strong> Treat KPI definitions like code; change log any tweak.</li>
+</ul>
+<h4 id="7-stratify-critical-kpis">7. Stratify critical KPIs</h4>
+<p>Your class average is an A, yay! But some kids are quietly failing. Looking only at the average hides who needs help.</p>
+<blockquote>
+<p><strong>What goes wrong:</strong>
+The overall number hides gaps. Some groups (device types, regions, priority users, equity segments) have very different results. You celebrate the average and miss the pain.</p>
+</blockquote>
+<p>Fixes to consider:</p>
+<ul>
+<li><strong>Standard slice set:</strong> Always break key KPIs by priority (P1 vs P3), device (iOS/Android/Web), region/site, new vs. returning, and equity (e.g., accessibility or underserved groups).</li>
+<li><strong>Parity checks:</strong> Add gap thresholds (e.g., any segment &gt;X pts worse than overall = alert).</li>
+<li><strong>Small-N rules:</strong> Suppress or aggregate tiny segments to avoid noisy or identifying data.</li>
+<li><strong>Segment owners:</strong> Name an owner for each critical segment (who acts when it’s red).</li>
+<li><strong>Dash default:</strong> Show overall + top 3 worst segments by default—don’t hide them behind clicks.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+<footer class="md-footer">
+    <div class="md-footer-meta md-typeset">
+        <div class="md-footer-meta__inner md-grid">
+            <!-- Copyright and theme information -->
+            <div class="md-footer-copyright">
+                
+                powered by
+                <a href="https://www.mkdocs.org" title="MkDocs">MkDocs</a>
+                and
+                <a href="https://squidfunk.github.io/mkdocs-material/"
+                   title="Material for MkDocs">
+                    Material for MkDocs</a>
+            </div>
+            
+            
+<div class="md-social">
+  
+</div>
+            
+        </div>
+    </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky"], "search": "../../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
